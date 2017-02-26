@@ -1,0 +1,69 @@
+% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+% before compiling run:
+% >>> export TEXINPUTS=/home/gebhardt/ownCloud/00_WriteUP/03_Thesis_Proposal/TU_Da_Layout
+% for the missing TUDa Layout packages
+% note: fonts still missing
+% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+\documentclass[article,type=pp,colorback,accentcolor=tud9c]{tudthesis}
+\usepackage{ngerman}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%\usepackage{hyperref}
+
+\newcommand{\getmydate}{%
+  \ifcase\month%
+    \or Januar\or Februar\or M\"arz%
+    \or April\or Mai\or Juni\or Juli%
+    \or August\or September\or Oktober%
+    \or November\or Dezember%
+  \fi\ \number\year%
+}
+
+\newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
+
+\begin{document}
+  \thesistitle{SiPM Classification of the Pre-Production GCT Camera of CTA} %
+    {SiPM Klassifikation der Pre-Production GCT Kamera von CTA}
+  \author{Ben Gebhardt}
+  \birthplace{Heidelberg}
+  \referee{Dr. Richard White (MPIK)}{Prof. Jim Hinton (MPIK)}[Prof. Tetyana Galatyuk (TU DA)]
+  \department{Fachbereich Physik}
+  \group{Max Planck Institut f"ur Kernphysik Heidelberg}
+  \dateofexam{\today}{\today}
+  \tuprints{12345}{1234}
+  \makethesistitle
+  \affidavit{B. Gebhardt}
+
+  \section{Results}
+  %  Probably not needed in the proposal.
+     \subsection{SensL}
+     \subsubsection{Gain}
+     \subsubsection{Dark Count Rate}
+     \subsubsection{Optical Cross Talk}
+     \subsubsection{Photon Detection Efficiency}
+     \subsection{Hamamatsu}
+     \subsubsection{Gain}
+     \subsubsection{Dark Count Rate}
+     \subsubsection{Optical Cross Talk}
+     \subsubsection{Photon Detection Efficiency}
+
+
+
+
+\newpage
+\chapter{Appendices}
+\begin{enumerate}
+\item Jim Hinton et al. Teraelectronvolt Astronomy Ann. Rev. Astron. Astrophys., 47:523
+\item Julien Rousselle et al. Construction of a Schwarzschild-Couder telescope as a candidate for the Cherenkov Telescope Array: status of the optical system
+\item CTA Consortium et al. Design Concepts for the Cherenkov Telescope Array
+\item Teresa Montaruli et al. The small size telescope projects for the Cherenkov Telescope Array
+\item The ASTRONET Infrastructure Roadmap ISBN: 978-3-923524-63-1
+\item Jim Hinton et. al Seeing the High-Energy Universe with the Cherenkov Telescope Array Astroparticle Physics 43 (2013) 1-356 
+\item John Murphy SensL J-Series Silicon Photomultipliers for High-Performance Timing in Nuclear Medicine 
+\item A. N. Otte et al. Characterization of three high efficient and blue sensitive Silicon photomultipliers
+\item \begin{verbatim}http://astro.desy.de/gamma_astronomie/cta/medien/ueber_cta/index_ger.html\end{verbatim}
+\item \begin{verbatim}http://www.ung.si/en/research/laboratory-for-astroparticle-physics/projects/cta/\end{verbatim}
+\end{enumerate}
+
+
+\end{document}
