@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  26 FEB 2017 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  26 FEB 2017 17:07
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -888,7 +888,7 @@ Package pdftex.def Info: by-nc-nd.pdf used on input line 34.
 ] [2
 
 ]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 64.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 78.
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -897,12 +897,15 @@ File: t1txtt.fd 2000/12/15 v3.1
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 8264 strings out of 493334
- 131845 string characters out of 3147023
- 281628 words of memory out of 3000000
- 11599 multiletter control sequences out of 15000+200000
+ 8271 strings out of 493334
+ 131942 string characters out of 3147023
+ 280628 words of memory out of 3000000
+ 11606 multiletter control sequences out of 15000+200000
  29347 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,12n,77p,8881b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -915,9 +918,9 @@ ur\jknappen\ec\dpi694\ecrm1728.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts
 .9\fonts\pk\ljfour\jknappen\ec\dpi690\ecrm1000.pk> <C:\Users\Ben\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi1250\ecrm1728.pk><C:/Users/Ben/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (5 pages, 142543 bytes).
+Output written on chapter_results.pdf (5 pages, 140666 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
+ 318 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
