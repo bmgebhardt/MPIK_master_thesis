@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  26 FEB 2017 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 FEB 2017 16:07
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -885,42 +885,79 @@ Package pdftex.def Info: by-nc-nd.pdf used on input line 34.
 
 
 
-] [2
-
 ]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 78.
+<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=28,
+ 1286.2272pt x 690.80331pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf Gr
+aphic file (type pdf)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.
+8_PulseShape.pdf used on input line 49.
+(pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--55
+
+ []
+
+[2
+
+ <D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf>]
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png, id=
+79, 402.5439pt x 403.9893pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png
+ Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
+_vs_OV_Combined.png used on input line 71.
+(pdftex.def)             Requested size: 402.54291pt x 403.98831pt.
+
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png, id=
+82, 406.1574pt x 403.9893pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png
+ Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
+_vs_Vb_Combined.png used on input line 72.
+(pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
+[3 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png> 
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 104.
+
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [3]
+) [4]
 (chapter_results.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 8271 strings out of 493334
- 131942 string characters out of 3147023
- 280628 words of memory out of 3000000
- 11606 multiletter control sequences out of 15000+200000
- 29347 words of font info for 52 fonts, out of 3000000 for 9000
+ 8292 strings out of 493334
+ 133074 string characters out of 3147023
+ 281644 words of memory out of 3000000
+ 11619 multiletter control sequences out of 15000+200000
+ 30212 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,12n,77p,8881b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-rm1000.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi633\ecrm0900.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi684\ecrm1000.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi694\ecrm1728.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi690\ecrm1000.pk> <C:\Users\Ben\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi1250\ecrm1728.pk><C:/Users/Ben/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (5 pages, 140666 bytes).
+{D:/MikTEX/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users\Ben\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Ben\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi633\ecrm0900.pk> <C:\Users\B
+en\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi684\ecrm1000.pk> <C:
+\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi694\ecrm1728
+.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm0700.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi690\ecrm1000.pk> <C:\Users\Ben\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi1250\ecrm1728.pk><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/bitstrea/charter/bchr8a.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/txfonts/t1xtt.pfb>
+Output written on chapter_results.pdf (6 pages, 260259 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
+ 397 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -35,22 +35,48 @@
 \affidavit{B. Gebhardt}
 
 \section{Results}
-Preliminary results chapter
+Preliminary results chapter\\
+In this chapter, I will list the final results per device in a list of measured criteria. At the end I will conclude with a comparison between devices and to the results from other groups.
 
-    \subsection{SensL}
+    \subsection{Hamamatsu S12642}
+    
+    wrapfigure of the checS tile \\\\
+    The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the target modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual SiPMs physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence in shaping and amplification electronics between the groups will result in some differences.
+        \begin{figure}[h]
+    \begin{centering}
+    %L, B, R, T
+    
+    \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/{Average_25.0_67.8_PulseShape}.pdf}}
+
+    \caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S12642 at 25$^{\circ}$~C and 67.8V, which is around the proposed operating point. Both pulses are averaged over >>1000 events and normalized to illustrate possible differences in pulseshape resulting from the utilized shaping electronics. Both pulses have a FWHM of around 10ns and are nearly free of ringing. The resulting average amplitude of the 1p.e. pulse is later used to calculate the Gain in [mV/p.e.] instead of [V*IntWin] by cross-referencing the 1p.e. amplitude at multiple bias-voltages.}
+    \label{fig:S12642_PS}
+    \end{centering}
+    \end{figure}
+    
+    
+    
+    \newpage
+     \subsubsection{Gain}
+     As descibed above, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height. In Figure (\ref{fig:S12642_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
+     
+     A lower gain with increasing temperature is expected and described in detail in the chapter (physics of SiPMs i guess). In short, increased lattice movement due to higher temperature hinders photoelectron transport. The effects visible at extreme bias-voltages at both ends are analysis related. The gain of a SiPM is expected to be linear over bias-voltage at a constant temperature. In the lower regime at Vb ~66.5V my analysis method struggles to pick up pulses, because of the low gain compared to the noise. Depending on the chosen peak-finding threshold I expect the analysis to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. At the highest bias-voltages the influence of the noise is similar. The point at Vov ~5V,which is way over the proposed point of operation at Vov ~3V. The same threshold is again counting noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this just results in an apparent lowering of the gain. 
+         
+     
+     
     \begin{figure}[h]
     \begin{centering}
     %L, B, R, T
     
-    %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/removepeaks}.jpg}}
-    %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter1}.jpg}}\\
+   % \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642RelGain_vs_Vb_Combined}}
+    \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
+    \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined}}
     %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
     %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
-    \caption{Data Analysis Progress}
-    \label{fig:removepeaks}
+    \caption{Gain of the HPK S12642 pixel, plotted against bias-voltage and temperature. }
+    \label{fig:S12642_Gain}
     \end{centering}
     \end{figure}
-        \subsubsection{Gain}
+
         \subsubsection{Dark Count Rate}
         \subsubsection{Optical Cross Talk}
 
