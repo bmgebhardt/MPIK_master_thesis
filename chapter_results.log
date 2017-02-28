@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 FEB 2017 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  28 FEB 2017 13:16
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -886,61 +886,122 @@ Package pdftex.def Info: by-nc-nd.pdf used on input line 34.
 
 
 ]
-<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=28,
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG, id=28, 558.58687pt x 39
+5.97937pt>
+File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG Graphic file (type 
+jpg)
+ <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG>
+Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG 
+used on input line 45.
+(pdftex.def)             Requested size: 149.37848pt x 105.89473pt.
+
+<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=29,
  1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf Gr
 aphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.
-8_PulseShape.pdf used on input line 49.
+8_PulseShape.pdf used on input line 52.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--55
-
- []
 
 [2
 
- <D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf>]
+ <D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf> <D:/O
+wnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png, id=
-79, 402.5439pt x 403.9893pt>
+80, 402.5439pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png
  Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
-_vs_OV_Combined.png used on input line 71.
+_vs_OV_Combined.png used on input line 68.
 (pdftex.def)             Requested size: 402.54291pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png, id=
-82, 406.1574pt x 403.9893pt>
+83, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png
  Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
-_vs_Vb_Combined.png used on input line 72.
+_vs_Vb_Combined.png used on input line 69.
 (pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
+
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png, id=8
+5, 456.0237pt x 411.939pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png 
+Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_
+vs_OV_Combined.png used on input line 84.
+(pdftex.def)             Requested size: 456.02258pt x 411.93797pt.
+
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png, id=8
+7, 454.5783pt x 411.939pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png 
+Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_
+vs_Vb_Combined.png used on input line 85.
+(pdftex.def)             Requested size: 454.57718pt x 411.93797pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--90
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [3 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png> 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 104.
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png, id=9
+6, 406.1574pt x 403.9893pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png 
+Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_
+vs_OV_Combined.png used on input line 98.
+(pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
+
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png, id=9
+8, 406.1574pt x 411.939pt>
+File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png 
+Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_
+vs_Vb_Combined.png used on input line 99.
+(pdftex.def)             Requested size: 406.1564pt x 411.93797pt.
+
+[4 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png> <
+D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png> <D:/O
+wnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png> <D:/OwnCl
+oudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png>] [5]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 127.
 
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [4]
+) [6]
 (chapter_results.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 8292 strings out of 493334
- 133074 string characters out of 3147023
- 281644 words of memory out of 3000000
- 11619 multiletter control sequences out of 15000+200000
- 30212 words of font info for 55 fonts, out of 3000000 for 9000
+ 8324 strings out of 493334
+ 134765 string characters out of 3147023
+ 283668 words of memory out of 3000000
+ 11642 multiletter control sequences out of 15000+200000
+ 30778 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,12n,77p,8881b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTEX/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users\Ben\AppData\Local
@@ -955,9 +1016,9 @@ appen\ec\dpi1250\ecrm1728.pk><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/bitstrea/charter/bchr8a.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/t
 ype1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (6 pages, 260259 bytes).
+Output written on chapter_results.pdf (8 pages, 575502 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -38,53 +38,76 @@
 Preliminary results chapter\\
 In this chapter, I will list the final results per device in a list of measured criteria. At the end I will conclude with a comparison between devices and to the results from other groups.
 
-    \subsection{Hamamatsu S12642}
-    
-    wrapfigure of the checS tile \\\\
-    The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the target modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual SiPMs physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence in shaping and amplification electronics between the groups will result in some differences.
-        \begin{figure}[h]
-    \begin{centering}
-    %L, B, R, T
-    
-    \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/{Average_25.0_67.8_PulseShape}.pdf}}
 
-    \caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S12642 at 25$^{\circ}$~C and 67.8V, which is around the proposed operating point. Both pulses are averaged over >>1000 events and normalized to illustrate possible differences in pulseshape resulting from the utilized shaping electronics. Both pulses have a FWHM of around 10ns and are nearly free of ringing. The resulting average amplitude of the 1p.e. pulse is later used to calculate the Gain in [mV/p.e.] instead of [V*IntWin] by cross-referencing the 1p.e. amplitude at multiple bias-voltages.}
-    \label{fig:S12642_PS}
-    \end{centering}
-    \end{figure}
-    
-    
-    
-    \newpage
-     \subsubsection{Gain}
-     As descibed above, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height. In Figure (\ref{fig:S12642_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
-     
-     A lower gain with increasing temperature is expected and described in detail in the chapter (physics of SiPMs i guess). In short, increased lattice movement due to higher temperature hinders photoelectron transport. The effects visible at extreme bias-voltages at both ends are analysis related. The gain of a SiPM is expected to be linear over bias-voltage at a constant temperature. In the lower regime at Vb ~66.5V my analysis method struggles to pick up pulses, because of the low gain compared to the noise. Depending on the chosen peak-finding threshold I expect the analysis to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. At the highest bias-voltages the influence of the noise is similar. The point at Vov ~5V,which is way over the proposed point of operation at Vov ~3V. The same threshold is again counting noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this just results in an apparent lowering of the gain. 
-         
-     
-     
-    \begin{figure}[h]
-    \begin{centering}
-    %L, B, R, T
-    
-   % \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642RelGain_vs_Vb_Combined}}
-    \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
-    \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined}}
-    %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
-    %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
-    \caption{Gain of the HPK S12642 pixel, plotted against bias-voltage and temperature. }
-    \label{fig:S12642_Gain}
-    \end{centering}
-    \end{figure}
+\subsection{Hamamatsu S12642}
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[width=0.3\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG}
+\caption{\label{fig:CHECSTILE}CHEC-S tile}
+\end{wrapfigure}
+The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the target modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual SiPMs physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences.
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/{Average_25.0_67.8_PulseShape}.pdf}}
+\caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S12642 at 25$^{\circ}$~C and 67.8V, which is around the proposed operating point. Both pulses are averaged over >>1000 events and normalized to illustrate possible differences in pulseshape resulting from the utilized shaping electronics. Both pulses have a FWHM of around 10ns and are nearly free of ringing. The resulting average amplitude of the 1p.e. pulse is later used to calculate the Gain in [mV/p.e.] instead of [V*IntWin] by cross-referencing the 1p.e. amplitude at multiple bias-voltages.}
+\label{fig:S12642_PS}
+\end{centering}
+\end{figure}
 
-        \subsubsection{Dark Count Rate}
-        \subsubsection{Optical Cross Talk}
 
-    \subsection{Hamamatsu}
 
-        \subsubsection{Gain}
-        \subsubsection{Dark Count Rate}
-        \subsubsection{Optical Cross Talk}
+\newpage
+\subsubsection{Gain}
+As descibed above, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height. In Figure (\ref{fig:S12642_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
+A lower gain with increasing temperature is expected and described in detail in the chapter (physics of SiPMs i guess). In short, increased lattice movement due to higher temperature hinders photoelectron transport. The effects visible at extreme bias-voltages at both ends are analysis related. The gain of a SiPM is expected to be linear over bias-voltage at a constant temperature. In the lower regime at Vb ~66.5V my analysis method struggles to pick up pulses, because of the low gain compared to the noise. Depending on the chosen peak-finding threshold I expect the analysis to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. At the highest bias-voltages the influence of the noise is similar. The point at Vov ~5V,which is way over the proposed point of operation at Vov ~3V. The same threshold is again counting noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this just results in an apparent lowering of the gain. 
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+% \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642RelGain_vs_Vb_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined}}
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
+\caption{Gain of the HPK S12642 pixel, plotted against bias-voltage and temperature. }
+\label{fig:S12642_Gain}
+\end{centering}
+\end{figure}
+
+
+%\newpage
+\subsubsection{Dark Count Rate}
+I expect the Dark Count Rate to increase with temperature, which is the case fig(\ref{fig:S12642_DCR}). I also expect it to follow a nearly linear progression, a sudden turn-up or turn-down of the Dark Count Rate would be analysis related. The turn-up at a certain point is visible in Figure (\ref{fig:S12642_DCR}), particulary for 15$^{\circ}$~C (purple) and 20$^{\circ}$~C (blue) respectively. At 15$^{\circ}$~C and an Overvoltage of ~4V, the Dark Count Rate starts to deviate from the previously linear behaviour. It starts to rise more rapid than before, which I can attribute to the fact, that the Optical Cross Talk at that point is very high; higher than 50$\%$  fig(\ref{fig:S12642_OCT}) (left). I suspect that I do not reach this critical point for the higher temperatures of 25$^{\circ}$~C (green) and 30$^{\circ}$~C (red), so the effect is barely, if not at all visible. At 35$^{\circ}$~C (yellow) I suspect my analysis is not able to count every pulse, due to the high rate of 9-10 MHz. A majority of the pulses overlapping each other and being counted as a 2p.e. event rather than 2 1p.e. events would reduce the Dark Count Rate significantly.\\\\At the lower end of the bias-voltage range, I suspect, that a major part of the found 1p.e. pulses are actually noise related. So the Dark Count Rate changing to a plateau is expected. This is also due to the fact, that my measurements are done with a fixed bias-voltage range. Due to the increase of the breakdown-voltage with rising temperature, part of the measured bias-voltage range being a very low over-voltage, attributes to this effect. In order to reliably measure beyond an overvoltage of ~2.5V in the lower range, the noise would need to be improved.  
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined}}
+\caption{Dark Count Rate of the HPK S12642 pixel, plotted against over-voltage, bias-voltage and temperature. }
+\label{fig:S12642_DCR}
+\end{centering}
+\end{figure}
+
+
+\newpage
+\subsubsection{Optical Cross Talk}
+Vbr slightly off, oct should overlap, does to an extend
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined}}
+\caption{Dark Count Rate of the HPK S12642 pixel, plotted against bias-voltage and temperature. }
+\label{fig:S12642_OCT}
+\end{centering}
+\end{figure}
+
+
+\newpage
+\subsection{Hamamatsu}
+\subsubsection{Gain}
+\subsubsection{Dark Count Rate}
+\subsubsection{Optical Cross Talk}
 
 
 
