@@ -156,7 +156,7 @@ The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outli
 
 \newpage
 \subsubsection{Dark Count Rate}
-The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fig:S13360_DCR}). The bars show the difference between the two devices, the results of one device is used as a reference, while the deviation is illustrated with the filled bar. Below an over-voltage of 2.5V my analysis struggles, I suspect the gain to be to low for my analysis to pick up pulses. Thus the regression line calculation is unreliable in this range. The turnup at high over-voltages is most prominent at 0$^{\circ}$C(teal) after an over-voltage of 9V. This is also the point where the Optical Cross Talk rises very rapidly.
+The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fig:S13360_DCR}). The bars show the difference between the two devices, the results of one device is used as a reference, while the deviation is illustrated with the filled bar. The Dark Count Rate of HPK S13360 followes the expected behaviour, mostly linear in the significant range and rising with increasing temperature. Below an over-voltage of 2.5V my analysis struggles, I suspect the gain to be to low for my analysis to pick up pulses. Thus the regression line calculation is unreliable in this range. The turnup at high over-voltages is most prominent at 0$^{\circ}$C(teal) after an over-voltage of 9V. This is also the point where the Optical Cross Talk rises very rapidly.
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -169,7 +169,7 @@ The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fi
 
 %\newpage
 \subsubsection{Optical Cross Talk}
-Compared to measurements on HPK S13360 done at the Nagoya University Japan, I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, in joint together with the usage of the Mini-Circuits amplifier supplied with 13V makes false interpretation of noise even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.
+Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{fig:S13360_DCR} (faded green bar), I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the Mini-Circuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.
 
 \begin{figure}[h]
 \begin{centering}
@@ -185,18 +185,18 @@ Compared to measurements on HPK S13360 done at the Nagoya University Japan, I se
 
 
 
-\newpage
+%\newpage
 \subsection{Hamamatsu LCT5 75$\mu$m 7mm}
-\begin{wrapfigure}{R}{0.3\textwidth}
+\begin{wrapfigure}{R}{0.4\textwidth}
 \centering
-\includegraphics[width=0.3\textwidth,trim=0cm 0cm 0cm 0.1cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG}
+\includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0.1cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG}
 \caption{\label{fig:LCT57_pixel}HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
-XXXXXXXXXXXX is a larger prototype Silicon Photomultiplier of the same design as S13360. With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixelarea is also expanded to 6.915mm$^2$, which will result in a larger FoV of GCT, see chapter (list of devices etc) (maybe tom armstrongs simulations). It is also a single pixel test device, so external amplification is necessary. I used the same minicircuits PreAMP Sn XXXXX, supplied with 8V during this test. The signal is also shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude. 
-\\\\\\\\
+XXXXXXXXXXXX is a larger prototype Silicon Photomultiplier of the same design as S13360. With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixelarea is also expanded to 6.915mm$^2$, which will result in a larger FoV of GCT, see chapter (list of devices etc) !(maybe tom armstrongs simulations)!. It is also a single pixel test device, so external amplification is necessary. I used the same minicircuits PreAMP Sn XXXXX, supplied with 8V during this test. The signal is also shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude. 
+\\\\\\\\\\
 
-
+\newpage
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -207,16 +207,20 @@ XXXXXXXXXXXX is a larger prototype Silicon Photomultiplier of the same design as
 \end{figure}
 
 
-\newpage
+%\newpage
 \subsubsection{Gain}
+\label{subsubsec:LCT57Gain}
 \begin{wrapfigure}{R}{0.45\textwidth}
 \centering
 \includegraphics[width=0.45\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined}
 \caption{\label{fig:LCT57_Gain}Gain of the HPK LCT5 7mm pixel}
 \end{wrapfigure}
-Figure(\ref{fig:LCT57_Gain}) shows the gain of the LCT5 7mm device. An second set of measurements is done for 25$^\circ$C to extend the measured range
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Figure(\ref{fig:LCT57_Gain}) shows the gain of the LCT5 7mm device. An second set of measurements is done for 25$^\circ$C to extend the measured range. The first set of measurements covers the lower over-voltage range, where the low gain makes extenal amplification necessary. The same mini-circuits PreAMP (SNXXXXXXXXX) supplied with 8V was used during this test. I chose the lowest possible amplification of the PreAMP, so that reaching the point of saturation of the oscilloscope is as late as possible as the over-voltage rises. Saturation of the oscilloscope occurs due to the possibility of generating very large p.e. (>10p.e.) events at the higher over-voltages, which are saturating the input. Joint together, the LCT5 7mm device and the mini-circuits PreAMP at 8V reach this point at an over-voltage of $\sim$6V. In Figure(\ref{fig:LCT57_Gain}) the results from the lower range measurement are displayed as the lower-range green line extending between an over-voltage of 1.6V to 5.4V.
+\\\\
+The configuration for the second test removes the PreAMP from the setup, which makes the lower over-voltage range unaccesible, but extends the range to higher over-voltages. This configuration reaches the point of saturation at an over-voltage of $\sim$8V. The higher range measurement results are displayed as the second green line (25$^\circ$C) extending from 3.4V to 7.2V over-voltage in Figure(\ref{fig:LCT57_Gain}). There is a clearly visible overlap of the two measurements between $\sim$3.4V and $\sim$5.4V . It also seems, that the gain dependency on temperature is reversed. While for all other devices, the gain lowers with rising temperatures, the LCT5 7mm device seems to show inversed behaviour. Behaviour confirmed in vs bias voltage plot.
 
+
+\newpage
 \subsubsection{Dark Count Rate}
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
@@ -224,10 +228,11 @@ Figure(\ref{fig:LCT57_Gain}) shows the gain of the LCT5 7mm device. An second se
 \caption{\label{fig:LCT57_DCR}Dark Count Rate of the HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
-The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fig:LCT57_DCR}). The bars show the difference between the two devices, the results of one device is used as a reference, while the deviation is illustrated with the filled bar. Below an over-voltage of 2.5V my analysis struggles, I suspect the gain to be to low for my analysis to pick up pulses. Thus the regression line calculation is unreliable in this range. The turnup at high over-voltages is most prominent at 0$^{\circ}$C(teal) after an over-voltage of 9V. This is also the point where the Optical Cross Talk rises very rapidly.
-\\\\\\\\\\\\\\\\\\\\
 
-\newpage
+The behaviour of the Dark Count Rate of the HPK LCT5 7mm device is shown in Figure(\ref{fig:LCT57_DCR}) and is as expected, in contrast to the behaviour of the gain of LCT5 7mm, as discussed in section \ref{subsubsec:LCT57Gain}. It follows a linear progression in the relevant range and increases with rising temperature. I suspect the over-voltage range above $\sim$2.5V to be relevant. The extended range measurement at 25$^\circ$C confirms this behaviour. LCT5 7mm shows a linear Dark Count Rate over an over-voltage range of 4V. The faded green bar in Figure(\ref{fig:LCT57_DCR}) shows results from measurements undertaken by the Department of Physics and Astronomy at the University of Catania. Those measurements were conducted on the exact same device, which is an important point, but with a different method of data acquisition and data analysis. LITTLE MORE DETAIL IN PROCESS. The correlation between the two experiments is evident, although there is differences in the acyquisition and analysis process. This is further proof for the relevancy of my analysis. 
+\\\\\\\\
+
+%\newpage
 \subsubsection{Optical Cross Talk}
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
@@ -250,12 +255,15 @@ blank
 \newpage
 \newpage
 
-\section{supplementary plots}
+\section{supplementary plots}ddd
+
 \begin{wrapfigure}{R}{0.55\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}
 \caption{\label{fig:S13360_pixel}HPK S13360 6050CS pixel / PreAMP pic will be updated}
 \end{wrapfigure}
+
+
 
 \begin{figure}[h]
 \begin{centering}

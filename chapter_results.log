@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  3 MAR 2017 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  6 MAR 2017 18:57
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -1165,68 +1165,81 @@ png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
 mOCT_vs_Vb_Combined.png used on input line 178.
 (pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
- [7 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined.
-png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
-.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG, id=197, 154.32657pt x
+
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG, id=190, 154.32657pt x
  121.95563pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG Graphic file (typ
 e jpg)
  <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JP
 G used on input line 192.
-(pdftex.def)             Requested size: 149.37848pt x 115.30046pt.
+(pdftex.def)             Requested size: 199.16626pt x 153.73093pt.
 
-Underfull \hbox (badness 5652) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 same de-sign as S13360. With an in-crease in cell-size to 75$\
-OML/mdbch/m/it/9.9 $\T1/5fp/mb/n/9.5 m,
+Underfull \hbox (badness 2608) in paragraph at lines 196--198
+[]\T1/5fp/mb/n/9.5 XXXXXXXXXXXX is a larger pro-to-type Sil-i-con Pho-to-mul-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 the de-vice gains a higher fill-factor than 50$\OML/mdbch/m/it
-/9.9 $\T1/5fp/mb/n/9.5 m de-vices. The pix-
+Underfull \hbox (badness 7869) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 ti-plier of the same de-sign as S13360. With an in-
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 e-larea is also ex-panded to 6.915mm$[]$, which will re-sult i
-n a larger
+Underfull \hbox (badness 2460) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 crease in cell-size to 75$\OML/mdbch/m/it/9.9 $\T1/5fp/mb/n/9
+.5 m, the de-vice gains a higher fill-
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 FoV of GCT, see chap-ter (list of de-vices etc) (maybe tom arm
--
+Underfull \hbox (badness 7238) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 factor than 50$\OML/mdbch/m/it/9.9 $\T1/5fp/mb/n/9.5 m de-vic
+es. The pix-e-larea is also ex-
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 strongs sim-u-la-tions). It is also a sin-gle pixel test de-vi
-ce, so ex-ter-
+Underfull \hbox (badness 1642) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 panded to 6.915mm$[]$, which will re-sult in a larger FoV of
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 nal am-pli-fi-ca-tion is nec-es-sary. I used the same mini-cir
--cuits PreAMP
+Underfull \hbox (badness 3148) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 GCT, see chap-ter (list of de-vices etc) !(maybe tom arm-
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 Sn XXXXX, sup-plied with 8V dur-ing this test. The sig-nal is
+Underfull \hbox (badness 3849) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 strongs sim-u-la-tions)!. It is also a sin-gle pixel test de-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 also shaped by a dif-fer-ently mod-i-fied CHEC-S shaper, which
- re-sults
+Underfull \hbox (badness 4060) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 vice, so ex-ter-nal am-pli-fi-ca-tion is nec-es-sary. I used t
+he
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 196--198
-\T1/5fp/mb/n/9.5 in a pulse shape sim-i-lar to S12642, but with a much lower am
--pli-
+Underfull \hbox (badness 3861) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 same mini-cir-cuits PreAMP Sn XXXXX, sup-plied with 8V
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 dur-ing this test. The sig-nal is also shaped by a dif-
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 fer-ently mod-i-fied CHEC-S shaper, which re-sults in a pulse
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 196--198
+\T1/5fp/mb/n/9.5 shape sim-i-lar to S12642, but with a much lower am-pli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
  []
 
 
@@ -1249,9 +1262,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
-
+[7 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined.p
+ng> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined.
+png> <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf, id=
-199, 1286.2272pt x 690.80331pt>
+200, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf
  Graphic file (type pdf)
 
@@ -1259,321 +1274,222 @@ File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_
 55.0_PulseShape.pdf used on input line 203.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
-[8 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG> <D:/OwnCloudData/0
-2_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf>]
+
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined.png
-, id=247, 401.0985pt x 403.9893pt>
+, id=202, 401.0985pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combine
 d.png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mGain_vs_OV_Combined.png used on input line 214.
+mGain_vs_OV_Combined.png used on input line 215.
 (pdftex.def)             Requested size: 224.06393pt x 225.67767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+Underfull \hbox (badness 2495) in paragraph at lines 218--221
+[]\T1/5fp/mb/n/9.5 Figure(13[]) shows the gain of the LCT5 7mm de-vice.
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 tend the mea-sured range. The first set of mea-sure-
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 ments cov-ers the lower over-voltage range, where the
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 low gain makes ex-te-nal am-pli-fi-ca-tion nec-es-sary. The
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 with 8V was used dur-ing this test. I chose the
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 low-est pos-si-ble am-pli-fi-ca-tion of the PreAMP, so that
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 reach-ing the point of sat-u-ra-tion of the os-cil-lo-scope is
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
+Underfull \hbox (badness 2990) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 as late as pos-si-ble as the over-voltage rises. Sat-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
+Underfull \hbox (badness 2970) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 ra-tion of the os-cil-lo-scope oc-curs due to the pos-si-bil-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
+Underfull \hbox (badness 2547) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 ity of gen-er-at-ing very large p.e. (>10p.e.) events
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
+Underfull \hbox (badness 1655) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 put. Joint to-gether, the LCT5 7mm de-vice and the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
+Underfull \hbox (badness 4001) in paragraph at lines 218--221
+\T1/5fp/mb/n/9.5 mini-circuits PreAMP at 8V reach this point at an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
+Underfull \hbox (badness 10000) in paragraph at lines 218--221
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
+[8 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf> 
+<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined.png
+>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.png,
- id=249, 464.6961pt x 411.2163pt>
+ id=251, 464.6961pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mDCR_vs_OV_Combined.png used on input line 223.
+mDCR_vs_OV_Combined.png used on input line 227.
 (pdftex.def)             Requested size: 248.96162pt x 220.30913pt.
 
-Underfull \hbox (badness 1831) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 de-vices is shown in Figure(14[]). The bars show
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 of one de-vice is used as a ref-er-ence, while the
- []
-
-
-Underfull \hbox (badness 1931) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 de-vi-a-tion is il-lus-trated with the filled bar. Be-
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 I sus-pect the gain to be to low for my anal-y-
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 sis to pick up pulses. Thus the re-gres-sion line
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 227--229
-\T1/5fp/mb/n/9.5 nup at high over-voltages is most promi-nent at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--229
-
- []
-
-[9 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined.
-png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined
-.png>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.png,
- id=258, 416.2752pt x 403.2666pt>
+ id=253, 416.2752pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mOCT_vs_OV_Combined.png used on input line 234.
+mOCT_vs_OV_Combined.png used on input line 239.
 (pdftex.def)             Requested size: 248.96162pt x 241.1865pt.
 
-Underfull \hbox (badness 1831) in paragraph at lines 238--240
+Underfull \hbox (badness 1831) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 de-vices is shown in Figure(15[]). The bars show
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 238--240
+Underfull \hbox (badness 2401) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 of one de-vice is used as a ref-er-ence, while the
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 238--240
+Underfull \hbox (badness 1931) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 de-vi-a-tion is il-lus-trated with the filled bar. Be-
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 238--240
+Underfull \hbox (badness 2173) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 I sus-pect the gain to be to low for my anal-y-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 238--240
+Underfull \hbox (badness 1735) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 sis to pick up pulses. Thus the re-gres-sion line
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 238--240
+Underfull \hbox (badness 3260) in paragraph at lines 243--245
 \T1/5fp/mb/n/9.5 nup at high over-voltages is most promi-nent at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
-[10 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.
-png>] [11]
+[9 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.p
+ng> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.
+png>] [10]
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combine
 d.png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mGain_vs_OV_Combined.png used on input line 256.
+mGain_vs_OV_Combined.png used on input line 262.
 (pdftex.def)             Requested size: 248.96162pt x 252.57283pt.
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combine
 d.png Graphic file (type png)
@@ -1581,7 +1497,7 @@ d.png Graphic file (type png)
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mGain_vs_OV_Combined.png used on input line 264.
+mGain_vs_OV_Combined.png used on input line 272.
 (pdftex.def)             Requested size: 398.20673pt x 403.98831pt.
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combine
 d.png Graphic file (type png)
@@ -1589,14 +1505,14 @@ d.png Graphic file (type png)
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mGain_vs_Vb_Combined.png used on input line 265.
+mGain_vs_Vb_Combined.png used on input line 273.
 (pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
- [12]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 288.
+ [11]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 296.
 
  (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [13] (chapter_results.aux)
+) [12] (chapter_results.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1605,10 +1521,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8257 strings out of 493334
- 138096 string characters out of 3147023
- 280495 words of memory out of 3000000
- 11556 multiletter control sequences out of 15000+200000
+ 8258 strings out of 493334
+ 138117 string characters out of 3147023
+ 280506 words of memory out of 3000000
+ 11557 multiletter control sequences out of 15000+200000
  44866 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,12n,77p,8882b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1625,9 +1541,9 @@ e1/bitstrea/charter/bchr8a.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/t
 ype1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.
 9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (15 pages, 1193506 bytes).
+Output written on chapter_results.pdf (14 pages, 1195365 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
+ 601 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
