@@ -35,18 +35,28 @@
 \makethesistitle
 \affidavit{B. Gebhardt}
 
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+\section{Data Analysis}
+
+
+
+
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+
 \section{Results}
 Preliminary results chapter\\
 In this chapter, I will list the final results per device in a list of measured criteria. At the end I will conclude with a comparison between devices and to the results from other groups.
-
+Overview short table of measured devices
 
 \subsection{Hamamatsu LCT??? 50$\mu$m 3mm}
 \begin{wrapfigure}{R}{0.3\textwidth}
 \centering
-\includegraphics[width=0.3\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/CHECSPIC.JPG}
+\includegraphics[width=0.3\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG}
 \caption{\label{fig:CHECSTILE}CHEC-S tile}
 \end{wrapfigure}
-The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, iteration (XXXXXXX in devices chapter) by Luigi Tibaldo. This is done in order to lower the unshaped pulse from a FWHM in the ~100s ns to ~10ns. This whole amplification and shaping chain is simulating later usage in the TARGET modules. I cinducted the measurements multiple times on different pixels of the CHEC-S tile, plots can be found in the appendix.
+The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, iteration (XXXXXXX in devices chapter) by Luigi Tibaldo. This is done in order to lower the unshaped pulse from a FWHM in the ~100s ns to ~10ns. This whole amplification and shaping chain is simulating later usage in the TARGET modules. I cinducted the measurements multiple times on different pixels of the CHEC-S tile.
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -66,28 +76,49 @@ A lower gain with increasing temperature is expected and described in detail in 
 \begin{centering}
 %L, B, R, T
 % \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642RelGain_vs_Vb_Combined}}
-\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
 \caption{Gain of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S12642_Gain}
 \end{centering}
 \end{figure}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_Gain_vs_OV_Combined}}
+\caption{}
+\label{fig:}
+\end{centering}
+\end{figure}
 
 
-%\newpage
+
+\newpage
 \subsubsection{Dark Count Rate}
 I expect the Dark Count Rate to increase with temperature, which is the case fig(\ref{fig:S12642_DCR}). I also expect it to follow a nearly linear progression, a sudden turn-up or turn-down of the Dark Count Rate would be analysis related. The turn-up at a certain point is visible in Figure (\ref{fig:S12642_DCR}), particulary for 15$^{\circ}$~C (purple) and 20$^{\circ}$~C (blue) respectively. At 15$^{\circ}$~C and an Overvoltage of ~4V, the Dark Count Rate starts to deviate from the previously linear behaviour. It starts to rise more rapid than before, which I can attribute to the fact, that the Optical Cross Talk at that point is very high; higher than 50$\%$  fig(\ref{fig:S12642_OCT}) (left). I suspect that I do not reach this critical point for the higher temperatures of 25$^{\circ}$~C (green) and 30$^{\circ}$~C (red), so the effect is barely, if not at all visible. At 35$^{\circ}$~C (yellow) I suspect my analysis is not able to count every pulse, due to the high rate of 9-10 MHz. A majority of the pulses overlapping each other and being counted as a 2p.e. event rather than 2 1p.e. events would reduce the Dark Count Rate significantly. At this point, heating of the Silicon Photomultipliers surface due to the high rate could also affect the Dark Count Rate through shifting the temperature slightly upwards, away from 35${^\circ}$~C . So that the Dark Count Rate declared at 35${^\circ}$~C is in reality the rate at higher temperatures. \\\\At the lower end of the bias-voltage range, I suspect, that a major part of the found 1p.e. pulses are actually noise related. So the Dark Count Rate changing to a plateau is expected. This is also due to the fact, that my measurements are done with a fixed bias-voltage range. Due to the increase of the breakdown-voltage with rising temperature, part of the measured bias-voltage range being a very low over-voltage, attributes to this effect. In order to reliably measure beyond an overvoltage of ~2.5V in the lower range, the noise would need to be improved.  
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined}}
 \caption{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S12642_DCR}
 \end{centering}
 \end{figure}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_OV_Combined}}
+\caption{}
+\label{fig:}
+\end{centering}
+\end{figure}
+
+
 
 
 \newpage
@@ -97,14 +128,21 @@ The deviations between the different groups results at 25${^\circ}$~C (green) ar
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined}}
 \caption{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature.}
 \label{fig:S12642_OCT}
 \end{centering}
 \end{figure}
-\newpage
-
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_vs_OV_Combined}}
+\caption{}
+\label{fig:}
+\end{centering}
+\end{figure}
 
 
 
@@ -116,7 +154,7 @@ The deviations between the different groups results at 25${^\circ}$~C (green) ar
 \begin{wrapfigure}{R}{0.65\textwidth}
 \centering
 \includegraphics[width=0.3\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Chamber_Setup.png}
-\includegraphics[width=0.3\textwidth,trim=0cm 2cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT56mmPIC.JPG}
+\includegraphics[width=0.3\textwidth,trim=0cm 2cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG}
 \caption{\label{fig:S13360_pixel}HPK S13360 6050CS pixel / PreAMP pic will be updated}
 \end{wrapfigure}
 
@@ -135,7 +173,7 @@ The Silicon Photomultiplier designated HPK S13360 6050CS is an LCT5, meaning Low
 
 
 
-%\newpage
+\newpage
 \subsubsection{Gain}
 
 
@@ -145,8 +183,8 @@ The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outli
 \begin{centering}
 %L, B, R, T
 % \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642RelGain_vs_Vb_Combined}}
-\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined}}
+\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
 \caption{Gain of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
@@ -161,14 +199,14 @@ The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fi
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined}}
 \caption{Dark Count Rate of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S13360_DCR}
 \end{centering}
 \end{figure}
 
-%\newpage
+\newpage
 \subsubsection{Optical Cross Talk}
 
 Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{fig:S13360_DCR} (faded green bar), I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. The Optical Cross Talk in this range is linear and independent from temperature, with minor deviations attributed to the breakdown-voltage calculation from the regression line, causing the horizontal shift. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the Mini-Circuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.
@@ -176,8 +214,8 @@ Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined}}
 \caption{Optical Cross Talk of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S13360_OCT}
 \end{centering}
@@ -187,11 +225,11 @@ Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{
 
 
 
-%\newpage
+\newpage
 \subsection{Hamamatsu LCT5 75$\mu$m 7mm}
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
-\includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0.1cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LCT57mmPIC.JPG}
+\includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0.1cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG}
 \caption{\label{fig:LCT57_pixel}HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
@@ -209,7 +247,7 @@ XXXXXXXXXXXX is a larger LCT5 prototype Silicon Photomultiplier of the same desi
 \end{figure}
 
 
-%\newpage
+\newpage
 \subsubsection{Gain}
 \label{subsubsec:LCT57Gain}
 \begin{wrapfigure}{R}{0.45\textwidth}
@@ -235,7 +273,7 @@ The configuration for the second test removes the PreAMP from the setup, which m
 The behaviour of the Dark Count Rate of the HPK LCT5 7mm device is shown in Figure(\ref{fig:LCT57_DCR}) and is as expected, in contrast to the behaviour of the gain of LCT5 7mm, as discussed in section \ref{subsubsec:LCT57Gain}. It follows a linear progression in the relevant range and increases with rising temperature. I suspect the over-voltage range above $\sim$2.5V to be relevant. The extended range measurement at 25$^\circ$C confirms this behaviour. LCT5 7mm shows a linear Dark Count Rate over an over-voltage range of 4V. The faded green bar in Figure(\ref{fig:LCT57_DCR}) shows results from measurements undertaken by the Department of Physics and Astronomy at the University of Catania. Those measurements were conducted on the exact same device, which is an important point, but with a different method of data acquisition and data analysis. LITTLE MORE DETAIL IN PROGRESS. The correlation between the two experiments is evident, although there is differences in the acyquisition and analysis process. This is further proof for the relevancy of my analysis. 
 \\\\\\\\
 
-%\newpage
+\newpage
 \subsubsection{Optical Cross Talk}
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
@@ -252,14 +290,14 @@ The Optical Cross Talk is expected to be linear and independent from temperature
 \subsection{Hamamatsu LVR 50$\mu$m 6mm}
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
-\includegraphics[width=0.4\textwidth,trim=40cm 25cm 35cm 25cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/LVR6mmPIC.JPG}
+\includegraphics[width=0.4\textwidth,trim=40cm 25cm 35cm 25cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG}
 \caption{\label{fig:LVR6_pixel}HPK LVR 6mm pixel}
 \end{wrapfigure}
 
 The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-LVR-LCT is a special prototype of the LCT5 design. LVR is an abreviation of Low Voltage Range, meaning the device is meant to be operated at much lower operation voltages than other LCT5 devices. It has the same physical size as an LCT5 50$\mu$m 6mm device (S13360 \ref{subsubsec:LCT56}), a pixelsize of 6mm pixel with a cellsize of 50$\mu$m. The recommended point of operation however is $\sim$15V below that of the S13360 device, specifically at 40.2V(LVR) instead of 54.7V (S13360). The unshaped signal is similar to other LCT5 devices, therefore using the same modified CHEC-S shaper is feasible in this case. After that the signal is amplified with the same mini-circuits PreAMP SNXXXXX supplied with 8.5V.
 \\
 
-%\newpage
+\newpage
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -270,50 +308,99 @@ The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-
 \end{figure}
 
 
-%\newpage
+\newpage
 \subsubsection{Gain}
 \label{subsubsec:LVR6Gain}
 Figure(\ref{fig:LVR6_Gain})(left) shows the gain of the LVR 6mm device. It is, as expected, linear over a long range. The flattening of the slope to a plateau shape in the lower over-voltage range, is caused by the analysis being unable to identify peaks lower than the set threshold. ONly taking into account the linear region, limits the range, where the results are relevant to an over-voltage range of $\sim$2.5V. Saturation of the oscilloscope in this range is not visible, but a check with a more expanded range revealed, that the point of saturation of the oscilloscope is at an over-voltage of $\sim$5V. The apparent overlap of the gain, when plotted against over-voltage, is based on the calculation of the breakdown-voltage being very reliable due to the large linear range. Plotted versus bias-voltage Figure(\ref{fig:LVR6_Gain})(right) the expected behaviour of the gain, lowering with increasing temperature, is visible. 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined}}
 \caption{Gain of the HPK LVR 6mm pixel}
 \label{fig:LVR6_Gain}
 \end{centering}
 \end{figure}
 
 \newpage
-\subsubsection{Dark Count Rate}
+\subsubsection{Dark Count Rate and Optical Cross Talk}
 \label{subsubsec:LVR6DCROCT}
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined}}
-\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined}}
-\caption{Gain of the HPK LVR 6mm pixel}
-\label{fig:LVR6_Gain}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined}}
+\resizebox{0.41\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined}}
+\caption{Dark Count Rate and Optical Cross Talk of the HPK LVR 6mm pixel}
+\label{fig:LVR6_DCROCT}
 \end{centering}
 \end{figure}
-The Dark Count Rate, taking into account only the r elevant over-voltage range of $>\sim$2.5V seems to correlate with the results form the University of Nagoya. But the resulting Optical Cross Talk is very high compared to results from the University of Nagoya, which also cover a much wider range. Only taking into account the previoulsy established relevant over-voltage range of $>\sim$2.5V, the resulting Optical Corss Talk is a factor of 2 higher. This uncertainty is a contrast to results from previous devices, where strong correlations between different groups and measurement techniques are evident. I suspect, that the device examined by me and the device present at Nagoya University are slightly different prototypes.
+The Dark Count Rate, taking into account only the relevant over-voltage range of $>\sim$2.5V seems to correlate with the results form the University of Nagoya. But the resulting Optical Cross Talk is very high compared to results from the University of Nagoya, which also cover a much wider range. Only taking into account the previoulsy established relevant over-voltage range of $>\sim$2.5V, the resulting Optical Corss Talk is a factor of 2 higher. This uncertainty is a contrast to results from previous devices, where strong correlations between different groups and measurement techniques are evident. I suspect, that the device examined by me and the device present at Nagoya University are slightly different prototypes.
+
+
+\newpage
+\subsection{SensL FJ60035 6mm 35$\mu$m}
+The Silicon Photomultiplier by SensL with the designation FJ-60035 is also a candidate device for use in CHEC-S. It is also a 6mm device, but with a much smaller cellsize of 35$\mu$m. The recommended point of operation is around 30V bias-voltage, lower than that of the HPK LVR prototypes. The device is, by the manufacturer, pre-mounted on a printed circuit board, called a test array. This test array contains a slow, unshaped and a fast, shaped output. For the conducted tests, I used the fast output, which made amplification with the same mini-circuits PreAMP SNXXXXX supplied with 12V necessary.
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/Fig/{SensL_T25.0_Vb29.0.trcPulseShape}.pdf}}
+\caption{Pulse Shape in the analysis section}
+\label{fig:SensL_Array_PS}
+\end{centering}
+\end{figure}
+
+
+\newpage
+\subsubsection{Gain}
+\label{subsubsec:SensLGain}
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV}}
+\caption{Gain of the SensL FJ-60035 test array}
+\label{fig:SensL_Gain}
+\end{centering}
+\end{figure}
+
+\newpage
+\subsubsection{Dark Count Rate and Optical Cross Talk}
+\label{subsubsec:SensLDCROCT}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV}}
+\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV}}
+\caption{Dark Count Rate and Optical Cross Talk of the SensL test array}
+\label{fig:SensLDCROCT}
+\end{centering}
+\end{figure}
+.
+
+
+
+
+
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 \newpage
 \section{Comparison}
 A comparison of the performance of all devices is the significant step for choosing the Silicon Photomultiplier later to be used in CHEC-S. In order to do this, all measured characteristics are compared versus over-voltage. Operation of the CHEC-S camera in GCT will come down to a decision between two operational points. The first point will be marked by an Optical Cross Talk of under 15\%. Every other attribute of the Silicon Photomultiplier at this over-voltage is then compared. This point will trade off precision for efficiency, a lower Optical Cross Talk makes real event detection easier, on the other hand, a lower Photon Detection Efficiency may forfeit a lot of data.
 \\\\
-The second point of operation is marked at the highest achievable Photon Detection Efficiency. My conducted measurements do not involve this, therefore the point of highest Photon Detection Efficiency is marked by the results of other conducted measurements, that are comparable. This point will assure the highest detection of event photons, but will trade that for an increase in detector noise, due to the higher Dark Count Rate and more importantly Optical Cross Talk.
+The second point of operation is marked at the highest achievable Photon Detection Efficiency. My conducted measurements do not involve this, therefore the point of highest Photon Detection Efficiency is marked by the results of other conducted measurements, that are comparable \ref{fig:Nagoya_PDE}. This point will assure the highest detection of event photons, but will trade that for an increase in detector noise, due to the higher Dark Count Rate and more importantly Optical Cross Talk.
 
 
 \subsection{Dark Count Rate}
 \label{subsec:DC_DCR}
 
-Comparint the Dark Count Rate of the different devices...
+Comparing the Dark Count Rate of the different devices... TODO
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareDCR_vs_OV_Combined}}
-\caption{Gain of the HPK LVR 6mm pixel}
+\caption{Dark Count Rate comparison of measured devices}
 \label{fig:DC_DCR}
 \end{centering}
 \end{figure}
@@ -321,18 +408,32 @@ Comparint the Dark Count Rate of the different devices...
 \subsection{Optical Cross Talk}
 \label{subsec:DC_OCT}
 
-bla
+TODO
 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareOCT_vs_OV_Combined}}
-\caption{Gain of the HPK LVR 6mm pixel}
+\caption{Cross Talk comparison of measured devices}
 \label{fig:DC_OCT}
 \end{centering}
 \end{figure}
 
+\subsection{Photon Detection Efficiency}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+%\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsCTver9}}
+\resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9}}
+\resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9}}
+\caption{Photon Detection Efficiency Comparison Plots from the University of Nagoya}
+\label{fig:Nagoya_PDE}
+\end{centering}
+\end{figure}
 
+
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 
@@ -377,8 +478,8 @@ blank
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
-\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
-\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_OV_Combined}}
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_OV_Combined}}
 \caption{}
 \label{fig:}
 \end{centering}
