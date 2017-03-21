@@ -23,8 +23,8 @@
 \newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
 
 \begin{document}
-\thesistitle{SiPM Classification of the Pre-Production GCT Camera of CTA} %
-{SiPM Klassifikation der Pre-Production GCT Kamera von CTA}
+\thesistitle{Silicon Photomultiplier Classification of the Pre-Production GCT Camera of CTA} %
+{Silicon Photomultiplier Klassifikation der Pre-Production GCT Kamera von CTA}
 \author{Ben Gebhardt}
 \birthplace{Heidelberg}
 \referee{Dr. Richard White (MPIK)}{Prof. Jim Hinton (MPIK)}[Prof. Tetyana Galatyuk (TU DA)]
@@ -36,19 +36,142 @@
 \affidavit{B. Gebhardt}
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
+\section{SiPM Physics}
+
+\subsection{}
 
 
-\section{Data Analysis}
 
+\subsection{OCT dependency on cellsize}
+LCT5 50, 25 um plots, multiply 24 by 4 tu get 50 um results
+
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\section{Experimental Setup}
+%PIC SETUP SCHEME
+%PIC SETUP  
+
+\subsection{Oscilloscope}
+wrapfigures
+text
+\subsection{Power Supply}
+wrapfigures
+text
+\subsection{Thermal Chamber}
+wrapfigures
+text
+\subsection{Data Acquisition}
+Data acquisition in the Laboratory is realized by a Lab-PC (\ref setup scheme picture) , that forms the central control station for multiple pieces of equipment. It is connected to the oscilloscope(\ref setup scheme picture), which records the waveforms of the device in testing, and then sends the data back to the PC via ethernet. The power supplies(\ref setup scheme picture) control the bias-voltage of the Silicon Photomultipliers, ramping of the bias-voltage is controled by the PC. Lastly the thermal chamber(\ref setup scheme picture) is connected to the Lab-PC, which controls the temperature, and continuously rechecks it during temperature ramps. All equipment connected via ethernet is plugged into a common hub, to form a local network. The ethernet switch needs to reach at least 10Mbit/s ???, because single waveform files, that include 1000 segments of data taken in sequence mode of the oscilloscope, can be up to 0.5Gb in size. While the temperature of the thermal chamber is ramping from the previous to the next set-point, the data is send to the Lab-PC.
+\subsection{Shaping Electronics}
 
 
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 
+
+\section{Data Analysis}
+Analysis of the Silicon Photomultiplier waveforms is done exclusively in python following those steps:
+\begin{enumerate}
+\item data conversion
+\item pedestal subtraction
+\item peak detection
+\item gain extraction
+\item calculation
+\end{enumerate}
+
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered1Zoom}.pdf}
+\caption{\label{fig:CHECSTILE}CHEC-S tile}
+\end{wrapfigure}
+The waveform data, after being transfered to a seperate PC, is analysed offline. The goal is to extract event-data from the waveforms in order to produce pulse-area spectra for every bias-voltage at every temperature. To that end, the pedestal of the noise must be found and subtracted from the data. After that, event-pulses are detected and integrated. This generates a list of pulse-areas, which is in turn used to fill a pulse-area histogram. To this pulse-area histogram, a model is fitted from which the gain can be extracted. Due to the linear behavior of the gain with rising bias-voltage, a regression line is fitted, from which the Dark Count Rate and the Optical Cross Talk are calculated using the original pulse-area histogram.
+
+\subsection{Tracefile Conversion}
+The oscilloscope produces the waveform data in its intrinsic data format, called a trace with the data suffix \.trc in binary. A trace file contains a header and two binary lists, an amplitude based on the oscilloscopes voltage-range and offset, and a list of the same length containing the associated event-time, based on the time-range and horizontal offset. The first step is therefore a conversion of the amplitude and associated event-time of all segments of a waveform trace file into two lists of floats. 
+\subsection{Pedestal Subtraction}
+A single waveform from the oscilloscope is anticipated to be uncentered, it will be slightly above or below zero, depending on the device setup. The signal is mixed with noise when it is observed and forms a pedestal, shifting the mean of the waveform from its original position to zero. Pedestal subtraction removes this average noise.\\
+The first step of the process is reading in the uncentered waveform and calculating an initial mean(mean0). It is expected to be slightly higher than the actual mean of the noise, due to the presence of event-pulses. The waveform is then shifted to about zero, by subtracting the mean0. A second mean of the now nearly centered waveform is taken (mean1). Now a new, same-sized array is formed and filled with the data from the waveform that is smaller than mean1, the negative noise. The data larger than mean1, the positive noise, is also filled into the array, but is negative-signed. This creates an array of the waveform centered around zero and, above the mean, folded towards the negative. It proved reliably, that calculating the root-mean-square of this helper-array is a solid possibility of stripping the waveform of event-peaks. Taking the root-mean-square with a factor 3 of the helper-array, a cut is now applied to the waveformon on both, the positive and negative side. In that fashion, the remnant is the waveform between the positive and the negative root-mean-square and is now called a peakless-signal, representing the noise of the waveform.\\
+Pedestal subtraction is done by calculating the mean of this peakless signal and subtracting it from the waveform. After that, the peakless signal is also smoothed by convolving it with a wide-windowed gaussian and subtracted from the waveform to eliminate any slow moving noise.
+
+\subsection{Peak Detection}
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered2Zoom}.pdf}
+\caption{\label{fig:CHECSTILE}CHEC-S tile}
+\end{wrapfigure}
+Peak detection exploits the fact, that the first derivative of an event-peak will cross zero into the negative at the peak maximum. The presence of random noise in the signal however will lead to many false detections. Therefore, before the detection of the event-peaks, the waveform is smoothed with a narrow-window gaussian with a width of about the FWHM of the devices characteristic event-pulse, in order to attenuate non-event peaks. After the first derivative of the signal is calculated, which in python is a fast process if using arrays, a number of parameters decide the validity of the detected peaks. Most important parameters are a certain predetermined minimum amplitude, called the amplitude threshold or: minimum peak height. This is right now determined by eye, but could later be calculated based on the noise level. The second important parameter defining validity is the minimum peak distance, which defines how close two events can occur after another. The value is determined by the FWHM of the device in testing, which I expect to be sensible enough to resolve two events happening close after another. The peak detection algorithm can not distinguish between instantanious and delayed Oprical Cross Talk, but nonetheless, due to the fact, that the signal data is taken over many micro-seconds, all events are detected, independent of their source. On the other hand, this also means, that it is possible for two events to happen at the same time, for example a real photoelectron-event coinciding with delayed Optical Cross Talk. This can not be destinguished and will lead to a slight shift of the amplitude. (because delOCT is partial 1p.e.)   
+
+\subsection{Gain Extraction}
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/{PAFit_Annotated}.png}
+\caption{\label{fig:PAFit}Pulse Area Histogram todo describe more}
+\end{wrapfigure}
+The detected peaks are integrated with a window extending symmetricaly from the peak maximum, the width is chosen as slightly wider than the peaks FWHM. The generated list of peak areas is generating a peak area histogram, which is fitted with multiple gaussians using iMinuit in python , seen in Figure (\ref{fig:HIST}). Two parameters are extracted from the fit to the peak area histogram. The first, the position of the 1p.e. peak is the position of the maximum of the first peak in the histogram, and the position of corresponding multiple p.e. events should be integral factors of the 1p.e. position. This proved to not be the case for some devices, the suspected source of this error is a pedestal generated during the peak integration. I studied the effect of the integration window in more detail in CHAPTERXXXXXXXXXXX. A second parameter is extracted from the peak area histogram to deal with this problem, which is the distance between N p.e. peak maxima of the histogram, labeled $\Delta$p.e. , which defines the gain. The apparent pedestal of the pulse area histogram makes extraction of the two parameters necessary in order to calculate the Dark Count Rate and the Optical Cross Talk.
+\\\\
+%why a second parameter is needed
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/{GainFit_delta_pe}.png}
+\caption{\label{fig:Gain_P}1p.e. position and $\Delta$p.e. plotted versus bias-voltage}
+\end{wrapfigure}
+The gain of a Silicon Photomultiplier has a linear dependence of the supplied bias-voltage. Given that the bias-voltage range is deliberately chosen such that the over-voltage ranges from about 1V growing upwards, the range of linearity only starts at around the point of operation given by the manufacturer of the device. At the higher end of the bias-voltage range the behaviour usually starts to divert from the linearity. In order to get an estimation of the gain over a large range, both previoulsy extracted parameters, the 1p.e. peak and the distance $\Delta$p.e. are fitted with a linear regression line. The fit assumes linearity utilizing weighted least squares inherited from pythons statsmodels package. Fot the fit, only the data, where at least 3 gaussians are fitted to the peak area histogram is taken into account. Plotting both extracted parameters, as well as their respective regression lines versus bias-voltage, as in Figure (\ref{fig:Gain_P}), shows the difference between the two parameters. (SHOW FOR ALL DEVICES IN APPENDIX???). Comparing the manufacturer supplied brakdown-voltage from the datasheet for all devices showed, that the zero-crossing of the 1p.e. regression line is more consistent with datasheet values, in contrast to the zero-crossing of $\Delta$p.e. , which lies slightly higher. The over-voltage, corresponding to the set bias-voltage at any given temperature is calculated from this breakdown-voltage. 
+Dark Count Rate and Optical Cross Talk are calculated utilizing 1p.e. position and $\Delta$p.e. derived from the regression line. Both values are applied, in the calculation, to the peak area histogramm with the Dark Count Rate being defined as:
+
+\begin{figure}
+\begin{equation}
+DCR = \frac{N_{events(>0.5p.e.)}}{T_{experiment}}
+\end{equation}
+\label{DCR_eq}
+\caption{The Dark Count Rate of a Silicon Photomultiplier is defined as all events exceding 0.5 p.e. in apmlitude $N_{events(>0.5p.e.)}$ occuring over the experiment time $T_{experiment}$}
+\end{figure}
+,and the Optical Cross Talk as:
+\begin{figure}
+\begin{equation}
+OCT = \frac{N_{events(>1.5p.e.)}}{N_{events(>0.5p.e.)}}.
+\end{equation}
+\label{OCT_eq}
+\caption{The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(>1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in apmlitude$[N_{events(>0.5p.e.)]}$}
+\end{figure}
+
+\newpage
+\section{The next three sections might be better in the appendix The influence of the minimum peak distance}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_IntWin+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pdf}}
+\caption{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit. In pink, the effect of a different integration window is shown.}
+\label{fig:MPD_plot}
+\end{centering}
+\end{figure}
+The influence of the minimum peak distance is shown in Figure (\ref{fig:MPD_plot}) . Based on theri bin-width, four different windows are tested. With the oscilloscpopes sampling rate of 2.5$\frac{GS}{s}$, the windows of 100, 63, 25 and 10 time-bins, correspond to 40, 25, 10, 4 ns windows respectively. With a event pulse FWHM of ~10ns, setting the minimum peak distance to 100 bins, resulting in a 40ns window is visibly to large, as the algorithm will skip over valid data Figure (\ref{fig:MPD_plot})(100color). After an event is detected, skipping over 40ns worth of data will result in errors of the Dark Count Rate, since the calculation uses the complete experiment time. Therefore a more reliable distance window must be chosen. The second window of 25ns was the next approach, originating from the length of the pulse-tail Figure (\ref{fig:MPD_plot})(63color). This would lead to no detected events overlapping with the tail of one previouly detected, resulting in a sharper pulse-area spectrum. Compared to a window of approximately the pulse FWHM, the previously discussed window would still lead to lost event-data. Since the sharpness of the pulse-area spectrum is already sufficient, a window around the pulse FWHM was chosen as reference for all measured devices Figure (\ref{fig:MPD_plot})(25color). Going lower that the pulse FWHM showed no improvement Figure (\ref{fig:MPD_plot})(10color). 
+\section{The influence of the integration window}
+Figure (\ref{fig:MPD_plot}) also shows the influence of the size and shape of the integration window on the Dark Count Rate. See Appendix for other plots of 520 55 1010 pulse area spectra. \\\\
+The influence of the chosen integration window is most visible in their respective pulse area spectra. Choosing a narrow, symmetrical integration window of 5ns left and right of the peak maxima, the noise peak, or zero-peak, is much more prominent compared to the pulse area spectrum of a symmetrical 10 ns window. This leads to errors in the multi-gaus fitting step, or the fitting will fail alltogether. An asymmetrical integration window of 5ns left, 20ns right, to capture the influence of the pulse-tail proved, at first, to be the best solution as their was no visible zero-peak present. The low amplitude pulses are averaged out by the extended integration window to the right of the pulse-maximum. The downside of the asymmetrical window is the shifting of the puslse area spectrum and the fact, that the N p.e. peaks get blurred. The next step was widening the window on both sides. This proved the best solution, since there is no zero-peak visible and the N p.e. peaks are gaussian shaped.
+!!!
+\section{The influence of the peak detection threshold??}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thresh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs_Vb}}
+\caption{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit. In pink, the effect of a different peak detection threshold is shown.}
+\label{fig:PF_Thresh_plot}
+\end{centering}
+\end{figure}
+
+The peak detection threshold affects the analysis the most. 
+
+
+
+
+
+\newpage
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+
 \section{Results}
 Preliminary results chapter\\
 In this chapter, I will list the final results per device in a list of measured criteria. At the end I will conclude with a comparison between devices and to the results from other groups.
-Overview short table of measured devices
+Overview short table of measured devices LIST?
 
 \subsection{Hamamatsu LCT??? 50$\mu$m 3mm}
 \begin{wrapfigure}{R}{0.3\textwidth}
@@ -56,7 +179,7 @@ Overview short table of measured devices
 \includegraphics[width=0.3\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG}
 \caption{\label{fig:CHECSTILE}CHEC-S tile}
 \end{wrapfigure}
-The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, iteration (XXXXXXX in devices chapter) by Luigi Tibaldo. This is done in order to lower the unshaped pulse from a FWHM in the ~100s ns to ~10ns. This whole amplification and shaping chain is simulating later usage in the TARGET modules. I cinducted the measurements multiple times on different pixels of the CHEC-S tile.
+The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm by 3 mm device. One array of pixels consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practise is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore I expect this to have an influence on my results due to electrical crosstalk, but this is only of minor concern due to the following. My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, I expect, for example, that the tests done at Hamamatsu Photonics where conducted on a single 3mm by 3mm pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, iteration (XXXXXXX in devices chapter) by Luigi Tibaldo. This is done in order to lower the unshaped pulse from a FWHM in the ~100s ns to ~10ns. This whole amplification and shaping chain is simulating later usage in the TARGET modules. I conducted the measurements multiple times on different pixels of the CHEC-S tile.
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -70,7 +193,7 @@ The Silicon Photomultiplier by Hamamatsu Photonics designated S12642 is a 3 mm b
 
 \newpage
 \subsubsection{Gain}
-As descibed above, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height. In Figure (\ref{fig:S12642_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
+As descibed above, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height. In Figure (\ref{fig:S1264_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
 A lower gain with increasing temperature is expected and described in detail in the chapter (physics of SiPMs i guess). In short, increased lattice movement due to higher temperature hinders photoelectron transport. The effects visible at extreme bias-voltages at both ends are analysis related. The gain of a SiPM is expected to be linear over bias-voltage at a constant temperature. In the lower regime at Vb ~66.5V my analysis method struggles to pick up pulses, because of the low gain compared to the noise. Depending on the chosen peak-finding threshold, I expect the analysis to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. At the highest bias-voltages the influence of the noise is similar. The point at Vov ~5V,which is way over the proposed point of operation at Vov ~3V. The same threshold is again counting noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this just results in an apparent lowering of the gain. 
 \begin{figure}[h]
 \begin{centering}
@@ -433,6 +556,13 @@ TODO
 
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
+\newpage
+\section{Glossary}
+\begin{enumerate}
+\item CTA - Cherenkov Telescope Array
+\end{enumerate}
+
+
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
@@ -444,18 +574,17 @@ TODO
 
 
 \newpage
-blank
-\newpage
-blank
-\newpage
-blank
-\section{supplementary plots}ddd
 
-\begin{wrapfigure}{R}{0.55\textwidth}
-\centering
-\includegraphics[width=0.5\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}
-\caption{\label{fig:S13360_pixel}HPK S13360 6050CS pixel / PreAMP pic will be updated}
-\end{wrapfigure}
+\newpage
+
+\newpage
+
+\section{supplementary plots}
+%\begin{wrapfigure}{R}{0.55\textwidth}
+%\centering
+%\includegraphics[width=0.5\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}
+%\caption{\label{fig:S13360_pixel}HPK S13360 6050CS pixel / PreAMP pic will be updated}
+%\end{wrapfigure}
 
 
 
