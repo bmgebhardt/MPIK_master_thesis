@@ -9,6 +9,7 @@
 %\usepackage{ngerman}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{amsmath}
 %\usepackage{hyperref}
 
 \newcommand{\getmydate}{%
@@ -35,21 +36,100 @@
 \makethesistitle
 \affidavit{B. Gebhardt}
 
+\section{sources?}
+
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 \newpage
 \section{Silicon Photomultipliers}
-Silicon Photomultipliers are semiconductor photo detectors, that have attracted increased attention over the last decade for their possible use in astroparticle physics. The sensor consists of an array of avalanche photo-diodes, typically ~50$\mu$m in size. One pixel contains, depending on the pixel-size, one pixel contains above 10000 diodes, hereafter called cells. Each cell is supplied with a bias-voltage above breakdown, which is called operation in Geiger-mode
+\ref{sec:SiPM}
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/{SiPM_scheme_HPK.JPG}}
+\caption{\label{fig:SiPM_scheme}SiPM scheme, elaborate later}
+\end{wrapfigure}\\
 
+Silicon Photomultipliers are semiconductor photo detectors, that have attracted increased attention over the last decade for their possible use in astroparticle physics. The sensor consists of an array of avalanche photo-diodes, typically ~50$\mu$m in size. Depending on the pixel-size, one pixel contains several 1000 diodes, hereafter called cells. Each cell is a PN junction supplied with a reverse bias-voltage above breakdown, which is called operation in Geiger-mode, in analogy to the Geiger counter. In this mode, a photon or thermal excitation will produce an electron-hole pair in the depleted region. Through impact ionization these charge carriers will in turn trigger an avalanche in a cell, which in turn generates a large output pulse typically in the range of several Mega electronvolt. This avalanche is then passively quenched by a resistor to limit the current in the substrate and to reset the cell to a quiet state so it is photosensitive again. The signal of the SiPM is the sum of the signal of all cells, read out over their quenching resistor via a common output.\\\\
+Silicon Photomultipliers posses major advantages over their progenitor, the Multi Anode Photomultipliertubes, or MAPM. They are more resistent to mechanical and accidental light-exposure damage through ambient light. Silicon Photomultipliers have a lower power consumption and, operating at a much lower bias-voltage, there is no need for high-voltage as in Photomultipliertubes. They posses a high photon detection efficiency and are insensitive to magnetic field changes. There is rapid improvement, being a fairly new technology, with new generations every $\sim$5 months and decreasing costs per mm$^2$. Viewed over all cells of the whole pixel, fluctuations in the gain are very small. This is because of the uniformity during manufacture and visible in the width and the clear resolution of the p.e. peaks in the pulse area spectrum. \ref{fig:PAS_somewhere}. Multi anode photomultipliertubes do not posses those small gain fluctuations, which is due to their structure. (ELABORATE???) These make Silicon Photomultipliers an interesting candidate in astrophysics experiments for both, space- and ground-based telescopes (or IACTs, Imaging Atmospheric Cherenkov Telescopes). 
+\begin{enumerate}
+\item Sturdiness
+\item May be exposed to ambient light (observation during bright moonlight periods possible)
+\item Low power consumption ($\leq$50$\mu$W/mm$^2$)
+\item Low operation voltage (typically $\sim$20 - 100 Volts)
+\item No need for HV, as in PMTs
+\item High Photon detection efficiency
+\item Insensitivity to magnetic fields
+\item Being a fairly new technology it is steadily improved, meaning a new generation of SiPMs every ~5months
+\item Rapidly decreasing cost per mm$^2$
+\end{enumerate}
 
-\subsection{}
+The currently most challenging astrophysics experiment Silicon Photomultipliers are considered for is use in Cherenkov telescopes, with very demanding expectations in terms of photon detection efficiency. The photon detection efficiency quantifies the absolute efficiency of any photon detector to absorb a photon and produce a measurable signal at its output. To achieve a high photon detection efficiency in the 450nm regime, the design moves to very thin implantation layers on the surface in order to minimize the absoprion of shorter wavelength photons in insensitive areas. Figure(\ref{SiPM_scheme}) Different entry window coatings and avalanche structures (trenches etc.) explore the capable enhancements in the blue sensitive UV region.
 
+\newpage
 \subsection{Gain of a Silicon Photomultiplier}
-\subsection{Thermally indused dark counts}
-\subsection{Optical Cross Talk}
+The gain of a Silicon Photomultiplier measures the internal conversion of a photon incident into a signal at the output. The amplification of the device is expressed as the average number of charge carriers produced. There is no distinction weather the incident was caused by a single original photon or a thermal electron.
+\begin{figure}[h]
+\begin{equation}
+\begin{split}
+M = & \frac{Q}{e} \\
+Q = &  C * (V_{bias}-V_{breakdown})
+\end{split}
+\end{equation}
+\label{eq:Gain_conversion_formula}
+\caption{The gain (M) of a Silicon Photomultiplier results form the deposited charge (Q) of the pulse generated from one cell when it detects one photon, devided by the charge per electron (e). The charge deposited per event is proportional to the cells capacitance (C) and the supplied over-voltage $(V_{bias}-V_{breakdown})$. This results in the gain (M) in units of total number of charge carriers, usually in the several $10^6$ range.}
+\end{figure}\\
+Estimation can be done via the voltage mean of the 1 p.e. amplitude: (e.g. see Figure (\ref{fig:S12642_PS})). For a better understanding, stating the gain in units of mV per photoelectron or $\frac{mV}{p.e.}$ is more suitable, as it gives a direct correlation between detected photoelectron and expected voltage amplitude. Given the very narrow pulse shapes, using the average pulse amplitude and extracting FWHM as a time measure of the total charge flowing during discharge and using the formula:
+\begin{figure}[h]
+\begin{equation}
+\begin{split}
+Q(p.e.) = & C * (V_{bias}-V_{breakdown})\\
+U(p.e.) = & \frac{Q(p.e.)}{t(FWHM)} * 50ohm
+\end{split}
+\end{equation}
+\caption{Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell, a conversion factor and the average amplitude per photoelectron can be extracted.}
+\end{figure}\\
+The gain is obviously higher the larger the cell capacitance or the higher the bias-voltage (eq \ref{eq:Gain_conversion_formula}) will be. But increasing the bias-voltage also increases dark counts and crosstalk. 
+The gain is also dependent on the temperature, mainly through the quenching resistor but also from the silicon bulk itself, at a certain bias-voltage decreasing as temperature rises. The quenching resistor is affected by a lowering of the electrical conductivity with rising temperature, in accordance to the Wiedemann–Franz law, stating that the ratio of electrical and thermal conductivity remains constant. The silicon bulk at rising temperatures underlies increased crystal lattice movement. This impinges charge transport by increasing the probability that carriers might impact on the lattice before the carrier energy has become large enough for continued ionization. In order to counteract this, the electric field must be increased by increasing the supplied bias-voltage so ionization is more likely. Doing this has drawbacks as discussed before. For application as a photon detector, keeping the gain constant is an inevitable step, otherwise the shifting gain leads to problems. To do that, either the bias-voltage need to be asjusted to match ambient temperature, leading to problems with varying dark counts and crosstalk. Or the surface temperature must be regulated to be kept constant. Although more challenging hardware would be required, the latter option has obvious advantages, keeping dark counts and crosstalk and more important the gain constant by simply regulating the surface temperature.\\
+Taking into account equation \ref{eq:Gain_conversion_formula}, it appears that the breakdown-voltage can be estimated from the zero-crossing of a linear extrapolation of the gain at every bias-voltage per temperature. By doing this a linear breakdown-voltage dependence of the temperature can be observed. Appendix Figure(\ref{fig:Device_Vbr})\\
+I note that the gain, when parametrized over over-voltage, is essentially temperature independent, as I will show later in chapter \ref{sec:results_ch}: Figure(\ref{fig:S13360_Gain}) , (\ref{fig:LCT57_Gain}) , (\ref{fig:LVR6_Gain}) , (\ref{fig:SensL_Gain})\\
+
+\subsection{Thermally induced dark counts}
+Still temp dependent when plotted vs overvoltage
+Inside the Silicon Photomultipliers depleted region a dark pulse originates from thermal excitation of an electron to the conduction band. Without an event photon present to trigger the avalanche, it is still indistinguishable from a photoelectron pulse. These thermally generated carriers are observed along with with the signal from a real photoelectron, presenting an irreducable source of noise. The number of dark pulses observed is refered to as dark counts ant the number per second as the dark count rate. For applications that need to operate in an environment with low noise, those dark counts are a concern. In IACT application of Silicon Photomultipliers however, this is only a minor problem, since IACTs operate in a naturally noisy environment. Even though sky darkness is one of the prime criteria of the proposed site selections for CTA, the surrounding Night Sky Background (NSB) at the most darkest side in Namibia will still exceed any random noise in the detector. The pollution of those NSB photons is unavoidable noise and will essentially limit the low energy resolution of the telescope to the NSB rate. As long as any random noise, being dark counts or other, is significantly below the NSB rate, it will not affect the telescopes performance.\\
+Telescope performance simulations of the Schwarzschild-Couder MST of CTA at the site of Namibia showed a rate of $\sim$ 20 - 80 MHz per pixel for one of the older SiPM iterations from Hamamatsu. [\ref{ref:ref11}] This is purely for NSB photons and pixels with a size of 6x6mm$^2$, the covered range originates from differences in illumination level of the night sky by galactic- and extragalactic-fields. 
+I note that the DCR, when parametrized over over-voltage, remains temperature dependent, as I will show later in chapter \ref{sec:results_ch}: Figure(\ref{fig:S13360_DCR}) , (\ref{fig:LCT57_DCR}) , (\ref{fig:LVR6_DCR}) , (\ref{fig:SensL_DCR})\\
+
+\subsection{Avalanche-induced secondary effects}
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/{CT.JPG}}
+\caption{\label{fig:SiPM_scheme}Secondary effects (bright red) caused by primary avalanches (dark red) in a Silicon Photomultiplier. In this paper a single pixel, in this figure, is referred to as a cell (see \ref{sec:SiPM}). Everything label under 1 is associated with prompt cross-talk, afterpulsing labeled as 2a, and delayed cross-talk labeled as 2b. }
+\end{wrapfigure}
+An avalanche originating from the primary cell can sometimes, either directly or by reflection, propagate outside the cell and trigger an avalanche almost simultaneously in a secondary cell. This will, unless accounted for, degrade the Silicon Photomultipliers photon counting resolution. The probability for this is referred to as the cross-talk probability and the effect as the Optical Cross Talk, since it is conveyed via secondary photons generated in the primary avalanche. Afterpulsing also falls under this category, with the main difference to cross-talk being that the carrier triggers a secondary avalanche in the primary cell, basically generating a parasitic pulse inside the previously fired cell. Contained in a single cell, afterpulsing increases the measured charge registered for an incident photon. The difference in arival time of the secondary avalanche distinguishes different components comprising the cross-talk and afterpulsing. Those secondary avalanches can again emit photons, that can trigger secondary avalanches themselves, leading to high amplitudes, even in dark conditions. \\
+Figure (\ref{correlated_noise}) shows different physical processes causing secondary effects in Silicon Photomultipliers based on their delay time. Cause of the delay time is the dependence on the penetration depth of the incident photon, or the region the dark count generated, and the diffusion time inside the substrate. At long delay times afterpulsing and cross-talk are not distinguishable. The prompt Optical Cross Talk happens basically simultaneous to the primary avalanche, since it is unaffected by the primary cells recovery time and is labeled 1 in Figure (\ref{correlated_noise}). It is either triggered by the secondary photon directly (1a) reaching the neighboring cell, or after first reflecting on the surface layer (1b) or the bottom surface (1c). If the cross-talk avalanche delay time is shorter than the detection resolution, the difference in signal between an Optical Cross Talk event or an incitend photon being detected, is not observable.\\
+Time delayed Optical Cross Talk is caused by a carrier generated in the non-depleted substrate diffusing to a neighboring cell and triggering an avalanche in the depleted region (2b). If the carrier stays in the primary cell, the triggered avalanche is labeled aftgerpulsing (2a) and will have a lower amplitude, due to the cell not being recovered yet. The delay is attributed to carriers being trapped in deep layers of the substrate, time distinguished by traps with different lifetimes.\\\\
+
+Light propagation inside the silicon substrate being essentially instantaneous, the output pulse will be the superposition of the signals from the original photo-triggered cell and the cross-talk cells.
+
+
+
+At the end as oct summary
+This is very important in IACT performance, since this effect gives random NSB and dark count photons the ability to rise to arbitrarily large amplitudes. The consequent need raise the trigger threshold to counteract the resulting rising accidental triggerate has a negative impact on the low energy resolution of the telescope. 
 
 
 \subsection{OCT dependency on cellsize}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV}}
+\caption{DESCR. Optical Cross Talk of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
+\label{fig:}
+\end{centering}
+\end{figure}
 LCT5 50, 25 um plots, multiply 25 by 4 tu get 50 um results
+
+Cross-talk is dependent on the ability of the secondary photons to reach a neighboring cell. This means, that an increase in cell-size should directly correlate with the area and therefore the Optical Cross Talk of a pixel. In Figure (\ref{})
+
+
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 \newpage
@@ -78,7 +158,7 @@ Data acquisition in the Laboratory is realized by a Lab-PC (\ref setup scheme pi
 \newpage
 
 \section{Data Analysis}
-Analysis of the Silicon Photomultiplier waveforms is done exclusively in python following those steps:
+The analysis of the Silicon Photomultiplier waveforms is done exclusively in python following the sequence:
 \begin{enumerate}
 \item data conversion
 \item pedestal subtraction
@@ -94,11 +174,13 @@ The oscilloscope produces the waveform data in its intrinsic data format, called
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered1Zoom}.pdf}
-\caption{\label{fig:CHECSTILE}CHEC-S tile}
+\caption{\label{fig:CHECSTILE}Pedestal subtraction}
 \end{wrapfigure}
 A single waveform from the oscilloscope is anticipated to be uncentered, it will be slightly above or below zero, depending on the device setup. The signal is mixed with noise when it is observed and forms a pedestal, shifting the mean of the waveform from its original position to zero. Pedestal subtraction removes this average noise.\\
 The first step of the process is reading in the uncentered waveform and calculating an initial mean(mean0). It is expected to be slightly higher than the actual mean of the noise, due to the presence of event-pulses. The waveform is then shifted to about zero, by subtracting the mean0. A second mean of the now nearly centered waveform is taken (mean1). Now a new, same-sized array is formed and filled with the data from the waveform that is smaller than mean1, the negative noise. The data larger than mean1, the positive noise, is also filled into the array, but is negative-signed. This creates an array of the waveform centered around zero and, above the mean, folded towards the negative. It proved reliably, that calculating the root-mean-square of this helper-array is a solid possibility of stripping the waveform of event-peaks. Taking the root-mean-square with a factor 3 of the helper-array, a cut is now applied to the waveformon on both, the positive and negative side. In that fashion, the remnant is the waveform between the positive and the negative root-mean-square and is now called a peakless-signal, representing the noise of the waveform.\\
 Pedestal subtraction is done by calculating the mean of this peakless signal and subtracting it from the waveform. After that, the peakless signal is also smoothed by convolving it with a wide-windowed gaussian and subtracted from the waveform to eliminate any slow moving noise.
+
+
 \newpage
 \subsection{Peak Detection}
 \begin{wrapfigure}{R}{0.5\textwidth}
@@ -131,7 +213,7 @@ Dark Count Rate and Optical Cross Talk are calculated utilizing 1p.e. position a
 DCR = \frac{N_{events(>0.5p.e.)}}{T_{experiment}}
 \end{equation}
 \label{DCR_eq}
-\caption{The Dark Count Rate of a Silicon Photomultiplier is defined as all events exceding 0.5 p.e. in apmlitude $N_{events(>0.5p.e.)}$ occuring over the experiment time $T_{experiment}$}
+\caption{The Dark Count Rate of a Silicon Photomultiplier is defined as all events exceding 0.5 p.e. in apmlitude $N_{events(>0.5p.e.)}$ occuring over the experiment time $T_{experiment}$. Included in the measurement are thermally generated dark counts, as well as delayed cross-talk and afterpulsing with only a minor contribution.}
 \end{figure}
 ,and the Optical Cross Talk as:
 \begin{figure}[h]
@@ -139,7 +221,7 @@ DCR = \frac{N_{events(>0.5p.e.)}}{T_{experiment}}
 OCT = \frac{N_{events(>1.5p.e.)}}{N_{events(>0.5p.e.)}}.
 \end{equation}
 \label{OCT_eq}
-\caption{The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(>1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in apmlitude$[N_{events(>0.5p.e.)]}$}
+\caption{The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(>1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in apmlitude$[N_{events(>0.5p.e.)]}$. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell}
 \end{figure}
 
 \newpage
@@ -168,7 +250,6 @@ Figure (\ref{fig:MPD_plot}) also shows the influence of the size and shape of th
 \end{centering}
 \end{figure}
 
-The peak detection threshold affects the analysis the most. 
 
 
 
@@ -178,6 +259,7 @@ The peak detection threshold affects the analysis the most.
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 \newpage
 \section{Results}
+\label{sec:results_ch}
 Preliminary results chapter\\
 In this chapter, I will list the final results per device in a list of measured criteria. At the end I will conclude with a comparison between devices and to the results from other groups.
 Overview short table of measured devices LIST?
@@ -355,7 +437,11 @@ The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fi
 \newpage
 \subsubsection{Optical Cross Talk}
 
-Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{fig:S13360_DCR} (faded green bar), I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. The Optical Cross Talk in this range is linear and independent from temperature, with minor deviations attributed to the breakdown-voltage calculation from the regression line, causing the horizontal shift. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the Mini-Circuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.
+Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{fig:S13360_DCR} (faded green bar), I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. The Optical Cross Talk in this range is linear and independent from temperature, with minor deviations attributed to the breakdown-voltage calculation from the regression line, causing the horizontal shift. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the Mini-Circuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.\\\\
+
+S13360 series incorporating optical barriers, called trenches, between pixels that drastically reduce crosstalk too.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 \begin{figure}[h]
 \begin{centering}
@@ -379,7 +465,7 @@ Compared to measurements on HPK S13360 done at the Nagoya University Japan \ref{
 \caption{\label{fig:LCT57_pixel}HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
-XXXXXXXXXXXX is a larger LCT5 prototype Silicon Photomultiplier of the same design as S13360-6050CS. With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixelarea is also expanded to 6.915mm$^2$, which will result in a larger FoV of GCT, see chapter (list of devices etc) !(maybe tom armstrongs simulations)!. Since it is a prototype device, there is limited data from datasheets. The ID number suggests, that it is also a wire-bond device with a UV-transparent silicon-resin coating. It is also a single pixel test device, so external amplification is necessary. I used the same minicircuits PreAMP Sn XXXXX, supplied with 8V during this test. The signal is also shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude. 
+XXXXXXXXXXXX is a larger LCT5 prototype Silicon Photomultiplier of the same design as S13360-6050CS. With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixelarea is also expanded to 6.915mm$^2$, which will result in a larger FoV of GCT, see chapter (list of devices etc) !(maybe tom armstrongs simulations)!. Since it is a prototype device, there is limited data from datasheets. The ID number suggests, that it is also a wire-bond device with a UV-transparent silicon-resin coating. It is also a single pixel test device, so external amplification is necessary. I used the same minicircuits PreAMP Sn XXXXX, supplied with 8V during this test. The signal is also shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude.
 \\\\\\\\\\
 
 \newpage
@@ -541,19 +627,19 @@ The Dark Count Rate also shows the expected behaviour. At very low temperatures 
 \section{Comparison}
 A comparison of the performance of all devices is the significant step for choosing the Silicon Photomultiplier later to be used in CHEC-S. In order to do this, all measured characteristics are compared versus over-voltage. Operation of the CHEC-S camera in GCT will come down to a decision between two operational points. The first point will be marked by an Optical Cross Talk of under 15\%. Every other attribute of the Silicon Photomultiplier at this over-voltage is then compared. This point will trade off precision for efficiency, a lower Optical Cross Talk makes real event detection easier, on the other hand, a lower Photon Detection Efficiency may forfeit a lot of data.
 \\\\
-The second point of operation is marked at the highest achievable Photon Detection Efficiency. My conducted measurements do not involve this, therefore the point of highest Photon Detection Efficiency is marked by the results of other conducted measurements, that are comparable \ref{fig:Nagoya_PDE}. This point will assure the highest detection of event photons, but will trade that for an increase in detector noise, due to the higher Dark Count Rate and more importantly Optical Cross Talk.\\\\
-Comparing results to other groups, using different experimental setups and procedures and therefore also entirely different analysis techniques. Comparing against results from the University of Leicester, the University of Nagoya and the University of Catania, all of which are conducting fixed window readout of the SiPM after an expected light-pulse from a flasher-LED or a laser. 
+The second point of operation is marked at the highest achievable Photon Detection Efficiency. My conducted measurements do not involve this, other groups are comissioned to determine the point of highest Photon Detection Efficiency, in other conducted measurements, that are comparable \ref{fig:Nagoya_PDE}. This point will assure the highest detection of event photons, but will trade that for an increase in detector noise, due to the higher Dark Count Rate and more importantly Optical Cross Talk.\\\\
+Comparing results to other groups is shown in Figure (\ref{fig:DC_DCR}), using different experimental setups and procedures and therefore also entirely different analysis techniques. Comparing against results from the University of Leicester, the University of Nagoya and the University of Catania, all of which are conducting fixed window readout of the SiPM after an expected light-pulse from a flasher-LED or a laser. 
 
 \subsection{Dark Count Rate}
 \label{subsec:DC_DCR}
 
-Comparing the Dark Count Rate of the measured devices and results from the other groups is shown in Figure \ref{fig:DC_DCR}. The differences in analysis procedure will only have a slight impact on the presumed Dark Count Rate, since all experiments record dark-count events over their respective acquisition windows. And all groups experience the same multi-hit coincidence, meaning a light-event or dark-event coinciding with another, forming a (partial)multi p.e. event. 
+Comparing the Dark Count Rate of the measured devices and results from the other groups is shown in Figure \ref{fig:DC_DCR}. The differences in analysis procedure will only have a slight impact on the presumed Dark Count Rate, since all experiments record dark-count events over their respective acquisition windows. On the other hand, if the readout window is sufficiently small, events originating from afterpulsing or delayed crosstalk could be missed. All groups experience the same multi-hit coincidence, meaning a light-event or dark-event coinciding with another, forming a (partial)multi p.e. event. 
 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareDCR_vs_OV_Combined}}
-\caption{Dark Count Rate comparison of measured devices}
+\caption{Dark Count Rate comparison of measured devices at 25$^\circ$C. Description}
 \label{fig:DC_DCR}
 \end{centering}
 \end{figure}
@@ -561,26 +647,29 @@ Comparing the Dark Count Rate of the measured devices and results from the other
 \subsection{Optical Cross Talk}
 \label{subsec:DC_OCT}
 
-The comparison of the Optical Cross Talk between the different groups and the results presented in this paper are dependant of the analysis and acquisition procedure. Extenden trace analysis, utilized in this paper captures all aspects of the Optical Cross Talk, instantaneous and delayed as well as afterpulsing. The procedure of time window analysis, utilized by the groups being compared to, are, due to their limited window, either biased towards the instantaneous cross talk or in extreme cases, will not be able to capture delayed cross talk or afterpulsing at all.\\\\
-ads
+The comparison of the Optical Cross Talk between the different groups and the results presented in this paper are dependant of the analysis and acquisition procedure. Extended trace analysis, utilized in this paper captures all aspects of the Optical Cross Talk, instantaneous and delayed as well as afterpulsing. The procedure of time window analysis, utilized by the groups being compared to, are, due to their limited window, either biased towards the instantaneous cross talk or in extreme cases, will not be able to capture delayed cross talk or afterpulsing at all. Comparing data analysis, for example, at the University of Leicester illustrates the effect the different aproaches make. Definition Steves email
 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareOCT_vs_OV_Combined}}
-\caption{Cross Talk comparison of measured devices}
+\caption{Cross Talk comparison of measured devices at 25$^\circ$C. Description}
 \label{fig:DC_OCT}
 \end{centering}
 \end{figure}
 
 
 \subsection{Photon Detection Efficiency}
+
+Since the measurement technique in this paper utilizes only dark counts and aims at giving an understanding of the temperature dependencys of the different SiPMs proposed, no PDE measurements are possible. The point of operation with the highest PDE is determined by a different group in Japan, by the University of Nagoya. Figure (\ref{fig:Nagoya_PDE}) shows the results
+
+
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsCTver9}}
-\resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9}}
-\resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9}}
 \caption{Photon Detection Efficiency Comparison Plots from the University of Nagoya}
 \label{fig:Nagoya_PDE}
 \end{centering}
@@ -629,7 +718,7 @@ ads
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
 \caption{Gain of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
-\label{fig:S13360_Gain}
+\label{}
 \end{centering}
 \end{figure}
 
@@ -637,6 +726,24 @@ ads
 
 \newpage
 \section{Appendix}
+
+\subsection{BreakdownVoltage}
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined}}
+\resizebox{0.35\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp}}
+\caption{}
+\label{fig:Device_Vbr}
+\end{centering}
+\end{figure}
+
+
+
+\newpage
 \subsection{HPK S12642 Pixel Comparison versus bias-voltage} 
 \begin{figure}[h]
 \begin{centering}
@@ -648,7 +755,7 @@ ads
 \end{centering}
 \end{figure}
 
-
+\newpage
 \subsection{Pulse Area Spectra of different integration windows}
 \label{subsec:PAS_window}
 
@@ -676,7 +783,8 @@ ads
 \item John Murphy SensL J-Series Silicon Photomultipliers for High-Performance Timing in Nuclear Medicine 
 \item A. N. Otte et al. Characterization of three high efficient and blue sensitive Silicon photomultipliers
 \item \begin{verbatim}http://astro.desy.de/gamma_astronomie/cta/medien/ueber_cta/index_ger.html\end{verbatim}
-\item \begin{verbatim}http://www.ung.si/en/research/laboratory-for-astroparticle-physics/projects/cta/\end{verbatim}
+\item \label{ref10}\begin{verbatim}http://www.ung.si/en/research/laboratory-for-astroparticle-physics/projects/cta/\end{verbatim}
+\item \label{ref:ref11}Photosensor Characterization for the Cherenkov Telescope Array: Silicon Photomultiplier versus Multi-Anode Photomultiplier Tube ; arXiv:1308.1390v1 [astro-ph.IM] 6 Aug 2013
 \end{enumerate}
 
 
