@@ -1,60 +1,56 @@
-\contentsline {section}{\numberline {1}Introduction}{6}
-\contentsline {subsection}{\numberline {1.1}Project Goal}{7}
-\contentsline {subsection}{\numberline {1.2}Cherenkov Radiation}{7}
-\contentsline {section}{\numberline {2}Imaging Atmoshperic Cherenkov Telescopes}{7}
-\contentsline {subsection}{\numberline {2.1}Cherencov Telescope Array}{8}
-\contentsline {subsection}{\numberline {2.2}SST}{8}
-\contentsline {subsection}{\numberline {2.3}GCT}{9}
-\contentsline {section}{\numberline {3}Silicon Photomultipliers}{10}
-\contentsline {subsection}{\numberline {3.1}Gain of a Silicon Photomultiplier}{11}
-\contentsline {subsection}{\numberline {3.2}Thermally induced dark counts}{11}
-\contentsline {subsection}{\numberline {3.3}Avalanche-induced secondary effects}{12}
-\contentsline {subsection}{\numberline {3.4}OCT dependency on cellsize}{13}
-\contentsline {subsection}{\numberline {3.5}Photon Detection Efficiency}{13}
-\contentsline {section}{\numberline {4}CTA scientific requirements}{14}
-\contentsline {section}{\numberline {5}Experimental Setup}{15}
-\contentsline {subsection}{\numberline {5.1}Oscilloscope}{15}
-\contentsline {subsection}{\numberline {5.2}Power Supply}{15}
-\contentsline {subsection}{\numberline {5.3}Thermal Chamber}{15}
-\contentsline {subsection}{\numberline {5.4}Data Acquisition}{15}
-\contentsline {subsection}{\numberline {5.5}Shaping Electronics}{15}
-\contentsline {section}{\numberline {6}Data Analysis}{16}
-\contentsline {subsection}{\numberline {6.1}Tracefile Conversion}{16}
-\contentsline {subsection}{\numberline {6.2}Pedestal Subtraction}{16}
-\contentsline {subsection}{\numberline {6.3}Peak Detection}{16}
-\contentsline {subsection}{\numberline {6.4}Gain Extraction}{17}
-\contentsline {section}{\numberline {7}The next three sections might be better in the appendix}{19}
-\contentsline {subsection}{\numberline {7.1}The influence of the minimum peak distance}{19}
-\contentsline {subsection}{\numberline {7.2}The influence of the integration window}{19}
-\contentsline {subsection}{\numberline {7.3}The influence of the peak detection threshold??}{19}
-\contentsline {section}{\numberline {8}Results}{21}
-\contentsline {subsection}{\numberline {8.1}Hamamatsu S12642-1616PA-50 50$\mu $m 3mm}{21}
-\contentsline {subsubsection}{\numberline {8.1.1}Gain}{22}
-\contentsline {subsubsection}{\numberline {8.1.2}Dark Count Rate}{23}
-\contentsline {subsubsection}{\numberline {8.1.3}Optical Cross Talk}{24}
-\contentsline {subsection}{\numberline {8.2}Hamamatsu LCT5 50$\mu $m 6mm}{26}
-\contentsline {subsubsection}{\numberline {8.2.1}Gain}{27}
-\contentsline {subsubsection}{\numberline {8.2.2}Dark Count Rate}{27}
-\contentsline {subsubsection}{\numberline {8.2.3}Optical Cross Talk}{28}
-\contentsline {subsection}{\numberline {8.3}Hamamatsu LCT5 75$\mu $m 7mm}{29}
-\contentsline {subsubsection}{\numberline {8.3.1}Gain}{30}
-\contentsline {subsubsection}{\numberline {8.3.2}Dark Count Rate}{30}
-\contentsline {subsubsection}{\numberline {8.3.3}Optical Cross Talk}{31}
-\contentsline {subsection}{\numberline {8.4}Hamamatsu LVR 50$\mu $m 6mm}{32}
-\contentsline {subsubsection}{\numberline {8.4.1}Gain}{32}
-\contentsline {subsubsection}{\numberline {8.4.2}Dark Count Rate and Optical Cross Talk}{33}
-\contentsline {subsection}{\numberline {8.5}SensL FJ60035 6mm 35$\mu $m}{34}
-\contentsline {subsubsection}{\numberline {8.5.1}Gain}{34}
-\contentsline {subsubsection}{\numberline {8.5.2}Dark Count Rate and Optical Cross Talk}{35}
-\contentsline {section}{\numberline {9}Comparison}{36}
-\contentsline {subsection}{\numberline {9.1}Dark Count Rate}{36}
-\contentsline {subsection}{\numberline {9.2}Optical Cross Talk}{37}
-\contentsline {subsection}{\numberline {9.3}Photon Detection Efficiency}{38}
-\contentsline {section}{\numberline {10}Dark Count Rate recalibration with multi incident probability}{38}
-\contentsline {section}{\numberline {11}Prompt and delayed cross talk ratio}{38}
-\contentsline {section}{\numberline {12}Glossary}{39}
-\contentsline {section}{\numberline {13}Appendix}{40}
-\contentsline {subsection}{\numberline {13.1}BreakdownVoltage}{40}
-\contentsline {subsection}{\numberline {13.2}HPK S12642 Pixel Comparison versus bias-voltage}{41}
-\contentsline {subsection}{\numberline {13.3}Pulse Area Spectra of different integration windows}{42}
-\contentsline {section}{\numberline {14}References}{43}
+\contentsline {section}{\numberline {1}\fontsize {17.3}{21.9}\selectfont Introduction}{6}
+\contentsline {section}{\numberline {2}Silicon Photomultipliers}{8}
+\contentsline {subsection}{\numberline {2.1}Gain of a Silicon Photomultiplier}{9}
+\contentsline {subsection}{\numberline {2.2}Thermally induced dark counts}{11}
+\contentsline {subsection}{\numberline {2.3}Avalanche-induced secondary effects}{11}
+\contentsline {subsection}{\numberline {2.4}OCT dependency on cellsize}{12}
+\contentsline {subsection}{\numberline {2.5}Photon Detection Efficiency}{12}
+\contentsline {subsection}{\numberline {2.6}Project Goal}{14}
+\contentsline {subsection}{\numberline {2.7}Cherenkov Radiation}{14}
+\contentsline {section}{\numberline {3}Imaging Atmoshperic Cherenkov Telescopes}{15}
+\contentsline {subsection}{\numberline {3.1}Cherencov Telescope Array}{15}
+\contentsline {subsection}{\numberline {3.2}SST}{16}
+\contentsline {subsection}{\numberline {3.3}GCT}{17}
+\contentsline {subsection}{\numberline {3.4}SiPM requirements for CTA}{17}
+\contentsline {section}{\numberline {4}Experimental Setup}{18}
+\contentsline {section}{\numberline {5}Data Analysis}{19}
+\contentsline {subsection}{\numberline {5.1}Tracefile Conversion}{19}
+\contentsline {subsection}{\numberline {5.2}Pedestal Subtraction}{19}
+\contentsline {subsection}{\numberline {5.3}Peak Detection}{20}
+\contentsline {subsection}{\numberline {5.4}Gain Extraction}{21}
+\contentsline {subsection}{\numberline {5.5}Data Challenges}{24}
+\contentsline {subsubsection}{\numberline {5.5.1}The influence of the minimum peak distance}{24}
+\contentsline {subsubsection}{\numberline {5.5.2}The influence of the integration window}{24}
+\contentsline {subsubsection}{\numberline {5.5.3}The influence of the peak detection threshold??}{24}
+\contentsline {section}{\numberline {6}Results}{26}
+\contentsline {subsection}{\numberline {6.1}SiPM devices for CTA}{26}
+\contentsline {subsection}{\numberline {6.2}Hamamatsu S12642-1616PA-50 50$\mu $m 3mm}{27}
+\contentsline {subsubsection}{\numberline {6.2.1}Gain}{28}
+\contentsline {subsubsection}{\numberline {6.2.2}Dark Count Rate}{28}
+\contentsline {subsubsection}{\numberline {6.2.3}Optical Cross Talk}{29}
+\contentsline {subsection}{\numberline {6.3}Hamamatsu LCT5 50$\mu $m 6mm}{38}
+\contentsline {subsubsection}{\numberline {6.3.1}Gain}{39}
+\contentsline {subsubsection}{\numberline {6.3.2}Dark Count Rate}{39}
+\contentsline {subsubsection}{\numberline {6.3.3}Optical Cross Talk}{40}
+\contentsline {subsection}{\numberline {6.4}Hamamatsu LCT5 75$\mu $m 7mm}{42}
+\contentsline {subsubsection}{\numberline {6.4.1}Gain}{43}
+\contentsline {subsubsection}{\numberline {6.4.2}Dark Count Rate}{44}
+\contentsline {subsubsection}{\numberline {6.4.3}Optical Cross Talk}{45}
+\contentsline {subsection}{\numberline {6.5}Hamamatsu LVR 50$\mu $m 6mm}{46}
+\contentsline {subsubsection}{\numberline {6.5.1}Gain}{46}
+\contentsline {subsubsection}{\numberline {6.5.2}Dark Count Rate and Optical Cross Talk}{48}
+\contentsline {subsection}{\numberline {6.6}SensL FJ60035 6mm 35$\mu $m}{49}
+\contentsline {subsubsection}{\numberline {6.6.1}Gain}{49}
+\contentsline {subsubsection}{\numberline {6.6.2}Dark Count Rate and Optical Cross Talk}{50}
+\contentsline {section}{\numberline {7}Comparison}{51}
+\contentsline {subsection}{\numberline {7.1}Dark Count Rate}{51}
+\contentsline {subsection}{\numberline {7.2}Optical Cross Talk}{51}
+\contentsline {subsection}{\numberline {7.3}Photon Detection Efficiency}{54}
+\contentsline {section}{\numberline {8}Dark Count Rate recalibration with multi incident probability}{54}
+\contentsline {section}{\numberline {9}Prompt and delayed cross talk ratio}{54}
+\contentsline {section}{\numberline {10}Glossary}{55}
+\contentsline {section}{\numberline {11}Appendix}{56}
+\contentsline {subsection}{\numberline {11.1}BreakdownVoltage}{56}
+\contentsline {subsection}{\numberline {11.2}HPK S12642 Pixel Comparison versus bias-voltage}{57}
+\contentsline {subsection}{\numberline {11.3}Pulse Area Spectra of different integration windows}{58}
+\contentsline {section}{\numberline {12}References}{59}
