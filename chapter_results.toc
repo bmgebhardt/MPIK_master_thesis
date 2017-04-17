@@ -59,6 +59,7 @@
 \contentsline {section}{\numberline {A}CTA}{57}
 \contentsline {section}{\numberline {B}progenitor experiments of CTA}{57}
 \contentsline {section}{\numberline {C}Pulse Area Spectra of different integration window widths}{58}
-\contentsline {section}{\numberline {D}BreakdownVoltage}{59}
+\contentsline {section}{\numberline {D}BreakdownVoltage}{60}
 \contentsline {section}{\numberline {E}Pulse Area and Height Spectra}{62}
 \contentsline {section}{\numberline {F}CHEC-S pixel comparison}{63}
+\contentsline {section}{\numberline {G}Additional Data Analysis Plots}{65}

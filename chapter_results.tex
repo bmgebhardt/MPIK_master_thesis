@@ -406,9 +406,9 @@ The oscilloscope produces the waveform data in its intrinsic data format, called
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered1Zoom}.pdf}
 \caption{\label{fig:PedSub}Pedestal subtraction++}
 \end{wrapfigure}
-A single waveform from the oscilloscope is anticipated to be uncentered, it will be slightly above or below zero, depending on the device setup (some devices produce inverted signals). The signal is mixed with electronic noise when it is observed and forms a pedestal, shifting the mean of the waveform from its original position to zero. Pedestal subtraction removes this average noise.\\
-The first step of the process is reading in the uncentered waveform and calculating an initial mean(mean0), expected to be slightly higher than the actual mean of the noise, due to the presence of event-pulses. The waveform is then shifted to about zero, by subtracting the mean0. A second mean of the now nearly centered waveform is taken (mean1). Now a new, same-sized array is formed and filled with the data from the waveform that is smaller than mean1, this represents the negative noise. The data larger than mean1, the positive noise, is also filled into the array, but is negative-signed. This creates an array of the waveform centered around zero and, above the mean1, folded towards the negative. It proved reliably, that calculating the root-mean-square of this helper-array is a solid possibility of stripping the waveform of event-peaks. Taking the root-mean-square with a factor 3 of the helper-array, a cut is now applied to the waveformon on both, the positive and negative side. In that fashion, the remnant is the waveform between the positive and the negative root-mean-square and is now called a peakless-signal, representing the noise of the waveform.\\
-Pedestal subtraction is done by calculating the mean of this peakless signal and subtracting it from the waveform. After that, the peakless signal is also smoothed by convolving it with a wide-windowed gaussian and subtracted from the waveform to eliminate any slow moving noise.
+A single waveform from the oscilloscope is anticipated to be uncentered fig(\ref{fig:PedSub})(grey), it will be slightly above or below zero, depending on the device setup (some devices produce inverted signals). The signal is mixed with electronic noise when it is observed and forms a pedestal, shifting the mean of the waveform from its original position to zero. Pedestal subtraction removes this average noise.\\
+The first step of the process is reading in the uncentered waveform fig(\ref{fig:PedSub})(grey) and calculating an initial mean(mean0), expected to be slightly higher than the actual mean of the noise, due to the presence of event-pulses. The waveform is then shifted to about zero, by subtracting the mean0. A second mean of the now nearly centered waveform is taken (mean1). Now a new, same-sized array is formed and filled with the data from the waveform that is smaller than mean1, this represents the negative part of the noise. The data larger than mean1, the positive noise, is also filled into the array, but is negative-signed. This creates an array of the waveform centered around zero and, above the mean1, folded towards the negative. It proved reliably, that calculating the root-mean-square of this helper-array is a solid possibility of stripping the waveform of event-peaks. Taking the root-mean-square with a factor 3 of the helper-array, a cut is now applied to the waveformon on both, the positive and negative side. In that fashion, the remnant is the waveform between the positive and the negative root-mean-square and is now called a peakless-signal, representing the noise of the waveform.\\
+Pedestal subtraction is done by calculating the mean of this peakless signal and subtracting it from the waveform. After that, the peakless signal is also smoothed by convolving it with a wide-windowed gaussian and subtracted from the waveform to eliminate any slow moving noise, the resulting waveform is called "Filtered Signal 1" fig(\ref{fig:PedSub})(blue).
 
 
 \clearpage
@@ -418,7 +418,7 @@ Pedestal subtraction is done by calculating the mean of this peakless signal and
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered2Zoom}.pdf}
 \caption{\label{fig:PeakDet}Peak Detection}
 \end{wrapfigure}
-Peak detection exploits the fact, that the first derivative of an event-peak will cross zero into the negative at the peak maximum. The presence of random noise in the signal however will lead to many false detections. Therefore, before the detection of the event-peaks, the waveform is smoothed with a narrow-window gaussian with a width of about the FWHM of the devices characteristic event-pulse, in order to attenuate non-event peaks. After the first derivative of the signal is calculated, which in python is a fast process if using arrays, a number of parameters decide the validity of the detected peaks. Most important parameters are a certain predetermined minimum amplitude, called the amplitude threshold or: minimum peak height. This is right now determined by eye, but could later be calculated based on the noise level. The second important parameter defining validity is the minimum peak distance, which defines how close two events can occur after another. The value is determined by the FWHM of the device in testing, which I expect to be sensible enough to resolve two events happening close after another. The peak detection algorithm can not distinguish between instantanious and delayed Oprical Cross Talk, but nonetheless, due to the fact, that the signal data is taken over many micro-seconds, all events are detected, independent of their source. On the other hand, this also means, that it is possible for two events to happen at the same time, for example a real photoelectron-event coinciding with delayed Optical Cross Talk. This can not be destinguished and will lead to a slight shift of the amplitude. (because delOCT is partial 1p.e.)   
+Peak detection exploits the fact, that the first derivative of an event-peak will cross zero into the negative at the time of the peak maximum. The presence of random noise in the signal however will lead to many false detections. Therefore, before the detection of the event-peaks, the waveform fig(\ref{fig:PeakDet})(grey) is smoothed with a narrow-window gaussian with a width of about the FWHM of the devices characteristic event-pulse, in order to attenuate non-event peaks fig(\ref{fig:PeakDet})(blue). After the first derivative of the signal is calculated, which in python is a fast process if using arrays, a number of parameters decide the validity of the detected peaks. Most important parameters are a certain predetermined minimum amplitude, called the amplitude threshold or: minimum peak height. This is right now determined by eye, but could later be calculated based on the noise level. The second important parameter defining validity is the minimum peak distance, which defines how close two events can occur after another. The value is determined by the FWHM of the device in testing, which I expect to be sensible enough to resolve two events happening close after another. The peak detection algorithm can not distinguish between instantanious and delayed Oprical Cross Talk, but nonetheless, due to the fact, that the signal data is taken over many micro-seconds, all events are detected, independent of their source. On the other hand, this also means, that it is possible for two events to happen at the same time, for example a real photoelectron-event coinciding with delayed Optical Cross Talk. This can not be destinguished and will lead to a slight shift of the amplitude. (because delOCT is partial 1p.e.)   
 
 \clearpage
 \subsection{Gain Extraction}
@@ -485,7 +485,6 @@ Choosing an adequate peak-finding threshold is a crucial step. Lowering of the t
 \label{fig:PF_Thresh_plot}
 \end{centering}
 \end{figure}
-
 
 
 
@@ -1041,8 +1040,8 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \begin{figure}[h]
 \centering
 %L, B, R, T
-\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 2cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_55.png}}
-\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 3cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_520.png}}
+\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_55.png}}
+\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_520.png}}
 \label{app:PAS_window}
 \phantomcaption
 \end{figure}
@@ -1050,7 +1049,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \begin{figure}[h]
 \ContinuedFloat
 \begin{centering}
-\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 3cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_1010.png}}
+\resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_1010.png}}
 \caption{Pulse Area Spectra with window widths of 5 left 5 right (top), 5 left 20 right (middle), 10 left 10 right (bottom) bins respectively. Left of the 1p.e. peak of the top picture a part of the 0p.e. peak is visible. The middle figure shows the distortion an asymmetrical integration window causes. The bottom figure is the employed integration window to derive the pulse area histogram.}
 \label{app:PAS_window}
 \end{centering}
@@ -1060,7 +1059,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 
 
 
-\newpage
+\clearpage
 \section{BreakdownVoltage}
 \begin{figure}[h]
 \begin{centering}
@@ -1121,7 +1120,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \end{centering}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \begin{centering}
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
@@ -1132,6 +1131,46 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \end{figure}
 
 
+\newpage
+\clearpage
+\section{Additional Data Analysis Plots}
+
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcRawDataZoom}.pdf}}
+\caption{Description}
+\label{fig:}
+\end{centering}
+\end{figure}
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcPeakDetectLevelZoom}.pdf}}
+\caption{Description}
+\label{fig:}
+\end{centering}
+\end{figure}
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcPulsePosCompZoom}.pdf}}
+\caption{Description}
+\label{fig:}
+\end{centering}
+\end{figure}
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcIntegrationWindowZoom}.pdf}}
+\caption{Description}
+\label{fig:}
+\end{centering}
+\end{figure}
 
 \clearpage
 \newpage
