@@ -16,6 +16,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Air shower induced Cherenkov Radiation}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  The cone of Cherenkov light emitted by an extensive air shower. Picture from \cite  {AsperaCTA}\relax }}{7}}
 \newlabel{fig:Cherenkov}{{3}{7}}
+\citation{HAWC}
 \@writefile{toc}{\contentsline {section}{\numberline {2}\fontsize  {17.3}{21.9}\selectfont  Imaging Atmospheric Cherenkov Telescopes}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Cherencov Telescope Array}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}GCT}{10}}
@@ -39,9 +40,10 @@
 \newlabel{fig:SiPM_scheme}{{7}{14}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Gain of a Silicon Photomultiplier}{15}}
 \newlabel{subsec:SiPMGain}{{3.1}{15}}
-\newlabel{eq:Gain_conversion_formula}{{\caption@xref {eq:Gain_conversion_formula}{ on input line 283}}{15}}
+\newlabel{eq:1}{{1}{15}}
+\newlabel{fig:Gain_conversion_formula}{{\caption@xref {fig:Gain_conversion_formula}{ on input line 281}}{15}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The gain (M) of a Silicon Photomultiplier results form the deposited charge (Q) of the pulse generated from one cell when it detects one photon, devided by the charge per electron (e). The charge deposited per event is proportional to the cells capacitance (C) and the supplied over-voltage $(V_{bias}-V_{breakdown})$. This results in the gain (M) in units of total number of charge carriers, usually in the several $10^6$ range.\relax }}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell, a conversion factor and the average amplitude per photoelectron can be extracted.\relax }}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell and the resistance of the quenching resistor, a conversion factor and the average amplitude per photoelectron can be extracted.\relax }}{15}}
 \citation{SiPMvsMAPMT}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Thermally induced dark counts}{16}}
 \citation{ModelCTAP}
@@ -54,7 +56,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Results of the Optical Cross Talk of 2 sets of 2 similar HPK S13360 devices, that only differ in their respective cell-size. HPK S13360 is the first device incorporating physical trenches in the upper layer, optically isolating each cell. Consequence to this is a drastic reduction in prompt cross-talk. Delayed cross-talk and afterpulsing are basically unafected. Upscaling the 25$\mu $m results shows an overlap between the 2, see text.\relax }}{19}}
 \newlabel{fig:cell-size}{{11}{19}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Photon Detection Efficiency}{19}}
-\newlabel{PDE_eq}{{\caption@xref {PDE_eq}{ on input line 348}}{20}}
+\newlabel{PDE_eq}{{\caption@xref {PDE_eq}{ on input line 346}}{20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Photon Detection Efficiency is the percentage of detected photons versus overall emitted photons. \relax }}{20}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}\fontsize  {17.3}{21.9}\selectfont  Experimental Setup}{21}}
 \newlabel{sec:exp_setup}{{4}{21}}
@@ -76,9 +78,9 @@
 \newlabel{fig:PAFit}{{17}{26}}
 \@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 1p.e. position and $\Delta $p.e. extracted from the Pulse Area histogram at every bias-voltage for HPK S12642 with their respective regression lines.\relax }}{26}}
 \newlabel{fig:Gain_P}{{18}{26}}
-\newlabel{DCR_eq}{{\caption@xref {DCR_eq}{ on input line 446}}{27}}
+\newlabel{DCR_eq}{{\caption@xref {DCR_eq}{ on input line 444}}{27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces The Dark Count Rate of a Silicon Photomultiplier is defined as all events exceding 0.5 p.e. in apmlitude $N_{events(>0.5p.e.)}$ occuring over the experiment time $T_{experiment}$. Included in the measurement are thermally generated dark counts, as well as delayed cross-talk and afterpulsing with only a minor contribution.\relax }}{27}}
-\newlabel{OCT_eq}{{\caption@xref {OCT_eq}{ on input line 454}}{27}}
+\newlabel{OCT_eq}{{\caption@xref {OCT_eq}{ on input line 452}}{27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(>1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in apmlitude$[N_{events(>0.5p.e.)]}$. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell\relax }}{27}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Data Challenges}{28}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}The influence of the minimum peak distance}{28}}
@@ -190,19 +192,20 @@
 \bibcite{SST}{4}
 \bibcite{ASTRONET}{5}
 \bibcite{HEUnivCTA}{6}
-\bibcite{JMSensL}{7}
-\bibcite{ANOtteSiPM}{8}
-\bibcite{SiPMvsMAPMT}{9}
-\bibcite{ModelCTAP}{10}
-\bibcite{Det_Astro}{11}
-\bibcite{HPK_SiPM}{12}
-\bibcite{M_Stephan}{13}
-\bibcite{RWTHMaster1}{14}
-\bibcite{uebercta}{15}
-\bibcite{ungCTA}{16}
+\bibcite{HAWC}{7}
+\bibcite{JMSensL}{8}
+\bibcite{ANOtteSiPM}{9}
+\bibcite{SiPMvsMAPMT}{10}
+\bibcite{ModelCTAP}{11}
+\bibcite{Det_Astro}{12}
+\bibcite{HPK_SiPM}{13}
+\bibcite{M_Stephan}{14}
+\bibcite{RWTHMaster1}{15}
+\bibcite{uebercta}{16}
 \@writefile{toc}{\contentsline {section}{\numberline {11}\fontsize  {17.3}{21.9}\selectfont  Bibliography}{57}}
-\bibcite{FermiLAT}{17}
-\bibcite{AsperaCTA}{18}
+\bibcite{ungCTA}{17}
+\bibcite{FermiLAT}{18}
+\bibcite{AsperaCTA}{19}
 \@writefile{toc}{\contentsline {section}{\numberline {12}\fontsize  {17.3}{21.9}\selectfont  Appendix}{59}}
 \@writefile{toc}{\setcounter {tocdepth}{0}}
 \@writefile{toc}{\contentsline {section}{\numberline {A}CTA}{59}}
@@ -213,7 +216,7 @@
 \newlabel{app:IACTProjects}{{51}{59}}
 \@writefile{toc}{\contentsline {section}{\numberline {C}Pulse Area Spectra of different integration window widths}{60}}
 \newlabel{subsec:PAS_window}{{C}{60}}
-\newlabel{app:PAS_window}{{\caption@xref {app:PAS_window}{ on input line 1080}}{60}}
+\newlabel{app:PAS_window}{{\caption@xref {app:PAS_window}{ on input line 1081}}{60}}
 \@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Pulse Area Spectra with window widths of 5 left 5 right (top), 5 left 20 right (middle), 10 left 10 right (bottom) bins respectively. Left of the 1p.e. peak of the top picture a part of the 0p.e. peak is visible. The middle figure shows the distortion an asymmetrical integration window causes. The bottom figure is the employed integration window to derive the pulse area histogram.\relax }}{61}}
 \newlabel{app:PAS_window}{{52}{61}}
 \@writefile{toc}{\contentsline {section}{\numberline {D}BreakdownVoltage}{62}}

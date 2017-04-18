@@ -74,7 +74,7 @@ worum es geht
 %\newpage
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 \section{\Large Cosmic Radiation}
-
+%
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -82,11 +82,9 @@ worum es geht
 \caption{Gamma Radiation photons(yellow) and scattered cosmic ray protons(blue) from an astrophysical source arriving on earth. Neutrinos(grey) mostly do not interact. Picture from \cite{ungCTA}}
 \label{fig:GammaRad}
 \end{centering}
-\end{figure}
-
-
-
-Cosmic rays consist of a single particle with energies from 10$^{10}$ to 10$^{20}$eV, the most energetic laboratory based accelerators operate in the 10$^{12}$eV energy range. The term cosmic rays describes charged particles hitting the earth's atmosphere. They where discovered by V.F. Hess in 1912 during the famous baloon flight experiments. He aimed to measure the conductivity of air, that until then, was believed to be an insulator resulting in some problems regarding the discharge of an electrically charged body, no matter how well it was isolated from the ground. Hess found the airs conductivity to increase with higher altitude, concluding the presence of a large amount of ionizing radiation above the atmosphere.\\
+\end{figure}%
+\noindent
+Cosmic rays consist of a single particle with energies from 10$^{10}$ to 10$^{20}$eV and describes charged particles hitting the Earth's atmosphere. They where discovered by V.F. Hess in 1912 during the famous baloon flight experiments. He aimed to measure the conductivity of air, that until then, was believed to be an insulator resulting in some problems regarding the discharge of an electrically charged body, no matter how well it was isolated from the ground. Hess found the airs conductivity to increase with higher altitude, concluding the presence of a large amount of ionizing radiation above the atmosphere. The most energetic laboratory based accelerators operate in the 10$^{12}$eV energy range.\\
 Cosmic rays do not include those low energy particles originating from our sun. With a particle energy up to 1keV, those are referred to as solar wind, which means, by definition, cosmic rays arrive on Earth from outside our solar system. They consist of 87$\%$ protons, 12$\%$ $\alpha$-particles , 1$\%$ heavier nuclei and some electrons. High energy comsic rays hitting Earth are very rare, averaging to one per year in an area of one square kilometer. Except at those very high energies (>10$^{18}$eV) cosmic rays will not reach earth directly and can not be observed to pinpoint their source. Traveling through the interstellar medium , they get scattered by the interstellar magnetic fields, the cosmic microwave background and other hindrances and therefore have lost all directional information. However, directly observable cosmic rays, for example at the Pierre-Auger Observatory, provide an insight into cosmic particle accelerators.\cite{CTADesign}\\
 This means we have to observe high energy cosmic rays using a detour: Gamma radiation. \\
 
@@ -163,7 +161,7 @@ notes:
 
 Before, gamma ray astronomy was mainly done using satelite based instruments. The technique, pioneered by the Wipple Collaboration (US), behind the ground based experiments called Imaging Atmospheric Cherenkov Telescopes (IACTs) aims at measuring the time, direction and energy of flashes of Cherenkov light from extensive air showers caused by very-high-energy (VHE) gamma radiation. Those ground based instruments have a much larger effective detection area than any satelite based instrument, which have a typical detection size of 1m$^2$. The range of the Cherenkov flash being between 300-600nm, current generation Silicon Photomultipliers (SiPMs) are a promising candidate to replace the progenitor photon detector used in previous experiments like HESS, the Photomultiplier Tube (PMT).\\
 Current ground based IACTs consisted of mostly 4 telescopes,  HESS, MAGIC, Veritas among them. (appendix{\ref{app:IACTProjects}})\\
-All of those arrays consist of at most 5 telescopes spread over a wide area. So most cascades are viewed by only 2 or 3 of the telescopes. Additionaly, due to the low flux of VHE gamma radiation, detectors for this energy range are spread over a large area, making space based instruments, which detect the incident gamma ray, an inconvenient choice. Another detection concept for VHE gamma radiation are ground based air shower particle detectors such as the High-Altitude-Water-Cherenkov observatory (HAWC) [\ref{ref:hawc}]. They employ a similar detection principle, recording shower particles reaching arrays of ground based particle detectors filled with water as detection medium, in contrast to air in IACTs. Those have the advantage of a larger duty cycle than IACTs, as they are able to operate during the day. Their limited sensitivity even with high observation time however will not allow them to compete with the sensitivity and resolution of IACTs such as in the CTA. They will however be able to provide useful complementary information. 
+All of those arrays consist of at most 5 telescopes spread over a wide area. So most cascades are viewed by only 2 or 3 of the telescopes. Additionaly, due to the low flux of VHE gamma radiation, detectors for this energy range are spread over a large area, making space based instruments, which detect the incident gamma ray, an inconvenient choice. Another detection concept for VHE gamma radiation are ground based air shower particle detectors such as the High-Altitude-Water-Cherenkov observatory (HAWC) \cite{HAWC}. It employs a similar detection principle, recording shower particles reaching arrays of ground based particle detectors filled with water as detection medium, in contrast to air in IACTs. Those have the advantage of a larger duty cycle than IACTs, as they are able to operate during the day. Their limited sensitivity even with high observation time however will not allow them to compete with the sensitivity and resolution of IACTs such as in the CTA. The array will however be able to provide useful complementary information. 
 
 \subsection{Cherencov Telescope Array}
 
@@ -274,13 +272,13 @@ The currently most challenging astrophysics experiment Silicon Photomultipliers 
 \label{subsec:SiPMGain}
 The gain of a Silicon Photomultiplier measures the internal conversion of a photon incident into a signal at the output. The amplification of the device is expressed as the average number of charge carriers produced. There is no distinction weather the incident was caused by a single original photon or a thermal electron.
 \begin{figure}[h]
-\begin{equation}
+\begin{equation}\label{eq:1}
 \begin{split}
 M = & \frac{Q}{e} \\
 Q = &  C * (V_{bias}-V_{breakdown})
 \end{split}
 \end{equation}
-\label{eq:Gain_conversion_formula}
+\label{fig:Gain_conversion_formula}
 \caption{The gain (M) of a Silicon Photomultiplier results form the deposited charge (Q) of the pulse generated from one cell when it detects one photon, devided by the charge per electron (e). The charge deposited per event is proportional to the cells capacitance (C) and the supplied over-voltage $(V_{bias}-V_{breakdown})$. This results in the gain (M) in units of total number of charge carriers, usually in the several $10^6$ range.}
 \end{figure}\\
 Estimation can be done via the voltage mean of the 1 p.e. amplitude: (e.g. see Figure (\ref{fig:S12642_PS})). For a better understanding, stating the gain in units of mV per photoelectron or $\frac{mV}{p.e.}$ is more suitable, as it gives a direct correlation between detected photoelectron and expected voltage amplitude. Given the very narrow pulse shapes, using the average pulse amplitude and extracting FWHM as a time measure of the total charge flowing during discharge and using the formula:
@@ -291,11 +289,11 @@ Q(p.e.) = & C * (V_{bias}-V_{breakdown})\\
 U(p.e.) = & \frac{Q(p.e.)}{t(FWHM)} * 50ohm
 \end{split}
 \end{equation}
-\caption{Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell, a conversion factor and the average amplitude per photoelectron can be extracted.}
+\caption{Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell and the resistance of the quenching resistor, a conversion factor and the average amplitude per photoelectron can be extracted.}
 \end{figure}\\
-The gain is obviously higher the larger the cell capacitance or the higher the bias-voltage (eq \ref{eq:Gain_conversion_formula}) will be. But increasing the bias-voltage also increases dark counts and crosstalk. 
-The gain is also dependent on the temperature, mainly through the quenching resistor but also from the silicon bulk itself, at a certain bias-voltage decreasing as temperature rises. The quenching resistor is affected by a lowering of the electrical conductivity with rising temperature, in accordance to the Wiedemann–Franz law, stating that the ratio of electrical and thermal conductivity remains constant. The silicon bulk at rising temperatures underlies increased crystal lattice movement. This impinges charge transport by increasing the probability that carriers might impact on the lattice before the carrier energy has become large enough for continued ionization. In order to counteract this, the electric field must be increased by increasing the supplied bias-voltage so ionization is more likely. Doing this has drawbacks as discussed before. For application as a photon detector, keeping the gain constant is an inevitable step, otherwise the shifting gain leads to problems. To do that, either the bias-voltage need to be asjusted to match ambient temperature, leading to problems with varying dark counts and crosstalk. Or the surface temperature must be regulated to be kept constant. Although more challenging hardware would be required, the latter option has obvious advantages, keeping dark counts and crosstalk and more important the gain constant by simply regulating the surface temperature.\\
-Taking into account equation \ref{eq:Gain_conversion_formula}, it appears that the breakdown-voltage can be estimated from the zero-crossing of a linear extrapolation of the gain at every bias-voltage per temperature. By doing this a linear breakdown-voltage dependence of the temperature can be observed. Appendix Figure(\ref{app:Device_Vbr})\\
+The gain is obviously higher the larger the cell capacitance or the higher the bias-voltage (eq \ref{eq:1}) will be. But increasing the bias-voltage also increases dark counts and crosstalk. 
+The gain is also dependent on the temperature, mainly through the quenching resistor but also from the silicon bulk itself, at a certain bias-voltage decreasing as temperature rises. The quenching resistor is affected by a lowering of the electrical conductivity with rising temperature, in accordance to the Wiedemann-Franz law, stating that the ratio of electrical and thermal conductivity remains constant. The silicon bulk at rising temperatures underlies increased crystal lattice movement. This impinges charge transport by increasing the probability that carriers might impact on the lattice before the carrier energy has become large enough for continued ionization. In order to counteract this, the electric field must be increased by increasing the supplied bias-voltage so ionization is more likely. Doing this has drawbacks as discussed before. For application as a photon detector, keeping the gain constant is an inevitable step, otherwise the shifting gain leads to problems. To do that, either the bias-voltage need to be asjusted to match ambient temperature, leading to problems with varying dark counts and crosstalk. Or the surface temperature must be regulated to be kept constant. Although more challenging hardware would be required, the latter option has obvious advantages, keeping dark counts and crosstalk and more important the gain constant by simply regulating the surface temperature.\\
+Taking into account equation \ref{eq:1}, it appears that the breakdown-voltage can be estimated from the zero-crossing of a linear extrapolation of the gain at every bias-voltage per temperature. By doing this a linear breakdown-voltage dependence of the temperature can be observed. Appendix Figure(\ref{app:Device_Vbr})\\
 I note that the gain, when parametrized over over-voltage, is essentially temperature independent, as I will show later in chapter {\ref{sec:results_ch}}: Figures (\ref{fig:S13360_Gain}) , (\ref{fig:LCT57_Gain}) , (\ref{fig:LVR6_Gain}) , (\ref{fig:SensL_Gain})\\
 
 
@@ -914,11 +912,12 @@ This is indeed the case for the S12642 tile in Figure \ref{fig:DC_OCT} (green). 
 Results of the LCT5 7mm device from both groups mostly overlap, the slight shift between them is most likely caused by a small error in the breakdown-voltage calculation, due to no cooling of the tile in experiments involing light. In addition, the slope of both results seems be mostly equal, and the extended range measurement, overlapping with the low-range results confirms that.\\
 Even though results from 3 different groups mostly correlate, or are have at least partially understood differences, the Optical Cross Talk of LVR 6mm Figure \ref{fig:DC_OCT} (blue) compared to the results form the University of Nagoya do not show any correlation at all. This is concerning, because comparing S13360 (purple) to the same group showed strong correlation over a wide over-voltage range. Since there is also no datasheet present yet, this device is a prototype, I can only assume, that the device I examined is physically different than the device present at Nagoya. It may just be a difference in coating, which combined with the TSV technology could lead to the present uncorrelation. (quote confidential HPK talk)
 
-
+Missing SensL
 
 \subsection{Photon Detection Efficiency}
 
-Since the measurement technique in this paper utilizes only dark counts and aims at giving an understanding of the Optical Cross Talk and temperature dependencys of the different SiPMs proposed, no PDE measurements are possible. The point of operation with the highest PDE is determined by a different group in Japan, at the University of Nagoya. Figure (\ref{fig:Nagoya_PDE}) shows the current results of their endavors. The usual procedure of comparing SiPMs is done on a plot of PDE vs OCT. This gives the most insight of the capabilities of the different devices compared to the two proposed operating points {chapter(\ref{sec:comparison}). Taking the PDE ascertained by the group at Nagoya and comparing it to the resulting Optical Cross Talk from this paper produces Figure(not yet done). 
+Since the measurement technique in this paper utilizes only dark counts and aims at giving an understanding of the Optical Cross Talk and temperature dependencys of the different SiPMs proposed, no PDE measurements are possible. The point of operation with the highest PDE is determined by a different group in Japan, at the University of Nagoya. Figure (\ref{fig:Nagoya_PDE}) shows the current results of their endavors. The usual procedure of comparing SiPMs is done on a plot of PDE vs OCT. This gives the most insight of the capabilities of the different devices compared to the two proposed operating points {chapter(\ref{sec:comparison}). Taking the PDE ascertained by the group at Nagoya and comparing it to the resulting Optical Cross Talk from this paper produces \\
+Figure(not yet done). 
 
 
 \begin{figure}[h]
@@ -1005,6 +1004,8 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \bibitem{ASTRONET} \textit{The ASTRONET Infrastructure Roadmap} ISBN: 978-3-923524-63-1
 
 \bibitem{HEUnivCTA} Jim Hinton et. al \textit{Seeing the High-Energy Universe with the Cherenkov Telescope Array} Astroparticle Physics 43 (2013) 1-356 
+
+\bibitem{HAWC} R. L\'opez-Coto for the HAWC collaboration \textit{Very high energy gamma-ray astronomy with HAWC} arXiv:1612.09078v1 [astro-ph.IM] 29 Dec 2016
 
 \bibitem{JMSensL} John Murphy \textit{SensL J-Series Silicon Photomultipliers for High-Performance Timing in Nuclear Medicine}
 
