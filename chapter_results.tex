@@ -86,7 +86,7 @@ worum es geht
 \end{centering}
 \end{figure}%
 \noindent
-Cosmic rays consist of a single particle with energies from 10$^{10}$ to 10$^{20}$~eV and describes charged particles hitting the Earth's atmosphere. They where discovered by V.F. Hess in 1912 during the famous baloon flight experiments. He aimed to measure the conductivity of air, that until then, was believed to be an insulator resulting in some problems regarding the discharge of an electrically charged body, no matter how well it was isolated from the ground. Hess found the airs conductivity to increase with higher altitude, concluding the presence of a large amount of ionizing radiation above the atmosphere. The most energetic laboratory based accelerators operate in the 10$^{12}$~eV energy range.\\
+Cosmic rays consist of a single particle with energies from 10$^{10}$ to 10$^{20}$~eV and describes extra-solar charged particles arriving on Earth and hitting the atmosphere fig(\ref{GammaRad}). They where discovered by V.F. Hess in 1912 during the famous baloon flight experiments. He aimed to measure the conductivity of air, that until then, was believed to be an insulator resulting in some problems regarding the discharge of an electrically charged body, no matter how well it was isolated from the ground. Hess found the airs conductivity to increase with higher altitude, concluding the presence of a large amount of ionizing radiation above the atmosphere. The most energetic laboratory based accelerators operate in the 10$^{12}$~eV energy range.\\
 Cosmic rays do not include those low energy particles originating from our sun. With a particle energy up to 1keV, those are referred to as solar wind, which means, by definition, cosmic rays arrive on Earth from outside our solar system. They consist of 87$\%$ protons, 12$\%$ $\alpha$-particles , 1$\%$ heavier nuclei and some electrons. High energy comsic rays hitting Earth are very rare, averaging to one per year in an area of one square kilometer. Except at those very high energies (>10$^{18}$eV) cosmic rays will not reach earth directly and can not be observed to pinpoint their source. Traveling through the interstellar medium , they get scattered by the interstellar magnetic fields, the cosmic microwave background and other hindrances and therefore have lost all directional information. However, directly observable cosmic rays, for example at the Pierre-Auger Observatory, provide an insight into cosmic particle accelerators.\cite{CTADesign}\\
 Cosmic rays of the higher energies are therefore observed via a detour: Gamma radiation. \\
 
@@ -127,24 +127,22 @@ The only problem is, our atmosphere is opaque for gamma radiation, gamma ray ast
 \end{wrapfigure}
 
 %shower physics
-Because our atmosphere is opaque for gamma radiation, gamma ray astronomy was mainly done by satellite based instruments like FermiLAT.
-That said, we can still see their effects on earth through gamma-ray induced particle cascades. When a primary particle, i.e. a gamma photon or cosmic ray enters the atmosphere and collides with a nucleus of the air, it gets scattered and creates secondary electrons, positrons and photons. Those secondary particles also interact with the atmosphere creating a cascade of particles called a particle shower. 
+The effect of gamma radiation at ground level on earth is visible through gamma-ray induced particle cascades. When a primary particle, i.e. a gamma photon or cosmic ray enters the atmosphere and collides with a nucleus of the air, it gets scattered and creates secondary electrons, positrons and photons. Those secondary particles also interact with the atmosphere creating a cascade of particles called a particle shower. 
 
 
 
 
 In this air shower, the initial and each subsequent particle traveling through our atmosphere emitts Cherenkov light. Cherenkov radiation is a phenomenon caused by charged particles traveling faster than the local speed of light would allow in that medium. This light is emitted in a narrow cone with an increasing angle as the particles travel downward. This Cherenkov light shows as a very short ($\sim$5ns) flash with a peak in the UV-spectrum at around 330nm.
-Thus, we can image the particle cascade measured with the telescope and can reconstruct their path through a stereoscopic image of the shower taken by multiple telescopes(appendix {\ref{app:CTAPATH}}), reconstructing the position of the source in the sky.\\
+Thus, we can image the particle cascade measured with the telescope and can reconstruct their path through a stereoscopic image of the shower taken by multiple telescopes (see section {\ref{appsec:CTA}}), reconstructing the position of the source in the sky.\\
 
-Is is also possible to reconstruct the energy of the original photon from the amount of light produced. This is possible because energy is conserved, so all energy of the original photon is now distributed between the particles of the shower.\\
+Is is also possible to reconstruct the energy of the original photon from the amount of light produced, because energy is conserved, so all energy of the original photon is now distributed between the particles of the shower.\\
 
-To determine whether it is a hadronic shower originating from cosmic rays or a gamma shower, originating from gamma ray photons, we look at many different shower characteristics like diffusion , compactness, and the ratio of width and length.
+To determine whether it is a hadronic shower, originating from cosmic rays, or a gamma shower, originating from gamma ray photons, the shape of the shower and so called Hillas parameters are used to determine the difference.
 \\\\
 notes:
- Cosmic Ray origin ? , energy spectrum? knee, ankle, power law?
- missing? necessary? Shower schematic overview and propagation
-
-
+IACTs
+HAWC
+FermiLAT
 
 
 
@@ -161,8 +159,8 @@ notes:
 %------------------------------Telescopes
 
 
-Before, gamma ray astronomy was mainly done using satelite based instruments. The technique, pioneered by the Wipple Collaboration (US), behind the ground based experiments called Imaging Atmospheric Cherenkov Telescopes (IACTs) aims at measuring the time, direction and energy of flashes of Cherenkov light from extensive air showers caused by very-high-energy (VHE) gamma radiation. Those ground based instruments have a much larger effective detection area than any satelite based instrument, which have a typical detection size of 1m$^2$. The range of the Cherenkov flash being between 300-600nm, current generation Silicon Photomultipliers (SiPMs) are a promising candidate to replace the progenitor photon detector used in previous experiments like HESS, the Photomultiplier Tube (PMT).\\
-Current ground based IACTs consisted of mostly 4 telescopes,  HESS, MAGIC, Veritas among them. (appendix{\ref{app:IACTProjects}})\\
+The technique, pioneered by the Wipple Collaboration, behind the ground based experiments called Imaging Atmospheric Cherenkov Telescope (IACTs) aims at measuring the time, direction and energy of flashes of Cherenkov light from extensive air showers caused by VHE gamma radiation. Those ground based instruments have a much larger effective detection area than any satelite based instrument, which have a typical detection size of 1m$^2$. The range of the Cherenkov flash being between 300-600nm, current generation Silicon Photomultipliers (SiPMs) are a promising candidate to replace the progenitor photon detector used in previous experiments like HESS, the Photomultiplier Tube (PMT).\\
+Current ground based IACT experiments are HESS, MAGIC and Veritas. (see section {\ref{appsec:IACTProjects}})\\
 All of those arrays consist of at most 5 telescopes spread over a wide area. So most cascades are viewed by only 2 or 3 of the telescopes. Additionaly, due to the low flux of VHE gamma radiation, detectors for this energy range are spread over a large area, making space based instruments, which detect the incident gamma ray, an inconvenient choice. Another detection concept for VHE gamma radiation are ground based air shower particle detectors such as the High-Altitude-Water-Cherenkov observatory (HAWC) \cite{HAWC}. It employs a similar detection principle, recording shower particles reaching arrays of ground based particle detectors filled with water as detection medium, in contrast to air in IACTs. Those have the advantage of a larger duty cycle than IACTs, as they are able to operate during the day. Their limited sensitivity even with high observation time however will not allow them to compete with the sensitivity and resolution of IACTs such as in the CTA. The array will however be able to provide useful complementary information. 
 
 \subsection{Cherencov Telescope Array}
@@ -1044,7 +1042,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 \appendix
 \section{CTA}
-
+\label{appsec:CTA}
 
 \begin{figure}[h]
 \centering
@@ -1057,6 +1055,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \end{figure}
 
 \section{progenitor experiments of CTA}
+\label{appsec:IACTProjects}
 %% FIG Gamma Ray
 \begin{figure}[h]
 \begin{centering}
