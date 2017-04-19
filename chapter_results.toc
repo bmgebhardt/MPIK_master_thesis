@@ -1,10 +1,10 @@
 \contentsline {section}{\numberline {1}\fontsize {17.3}{21.9}\selectfont Cosmic Radiation}{5}
 \contentsline {subsection}{\numberline {1.1}Air shower induced Cherenkov Radiation}{7}
-\contentsline {section}{\numberline {2}\fontsize {17.3}{21.9}\selectfont Imaging Atmospheric Cherenkov Telescopes}{9}
-\contentsline {subsection}{\numberline {2.1}Cherencov Telescope Array}{9}
-\contentsline {subsection}{\numberline {2.2}GCT}{10}
-\contentsline {subsection}{\numberline {2.3}CHEC-S}{11}
-\contentsline {subsection}{\numberline {2.4}SiPM requirements for CTA}{11}
+\contentsline {subsection}{\numberline {1.2}Imaging Atmospheric Cherenkov Telescopes}{8}
+\contentsline {section}{\numberline {2}\fontsize {17.3}{21.9}\selectfont Cherencov Telescope Array}{9}
+\contentsline {subsection}{\numberline {2.1}GCT}{9}
+\contentsline {subsection}{\numberline {2.2}CHEC-S}{10}
+\contentsline {subsection}{\numberline {2.3}SiPM requirements for CTA}{11}
 \contentsline {section}{\numberline {3}\fontsize {17.3}{21.9}\selectfont Silicon Photomultipliers}{13}
 \contentsline {subsection}{\numberline {3.1}Gain of a Silicon Photomultiplier}{15}
 \contentsline {subsection}{\numberline {3.2}Thermally induced dark counts}{16}
@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {7.3}Photon Detection Efficiency}{53}
 \contentsline {subsection}{\numberline {7.4}Point of Operation Comparison}{54}
 \contentsline {section}{\numberline {8}\fontsize {17.3}{21.9}\selectfont further analysis}{55}
-\contentsline {subsection}{\numberline {8.1}Dark Count Rate recalibration with multi incident probability}{55}
+\contentsline {subsection}{\numberline {8.1}multi incident probability and optical Cross Talk}{55}
 \contentsline {subsection}{\numberline {8.2}Prompt and delayed cross talk ratio}{55}
 \contentsline {section}{\numberline {9}\fontsize {17.3}{21.9}\selectfont Conclusion and Outlook}{55}
 \contentsline {section}{\numberline {10}\fontsize {17.3}{21.9}\selectfont Glossary}{56}
