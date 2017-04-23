@@ -20,6 +20,9 @@
 \usepackage{xcolor}
 \usepackage{tikz}
 \usepackage{pict2e}
+\usepackage{color}
+
+
 
 \linenumbers
 
@@ -54,8 +57,8 @@
 %\usefont{T1}{ptm}{b}{it}
 \begin{document}
 %\usefont{T1}{ptm}{b}{it}
-\thesistitle{Silicon Photomultiplier Classification of the GCT Camera of CTA} %
-{Silicon Photomultiplier Klassifikation der GCT Kamera von CTA}
+\thesistitle{Silicon Photomultiplier Classification of the Pre-Production GCT Camera of CTA} %
+{Silicon Photomultiplier Klassifikation der Pre-Production GCT Kamera von CTA}
 \author{Ben Gebhardt}
 \birthplace{Heidelberg}
 \referee{Dr. Richard White (MPIK)}{Prof. Jim Hinton (MPIK)}[Prof. Tetyana Galatyuk (TU DA)]
@@ -80,11 +83,13 @@ worum es geht
 \end{abstract}
 \afterpage{\blankpage}
 
-
+\clearpage
+\listoffigures
 
 \clearpage
 \tableofcontents
-\listoffigures
+
+
 \clearpage
 %\newpage
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -95,7 +100,7 @@ worum es geht
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{01_astroparticle_field}.jpg}}
-\caption{Gamma radiation photons (yellow) and scattered cosmic ray protons (blue) from an astrophysical source arriving on Earth. Neutrinos (grey) mostly do not interact. Picture from \cite{ungCTA}}
+\caption[Cosmic radiation]{Gamma radiation photons (yellow) and scattered cosmic ray protons (blue) from an astrophysical source arriving on Earth. Neutrinos (grey) mostly do not interact. Picture from \cite{ungCTA}}
 \label{fig:GammaRad}
 \end{centering}
 \end{figure}
@@ -106,7 +111,7 @@ Cosmic rays do not include those low energy particles originating from our sun. 
 Cosmic rays of the higher energies are therefore observed via a detour: Gamma radiation. \\
 \begin{wrapfigure}{R}{0.5\textwidth}
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{Fermi_image01}.jpg}
-\caption{\label{fig:LAT}FermiLAT Picuture from \cite{FermiLAT}}
+\caption[Fermi LAT]{\label{fig:LAT}FermiLAT Picuture from \cite{FermiLAT}}
 \end{wrapfigure}
 
 
@@ -123,7 +128,7 @@ One surprise was the discovery of so called "dark sources" , objects emitting VH
 Even higher energy gamma rays could also be the product of decays of heavy particles, like dark matter or cosmic strings. They therefore also provide a window to the discovery of dark matter.\\
 
 Gamma Radiation carries unique information about the most energetic phenomena in our universe. 
-The only problem is, our atmosphere is opaque for gamma radiation, gamma ray astronomy in the lower energies is done by satellite based instruments like FermiLAT. The Large Area Telescope, the principle scientific instrument on the Fermi Gamma-Ray Space Telescope Spacecraft sensitive in the energy range between 20 MeV and 100 GeV, launched in June 2008. fig (\ref{fig:LAT}) To reach the higher energy range through space based telescopes is very inconvinient, since the required mass the telescope active area would need to detect the gamma rays increases with gamma ray energy, and can therefore by very expensive to launch into space. Low energy gamma rays can be efficiently captured by a volume appropriate for a spacecraft, for higher energy gamma rays using other interaction and detection media, like water or Earths atmosphere, is more viable.
+The only problem is, our atmosphere is opaque for gamma radiation, gamma ray astronomy in the lower energies is done by satellite based instruments like FermiLAT. The Large Area Telescope, the principle scientific instrument on the Fermi Gamma-Ray Space Telescope Spacecraft sensitive in the energy range between 20 MeV and 100 GeV, launched in June 2008. fig (\ref{fig:LAT}) To reach the higher energy range through space based telescopes is very inconvenient, since the required mass the telescope active area would need to detect the gamma rays increases with gamma ray energy, and can therefore by very expensive to launch into space. Low energy gamma rays can be efficiently captured by a volume appropriate for a spacecraft, for higher energy gamma rays using other interaction and detection media, like water or Earths atmosphere, is more viable.
 
 
 
@@ -140,7 +145,7 @@ The only problem is, our atmosphere is opaque for gamma radiation, gamma ray ast
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{gamma}.jpg}
-\caption{\label{fig:Cherenkov} The cone of Cherenkov light emitted by an extensive air shower. Picture from \cite{AsperaCTA}}
+\caption[Cherenkov light cone]{\label{fig:Cherenkov} The cone of Cherenkov light emitted by an extensive air shower. Picture from \cite{AsperaCTA}}
 \end{wrapfigure}
 
 %shower physics
@@ -153,19 +158,12 @@ To determine whether it is a hadronic shower, originating from cosmic rays, or a
 %\newpage
 \subsection{Imaging Atmospheric Cherenkov Telescopes}
 The technique, pioneered by the Wipple Collaboration, behind the ground based experiments called Imaging Atmospheric Cherenkov Telescope (IACTs) aims at measuring the time, direction and energy of flashes of Cherenkov light from extensive air showers caused by VHE gamma radiation. Those ground based instruments have a much larger effective detection area than any satellite based instrument, which have a typical detection size of 1m$^2$. The range of the Cherenkov flash being between 300-600nm, current generation Silicon Photomultipliers (SiPMs) are a promising candidate to replace the progenitor photon detector used in previous experiments like HESS, the Photomultiplier Tube (PMT).\\
-Current ground based IACT experiments are HESS, MAGIC and Veritas. (see section {\ref{appsec:IACTProjects}}) HESS is the ... Namibia consists of four telescopes the size of Xm operating in the energy range of eV - eV. The recent HESS upgrade added a fifth larger telescope in the center of the array covering the xeV to XeV energy range. MAGIC.... Veritas....\\
 
+Current ground based IACT experiments are HESS, MAGIC and Veritas. (see section {\ref{appsec:IACTProjects}}) HESS\footnote{High Energy Stereoscopic System},based in Namibia, consists of four telescopes the size of 12~m operating in the energy range of 3~GeV to 100~TeV. The chosen name is in honor of Victor Hess, the first to discover cosmic rays. The recent HESS upgrade added a fifth larger telescope in the center of the array with a mirror diameter of 28~m. MAGIC\footnote{Major Atmospheric Gamma Imaging Cherenkov Telescopes}, based in La Palma one of the Canary Islands, is a system consisting of two 17~m diameter telescopes at 2200m asl\footnote{above sea level}, covering the energy range 30~GeV and 30~TeV. Veritas\footnote{Very Energetic Radiation Imaging Telescope Array System}, operating between 50~GeV - 50~TeV consists of four 12~m telescopes, based in Arizona, USA. \\
 
+Due to the limited effective area, caused by the number of telescopes spread over a wide area, most cascades are viewed by only 2 or 3 of the telescopes. Additionaly, due to the low flux of VHE gamma radiation, detectors for this energy range are spread over a large area, making space based instruments, which detect the incident gamma ray, an inconvenient choice.\\ 
 
-
--------------------------------------->
-HESS 5 3~GeV to 100~TeV
-MAGIC 2   30~GeV and 30~TeV
-VERITAS 4 50~GeV - 50~TeV\\
-
--------->
-
-All of those arrays consist of at most 5 telescopes spread over a wide area. So most cascades are viewed by only 2 or 3 of the telescopes. Additionaly, due to the low flux of VHE gamma radiation, detectors for this energy range are spread over a large area, making space based instruments, which detect the incident gamma ray, an inconvenient choice. Another detection concept for VHE gamma radiation are ground based air shower particle detectors such as the High-Altitude-Water-Cherenkov observatory (HAWC) \cite{HAWC}. It employs a similar detection principle, recording shower particles reaching arrays of ground based particle detectors filled with water as detection medium, in contrast to air in IACTs. Those have the advantage of a larger duty cycle than IACTs, as they are able to operate during the day. Their limited sensitivity even with high observation time however will not allow them to compete with the sensitivity and resolution of IACTs such as in the CTA. The array will however be able to provide useful complementary information. 
+Another detection concept for VHE gamma radiation are ground based air shower particle detectors such as the High-Altitude-Water-Cherenkov observatory (HAWC) \cite{HAWC}. It employs a similar detection principle, recording shower particles reaching arrays of ground based particle detectors filled with water as detection medium, in contrast to air in IACTs. Those have the advantage of a larger duty cycle than IACTs, as they are able to operate during the day. Their limited sensitivity even with high observation time however will not allow them to compete with the sensitivity and resolution of IACTs such as in the CTA. The array will however be able to provide useful complementary information. 
 
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -175,10 +173,10 @@ All of those arrays consist of at most 5 telescopes spread over a wide area. So 
 \section{\Large Cherencov Telescope Array}
 \label{sec:CTA}
 
-\begin{wrapfigure}{R}{0.5\textwidth}
+\begin{wrapfigure}{R}{0.6\textwidth}
 \centering
-\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/GCTprotopicture.jpg}
-\caption{\label{fig:GCTStructure}  SST The GCT Structure with mounted CHEC-M at meudon obs paris}
+\includegraphics[width=0.6\textwidth]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/GCTprotopicture.jpg}
+\caption[GCT and CHEC-M at Meudon]{\label{fig:GCTStructure}The GCT Structure with mounted CHEC-M at the Observatory at Meudon, Paris, one of the telescopes of CTA.}
 \end{wrapfigure}
 
 The Cherenkov Telescope Array, CTA, is a proposed ground-based observatory array of many tens of telescopes distributed over a larger energy range than before. It will allow detection of gamma rays over a large area on the ground and from multiple different directions. The array will consist of 60 - 100 telescopes of different designs and sizes to cover the aimed for energy range and area. Science goals are the understanding of cosmic rays and their role in the universe, including the study of cosmic particle accelerators, such as pulsars, pulsar wind nebulae , supernova remnants and gamma ray binaries. Secondly particle acceleration around black holes of supermassive or stellar size and lastly physics beyond the Standard Model. 
@@ -188,39 +186,39 @@ There are currently three groups of telescopes planed, differing in their size a
 \item MST\footnote{MST medium sized telescope} The medium energy range, from around 100 GeV to 10 TeV, is covered by a telescope of the 12 meter class with a FoV of 7$^\circ$.
 \item SST\footnote{SST small sized telescope} The high energy instrument, operating between a few TeV to 300~TeV, is a 4 meter telescope with a FoV ranging from 9.1$^\circ$ to 9.6$^\circ$.
 \end{enumerate}
-There are currently two sites planed, which when deployed, will achieve full-sky coverage. The southern site in the Atacama Desert in Chile, one of the most driest and isolated regions on Earth, will consist of four LSTs, 24 MSTs, and about 70 SSTs covering an area of 4~km$^2$. The northern site will only cover ~0.4~km$^2$ and will only contain four LSTs and 15 MSTs due to spacing reasons with the MAGIC observatory at the same location at the Roque de los Muchachos Observatory on La Palma, one of the Canary Islands.\\
-
+There are currently two sites planed, which when deployed, will achieve full-sky coverage. The southern site in the Atacama Desert in Chile, one of the most driest and isolated regions on Earth, will consist of four LSTs, 24 MSTs, and about 70 SSTs covering an area of 4~km$^2$. The northern site will only cover ~0.4~km$^2$ and will only contain four LSTs and 15 MSTs due to spacing reasons with the MAGIC observatory at the same location at the Roque de los Muchachos Observatory on La Palma, one of the Canary Islands.\\\\
+\noindent
 One proposed concept for the SST is the Gamma Cherenkov Telescope (GCT) fig(\ref{fig:GCTStructure}).\\
 
-\subsection{GCT}
+\subsection{Gamma Cherenkov Telescope}
 \begin{figure}[t!]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.7\columnwidth}{!}{\includegraphics[trim=0cm 1cm 12.5cm 1cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOffAxis}}
-\caption{}
+\caption[GCT optical system]{Optical mirror system of the GCT telescope. A primary(4~m)-secondary(2~m) mirror optics system focuses the light onto a 0.35~m camera focal plane.}
 \label{fig:GCT_Focal}
 \end{centering}
 \end{figure}
-The reflector design of IACTs traditionally consists of miltiple mirror segments, which focus the incident light onto a camera covering $\sim$1~m with pixels $\sim$25~mm in diameter. Such a reflector design is proposed for both, the LST and the MST of CTA resulting in the telescope sizes mentioned in Section~{\ref{sec:CTA}} above, that will use the traditional PMTs fig(\ref{fig:PMT_SiPM_Size})(left).\\
+The reflector design of IACTs traditionally consists of multiple mirror segments, which focus the incident light onto a camera covering $\sim$1~m with pixels $\sim$25~mm in diameter. Such a reflector design is proposed for both, the LST and the MST of CTA resulting in the telescope sizes mentioned in Section~{\ref{sec:CTA}} above, that will use the traditional PMTs fig(\ref{fig:PMT_SiPM_Size})(left).\\
 For the SST such a design would result in a cheap telescope structure, but a disproportionately expensive camera, i.e. the cost and size of the structure is reduced, while the cost of the camera is not. The cost of one SST camera would be near the cost of a MST camera, which given the number of SST telescopes at the southern site is inconvenient.\\
 The alternative solution is the reduction of the camera plate scale through a dual-mirros design allowing the use of more affordable photosensots. The optical system of the telescope is complemented with a secondary mirror added to the primary mirror. This shortens the effective focal length so the focal surface will lie between primary and secondary mirror fig(\ref{fig:GCT_Focal}). This optical design is based on the Schwarzshild-Couder design first produced by Karl Shwarzschild (Schwarzschild, 1905) and later refined by Couder (Couder, 1926) and then adapted for use in IACTs by Vassiliev and Fegan \cite{FeganVassiliev}. With the dual-mirror design optimised for GCT by Blake et al. \cite{SSTGATE} the camera plate scale is reduced, allowing the use of more affordable photosensors, Silicon Photomultipliers (SiPMs) and multi-anode photomultipliertubes (MAPMTs) among them, potentially reducing the cost of each SST.
 
 
-\subsection{CHEC}
+\subsection{Compact High Energy Camera}
 \begin{figure}[t!]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=5.2cm 0.5cm 4.2cm 3cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane}}
-\caption{picture with GCT with mounted CHEC camera picture here Picture from }
+\caption[CHEC focal plane]{Front view of the CHEC-M prototype (left), view of the camera focal plane. Schematic of the focal plane (right), illustrating the 9$^\circ$ FoV with 6$mm^2$ pixels. Pictures from \cite{Rich}}
 \label{fig:GCT_Pic}
 \end{centering}
 \end{figure}
 
 
-The Compact High Energy Camera, or CHEC is one of three prototype camera concepts in development for one of the SST structures within CTA. One camera features 2048 photosensors, building equaly many readout channels per camera. The readout is done by so called TARGET\footnote{TARGET TeV Array Readout with GS/s sampling and Event Trigger} modules for sampling, digitization and triggering, one of those consists of 4 ASICs\footnote{ASIC Application Specific Integrated Circuit} with 16 channels each. The camera houses 32 TARGET modules, one of them responsible for readout of 64 photosensors. The TARGET modules build the front-end of the integrated electronics inside the CHEC camera connecting the buffer to the cameras backplane. After the photosensor is triggered the buffer amplifies the signal, that is then send to the ASIC inside the TARGET modulde, where an analog-to-digital converter and a shaper convert the signal before it is send to the backplane for transfer to the main array hub. Two iterations of the CHEC camera are tested, CHEC-M is the first design based on MAPMs as photosensors and was the initial prototype platform all improvements to the electronics are tested on. CHEC-M since then moved to Meudon in Paris and is now mounted on the GCT structure for further testing of the entire GCT prototype. The second iteration of the camera: CHEC-S, based on SiPMs as photosensors is a similar concept, with applied improvements to electronics and mechanical design. The two cameras are similar in shape and can both be mounted on the GCT structure with minor alterations.\\\\
+The Compact High Energy Camera, or CHEC fig(\ref{fig:GCT_Pic}) is one of three prototype camera concepts in development for one of the SST structures within CTA. One camera features 2048 photosensors, building equaly many readout channels per camera. The readout is done by so called TARGET\footnote{TARGET TeV Array Readout with GS/s sampling and Event Trigger} modules for sampling, digitization and triggering, one of those consists of 4 ASICs\footnote{ASIC Application Specific Integrated Circuit} with 16 channels each. The camera houses 32 TARGET modules, one of them responsible for readout of 64 photosensors. The TARGET modules build the front-end of the integrated electronics\footnote{FEE front end electronics} inside the CHEC camera connecting the buffer to the cameras backplane. After the photosensor is triggered the buffer amplifies the signal, that is then send to the ASIC inside the TARGET modulde, where an analog-to-digital converter and a shaper convert the signal before it is send to the backplane for transfer to the main array hub. Two iterations of the CHEC camera are tested, CHEC-M is the first design based on MAPMs as photosensors and was the initial prototype platform all improvements to the electronics are tested on. CHEC-M since then moved to Meudon in Paris and is now mounted on the GCT structure for further testing of the entire GCT prototype. The second iteration of the camera: CHEC-S, based on SiPMs as photosensors is a similar concept, with applied improvements to electronics and mechanical design. The two cameras are similar in shape and can both be mounted on the GCT structure with minor alterations.\\
 
-In order to make an educated choice on the best SiPM device to use to populate the cameras focal plane, an in-depth characteristic study on pulse-shape, gain, temperature-dependence, detection efficiency, thermal noise and correlated secondary effects is conducted by multiple groups within the CTA collaboration.\\\\
+In order to make an educated choice on the best SiPM device to use to populate the cameras focal plane, an in-depth characteristic study on pulse-shape, gain, temperature-dependence, detection efficiency, thermal noise and correlated secondary effects is conducted by multiple groups within the CTA collaboration.\\
 
 This paper studies the gain, noise from thermal, as well as correlated secondary effects and their temperature dependence. 
 
@@ -238,7 +236,7 @@ This paper studies the gain, noise from thermal, as well as correlated secondary
 \begin{centering}
 %L, B, R, T
 \resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/{SiPM_PMT.JPG}}}
-\caption{The size of the photodetector still used in progenitor IACT experiments (PMT)(left) compared to an SiPM(right). Picture from \cite{RWTHMaster1}}
+\caption[PMT and SiPM size]{The size of the photodetector still used in progenitor IACT experiments (PMT)(left) compared to an SiPM(right). Picture from \cite{RWTHMaster1}}
 \label{fig:PMT_SiPM_Size}
 \end{centering}
 \end{figure}
@@ -253,11 +251,11 @@ Silicon Photomultipliers (SiPMs) are semiconductor photo detectors, that have at
 \begin{centering}
 %L, B, R, T
 \resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/{SiPM_scheme_HPK.JPG}}}
-\caption{Structure and carrier multiplication through an avalanche inside a SiPM. Picture from \cite{HPK_SiPM}}
+\caption[Structure and carrier multiplication through an avalanche inside a SiPM]{Structure and carrier multiplication through an avalanche inside a SiPM. Picture from \cite{HPK_SiPM}}
 \label{fig:SiPM_scheme}
 \end{centering}
 \end{figure}
-Silicon Photomultipliers posses major advantages over their progenitor, the Photomultipliertubes, or PMT fig(\ref{fig:PMT_SiPM_Size}). They are more resistent to mechanical and accidental light-exposure damage through ambient light. Silicon Photomultipliers have a lower power consumption and, operating at a much lower bias-voltage, there is no need for high-voltage as in PMT. They posses a high photon detection efficiency and are insensitive to magnetic field changes. There is rapid improvement, being a fairly new technology, with new generations every $\sim$5 months and decreasing costs per mm$^2$. Viewed over all cells of the whole pixel, fluctuations in the gain are very small. This is because of the uniformity during manufacture and visible in the width and the clear resolution of the p.e. peaks in the pulse area spectrum. Examples in the appendix {\ref{app:PAS_Clean}}. MAPMs on the other hand posses larger gain fluctuations, which is due to their structure. These make Silicon Photomultipliers an interesting candidate in astrophysics experiments for both, space- and ground-based telescopes (or IACTs, Imaging Atmospheric Cherenkov Telescopes). However SiPMs also posses drawbacks, on of which is their temperature dependence through their Gain and Dark Count Rate. Another source of worry is their Optical Cross Talk, although manufacturers advance to reduce this source of noise.\\
+Silicon Photomultipliers posses major advantages over their progenitor, the Photomultipliertubes, or PMT fig(\ref{fig:PMT_SiPM_Size}). They are more resistent to mechanical and accidental light-exposure damage through ambient light. Silicon Photomultipliers have a lower power consumption and, operating at a much lower bias-voltage, there is no need for high-voltage as in PMT. They posses a high photon detection efficiency and are insensitive to magnetic field changes. There is rapid improvement, being a fairly new technology, with new generations every $\sim$5 months and decreasing costs per mm$^2$. Viewed over all cells of the whole pixel, fluctuations in the gain are very small. This is because of the uniformity during manufacture and visible in the width and the clear resolution of the p.e. peaks in the pulse area spectrum. See section {\ref{app:PAS_Clean}} for examples. MAPMs on the other hand posses larger gain fluctuations, which is due to their structure. These make Silicon Photomultipliers an interesting candidate in astrophysics experiments for both, space- and ground-based telescopes (like IACTs). However SiPMs also posses drawbacks, one of which is their temperature dependence through their gain and Dark Count Rate. Another source of worry is their Optical Cross Talk (OCT), although manufacturers advance to reduce this source of noise.\\
 Advantages:
 \begin{multicols}{2}
 \begin{enumerate}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
@@ -275,54 +273,47 @@ Advantages:
 \noindent
 Drawbacks:
 \begin{enumerate}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
-\item temperature dependence, Gain and Dark Count Rate
+\item temperature dependence, gain and Dark Count Rate
 \item Noise through Optical Cross Talk
 \end{enumerate}
 \noindent
 \newline
 
-Among the most desired characteristics is a high enough fill-factor (detector space versus dead space) to guarantee high Photon Detection Efficiency (PDE) \ref{subsec:SiPMPDE}. The peak of the spectral response of the SiPM is desired to be around the spectral peak of the Cherenkov light at $\sim$400~nm and at the same time, must have a fast enough drop to ensure less Night Sky Background (NSB) pick up (Figure(\ref{Cherenkov_NSB})). The overall noise from thermal and correlated secondary effects of the SiPM must be sufficiently below the expected NSB rate at the location (usually around $\sim$20-80 MHz).\\\\
-
-
-=---------------------------------------->
-Writing more later, see page 12 in pencil edited draft
-
+There is a multitude of desired attributes of SiPMs by CHEC, and CTA in general, among them is a high enough fill-factor (detector space versus dead space) to guarantee high Photon Detection Efficiency (PDE) \ref{subsec:SiPMPDE}. The PDE quantifies the absolute efficiency of any photon detector to absorb a photon and produce a measurable signal at its output. To achieve a high PDE in the 400~nm regime, the design moves to very thin implantation layers on the surface in order to minimize the absoprion of shorter wavelength photons in insensitive areas fig(\ref{SiPM_scheme}). Different entry window coatings and avalanche structures (trenches etc.) explore the capable enhancements in the blue sensitive UV region.\\
+The peak of the spectral response of the SiPM is desired to be around the spectral peak of the Cherenkov light at $\sim$400~nm and at the same time, must have a fast enough drop to ensure less Night Sky Background (NSB) pick up (Figure(\ref{Cherenkov_NSB})). The overall noise from thermal and correlated secondary effects, like cross-talk, of the SiPM must be sufficiently below the expected NSB rate at the location (usually around $\sim$20-80 MHz\cite{SiPMvsMAPMT}). Is is common practise to compare those two characteristics directly to showcase the behavior of the PDE versus OCT. A point of low cross-talk, where the PDE is still at maximum is desired.\\
+Another important characteristic is the temperature dependence of the gain. While the CHEC camera is observing, the prefered fluctuation of the gain is below 10$\%$. The camera focal plane underlies temperature shifts during operation, which will be slightly countered by cooling the photosensing area. Despite that the focal plane will still be warming up, so a lower gain dependence on temperature is desired in order to minimise the gain fluctuations.
 
 
 \begin{figure}[t]
 \begin{centering}
 \resizebox{0.7\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG}}
-\caption{The spectrum of Cherenkov light observed from an extenden air shower at 2200m asl. compared to the expected NSB measured in La Palma. Cut-off of the spectrum at wavelenghts below $\sim$300~nm due to atmospheric absorption. The emission peaks above $\sim$550~nm in the NSB spectrum are mostly attributed to atomic oxygen, hydroxide and sodium in the atmosphere. Units on the y-axis are arbitrary because NSB and Cherenkov light vary by different parameters. There is a region between 550 and 650~nm, where the Cherenkov light spectrum and contributions from the NSB overlap. Image from \cite{SiPMvsMAPMT}}
+\caption[Cherenkov light spectrum]{The spectrum of Cherenkov light observed from an extenden air shower at 2200m asl. compared to the expected NSB measured in La Palma. Cut-off of the spectrum at wavelenghts below $\sim$300~nm due to atmospheric absorption. The emission peaks above $\sim$550~nm in the NSB spectrum are mostly attributed to atomic oxygen, hydroxide and sodium in the atmosphere. Units on the y-axis are arbitrary because NSB and Cherenkov light vary by different parameters. There is a region between 550 and 650~nm, where the Cherenkov light spectrum and contributions from the NSB overlap. Image from \cite{SiPMvsMAPMT}}
 \label{fig:Cherenkov_NSB}
 \end{centering}
 \end{figure}
 
-SiPMs could be suitable for application in IACTs and offer many potential benefits, however there are also potential drawbacks affecting their expectations from Cherenkov
-The currently most challenging astrophysics experiment Silicon Photomultipliers are considered for is use in Cherenkov telescopes, with very demanding expectations in terms of photon detection efficiency. The photon detection efficiency quantifies the absolute efficiency of any photon detector to absorb a photon and produce a measurable signal at its output. To achieve a high photon detection efficiency in the 450nm regime, the design moves to very thin implantation layers on the surface in order to minimize the absoprion of shorter wavelength photons in insensitive areas. Figure(\ref{SiPM_scheme}) Different entry window coatings and avalanche structures (trenches etc.) explore the capable enhancements in the blue sensitive UV region.
 
 \subsection{Gain of a Silicon Photomultiplier}
 \label{subsec:SiPMGain}
-The gain of a Silicon Photomultiplier measures the internal conversion of a photon incident into a signal at the output. The amplification of the device is expressed as the average number of charge carriers produced. There is no distinction whether the incident was caused by a single original photon or a thermal electron.
-\begin{figure}[h]
+The gain of a Silicon Photomultiplier measures the internal conversion of a photon incident into a signal at the output. The amplification of the device is expressed as the average number of charge carriers produced. There is no distinction whether the incident was caused by a single original photon or a thermal electron. The gain (M) (eq \ref{eq:1}) of a Silicon Photomultiplier results form the deposited charge (Q) of the pulse generated from one cell when it detects one photon, devided by the charge per electron (e). The charge deposited per event is proportional to the cells capacitance (C) and the supplied over-voltage $(V_{bias}-V_{breakdown})$.\cite{SiPMvsMAPMT} This results in the gain (M) in units of total number of charge carriers, usually in the several $10^6$ range.
 \begin{equation}\label{eq:1}
 \begin{split}
 M = & \frac{Q}{e} \\
 Q = &  C \times (V_{bias}-V_{breakdown})
 \end{split}
 \end{equation}
-\label{fig:Gain_conversion_formula}
-\caption{The gain (M) of a Silicon Photomultiplier results form the deposited charge (Q) of the pulse generated from one cell when it detects one photon, devided by the charge per electron (e). The charge deposited per event is proportional to the cells capacitance (C) and the supplied over-voltage $(V_{bias}-V_{breakdown})$.\cite{SiPMvsMAPMT} This results in the gain (M) in units of total number of charge carriers, usually in the several $10^6$ range.}
-\end{figure}\\
-Estimation can be done via the voltage mean of the 1 p.e. amplitude: (e.g. see Figure (\ref{fig:S12642_PS})). For a better understanding, stating the gain in units of mV per photoelectron or $\frac{mV}{p.e.}$ is more suitable, as it gives a direct correlation between detected photoelectron and expected voltage amplitude. Given the very narrow pulse shapes, using the average pulse amplitude and extracting FWHM as a time measure of the total charge flowing during discharge and using the formula:
-\begin{figure}[h]
-\begin{equation}
+
+Estimation can be done via the voltage mean of the 1 p.e. amplitude: (e.g. see Figure (\ref{fig:S12642_PS})). For a better understanding, stating the gain in units of mV per photoelectron or $\frac{mV}{p.e.}$ is more suitable, as it gives a direct correlation between detected photoelectron and expected voltage amplitude. Given the very narrow pulse shapes, using the average pulse amplitude and extracting FWHM as a time measure of the total charge flowing during discharge and using the formula (eq \ref{eq:2}):
+
+\begin{equation}\label{eq:2}
 \begin{split}
 Q(p.e.) = & C \times (V_{bias}-V_{breakdown})\\
 U(p.e.) = & \frac{Q(p.e.)}{t(FWHM)} \times 50ohm
 \end{split}
 \end{equation}
-\caption{Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell and the resistance (50ohm) of the quenching resistor, a conversion factor and the average amplitude per photoelectron can be extracted.}
-\end{figure}\\
+
+
+Resulting in the expected event charge flowing during capacitor discharge. Given the bias-voltage and C as capacitance of one cell and the resistance (50ohm) of the quenching resistor, a conversion factor and the average amplitude per photoelectron can be extracted.\\\\
 The gain is obviously higher the larger the cell capacitance or the higher the bias-voltage (eq \ref{eq:1}) will be. But increasing the bias-voltage also increases dark counts and crosstalk. 
 The gain is also dependent on the temperature, mainly through the quenching resistor but also from the silicon bulk itself, at a certain bias-voltage decreasing as temperature rises. The quenching resistor is affected by a lowering of the electrical conductivity with rising temperature, in accordance to the Wiedemann-Franz law, stating that the ratio of electrical and thermal conductivity remains constant. The silicon bulk at rising temperatures underlies increased crystal lattice movement. This impinges charge transport by increasing the probability that carriers might impact on the lattice before the carrier energy has become large enough for continued ionization. In order to counteract this, the electric field must be increased by increasing the supplied bias-voltage so ionization is more likely. Doing this has drawbacks as discussed before. For application as a photon detector, keeping the gain constant is an inevitable step, otherwise the shifting gain leads to problems. To do that, either the bias-voltage need to be adjusted to match ambient temperature, leading to problems with varying dark counts and crosstalk. Or the surface temperature must be regulated to be kept constant. Although more challenging hardware would be required, the latter option has obvious advantages, keeping dark counts and crosstalk and more important the gain constant by simply regulating the surface temperature.\\
 Taking into account equation \ref{eq:1}, it appears that the breakdown-voltage can be estimated from the zero-crossing of a linear extrapolation of the gain at every bias-voltage per temperature. By doing this a linear breakdown-voltage dependence of the temperature can be observed. See appendix {\ref{appsec:Device_Vbr}}\\
@@ -340,7 +331,7 @@ Telescope performance simulations of the Schwarzschild-Couder MST of CTA at the 
 \begin{centering}
 %L, B, R, T
 \resizebox{0.6\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/{CT.JPG}}}
-\caption{Secondary effects (bright red) caused by primary avalanches (dark red) in a Silicon Photomultiplier. In this paper a single pixel, in this figure, is referred to as a cell (see \ref{sec:SiPM}). Everything labeled under 1 is associated with prompt cross-talk, afterpulsing labeled as 2a, and delayed cross-talk labeled as 2b. Image adapted from \cite{ModelCTAP}}
+\caption[Avanalche induced secondary effects]{Secondary effects (bright red) caused by primary avalanches (dark red) in a Silicon Photomultiplier. In this paper a single pixel, in this figure, is referred to as a cell (see \ref{sec:SiPM}). Everything labeled under 1 is associated with prompt cross-talk, afterpulsing labeled as 2a, and delayed cross-talk labeled as 2b. Image adapted from \cite{ModelCTAP}}
 \label{fig:correlated_noise}
 \end{centering}
 \end{figure}
@@ -358,13 +349,11 @@ Parametrized with over-voltage, the secondary avalanche effects are temperature 
 
 \subsection{Photon Detection Efficiency}
 \label{subsec:SiPMPDE}
-\begin{figure}[h]
+
 \begin{equation}
 PDE = \frac{N_{detected\:photons}}{N_{total\:photons}}
 \end{equation}
-\label{PDE_eq}
-\caption{Photon Detection Efficiency is the percentage of detected photons versus overall emitted photons. }
-\end{figure}
+
 The Photon Detection Efficiency is the probability of a detector to absorb an incoming photon and produce a measurable signal at its output, and depends on a number of factors. First the photon must enter the depleted region via transmission through the surface of bare silicon, which has a reflectivity of 30$\%$. However, the transmission probability can be improved by coating the surface with a substrate with adequate thickness and a refraction index between air $\eta_{air} = 1.$ and silicon $\eta_{silicon} = 3.4$. Devices presented in this paper are coated with epoxy, a silicon resin and glass. The coating also has the added benefit of insulating and protecting the cells against environmental influence. A possible negative effect of coating is an increase in prompt cross-talk and a larger dependency of the overall cross-talk on the cellsize. The second factor is quantum efficiency, describing how susceptible the depleted region is to photons exciting electrons from the valence band to the conduction band. This is sometimes refered to as spectral response of a detector to reflect the wavelength dependence of a detector and makes the PDE wavelength dependent. The over-voltage dependency of the PDE is conveyed by the third factor, the avalanche probability. It depends on the electric field present, and thus on the applied over-voltage. The last factor is the fill-factor: the more the surface area of the detector is covered with active-area cells and the less dead-area exists between cells the higher the fill-factor is. \\
 The Photon Detection Efficiency is commonly measured by illumination of the pixel and a calibrated reference photodiode with a flashing light source, and determining the average number of photons hitting the photosensor during a light pulse.
 
@@ -381,7 +370,7 @@ The Photon Detection Efficiency is commonly measured by illumination of the pixe
 \begin{centering}
 %L, B, R, T
 \resizebox{1.\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/{Setup_outside}}}
-\caption{Outside pic   Will be updated. With Alphabetical captions for the different steps and references later in the text and setup scheme below, Picture of the inside of the thermal chamber is missing, will do later, and try to fit it next to this one}
+\caption[Teststand outside view]{Outside view of the teststand with the ESPEC LU-114 thermal chamber (A), the Lab-PC (B), the Lecroy HD6104 oscilloscope (C) and the TTi power supplies (D).}
 \label{fig:Setup_Pic}
 \end{centering}
 \end{figure}
@@ -390,7 +379,7 @@ The Photon Detection Efficiency is commonly measured by illumination of the pixe
 \begin{centering}
 %L, B, R, T
 \resizebox{0.55\columnwidth}{!}{\includegraphics[trim=6cm 0cm 6cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/{Setup_inside}}}
-\caption{Inside Pic Will be updated. With Alphabetical captions for the different steps and references later in the text and setup scheme below, Picture of the inside of the thermal chamber is missing, will do later, and try to fit it next to this one}
+\caption[Thermal chamber inside view]{Inside view of the thermal chamber (A), with the SiPM (A1), the shaping electronics (A2) and the MiniCirctuis PreAMP (A3). Signal throughput in the top left corner.}
 \label{fig:Setup_Pic}
 \end{centering}
 \end{figure}
@@ -401,7 +390,7 @@ The Photon Detection Efficiency is commonly measured by illumination of the pixe
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 7.5cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup}}
-\caption{Experimental setup scheme, Annotations see text}
+\caption[Experimental setup scheme]{Experimental setup scheme, Annotations see text}
 \label{fig:Setup_Scheme}
 \end{centering}
 \end{figure}
@@ -410,7 +399,8 @@ The Photon Detection Efficiency is commonly measured by illumination of the pixe
 The experimental setup in general is designed to house a variety of SiPM devices. Over the course of this paper, 5 different types of SiPMs were mounted on the setup and evaluated. It involves a thermal chamber Figure(\ref{fig:Setup_Scheme})(A) for temperature regulation which proved light tight and thus also serves as a dark box, to prevent any stray light to reach the SiPMs surface. The thermal chamber in question is a LU-114 constant climate cabinet from ESPEC with a programmable interface for remote control. The chamber is able to raise and lower the inside temperature with a $\pm0.5^\circ$C accuracy, direct measurements of the SiPMs surface with a temperature probe confirmed this. In the absence of light tests, heating of the SiPM surface through the dark current proved no concern.\\\\\\ Depending if the SiPM Figure(\ref{fig:Setup_Scheme})(A1) in testing is pre-manufactured on a test-array or supplied as a standalone chip, it is either mounted directly on a mechanical arm inside the chamber in the former case, or in the latter the mechanical arm supports a specifically designed PCB connecting to the device. Via the mount, bias-voltage is supplied and signal is transfered to the shaper Figure(\ref{fig:Setup_Scheme})(A2). In some cases the output signals amplitude is to low to trigger the oscilloscope, therefore amplification is needed. I used an amplifier from MiniCircuits Figure(\ref{fig:Setup_Scheme})(A3) supplied with different voltages depending on the tested device to amplify the shaped signal.\\\\
 Data acquisition in the Laboratory is realized by a Lab-PC Figure(\ref{fig:Setup_Scheme})(B), that forms the central control station for multiple pieces of equipment. It is connected to the oscilloscope Figure(\ref{fig:Setup_Scheme})(C), which records the waveforms of the device in testing, and then sends the data back to the PC via ethernet. The oscilloscope is a Lecroy HDO6104 1GHz HS Oscilloscope capable of 2.5 GS/s.\\\\ The power supplies Figure(\ref{fig:Setup_Scheme})(D) control the bias-voltage of the Silicon Photomultipliers, ramping of the bias-voltage is controled by the PC. Lastly the thermal chamber is connected to the Lab-PC, where the data acquisition script controls the temperature, and continuously rechecks it during temperature ramps. Signal transfer from the shaper to the oscilloscope is via a throughput on the side. All equipment is connected via ethernet, plugged into a common hub, to form a local network. While the temperature of the thermal chamber is ramping from the previous to the next set-point, the data is send to the Lab-PC.\\\\
 
-Temperature regulation is an issue in the teststand, as there is no way of controling the SiPMs surface temperature. In dark conditions however, without conducting illumination tests, the shift in temperature on the SiPMs surface is only minimal. (Find the breakdown-voltage dependence on temperature in the appendix (\ref{app:VBR_table}). Checking the surface temperature of all devices with a temperature probe during testing showed minimal rising temperatures. So the influence of the temperature on the breakdown-voltage is only of minor concern. However, once illumination tests begin, the rising temperature on the SiPMs surface will no longer be negligible and the temperature must be regulated, either by cooling of the surface or including the temparature parameter.\\\\
+Temperature regulation is an issue in the teststand, as there is no way of controling the SiPMs surface temperature. In dark conditions however, without conducting illumination tests, the shift in temperature on the SiPMs surface is only minimal. See section \ref{appsec:Device_Vbr} for the breakdown-voltage dependence on temperature. Checking the surface temperature of all devices with a temperature probe during testing showed minimal rising temperatures. So the influence of the temperature on the breakdown-voltage is only of minor concern. However, once illumination tests begin, the rising temperature on the SiPMs surface will no longer be negligible and the temperature must be regulated, either by cooling of the surface or including the temparature parameter.\\\\
+There is also the issue of the saturation of the input of the oscilloscope making the higher over-voltage range difficult to reach, due to potential multi p.e. pulses being amlified and reaching the input. \textcolor{red}{This is possible because of the difference in amplitude between a 1 p.e. and a multi p.e. event and the electronic noise, forcing a high resolution of the amplitude in the oscilloscope. A possible solution could be a filter set to attenuate such pulses to a given voltage so data is not lost. } Lowering the electronics noise would have the same effect on the lower over-voltage range.\\\\
 
 
 
@@ -419,7 +409,7 @@ Temperature regulation is an issue in the teststand, as there is no way of contr
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=14cm 9cm 14cm 1cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{test1_ch}.jpg}}
-\caption{The shaped and unshaped pulse from a pulse generator emulating the output of the front-end buffer of the CHEC-S SiPM. The unshaped pulse in yellow and negative, due to the buffer-output. The shaped pulse now flipped through the electronics in green. Zoomed, Taken from \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
+\caption[Shaped versus unshaped signal]{The shaped and unshaped pulse from a pulse generator emulating the output of the front-end buffer of the CHEC-S SiPM. The unshaped pulse in yellow and negative, due to the buffer-output. The shaped pulse now flipped through the electronics in green. Zoomed, Image credit \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
 \label{fig:shaped_unshaped}
 \end{centering}
 \end{figure}
@@ -427,18 +417,22 @@ Temperature regulation is an issue in the teststand, as there is no way of contr
 \begin{wrapfigure}{R!}{0.5\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/{schematic_simple}.JPG}
-\caption{\label{fig:ZeroPole}A Zero Pole cancelation circuit commonly used in photon counting applications. Taken from \cite{ShaperPaper}}
+\caption[Zero pole cancelation]{\label{fig:ZeroPole}A Zero Pole cancelation circuit commonly used in photon counting applications. Taken from \cite{ShaperPaper}}
 \end{wrapfigure}
+
 The shaper consists of two stages, the main components are an Op-Amp amplifier serving as an input buffer followed by a zero pole cancelation circuit for pulse shaping and is commonly used in photon-counting applications. A zero pole cancelation circuit is basically a RC circuit eq(\ref{eq:shaper}) ($C_Z$, $R_0$) supressing the high frequencys to narrow the pulses from the usual $\sim$50~ns to $\sim$10~ns, using a high-pass filter with a tunable time constant, through $f_C$ which gives control over the frequency response of the circuit.\cite{ShaperPaper}
+
 \begin{equation}\label{eq:shaper}
 R_0\times C_Z = 1/ (2\pi \times f_C)
 \end{equation}
+
 In Figure \ref{fig:shaped_unshaped}, reference by Luigi Tibaldo \cite{Initial_testing_at_MPIK_wb_July_18_2016}, the shaped and unshaped pulse is shown, the negative amplitude (yellow) corresponds to the unshaped signal mimiced by a function generator to emulate the output of the front-end buffer of the CHEC-S SiPM, with a fall-time of approximately 9~ns followed by the exponential rise with 90~$\%$ to 10~$\%$ in 23~ns. These tests correspond to an initial design of the shaper and do not correspond to the final setup. 
+
 \begin{figure}[h!]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{ch2_nofirststage_R28-480O1-single-pe}.jpg}}
-\caption{Persistence figure of the shaped pulse after adapting the electronics to a preferable pulse shape. In the center, a row of pulses with rising amplitudes is visible. These are the multiple N p.e. pulses, differing by $\sim$~5mV. The purple area off-center is due to delayed cross-talk and after-pulsing. Taken from \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
+\caption[Multi p.e. persistence plot]{Persistence figure of the shaped pulse after adapting the electronics to a preferable pulse shape. In the center, a row of pulses with rising amplitudes is visible. These are the multiple N p.e. pulses, differing by $\sim$~5mV. The purple area off-center is due to delayed cross-talk and after-pulsing. Image credit \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
 \label{fig:persistence}
 \end{centering}
 \end{figure}
@@ -447,12 +441,12 @@ In Figure \ref{fig:shaped_unshaped}, reference by Luigi Tibaldo \cite{Initial_te
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{ch2_mod_70.1_phspec}.jpg}}
-\caption{An oscilloscope based pulse height spectrum in the same scheme as the persistence figure fig(\ref{fig:persistence}). The distance between the peak maxima delivers an estimation of the gain of the SiPM at this bias-voltage. Taken from \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
+\caption[Pulse height spectrum generated by the oscilloscope]{An oscilloscope based pulse height spectrum in the same scheme as the persistence figure fig(\ref{fig:persistence}). The distance between the peak maxima delivers an estimation of the gain of the SiPM at this bias-voltage. Image credit \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
 \label{fig:Osci_PHS}
 \end{centering}
 \end{figure}
 
-The shaper board contains tuneable capacitors (C9) and resistors (R20) (see schematic appendix {\ref{appsec:shaper}}), that can be optimized for ideal pulse layout. The green pulse in Figure \ref{fig:shaped_unshaped} shows the output after shaping, with a width of FWHM of 9~ns. The amplification between input and output is approximately 6-7. The output pulse has some ringing after the main pulse, the first afterpulse has a 12~$\%$ amplitude relative to the main pulse. For the complete unzoomed Figure, see appendix {\ref{appsec:shaper}}. \\\\
+The shaper board contains tuneable capacitors (C9) and resistors (R20) (see schematic appendix {\ref{appsec:shaper}}), that can be tuned and optimized for ideal pulse layout. The green pulse in Figure \ref{fig:shaped_unshaped} shows the output after shaping, with a width of FWHM of 9~ns. The amplification between input and output is approximately 6-7. The output pulse has some ringing after the main pulse, the first afterpulse has a 12~$\%$ amplitude relative to the main pulse. For the complete unzoomed figure, see appendix {\ref{appsec:shaper}}. \\\\
 After tweaking the tunable electronics on the shaper to a preferable pulse shape, clear single p.e. peaks are visible in a persistence plot. fig(\ref{fig:persistence}). The peaks have an amplitude of $\sim$5~mV/p.e., from this and from the following, a gain estimate for the peak finding threshold in the analysis can be made. With the same configuration a gain estimate at different bias-voltages of the SiPM is possible through an on-oscillosope pulse height spectrum fig(\ref{fig:Osci_PHS}). The distance in peak maxima is a reference to the gain of the SiPM, in the case of Figure \ref{fig:Osci_PHS} close to $\sim$5~mV/p.e. .\\\\
 This chain of shaper modification is done for every SiPM from Hamamatsu Photonics K.K. tested in this paper (4 in total) as they arrived as a single unmounted device, in need of shaping and amplification. The device from SensL is premounted on a test array, preshaped and only externaly amplified.
 
@@ -485,7 +479,7 @@ The oscilloscope produces the waveform data in its intrinsic data format, called
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered1Zoom}.pdf}
-\caption{\label{fig:PedSub}Raw, real data from a HPK SiPM in grey, in blue the pedestal subtracted and smoothed `'Filtered Signal 1''}
+\caption[Pedestal subtraction]{\label{fig:PedSub}Raw, real data from a HPK SiPM in grey, in blue the pedestal subtracted and smoothed `'Filtered Signal 1''}
 \end{wrapfigure}
 A single waveform from the oscilloscope is anticipated to be uncentered fig(\ref{fig:PedSub})(grey), it will be slightly above or below zero, depending on the device setup (some devices produce inverted signals). The signal is mixed with electronic noise when it is observed and forms a pedestal, shifting the mean of the waveform from its original position to zero. Pedestal subtraction removes this average noise.\\
 The first step of the process is reading in the uncentered waveform fig(\ref{fig:PedSub})(grey) and calculating an initial mean(mean0), expected to be slightly higher than the actual mean of the noise, due to the presence of event-pulses. The waveform is then shifted to about zero, by subtracting the mean0. A second mean of the now nearly centered waveform is taken (mean1). Now a new, same-sized array is formed and filled with the data from the waveform that is smaller than mean1, this represents the negative part of the noise. The data larger than mean1, the positive noise, is also filled into the array, but is negative-signed. This creates an array of the waveform centered around zero and, above the mean1, folded towards the negative. It proved reliably, that calculating the root-mean-square of this helper-array is a solid possibility of stripping the waveform of event-peaks. Taking the root-mean-square with a factor 3 of the helper-array, a cut is now applied to the waveformon on both, the positive and negative side. In that fashion, the remnant is the waveform between the positive and the negative root-mean-square and is now called a peakless-signal, representing the noise of the waveform.\\
@@ -497,7 +491,7 @@ Pedestal subtraction is done by calculating the mean of this peakless signal and
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcFiltered2Zoom}.pdf}
-\caption{\label{fig:PeakDet}''Filtered Signal 1'' in grey before smoothing with a narrow gaussian to generate `'Filtered Signal 2'' in blue, which is used for peak finding.}
+\caption[Peak Detection]{\label{fig:PeakDet}''Filtered Signal 1'' in grey before smoothing with a narrow gaussian to generate `'Filtered Signal 2'' in blue, which is used for peak finding.}
 \end{wrapfigure}
 Peak detection exploits the fact, that the first derivative of an event-peak will cross zero into the negative at the time of the peak maximum. The presence of random noise in the signal however will lead to many false detections. Therefore, before the detection of the event-peaks, the waveform fig(\ref{fig:PeakDet})(grey) is smoothed with a narrow-window gaussian with a width of about the FWHM of the devices characteristic event-pulse, in order to attenuate non-event peaks fig(\ref{fig:PeakDet})(blue). After the first derivative of the signal is calculated, which in python is a fast process if using arrays, a number of parameters decide the validity of the detected peaks. Most important parameters are a certain predetermined minimum amplitude, called the amplitude threshold or: minimum peak height. This is determined from initial examination of pulses on the oscilloscope and entered as a parameter to the analysis chain, but could later be calculated based on the noise level. The second important parameter defining validity is the minimum peak distance, which defines how close two events can occur after another. The value is determined by the FWHM of the device in testing, which is expected to be sensible enough to resolve two events happening close after another. The peak detection algorithm can not distinguish between instantanious and delayed Oprical Cross Talk, but nonetheless, due to the fact, that the signal data is taken over many micro-seconds, all events are detected, independent of their source. On the other hand, this also means, that it is possible for two events to happen at the same time, for example a real photoelectron-event coinciding with delayed Optical Cross Talk or two simultaneous dark events being misinterpreted as one dark event + its prompt cross-talk. This can not be destinguished and will lead to a slight shift of the amplitude, due to the mostly lower amplitude of afterpulsing and cross-talk events. 
 
@@ -509,7 +503,7 @@ Peak detection exploits the fact, that the first derivative of an event-peak wil
 \begin{overpic}[width=0.7\columnwidth,trim=0cm 0cm 0cm 0, clip=true,tics=10]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/{PAFit_Annotated}.png}
 \put(7,4) {\ca{-0.1~~~0.0~~~ 0.1~~~0.2~~~0.3~~~0.4~~~0.5~~~0.6~~~0.7}}
 \end{overpic}
-\caption{Pulse Area Histogram of a HPK S12642 with 1p.e. and $\Delta$p.e. positions. Multi gaussian fitted function eq(\ref{eq:multigauss}) as black dashed line.}
+\caption[Fitted pulse area histogram]{Pulse Area Histogram of a HPK S12642 with 1p.e. and $\Delta$p.e. positions. Multi gaussian fitted function eq(\ref{eq:multigauss}) as black dashed line.}
 \label{fig:PAFit}
 \end{centering}
 \end{figure}
@@ -520,50 +514,40 @@ Peak detection exploits the fact, that the first derivative of an event-peak wil
 %\caption{\label{fig:PAFit}Pulse Area Histogram of a HPK S12642 with 1p.e. and $\Delta$p.e. %positions. Multi gaussian as black dashed line.}
 %\end{wrapfigure}
 
-The detected peaks are integrated with a window extending symmetricaly from the peak maximum, the width is chosen as slightly wider than the peaks FWHM. The generated list of peak areas is generating a peak area histogram, which is fitted with a function of multiple gaussians eq(\ref{eq:multigauss}) using iMinuit in python, seen in Figure (\ref{fig:PAFit}). To determine the number of gaussians to fit, another function checks the viability of each N p.e. peak, among the checked parameters is the ratio in height to the 1 p.e. peak and the absolute peak-height of the checked {\large N}th p.e. peak in the histogramm.
+The detected peaks are integrated with a window extending symmetricaly from the peak maximum, the width is chosen as slightly wider than the peaks FWHM. The generated list of peak areas is generating a peak area histogram (see section {\ref{appsec:appsec:PAS_PHS}}). The amplitude, position and sigma of the first p.e. peak is calculated and fitted with a single gaussian using pythons scipy curvefit, the fitted parameters serve as a first guess. After the first guess parameters are determined, the histogram is fitted with a function of multiple gaussians eq(\ref{eq:multigauss}) using iMinuit in python, seen in Figure (\ref{fig:PAFit}). To determine the number of gaussians to fit, another function checks the viability of each N p.e. peak, among the checked parameters is the ratio in height to the 1 p.e. peak and the amplitude of the checked {\large N}th p.e. peak in the histogramm. The fit function F(x) is a function of multiple gaussians with equal spacing eq(\ref{eq:multigauss}). {\large N} is the multiplicity of the funciton or range the fit function is to be applied. A is the Amplitude of the {\large N}th p.e. peak with {\large $\sigma$} , {\large $\overline{x}$} is the x-position of the 1 p.e. peak, {\large $\Delta x$} is the p.e. spacing distance.
 
-
-
-\begin{figure}[h]
 \begin{equation}\label{eq:multigauss}
-\Large ( N \times \left[ A \times e^{\frac{-\left[x-(\overline{x}+N\times\Delta x)\right]^2}{2\times\sigma^2}} \right])
+\Large F(x) = ( N \times \left[ A \times e^{\frac{-\left[x-(\overline{x}+N\times\Delta x)\right]^2}{2\times\sigma^2}} \right])
 \end{equation}
-\label{fig:multigauss}
-\caption{ The fit function of multiple gaussians with equal spacing. {\large N} is the multiplicity of the funciton or range the fit function is to be applied. A is the Amplitude of the {\large N}th p.e. peak with {\large $\sigma$} , {\large $\overline{x}$} is the x-position of the 1 p.e. peak, {\large $\Delta x$} is the p.e. spacing distance.}
-\end{figure}
-
-
-
 
 Two parameters are extracted from the fit to the peak area histogram. The first {\large $\overline{x}$}, the position of the 1p.e. peak is the position of the maximum of the first peak in the histogram, and the position of corresponding multiple p.e. events should be integral factors of the 1p.e. position. This proved to not be the case for some devices, the suspected source of this error is a pedestal generated during the peak integration. For a more detailed study of the effect of the integration window see section {\ref{subsec:data_challenges}}.\\
 
 \begin{wrapfigure}{R}{0.5\textwidth}
 \centering
 \includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/{GainFit_delta_pe}.png}
-\caption{\label{fig:Gain_P}1p.e. position and $\Delta$p.e. extracted from the Pulse Area histogram at every bias-voltage for HPK S12642 with their respective regression lines.}
+\caption[Regression line plots of 1p.e. and $\Delta$p.e.]{\label{fig:Gain_P}1p.e. position and $\Delta$p.e. extracted from the Pulse Area histogram at every bias-voltage for HPK S12642 with their respective regression lines.}
 \end{wrapfigure}
 
-A second parameter is extracted from the peak area histogram to deal with this problem, which is the distance between N p.e. peak maxima of the histogram, labeled $\Delta$p.e. , which defines the gain. The apparent pedestal of the pulse area histogram makes extraction of the two parameters necessary in order to calculate the Dark Count Rate and the Optical Cross Talk. The gain of a Silicon Photomultiplier has a linear dependence of the supplied bias-voltage. Given that the bias-voltage range is deliberately chosen such that the over-voltage ranges from about 1V growing upwards, the range of linearity only starts at around the point of operation given by the manufacturer of the device. At the higher end of the bias-voltage range the behaviour usually starts to divert from the linearity. In order to get an estimation of the gain over a large range, both previoulsy extracted parameters, the 1p.e. peak and the distance $\Delta$p.e. are fitted with a linear regression line. The fit assumes linearity utilizing weighted least squares inherited from pythons statsmodels package. Fot the fit, only the data, where at least 3 gaussians are fitted to the peak area histogram is taken into account. Plotting both extracted parameters, as well as their respective regression lines versus bias-voltage, as in Figure (\ref{fig:Gain_P}), shows the difference between the two parameters. Comparing the manufacturer supplied brakdown-voltage from the datasheet for all devices showed, that the zero-crossing of the 1p.e. regression line is more consistent with datasheet values, in contrast to the zero-crossing of $\Delta$p.e. , which lies slightly higher. The over-voltage, corresponding to the set bias-voltage at any given temperature is calculated from this breakdown-voltage. 
+A second parameter is extracted from the peak area histogram to deal with this problem, which is the distance between N p.e. peak maxima of the histogram, labeled $\Delta$p.e. . This distance defines the gain, as it gives a measure of the difference of the generated signal of a 1p.e. signal and a 2p.e. signal. The apparent pedestal of the pulse area histogram makes extraction of the two parameters necessary in order to calculate the Dark Count Rate and the Optical Cross Talk.\\\\ The gain of a Silicon Photomultiplier has a linear dependence of the supplied bias-voltage. Given that the bias-voltage range is deliberately chosen such that the over-voltage ranges from about 1V growing upwards, the range of linearity only starts at around the point of operation given by the manufacturer of the device. At the higher end of the bias-voltage range the behaviour usually starts to divert from the linearity. In order to get an estimation of the gain over a large range, both previoulsy extracted parameters, the 1p.e. peak and the distance $\Delta$p.e. are fitted with a linear regression line. The fit assumes linearity utilizing weighted least squares inherited from pythons statsmodels package. For the fit, the data, where more than 2 gaussians are fitted to the peak area histogram has a stronger weight.\\\\ Plotting both extracted parameters, as well as their respective regression lines versus bias-voltage, as in Figure (\ref{fig:Gain_P}), shows the difference between the two parameters. Comparing the manufacturer supplied brakdown-voltage from the datasheet for all devices showed, that the zero-crossing of the 1p.e. regression line is more consistent with datasheet values, in contrast to the zero-crossing of $\Delta$p.e. , which lies slightly higher. The over-voltage, corresponding to the set bias-voltage at any given temperature is calculated from this breakdown-voltage. 
 
 
-\newpage
-Dark Count Rate and Optical Cross Talk are calculated utilizing 1p.e. position and $\Delta$p.e. derived from the regression line. Both values are applied, in the calculation, to the peak area histogramm with the Dark Count Rate being defined as:
+%\newpage
+Dark Count Rate and Optical Cross Talk are calculated utilizing 1p.e. position and $\Delta$p.e. derived from the regression line. Both values are applied, in the calculation, to the peak area histogramm with the Dark Count Rate of a Silicon Photomultiplier being defined as all events exceding 0.5 p.e. in apmlitude $N_{events(\geq 0.5p.e.)}$ occuring over the experiment time $T_{experiment}$ \ref{eq:DCR_eq}. Included in the measurement are thermally generated dark counts, as well as delayed cross-talk and afterpulsing with only a minor contribution.
 
-\begin{figure}[h!]
-\begin{equation}
+\begin{equation}\label{eq:DCR_eq}
 DCR = \frac{N_{events(\geq 0.5p.e.)}}{T_{experiment}}
 \end{equation}
-\label{DCR_eq}
-\caption{The Dark Count Rate of a Silicon Photomultiplier is defined as all events exceding 0.5 p.e. in apmlitude $N_{events(\geq 0.5p.e.)}$ occuring over the experiment time $T_{experiment}$. Included in the measurement are thermally generated dark counts, as well as delayed cross-talk and afterpulsing with only a minor contribution.}
-\end{figure}
-,and the Optical Cross Talk as:
-\begin{figure}[h!]
-\begin{equation}
+
+
+The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(\geq 1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in amplitude$[N_{events(\geq 0.5p.e.)]}$ \ref{eq:OCT}. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell
+
+\begin{equation}\label{eq:OCT}
 OCT = \frac{N_{events(\geq 1.5p.e.)}}{N_{events(\geq 0.5p.e.)}}.
 \end{equation}
-\label{OCT_eq}
-\caption{The Optical Cross Talk of a Silicon Photomultiplier is defined as all events exceding 1.5 p.e. in apmlitude$[N_{events(\geq 1.5p.e.)]}$ devided by all events exceding 0.5 p.e. in apmlitude$[N_{events(\geq 0.5p.e.)]}$. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell}
-\end{figure}
+
+\subsection{Analysis improvements}
+For one, at higher DCR the multi hit coincidence of 2 1p.e. pulses rises and together with the resolution of the waveforms this could lead to the OCT being calculated high (see section \ref{appsec:multi_hit}).\\ Changing the determination of the threshold from being measured with an oscilloscope and added as a parameter by hand, to being determined on a per-waveform basis before peak-finding could improve the lower over-voltage resolution depending on electronic noise.\\ The source of the 'pedestal' in the pulse area spectra is suspected to originate from the pulse integration, but this is not certain.
+
 
 \newpage
 \subsection{Data Challenges}
@@ -574,7 +558,7 @@ OCT = \frac{N_{events(\geq 1.5p.e.)}}{N_{events(\geq 0.5p.e.)}}.
 \begin{centering}
 %L, B, R, T
 \resizebox{1.\columnwidth}{!}{\includegraphics[trim=0cm 0cm 5cm 1cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_IntWin+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pdf}}
-\caption{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit. In pink, the effect of a different integration window is shown.}
+\caption[MPD parameter challenges and the integration window]{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit. In pink, the effect of a different integration window is shown.}
 \label{fig:MPD_plot}
 \end{centering}
 \end{figure}
@@ -586,7 +570,7 @@ Figure (\ref{fig:MPD_plot}) also shows the influence of the size and shape of th
 \begin{centering}
 %L, B, R, T
 \resizebox{1.\columnwidth}{!}{\includegraphics[trim=0cm 0cm 5cm 1cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thresh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs_Vb}}
-\caption{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit. In pink, the effect of a lowered peak detection threshold is shown.}
+\caption[MPD parameter challenges and the threshold]{The difference between 4 minimum peak distance windows, in time-bins, during the peak detection.  In pink, the effect of a lowered peak detection threshold is shown. The dashed lines are the Dark Count Rates considering all recorded events, forming an upper limit.}
 \label{fig:PF_Thresh_plot}
 \end{centering}
 \end{figure}
@@ -621,17 +605,17 @@ Choosing an adequate peak-finding threshold is a crucial step. Lowering of the t
     SensL FJ60035                           & 6$mm^2$     & 35$\mu$m  & glass   & TSV        & no trenches             & MS 15V        \\
     \hline
 \end{tabular}
-\caption{List of SiPM devices which results are presented in this paper. *(SR: silicon resin , MS: MiniCircuits , TSV: through silicon via)}
+\caption[List of examined SiPM devices]{List of SiPM devices which results are presented in this paper. *(SR: silicon resin , MS: MiniCircuits , TSV: through silicon via)}
 \end{figure}
 \end{centering}
-Silicon Photomultiplier devices for CTA are researched by many different groups, validating different characteristics. Besides the current SiPM for CHEC-S, newly developed prototypes offer a diverse range of pixel- and cellsizes. The majority of the devices are tested in Japan, at the University of Nagoya, conducting in depth analysis of the characteristics over a wide over-voltage range at one static temperature, mainly focusing on PDE and OCT, and their correlation. This correlation of OCT and PDE for all devices determines the candidate for CHEC-S, by comparing the highest PDE at the lowest possible OCT for each device. At MPIK, chosen candidate devices are examined regarding their temperature dependence and as to assist in the final decision by confirming results with a different analysis technique.\\
-The chosen devices include the current CHEC-S device HPK S12642-1616PA-50, from Hamamatsu Photonics K.K., to be implemented in the first prototype camera. It is a previous generation SiPM, which was decided for use in 2014.(, due to the limited availability in high PDE devices at that time.) The manufacturer supplies a 16*16 channel premounted tile of 3mm$^2$ pixels with a cell-size of 50$\mu$m. To emulate the usage in a TARGET module, 4 3mm$^2$ pixels are electrically connected to form a 6mm$^2$ superpixel. The tile is typically coated with epoxy resin, but due to specific requirements regarding the uniformity of the coating, it was replaced with a very thin layer of silicon resin equivalent to later prototypes. The CHEC-S devices electronical connection is realised via the new through-silicon-via (TSV) concept of running a connecting solder through the silicon bulk, instead of wiring on the outside, greatly increasing the fill-factor, but also including some disadvatageous sideffects later shown.\\
-Additional tested devices include the LCT5 generation from Hamamatsu Photonics K.K., so called due to their low cross talk properties, namely the commercial available S13360-5050CS. This device is the first to include physical trenches between the cells, effectively dividing the cells optically and thus reducing prompt cross-talk probability.\\
-The LCT5 generation also made two prototype devices avaiable for testing at MPIK, the first, HPK LCT5 SN CATANIA, is a larger iteration with a cellsize of 75$\mu$m and a pixelsize of 6.915mm$^2$. Being from the LCT5 generation it also includes optical trenches. The second device available is a LCT5 prototype designated 6050HWB-LVR-LCT , LVR meaning low-voltage-range, with the same physical dimensions and properties as the S13360 device but incorporating TSV technology and possibly other unknown deviations.\\
-The final device is a commercially avaiable test-array designated FJ60035 from SensL, premounted on a test-array by the manufacturer. It has the same pixel-size, but a much smaller cell-size 35$\mu$m than the previous mentioned devices and a different coating (glass).\\
+Silicon Photomultiplier devices for CTA are researched by many different groups, validating different characteristics. Besides the current SiPM for CHEC-S, newly developed prototypes offer a diverse range of pixel- and cellsizes. The majority of the devices are tested in Japan, at the University of Nagoya, conducting in depth analysis of the characteristics over a wide over-voltage range at one static temperature, mainly focusing on PDE and OCT, and their correlation. This correlation of OCT and PDE for all devices determines the candidate for CHEC-S, by comparing the highest PDE at the lowest possible OCT for each device. At MPIK, chosen candidate devices are examined regarding different characteristics and their temperature dependence and as to assist in the final decision by confirming results with a different analysis technique.\\\\
+The chosen devices include the current CHEC-S device HPK S12642-1616PA-50, from Hamamatsu Photonics K.K., to be implemented in the first prototype camera. It is a previous generation SiPM, which was decided for use in 2014.(, due to the limited availability in high PDE devices at that time.) The manufacturer supplies a 16*16 channel premounted tile of 3mm$^2$ pixels with a cell-size of 50$\mu$m. To emulate the usage in a TARGET module, 4 3mm$^2$ pixels are electrically connected to form a 6mm$^2$ superpixel. The tile is typically coated with epoxy resin, but due to specific requirements regarding the uniformity of the coating, it was replaced with a very thin layer of silicon resin equivalent to later prototypes. The CHEC-S devices electronical connection is realised via the new through-silicon-via (TSV) concept of running a connecting solder through the silicon bulk, instead of wiring on the outside, greatly increasing the fill-factor, but also including some disadvatageous sideffects later shown.\\\\
+Additional tested devices include the LCT5 generation from Hamamatsu Photonics K.K., so called due to their low cross talk properties, namely the commercial available S13360-5050CS. This device is the first to include physical trenches between the cells, effectively dividing the cells optically and thus reducing prompt cross-talk probability.\\\\
+The LCT5 generation also made two prototype devices avaiable for testing at MPIK, the first, HPK LCT5 6.975MM-SIL Single, is a larger iteration with a cellsize of 75$\mu$m and a pixelsize of 6.915mm$^2$, leading to larger fill-factor, which would imply higher PDE, but also DCR and OCT. Being from the LCT5 generation it also includes optical trenches. The second device available is a LCT5 prototype designated 6050HWB-LVR-LCT , LVR meaning low-voltage-range, with the same physical dimensions and properties as the S13360 device but incorporating TSV technology and possibly other unknown deviations.\\\\
+The final device is a commercially avaiable test-array designated FJ60035 from SensL, premounted on a test-array by the manufacturer. It has the same pixel-size, but a much smaller cell-size 35$\mu$m than the previous mentioned devices, and such a lower fill-factor, and a different coating (glass).\\\\
 
-The tests conducted in Nagoya contain many different iterations of the LCT5 generation with variing pixel- and cell-sizes.\\
-For a full overview of the considered Silicon Photomultipliers, please refer to the appendix under (\ref{appendix:SiPM_Nagoya}).
+The tests conducted in Nagoya contain many different iterations of the LCT5 generation with variing pixel- and cell-sizes.
+For a full overview of the considered Silicon Photomultipliers, please refer to section {\ref{appsec:Nagoya_list}}.
 
 
 
@@ -640,25 +624,25 @@ For a full overview of the considered Silicon Photomultipliers, please refer to 
 \begin{wrapfigure}{R}{0.3\textwidth}
 \centering
 \includegraphics[width=0.3\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG}
-\caption{\label{fig:CHECSTILE}CHEC-S tile}
+\caption[CHEC-S SiPM]{\label{fig:CHECSTILE}CHEC-S tile}
 \end{wrapfigure}
-The Silicon Photomultiplier by Hamamatsu Photonics designated S12642-1616PA-50 is a 3 mm by 3 mm device. The array uses the through-silicon-via technology, meaning there are no wire-bonds present, the electrical connection is realised through the silicon-body. The pixels are coated with a thin film of silicon resin, after the previously used epoxy resin proved not uniform enough. One array consists of 256 pixels, 4 of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practice is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore this is expected to have an influence on the results due to electrical crosstalk, but this is only of minor concern due to the following. 
+The Silicon Photomultiplier by Hamamatsu Photonics designated S12642-1616PA-50 is a 3 mm by 3 mm device. The array uses the through-silicon-via technology, meaning there are no wire-bonds present, the electrical connection is realised through the silicon-body. The pixels are coated with a thin film of silicon resin, after the previously used epoxy resin proved not uniform enough. The electrical contact is realized through the through-silicon-via (TSV) technology, establishing connection through the silicon bulk, allowing a tighter fit of the cells, with minimal dead-space. One array consists of 256 pixels, four of which are electrically tied togother to form a 6mm by 6mm superpixel respectively. This practice is necessary for the pre-production camera CHEC-S, because the focal plane is mechanically designed to house 64 6mm$^{2}$ pixels, connected to the TARGET modules. Furthermore this is expected to have an influence on the results due to electrical crosstalk, but this is only of minor concern due to the following. 
 
 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/{Average_25.0_67.8_PulseShape}.pdf}}
-\caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S12642 at 25$^{\circ}$~C and 67.8V, which is around the proposed operating point. Both pulses are averaged over >>1000 events and normalized to illustrate possible differences in pulseshape resulting from the utilized shaping electronics. Both pulses have a FWHM of around 10ns and are nearly free of ringing. The resulting average amplitude of the 1p.e. pulse is later used to calculate the Gain in [mV/p.e.] instead of [V*IntWin] by cross-referencing the 1p.e. amplitude at multiple bias-voltages.}
+\caption[CHEC-S average pulse shape]{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S12642 at 25$^{\circ}$~C and 67.8V, which is around the proposed operating point. Both pulses are averaged over >>1000 events and normalized to illustrate possible differences in pulseshape resulting from the utilized shaping electronics. Both pulses have a FWHM of around 10ns and are nearly free of ringing. The resulting average amplitude of the 1p.e. pulse is later used to calculate the Gain in [mV/p.e.] instead of [V*IntWin] by cross-referencing the 1p.e. amplitude at multiple bias-voltages.}
 \label{fig:S12642_PS}
 \end{centering}
 \end{figure}
-My measurements of the CHEC-S tile concentrate on the array as an as-is device. This means all results, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way I was conducting the measurements is the way the Photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, for example, it is expected that the tests done at Hamamatsu Photonics where conducted on a single 3mm$^2$ pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, developed by the University of Leicester. This is done in order to lower the unshaped pulse from a FWHM in the ~100s ns to ~10ns. This whole amplification and shaping chain is simulating later usage in the TARGET modules. I conducted the measurements multiple times on different pixels of the CHEC-S tile (appendix{\ref{app:CHEC_S_multipixel_Gain}}{\ref{app:CHEC_S_multipixel_DCR}}{\ref{app:CHEC_S_multipixel_OCT}}).
+The measurements of the CHEC-S tile concentrate on the array as an as-is device. This means their performance, influenced by external factors outside the actual Silicon Photomultipliers physics, are valid on the assumption, that the way the measurements were conducted is the way the photomultiplier will later be incorporated into the camera. On that ground, deviations of my results from the results of other groups and the manufacturer itself are expected. To clarify this further, for example, it is expected that the tests done at Hamamatsu Photonics where conducted on a single 3mm$^2$ pixel, not an array of 256 pixels, where 4 are tied together. Also divergence of shaping and amplification electronics between the groups will result in some differences. For this test, the CHEC-S tile is connected to the CHEC-S buffer, supplied with $\pm$4V, where the signal is amplified. This signal in turn is then shaped via the CHEC-S shaper, developed by the University of Leicester, see section {\ref{sec:exp_setup}}. This whole amplification and shaping chain is simulating later usage in the TARGET modules. Multiple measurements were conducted on different pixels of the CHEC-S tile, see section {\ref{appsec:CHEC_S_multipixel}}.
 
 
 %\newpage
 \subsubsection{Gain}
-As descibed in section{\ref{subsec:SiPMGain}}, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height, which results in this relative gain being in units of $V*timebins$, instead of plain V. In Figure (\ref{fig:S1264_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
+As descibed in section{\ref{subsec:SiPMGain}}, the average pulse shape fig(\ref{fig:S12642_PS}) is used to convert the relative gain from the analysis procedure to an absolute gain in sensible units. This is necessary, because the analysis aims to use pulse-area rather than -height, which results in this relative gain being in units of $V\times timebins$, instead of voltage. In Figure (\ref{fig:S1264_Gain}) (left) the relative gain is shown, the right side shows the gain after conversion.
 A lower gain with increasing temperature is expected and described in detail in the chapter {\ref{subsec:SiPMGain}}. In short, increased lattice movement due to higher temperature hinders photoelectron transport. The effects visible at extreme bias-voltages at both ends are partially analysis related. The gain of a SiPM is expected to be linear over bias-voltage at a constant temperature. 
 
 \begin{figure}[h]
@@ -667,7 +651,7 @@ A lower gain with increasing temperature is expected and described in detail in 
 %\put(20,85) {X Datasheet value}
 \end{overpic}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined}}
-\caption{Gain of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. }
+\caption[CHEC-S gain]{Gain of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S12642_Gain}
 \end{centering}
 \end{figure}
@@ -681,14 +665,13 @@ A lower gain with increasing temperature is expected and described in detail in 
 %\end{centering}
 %\end{figure}
 
-In the lower regime at Vb ~66.5V my analysis method struggles to pick up pulses, because of the very low gain compared to the noise. Depending on the chosen peak-finding threshold, the analysis is suspected to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. The roll-over of the gain at the highest bias-voltages is in part a result of a voltage drop across the bias resistor occuring, because of high current flow through the SiPM. At higher temperatures, and therefore higher dark rates, the effect occurs at lower over-voltages. A second influence is caused again, by the noise at Vov ~5V, which is very high compared to the proposed point of operation at Vov ~3V. The same threshold is again counting the now increased noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this just results in an apparent lowering of the gain.
-
+In the lower regime at Vb $\sim$66.5V the gain is low compared to the noise, so the analysis struggles to pick up pulses. Depending on the determined peak-finding threshold, the analysis is suspected to interpret noise peaks as 1p.e. peaks at an increasing rate, the lower the overvoltage is. This is visible in the sudden break in linearity at 30$^{\circ}$~C and 35$^{\circ}$~C , where the gain is almost in a plateau, due to this effect. The roll-over of the gain at the highest bias-voltages is in part a result of a voltage drop across the bias resistor occuring, because of high current flow through the SiPM. At higher temperatures, and therefore higher dark rates, the effect occurs at lower over-voltages. A second influence is caused again, by the noise at Vov ~5V, which is very high compared to the proposed point of operation at Vov ~3V. The same threshold is again counting the now increased noise peaks as 1p.e. peaks, but due to the abundance of 1p.e. pulses this results in an apparent lowering of the gain.
 
 
 
 %\newpage
 \subsubsection{Dark Count Rate}
-The Dark Count Rate is expected to increase with temperature, which is the case for S12642 showb in Figure (\ref{fig:S12642_DCR}). I also expect it to follow a nearly linear progression, a sudden turn-up or turn-down of the Dark Count Rate would be analysis related. The turn-up at a certain point is visible in Figure (\ref{fig:S12642_DCR}), particulary for 15$^{\circ}$~C (purple) and 20$^{\circ}$~C (blue) respectively. At 15$^{\circ}$~C and an Overvoltage of ~4V, the Dark Count Rate starts to deviate from the previously linear behaviour. It starts to rise more rapid than before, which I can attribute to the fact, that the Optical Cross Talk at that point is very high; higher than 50$\%$  fig(\ref{fig:S12642_OCT}) (left). I suspect that I do not reach this critical point for the higher temperatures of 25$^{\circ}$~C (green) and 30$^{\circ}$~C (red), so the effect is barely, if not at all visible. 
+The Dark Count Rate is expected to increase with temperature, which is the case for S12642 shown in Figure (\ref{fig:S12642_DCR}) and to follow a nearly linear progression, a sudden turn-up or turn-down of the Dark Count Rate would be analysis related. The turn-up at a certain point is visible in Figure (\ref{fig:S12642_DCR}), particulary for 15$^{\circ}$~C (purple) and 20$^{\circ}$~C (blue) respectively. At 15$^{\circ}$~C and an over-voltage of $\sim$4V, the Dark Count Rate starts to deviate from the previously linear behaviour. It starts to rise more rapid than before, the Optical Cross Talk at that point is also very high; exceeding 50$\%$  fig(\ref{fig:S12642_OCT}) (left). For the higher temperatures of 25$^{\circ}$~C (green) and 30$^{\circ}$~C (red) this critical point is not reached, so the effect is barely, if not at all visible. 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
@@ -699,12 +682,12 @@ The Dark Count Rate is expected to increase with temperature, which is the case 
 \end{overpic}
 
 
-\caption{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. Datasheet value at operation voltage = 2.4V and 25$^\circ$C measured by current}
+\caption[CHEC-S DCR]{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature. Datasheet value at operation voltage = 2.4V and 25$^\circ$C measured by current}
 \label{fig:S12642_DCR}
 \end{centering}
 \end{figure}
-At 35$^{\circ}$~C (yellow) I suspect my analysis is not able to count every pulse, due to the high rate of 9-10 MHz. A majority of the pulses overlapping each other and being counted as a 2p.e. event rather than 2 1p.e. events would reduce the Dark Count Rate significantly. At this point, heating of the Silicon Photomultipliers surface due to the high rate could also affect the Dark Count Rate through shifting of the temperature slightly upwards, away from 35${^\circ}$~C . So that the Dark Count Rate declared at 35${^\circ}$~C is in reality the rate at higher temperatures. \\\\
-At the lower end of the bias-voltage range, I suspect, that a major part of the found 1p.e. pulses are actually noise related. So the Dark Count Rate changing to a plateau is expected. This is also due to the fact, that my measurements are done with a fixed bias-voltage range. Due to the increase of the breakdown-voltage with rising temperature, part of the measured bias-voltage range corresponding to a very low over-voltage, attributes to this effect. In order to reliably measure beyond an overvoltage of ~2.5V in the lower range, the noise would need to be improved.  
+At 35$^{\circ}$~C (yellow), due to the high rate of 9-10 MHz, the analysis is not able to detect every peak. At this point, heating of the Silicon Photomultipliers surface due to the high rate could also affect the Dark Count Rate through a slight shift of the temperature upwards, away from 35${^\circ}$~C . So that the Dark Count Rate declared at 35${^\circ}$~C is in reality the rate at higher temperatures. \\\\
+At the lower end of the bias-voltage range, a major part of the found 1p.e. pulses are suspected to be noise related. So the Dark Count Rate changing to a plateau is expected. This is also due to the fact, that the measurements are done with a fixed bias-voltage range. Due to the increase of the breakdown-voltage with rising temperature, part of the measured bias-voltage range corresponding to a very low over-voltage, attributes to this effect. In order to reliably measure beyond an overvoltage of ~2.5V in the lower range, the noise would need to be improved.  
 
 
 
@@ -717,12 +700,12 @@ At the lower end of the bias-voltage range, I suspect, that a major part of the 
 %L, B, R, T
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined}}
-\caption{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature.}
+\caption[CHEC-S OCT]{Dark Count Rate of the HPK S12642 pixel, plotted against over- , bias-voltage and temperature.}
 \label{fig:S12642_OCT}
 \end{centering}
 \end{figure}
-The Optical Cross Talk should be linear and independent from temperature. This is confirmed for HPK S12642. Minor diviations from that are probably due to slight errors in the breakdown-voltage calculation from the gain regression line. The diviation of 30${^\circ}$~C and 35${^\circ}$~C below an over-voltage of 2V stems from the way the gain regression line is used to calculate both Dark Count Rate and Optical Cross Talk. At higher temperatures the lower voltage range is dominated by noise, so using the gain regression line to calculate the Optical Cross Talk at those low voltages leads to the visible effect of the first few datapoints of 30${^\circ}$~C and 35${^\circ}$~C. 
-The deviations between the different groups results at 25${^\circ}$~C (green) are caused by 4 major contributions. Firstly the difference in the tested device. While I take measurements on 4 3mm$^2$ pixels electricaly tied together, the way the device will later be implemented into CHEC-S, the groups in the US\cite{US_CHECS} and Hamamatsu Photonics\cite{HPK_SiPM} are likely to run tests on 1 3mm$^2$ pixel only. Secondly I suspect a slight difference in amplification and shaping electronics. The measurements I conducted as well as the measurements of Leicester are done with the same shaper and buffer configuration. The difference here is, thirdly, my measurements are done with dark counts only, while measurements from other groups are conducted with a pulsed light source and reading out timed windows. This causes the results from Leicester to be difficult to compare against, their surface temperature of the SiPM is likely much higher than 25${^\circ}$~C, and thus, a misinterpreted breakdown-voltage at 25${^\circ}$~C causes a shift of the Optical Cross Talk to the right. Lastly the difference in actual data taking and analysis procedure must be mentioned, also this is only of minor concern, as we will see with other measured devices.
+The Optical Cross Talk is expected to be linear and independent from temperature. This is confirmed for HPK S12642. Minor diviations from that are probably due to slight errors in the breakdown-voltage calculation from the gain regression line. The diviation of 30${^\circ}$~C and 35${^\circ}$~C below an over-voltage of 2V stems from the way the gain regression line is used to calculate both Dark Count Rate and Optical Cross Talk. At higher temperatures the lower voltage range is dominated by noise, so using the gain regression line to calculate the Optical Cross Talk at those low voltages leads to the visible effect of the first few datapoints of 30${^\circ}$~C and 35${^\circ}$~C. 
+The deviations between the different groups results at 25${^\circ}$~C (green) are caused by 4 major factors. Firstly the difference in the tested device. While the device measurements in this thesis has every four 3mm$^2$ pixels electricaly tied together, the way the device will later be implemented into CHEC-S, the groups in the US\cite{US_CHECS} and Hamamatsu Photonics\cite{HPK_SiPM} are likely to run tests on one 3mm$^2$ pixel only. Secondly a slight difference in amplification and shaping electronics is suspected. The measurements conducted in this thesis as well as the measurements of Leicester are done with the same shaper and buffer configuration. The difference here is, thirdly, measurements are done with dark counts only, while measurements from other groups are conducted with a pulsed light source and reading out timed windows. This causes the results from Leicester to be difficult to compare against, their surface temperature of the SiPM is likely much higher than 25${^\circ}$~C, and thus, a misinterpreted breakdown-voltage at 25${^\circ}$~C causes a shift of the Optical Cross Talk to the right. Lastly the difference in actual data taking and analysis procedure must be mentioned, also this is only of minor concern, as we will see with other measured devices.
 
 
 
@@ -736,10 +719,10 @@ The deviations between the different groups results at 25${^\circ}$~C (green) ar
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth,trim=0cm 2cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG}
-\caption{\label{fig:S13360_pixel}HPK S13360 6050CS pixel}
+\caption[LCT5 6mm SiPM]{\label{fig:S13360_pixel}HPK S13360 6050CS pixel}
 \end{wrapfigure}
 
-The Silicon Photomultiplier designated HPK S13360 6050CS fig(\ref{fig:S13360_pixel}) is an LCT5, meaning Low Cross Talk 5th iteration device from Hamamatsu Photonics. It is one of the most promising candidates for later usage in CHEC-S. It has a pixelsize of 6mm$^2$ consisting of 14400 cells with a cellsize of 50$\mu$m. The present device and its similar iterations are the first to incorporate trenches bordering each cell, effectively insulating the cells and reducing the prompt Optical Cross Talk very effectively. Tests are done with a single pixel only, in contrast to measurements done on S12642. It is mounted on a ceramic chip and coated with a silicon resin that is UV-transparent. Wire bonds supply the electrical contact. A similar, but not tested, device from the same generation uses through-silicon-via (TSV) technology, realising electrical connection through the silicon bulk, allowing a tighter fit of the cells, with minimal dead-space.
+The Silicon Photomultiplier designated HPK S13360 6050CS fig(\ref{fig:S13360_pixel}) is an LCT5, meaning Low Cross Talk 5th iteration device from Hamamatsu Photonics. It is one of the most promising candidates for later usage in CHEC-S. It has a pixelsize of 6mm$^2$ consisting of 14400 cells with a cellsize of 50$\mu$m. The present device and its similar iterations are the first to incorporate trenches bordering each cell, effectively insulating the cells and reducing the prompt Optical Cross Talk. Tests are done with a single pixel only, in contrast to measurements done on S12642. It is mounted on a ceramic chip and coated with a silicon resin that is UV-transparent. Wire-bonds supply the electrical contact. A similar, but not tested, device from the same generation uses through-silicon-via (TSV) technology.
 
 
 
@@ -747,19 +730,19 @@ The Silicon Photomultiplier designated HPK S13360 6050CS fig(\ref{fig:S13360_pix
 \begin{centering}
 %L, B, R, T
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/{Average_25.0_55.0_PulseShape}.pdf}}
-\caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S13360 6050CS at 25$^{\circ}$~C and at point of operation. Both pulses have a  FWHM of around 5ns and ring for approximately 20ns with an undershoot of 20\%. }
+\caption[LCT5 6mm average pulse shape]{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK S13360 6050CS at 25$^{\circ}$~C and at point of operation. Both pulses have a  FWHM of around 5ns and ring for approximately 20ns with an undershoot of 20\%. }
 \label{fig:S13360_PS}
 \end{centering}
 \end{figure}
 
- The layout of the single pixle test device made external amplification necessary. I used a MiniCircuits PreAMP, which was supplied with 13V during this test. Shaping of the pulse is conducted by a CHEC-S shaper, modified to fit the new unshaped pulse. The pulse shape fig(\ref{fig:S13360_PS}) makes the pulses appear much harder to analyze, due to the possibility of events occuring during the ringing window. This assumption proved untrue, due to the devices low Dark Count Rate and Optical Cross Talk, so the multi incident probability is also low.
+The layout of the single pixle test device made external amplification necessary. An amplifier from MiniCircuits was supplied with 13V during this test. Shaping of the pulse is conducted by a CHEC-S shaper, modified to fit the new unshaped pulse. The pulse shape fig(\ref{fig:S13360_PS}) makes the pulses appear much harder to analyze, due to the possibility of events occuring during the ringing window. This assumption proved untrue, due to the devices low Dark Count Rate and Optical Cross Talk, resulting in a low multi incident probability.
 
 
 %\clearpage
 \subsubsection{Gain}
 
 
-The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outliers at 30$^{\circ}$C.  The same effect as with S12642 is visible at 35$^{\circ}$C, again counting noise peaks as 1p.e. peaks, resulting in an apparent lowering of the gain and the slope changing over into a plateau. In Figure(\ref{fig:S13360_Gain})(left) the gain is shown, plotted against over-voltage. It is still dependant on temperature, but due to reliable breakdown-voltage calculation, the spread is much smaller than, if plotted against bias-voltage. The same conversion is done to transform relative gain into an absolute gain with sensible units. When parametrized with over-voltage, the gain is essentially temperature independent.
+The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outliers at 30$^{\circ}$C.  The same effect as with S12642 is visible at 35$^{\circ}$C, again counting noise peaks as 1p.e. peaks, resulting in an apparent lowering of the gain and the slope changing over into a plateau. In Figure(\ref{fig:S13360_Gain})(left) the gain is shown, plotted against over-voltage. It is still dependent on temperature, but due to reliable breakdown-voltage calculation, the spread is much smaller than, if plotted against bias-voltage. The same conversion is done to transform relative gain into an absolute gain with sensible units. When parametrized with over-voltage, the gain is essentially temperature independent.
 %\\\\\\\\\\\\\\\\\\\\\\\\\\ %wrapfigure spacing
 \begin{figure}[h]
 \begin{centering}
@@ -769,7 +752,7 @@ The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outli
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/filter2}.jpg}}
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{./Fig/{Analysis_Page/peakpos}.jpg}} 
-\caption{Gain of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
+\caption[LCT5 6mm gain]{Gain of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S13360_Gain}
 \end{centering}
 \end{figure}
@@ -777,7 +760,7 @@ The gain of the LCT5 50$\mu$m 6mm device is clearly linear with some minor outli
 
 %\newpage
 \subsubsection{Dark Count Rate}
-The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fig:S13360_DCR}). The bars show the difference between the two devices, the results of one device is used as a reference, while the deviation is illustrated with the filled bar. The Dark Count Rate of HPK S13360 followes the expected behaviour, mostly linear in the significant range and rising with increasing temperature. Below an over-voltage of 2.5V the analysis struggles, compared to noise, the gain is suspected to be to low for the analysis to pick up pulses. Thus the regression line calculation is unreliable in this range. The turnup at high over-voltages is most prominent at 0$^{\circ}$C(teal) after an over-voltage of 9V. This is also the point where the Optical Cross Talk rises very rapidly. The large range of the DCR at an over-voltage of 3V makes is difficult to compare against, the manufacturer determines the DCR by measureing the current.
+The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fig:S13360_DCR}). The bars show the difference between the two devices, the results of one device is used as a reference, while the deviation is illustrated with the filled bar. The Dark Count Rate of HPK S13360 followes the expected behaviour, mostly linear in the significant range and rising with increasing temperature. Below an over-voltage of 2.5~V the gain is suspected to be to low enough so noise peaks can be misinterpreted as events. Thus the regression line calculation is unreliable in this range. The turn-up at high over-voltages is most prominent at 0~$^{\circ}$C(teal) after an over-voltage of 9~V. This is also the point where the Optical Cross Talk rises very rapidly. The datashee values from the manufacturer cover a large range of the DCR at an over-voltage of 3V, making is difficult to compare against, the manufacturer determines the DCR by measuring the current.
 \begin{figure}[ht]
 \begin{centering}
 %L, B, R, T
@@ -786,7 +769,7 @@ The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fi
 \begin{overpic}[width=0.45\columnwidth,trim=0cm 0cm 0cm 0, clip=true,tics=10]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined}
 \put(0,35) {Datasheet value between}\put(33,19) {X}\put(33,39) {X}\put(34,29) {\bigg|}
 \end{overpic}
-\caption{Dark Count Rate of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. The Datasheet value at 25$^\circ$C of the DCR at $V_{OV}=3V$ covers a very large range to exactly compare against, and is measured by current}
+\caption[LCT5 6mm DCR]{Dark Count Rate of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. The Datasheet value at 25$^\circ$C of the DCR at $V_{OV}=3V$ covers a very large range to exactly compare against, and is measured by current}
 \label{fig:S13360_DCR}
 \end{centering}
 \end{figure}
@@ -794,9 +777,9 @@ The Dark Count Rate of two similar HPK S13360 devices is shown in Figure(\ref{fi
 %\clearpage
 \subsubsection{Optical Cross Talk}
 
-Compared to measurements on HPK S13360 done at the Nagoya University, Japan fig(\ref{fig:S13360_OCT}) (faded green bar), I see a very strong correlation of the Optical Cross Talk in the over-voltage range between 2.5V and 9V. The Optical Cross Talk in this range is linear and independent from temperature, with minor deviations attributed to the breakdown-voltage calculation from the regression line, causing the horizontal shift. In contrast to my technique, using only dark counts, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. This could have consequences, since Optical Cross talk with a large delay time could be missed. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method struggling to pick up pulses using dark counts. Above an over-voltage of 9V, which is also the point of the turnup of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. I suspect the rapid increase in both Dark Count Rate and Optical Cross Talk to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the MiniCircuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. I suspect these two reasons in conjunction are responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.\\\\
+The measurements of the HPK S13360 SiPM done at the Nagoya University, Japan fig(\ref{fig:S13360_OCT}) (faded green bar), correlate very strong with results from this thesis of the OCT in the over-voltage range between 2.5V and 9V. The Optical Cross Talk in this range is linear and independent from temperature, with minor deviations attributed to the breakdown-voltage calculation from the regression line, causing the horizontal shift. In contrast to the dark counts measurements in this thesis, the measurements at Nagoya University followed a pulsed light source approach, reading out a time-window after the laser incident. This could have consequences, since Optical Cross Talk with a longer delay time could be missed. Deviations below an over-voltage of 2.5V are expected, they are very likely caused by the regression line calculation being unreliable in this range due to the analysis method misinterpreting noise as dark count events. Above an over-voltage of 9V, which is also the point of the turn-up of the Dark Count Rate, the Optical Cross Talk is no longer linear and the deviation from the results of Nagoya University increase very rapidly. The rapid increase in both Dark Count Rate and Optical Cross Talk is suspected to be caused by the over-voltage reaching ranges, where interpretation of noise as a 1p.e. pulse becomes more likely. This, joint together with the usage of the MiniCircuits amplifier supplied with 13V, makes false interpretation of noise as pulses even more likely. These two reasons in conjunction are suspected to be responsible for both, the sudden rise of the Dark Count Rate as well as the deviation of the Optical Cross Talk from linearity and the results of Nagoya University, above over-voltages around 9V. In summary, the correlation between the two measurements, conducted by two different methods of data acquisition and analysis, is evident.\\\\
 
-The S13360 series is the first to incorporate physical barriers, called trenches, effectively insulating the cells from each other. This drastically reduces the promt cross-talk, while increasing the percentage the delayed cross-talk contributes to the overall cross-talk shown. This could also be the reason for the upturn compared to data from the University of Nagoya, at higher over-voltages the contribution from delayed cross-talk is higher. With the trenches effectively reducing the prompt cross-talk and the difference in analysis, the effect could be partially explanied by increased contribution of the delayed cross-talk. More on this subject in chapter {\ref{sec:comparison}}.
+The S13360 series is the first to incorporate physical barriers, called trenches, effectively insulating the cells from each other. This drastically reduces the promt cross-talk, while increasing the percentage the delayed cross-talk contributes to the overall cross-talk shown. This could also be the reason for the up-turn, compared to data from the University of Nagoya; at higher over-voltages the contribution from delayed cross-talk is higher\cite{DelayedOCT}. With the trenches effectively reducing the prompt cross-talk and the difference in analysis, the effect could be partially explanied by increased contribution of the delayed cross-talk. More on this subject in chapter {\ref{sec:comparison}}.
 
 
 \begin{figure}[h]
@@ -804,7 +787,7 @@ The S13360 series is the first to incorporate physical barriers, called trenches
 %L, B, R, T
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined}}
-\caption{Optical Cross Talk of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
+\caption[LCT5 6mm OCT]{Optical Cross Talk of the HPK S13360 pixel, plotted against over- , bias-voltage and temperature. }
 \label{fig:S13360_OCT}
 \end{centering}
 \end{figure}
@@ -818,17 +801,17 @@ The S13360 series is the first to incorporate physical barriers, called trenches
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0.1cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG}
-\caption{\label{fig:LCT57_pixel}HPK LCT5 7mm pixel}
+\caption[LCT5 7mm SiPM]{\label{fig:LCT57_pixel}HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
-The device named 6.975MM-SIL Single is a larger LCT5 prototype Silicon Photomultiplier of the same design as S13360-6050CS fig(\ref{fig:LCT57_pixel}). With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixel-area is also expanded to 6.915mm$^2$, which will result in a higher fill-factor (less deadspace), so presumably a higher PDE but also a higher OCT. Since it is a prototype device, there is limited data from datasheets. The ID number suggests, that it is also a wire-bond device with a UV-transparent silicon-resin coating. It is also a single pixel test device, so external amplification is necessary with the MiniCircuits PreAMP, supplied with 8V during this test. The signal is also shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude fig(\ref{fig:LCT57_PS}).
+The device named 6.975MM-SIL Single is a larger LCT5 prototype Silicon Photomultiplier of the same design as S13360-6050CS fig(\ref{fig:LCT57_pixel}). With an increase in cellsize to 75$\mu$m, the device gains a higher fill-factor than 50$\mu$m devices. The pixel-area is also expanded to 6.915mm$^2$, which will result in a higher fill-factor (less deadspace), both size increases together will presumably result in a higher PDE but also a higher OCT. Since it is a prototype device, there is limited data from datasheets. The ID number suggests, that it is also a wire-bond device with a UV-transparent silicon-resin coating. It is also a single pixel test device, so external amplification is necessary with the MiniCircuits PreAMP, supplied with 8V during this test. The signal is shaped by a differently modified CHEC-S shaper, which results in a pulse shape similar to S12642, but with a much lower amplitude fig(\ref{fig:LCT57_PS}).
 
 %\newpage
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/{Average_25.0_55.0_PulseShape}.pdf}}
-\caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK LCT5 7mm at 25$^{\circ}$~C and at point of operation. Both pulses have a FWHM of around 7ns and an undershoot of 20\%, with no ringing. }
+\caption[LCT5 7mm average pulse shape]{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK LCT5 7mm at 25$^{\circ}$~C and at point of operation. Both pulses have a FWHM of around 7ns and an undershoot of 20\%, with no ringing. }
 \label{fig:LCT57_PS}
 \end{centering}
 \end{figure}
@@ -840,10 +823,10 @@ The device named 6.975MM-SIL Single is a larger LCT5 prototype Silicon Photomult
 \begin{wrapfigure}{R}{0.45\textwidth}
 \centering
 \includegraphics[width=0.45\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined}
-\caption{\label{fig:LCT57_Gain}Gain of the HPK LCT5 7mm pixel}
+\caption[LCT5 7mm gain]{\label{fig:LCT57_Gain}Gain of the HPK LCT5 7mm pixel}
 \end{wrapfigure}
-Figure(\ref{fig:LCT57_Gain}) shows the gain of the LCT5 7mm device. Two sets of measurements are done for 25$^\circ$C to extend the measured range. The first set of measurements covers the lower over-voltage range, where the low gain makes external amplification necessary with a MiniCircuits PreAMP supplied with 8V. I chose the lowest possible amplification of the PreAMP, so that reaching the point of saturation of the oscilloscope input is as late as possible as the over-voltage rises. Saturation of the oscilloscope occurs due to the possibility of generating very large p.e. (>10p.e.) events at the higher over-voltages, which are saturating the input. Joint together, the LCT5 7mm device and the MiniCircuits PreAMP at 8V reach this point at an over-voltage of $\sim$6V. In Figure(\ref{fig:LCT57_Gain}) the results from the lower range measurement are displayed as the lower-range green line extending between an over-voltage of 1.6V to 5.4V.
-The configuration for the second test removes the PreAMP from the setup, which makes the lower over-voltage range unaccesible, but extends the range to higher over-voltages. This configuration reaches the point of saturation at an over-voltage of $\sim$8V. The higher range measurement results are displayed as the second green line (25$^\circ$C) extending from 3.4V to 7.2V over-voltage in Figure(\ref{fig:LCT57_Gain}). There is a clearly visible overlap of the two measurements between $\sim$3.4V and $\sim$5.4V . It also seems, that the gain dependency on temperature is reversed. While for all other devices, the gain lowers with rising temperatures, the LCT5 7mm device seems to show inversed behaviour. This inverse behaviour is caused by the calculation of the breakdown-voltage from the gain-regression line, with this and the bias-voltage, the over-voltage is calculated, causing a horizontal shift. Plotting the gain versus bias-voltage, however, shows the expected behaviour.
+Figure(\ref{fig:LCT57_Gain}) shows the gain of the LCT5 7mm device. Two sets of measurements are done for 25$^\circ$C to extend the measured range. The first set of measurements covers the lower over-voltage range, where the low gain makes external amplification necessary with a MiniCircuits PreAMP supplied with 8V. The lowest possible amplification of the PreAMP is chosen, so that reaching the point of saturation of the oscilloscope input is as late as possible as the over-voltage rises. Saturation of the oscilloscope occurs due to the possibility of generating very large p.e. (>10p.e.) events at the higher over-voltages, which are saturating the input. Joint together, the LCT5 7mm device and the MiniCircuits PreAMP at 8V reach this point at an over-voltage of $\sim$6V. In Figure(\ref{fig:LCT57_Gain}) the results from the lower range measurement are displayed as the lower-range green line extending between an over-voltage of 1.6V to 5.4V.
+The configuration for the second test removes the PreAMP from the setup, which makes the lower over-voltage range unaccesible, but extends the range to higher over-voltages. This configuration reaches the point of saturation at an over-voltage of $\sim$8V. The higher range measurement results are displayed as the second green line (25$^\circ$C) extending from 3.4V to 7.2V over-voltage in Figure(\ref{fig:LCT57_Gain}). There is a clearly visible overlap of the two measurements between $\sim$3.4V and $\sim$5.4V . It also seems, that the gain dependency on temperature is reversed. While for all other devices, the gain lowers with rising temperatures, the LCT5 7mm device seems to show inversed behaviour. This inverse behaviour is caused by the calculation of the breakdown-voltage from the gain-regression line and is likely an error. Plotting the gain versus bias-voltage, however, shows the expected behaviour of the gain.
 
 
 \newpage
@@ -852,19 +835,19 @@ The configuration for the second test removes the PreAMP from the setup, which m
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined}
-\caption{\label{fig:LCT57_DCR}Dark Count Rate of the HPK LCT5 7mm pixel}
+\caption[LCT5 7mm DCR]{\label{fig:LCT57_DCR}Dark Count Rate of the HPK LCT5 7mm pixel}
 \end{wrapfigure}
-The behaviour of the Dark Count Rate of the HPK LCT5 7mm device is shown in Figure(\ref{fig:LCT57_DCR}) and is as expected, in contrast to the behaviour of the gain of LCT5 7mm, as discussed in section {\ref{subsubsec:LCT57Gain}}. It follows a linear progression in the relevant range and increases with rising temperature. I suspect the over-voltage range above $\sim$2.5V to be relevant. The extended range measurement at 25$^\circ$C confirms this behaviour. LCT5 7mm shows a linear Dark Count Rate over an over-voltage range of 4V. The faded green bar in Figure(\ref{fig:LCT57_DCR}) shows results from measurements undertaken by the Department of Physics and Astronomy at the University of Catania. Those measurements were conducted on the exact same device, which is an important point, but with a different method of data acquisition and data analysis. Analysis techniques are discussed in chaper {\ref{sec:comparison}}. The correlation between the two experiments is evident, although there is differences in the acyquisition and analysis process. This is further proof for the relevancy of the analysis technique employed in this paper. 
+The behaviour of the Dark Count Rate of the HPK LCT5 7mm device is shown in Figure(\ref{fig:LCT57_DCR}) and is as expected, in contrast to the behaviour of the gain of LCT5 7mm, as discussed in section {\ref{subsubsec:LCT57Gain}}. It follows a linear progression in the relevant range and increases with rising temperature. I suspect the over-voltage range above $\sim$2.5V to be relevant. The extended range measurement at 25$^\circ$C confirms this behaviour. LCT5 7mm shows a linear Dark Count Rate over an over-voltage range of 4V. The faded green bar in Figure(\ref{fig:LCT57_DCR}) shows results from measurements undertaken by the Department of Physics and Astronomy at the University of Catania. Those measurements were conducted on the exact same device, which is an important point, but with a different method of data acquisition and data analysis. Analysis techniques are discussed in chaper {\ref{sec:comparison}}. The correlation between the two experiments is evident, although there is differences in the acquisition and analysis process.
 
 
 \subsubsection{Optical Cross Talk}
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth,trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined}
-\caption{\label{fig:LCT57_OCT}Dark Count Rate of the HPK LCT5 7mm pixel}
+\caption[LCT5 7mm OCT]{\label{fig:LCT57_OCT}Dark Count Rate of the HPK LCT5 7mm pixel}
 \end{wrapfigure}
 
-The Optical Cross Talk is expected to be linear and independent from temperature. This is the case in the, in section {\ref{subsubsec:LCT57DCR}} established, relevant over-voltage range of above $\sim$2.5V. Minor deviations are attributed to the calculation of the breakdown-voltage from the gain-regression line. The over-voltage is calculated from the former and the supplied bias-voltage, which in turn causes a slight horizontal shift. With that, comparing my results to the measurements from the University of Catania shows a strong correlation. Keeping in mind, that the process of data acquisition and analysis is different for both measurements further proofs the analysis technique valid. 
+The Optical Cross Talk is expected to be linear and independent from temperature. This is the case in the, in section {\ref{subsubsec:LCT57DCR}} established, relevant over-voltage range of above $\sim$2.5V. Minor deviations are attributed to the calculation of the breakdown-voltage from the gain-regression line. The over-voltage is calculated from the former and the supplied bias-voltage, which in turn causes a slight horizontal shift. With that, comparing my results to the measurements from the University of Catania shows a strong correlation.
 
 
 
@@ -874,10 +857,10 @@ The Optical Cross Talk is expected to be linear and independent from temperature
 \begin{wrapfigure}{R}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth,trim=40cm 25cm 35cm 25cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG}
-\caption{\label{fig:LVR6_pixel}HPK LVR 6mm pixel}
+\caption[LCT5 LVR 6mm SiPM]{\label{fig:LVR6_pixel}HPK LVR 6mm pixel}
 \end{wrapfigure}
 
-The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-LVR-LCT is a special prototype of the LCT5 design. LVR is an abreviation of Low Voltage Range, meaning the device is meant to be operated at much lower operation voltages than other LCT5 devices. It has the same physical size as an LCT5 50$\mu$m 6mm device (S13360 chapter {\ref{subsubsec:LCT56}}), a pixelsize of 6mm pixel with a cellsize of 50$\mu$m. The recommended point of operation however is $\sim$15V below that of the S13360 device, specifically at 40.2V(LVR) instead of 54.7V (S13360). The unshaped signal is similar to other LCT5 devices, therefore using the same modified CHEC-S shaper is feasible in this case, resulting in a similar pulse shape fig(\ref{fig:LVR6_PS}). After that the signal is amplified with the same MiniCircuits PreAMP supplied with 8.5V.
+The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-LVR-LCT is a special prototype of the LCT5 design. LVR is an abreviation of Low Voltage Range, meaning the device is meant to be operated at much lower operation voltages than other LCT5 devices. It has the same physical size as an LCT5 50$\mu$m 6mm device (S13360 chapter {\ref{subsubsec:LCT56}}), a pixelsize of 6mm pixel with a cellsize of 50$\mu$m. The recommended point of operation however is $\sim$15V below that of the S13360 device, specifically at 40.2V(LVR) instead of 54.7V (S13360). It uses the TSV technology for electrical connection. The unshaped signal is similar to other LCT5 devices, therefore using the same modified CHEC-S shaper is feasible in this case, resulting in a similar pulse shape fig(\ref{fig:LVR6_PS}). After that the signal is amplified with the same MiniCircuits PreAMP supplied with 8.5V.
 \\
 
 %\newpage
@@ -885,7 +868,7 @@ The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-
 \begin{centering}
 %L, B, R, T
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/{Average_25.0_40.2_PulseShape}.pdf}}
-\caption{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK LVR 6mm at 25$^{\circ}$~C and at point of operation. Both pulses have a FWHM of around 7ns and an undershoot of 20\%, with no ringing. }
+\caption[LCT5 LVR 6mm average pulse shape]{The average pulse shape of the 1photoelectron in blue and the 2photoelectron pulse in red of HPK LVR 6mm at 25$^{\circ}$~C and at point of operation. Both pulses have a FWHM of around 7ns and an undershoot of 20\%, with no ringing. }
 \label{fig:LVR6_PS}
 \end{centering}
 \end{figure}
@@ -894,13 +877,13 @@ The Silicon Photomultiplier by Hamamatsu Photonics with the designation 6050HWB-
 %\newpage
 \subsubsection{Gain}
 \label{subsubsec:LVR6Gain}
-Figure(\ref{fig:LVR6_Gain})(right) shows the gain of the LVR 6mm device. It is, as expected, linear over a long range and nearly independent of temperature when parametrized with over-voltage. The flattening of the slope to a plateau shape in the lower over-voltage range, is caused by the analysis being unable to identify peaks lower than the set threshold. Only taking into account the linear region, limits the range, where the results are relevant to an over-voltage range of $\sim$2.5V. Saturation of the oscilloscope in this range is not visible, but a check with a more expanded range revealed, that the point of saturation of the oscilloscope is at an over-voltage of $\sim$5V. The apparent overlap of the gain, when plotted against over-voltage, is based on the calculation of the breakdown-voltage being very reliable due to the large linear range. Plotted versus bias-voltage fig(\ref{fig:LVR6_Gain})(left) the expected behaviour of the gain, lowering with increasing temperature, is visible. 
+Figure(\ref{fig:LVR6_Gain})(right) shows the gain of the LVR 6mm device. It is, as expected, linear over a long range and nearly independent of temperature when parametrized with over-voltage. The flattening of the slope to a plateau shape in the lower over-voltage range is caused by noise pollution. Only taking into account the linear region, limits the range, where the results are relevant to an over-voltage range above $\sim$2.5V. Saturation of the oscilloscope in this range is not visible, but a check with a more expanded range revealed, that the point of saturation of the oscilloscope is at an over-voltage of $\sim$5V. The apparent overlap of the gain, when plotted against over-voltage, is based on the calculation of the breakdown-voltage being very reliable due to the large linear range. Plotted versus bias-voltage fig(\ref{fig:LVR6_Gain})(left) the expected behaviour of the gain, lowering with increasing temperature, is visible. 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined}}
 \resizebox{0.39\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined}}
-\caption{Gain of the HPK LVR 6mm pixel}
+\caption[LCT5 LVR 6mm gain]{Gain of the HPK LVR 6mm pixel}
 \label{fig:LVR6_Gain}
 \end{centering}
 \end{figure}
@@ -913,25 +896,24 @@ Figure(\ref{fig:LVR6_Gain})(right) shows the gain of the LVR 6mm device. It is, 
 %L, B, R, T
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined}}
 \resizebox{0.41\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined}}
-\caption{Dark Count Rate and Optical Cross Talk of the HPK LVR 6mm pixel}
+\caption[LCT5 LVR 6mm DCR and OCT]{Dark Count Rate and Optical Cross Talk of the HPK LVR 6mm pixel}
 \label{fig:LVR6_DCROCT}
 \end{centering}
 \end{figure}
-The Dark Count Rate fig(\ref{fig:LVR6_DCROCT})(left), taking into account only the relevant over-voltage range of $>\sim$2.5V seems to correlate, while the resulting Optical Cross Talk fig(\ref{fig:LVR6_DCROCT})(right) is very high compared to results from the University of Nagoya, which also cover a much wider range. Only taking into account the previoulsy established relevant over-voltage range of $>\sim$2.5V, the resulting Optical Corss Talk is a factor of 2 higher. This uncertainty is a contrast to results from previous devices, where strong correlations between different groups and measurement techniques are evident. I suspect, that the device examined by me and the device present at Nagoya University are slightly different prototypes.
-
+The Dark Count Rate fig(\ref{fig:LVR6_DCROCT})(left), taking into account only the relevant over-voltage range of $>\sim$2.5V seems to correlate, while the resulting Optical Cross Talk fig(\ref{fig:LVR6_DCROCT})(right) is very high compared to results from the University of Nagoya, which also cover a much wider range. Only taking into account the previoulsy established relevant over-voltage range of $>\sim$2.5V, the resulting Optical Cross Talk is a factor of two higher. The device being a prototype, it could be the case, that there are physical differences, a difference in coating, which combined with the TSV technology could lead to the present uncorrelation\cite{Yamamoto}. This uncertainty is a contrast to results from previous devices, where strong correlations between different groups and measurement techniques are evident.
 
 
 
 \clearpage
 \subsection{SensL FJ60035 6mm 35$\mu$m}
-The Silicon Photomultiplier by SensL with the designation FJ-60035 is also a candidate device for use in CHEC-S. It is also a 6mm device, but with a much smaller cellsize of 35$\mu$m, using the TSV technology, so there are no wire-bonds present. This results in 22292 cells on a single pixel with a fill-factor of 75\% . It is coated with plain glass. The recommended point of operation is around 30V bias-voltage, lower even than that of the HPK LVR prototypes. The device is, by the manufacturer, pre-mounted on a printed circuit board, called a test array. This test array contains a fast output, that directly couples to the cells, and a slow output, conventionally read out via the quench resistor. For the conducted tests, I used the fast output amplified with the MiniCircuits PreAMP supplied with 12V. The SensL device was the first device measured, therefore the analysis procedure used was an older iteration compared to the procedure for the Hamamatsu devices. 
+The Silicon Photomultiplier by SensL with the designation FJ-60035 is another candidate device for use to populate the focal plane of CHEC-S. It is also a 6mm device, but with a much smaller cellsize of 35$\mu$m, using the TSV technology, so there are no wire-bonds present. This results in 22292 cells on a single pixel with a fill-factor of 75\% . It is coated with plain glass. The recommended point of operation is around 30V bias-voltage, lower even than that of the HPK LVR prototypes. The device is, by the manufacturer, pre-mounted on a printed circuit board, called a test array. This test array contains a fast output, that directly couples to the cells, and a slow output, conventionally read out via the quench resistor. For the conducted tests, I used the fast output amplified with the MiniCircuits PreAMP supplied with 12V. The SensL device was the first device measured, therefore the analysis procedure used was an older iteration compared to the procedure for the Hamamatsu devices. 
 
 \begin{figure}[h]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/Fig/{SensL_T25.0_Vb29.0.trcPulseShape}.pdf}}
-\caption{SensL Test Array and pulse shape at $V_{bias-voltage} = 29V$}
+\caption[SensL FJ60035 SiPM and average pulse shape]{SensL Test Array and the average pulse shape at $V_{bias-voltage} = 29V$}
 \label{fig:SensL_Array_PS}
 \end{centering}
 \end{figure}
@@ -948,7 +930,7 @@ Evaluating the SensL pulse area spectra shows the 1 p.e. position and $\Delta$p.
 %L, B, R, T
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV}}
-\caption{Gain of the SensL FJ-60035 test array}
+\caption[SensL FJ60035 gain]{Gain of the SensL FJ-60035 test array}
 \label{fig:SensL_Gain}
 \end{centering}
 \end{figure}
@@ -971,7 +953,7 @@ The Dark Count Rate fig(\ref{fig:SensL_DCROCT})(left) also shows the expected be
 \end{overpic}
 %\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV}}
 %\resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV}}
-\caption{Dark Count Rate and Optical Cross Talk of the SensL FJ-60035 test array. Datasheet values, marked with X, measured at 21$^\circ$C($\sim$dark red). OCT results of Nagoya University marked by the red line. }
+\caption[SensL FJ60035 DCR and OCT]{Dark Count Rate and Optical Cross Talk of the SensL FJ-60035 test array. Datasheet values, marked with X, measured at 21$^\circ$C($\sim$dark red). OCT results of Nagoya University marked by the red line. }
 \label{fig:SensL_DCROCT}
 \end{centering}
 \end{figure}
@@ -989,7 +971,7 @@ The Dark Count Rate fig(\ref{fig:SensL_DCROCT})(left) also shows the expected be
 A comparison of the performance of all devices is the significant step for choosing the Silicon Photomultiplier later to be used in CHEC-S. In order to do this, all measured characteristics are compared versus over-voltage. Operation of the CHEC-S camera in GCT will come down to a decision between two operational points. The first point will be marked by an Optical Cross Talk of under 15\%. Every other attribute of the Silicon Photomultiplier at this over-voltage is then compared. This point will trade off precision for efficiency, a lower Optical Cross Talk makes real event detection easier, on the other hand, a lower Photon Detection Efficiency may forfeit a lot of potential data.\\
 The second point of operation is marked at the highest achievable Photon Detection Efficiency. My conducted measurements do not involve this, other groups are comissioned to determine the point of highest Photon Detection Efficiency, in other conducted measurements, that are comparable \ref{fig:Nagoya_PDE}. This point will assure the highest detection of event photons, but will trade that for an increase in detector noise, due to the higher Dark Count Rate and more importantly Optical Cross Talk.\\\\
 Comparing results to other groups is shown in Figure (\ref{fig:DC_DCR}), using different experimental setups and procedures and therefore also entirely different analysis techniques. The groups, that evaluate SiPMs, the University of Leicester, the University of Nagoya and the University of Catania, are all conducting fixed window readout of the SiPM after an expected light-pulse from a flasher-LED or pulsed laser. \\\\
-The SensL device showed a very low PDE compared to the measured HPK devices fig(\ref{fig:Nagoya_PDE}). Therefore the following figures are only showing the HPK results for reasons of performance.
+The SensL device showed a very low PDE compared to the measured HPK devices fig(\ref{fig:Nagoya_PDE}). Therefore the following figures are only showing the HPK results for reasons of visual performance.
 
 \subsection{Dark Count Rate}
 \label{subsec:DC_DCR}
@@ -1001,7 +983,7 @@ Only two of the five measured devices have measurements result from other groups
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareDCR_vs_OV_Combined}}
-\caption{Dark Count Rate comparison of measured devices at 25$^\circ$C. Description}
+\caption[DCR device comparison]{Dark Count Rate comparison of measured devices at 25$^\circ$C. Description}
 \label{fig:DC_DCR}
 \end{centering}
 \end{figure}
@@ -1017,7 +999,7 @@ There are a number of differences in their approach compared to the one utilized
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_CompareOCT_vs_OV_Combined}}
-\caption{Cross Talk comparison of measured devices at 25$^\circ$C. Description}
+\caption[OCT device comparison]{Cross Talk comparison of measured devices at 25$^\circ$C. Description}
 \label{fig:DC_OCT}
 \end{centering}
 \end{figure}
@@ -1027,17 +1009,44 @@ Results of the LCT5 7mm device from both groups mostly overlap, the slight shift
 Even though results from 3 different groups mostly correlate, or have at least partially understood differences, the Optical Cross Talk of LVR 6mm Figure \ref{fig:DC_OCT} (blue) compared to the results from the University of Nagoya do not show any correlation at all. This is concerning, because comparing S13360 (purple) to the same group showed strong correlation over a wide over-voltage range. Since there is also no datasheet present yet, this device is a prototype, the assumption is that the device examined is physically different than the device present at Nagoya. It may just be a difference in coating, which combined with the TSV technology could lead to the present uncorrelation\cite{Yamamoto}.
 
 
+
+
+
+
+%\newpage
+\subsection{Point of Operation Comparison}
+\label{subsec:OP_comp}
+A different method of comparison involves the two proposed points of operation, illustrated at the beginning of section \ref{sec:comparison}. By adding the PDE measured by external groups, all three characteristics can be illustrated together. Figure \ref{DC:Table} shows the comparison result of the SiPMs examined in this thesis. A minimal OCT point of 15$\%$ in the left column, and the maximum PDE points in the right column, both include external PDE measurements.\\
+At the first, minimal OCT, operation point the LCT5 6mm (S13360) device is favorable, since it posesses a high PDE of 49$\%$ with a fairly low DCR below the expected NSB. The currently used SiPM in CHEC-S only reaches 25$\%$ according to datasheet values.\\
+The four HPK devices (the first four in the list), all have a maximum achievable PDE around the same level, $\sim$50$\%$. The difference in DCR and OCT at this level is the deciding factor. While the current CHEC-S SiPM reaches a very high OCT level of $\sim$50$\%$, the newer generation HPK SiPMs, with physical trenches, are well below at $\sim$25$\%$. The DCR on the other hand seems to be similar for each device. The LCT5 7mm SiPM at this point of operation seems to have the lowest DCR among them, but the measurements of this device have not yet reached the maximum PDE value and will be extended, higher PDE is possible.\\
+In both cases, the PDE of the SensL SiPM is not competetive.  
+
+
+
+\begin{figure}[h]
+\begin{centering}
+%L, B, R, T
+\resizebox{0.9\textwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 4cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table}}
+\caption[Comparison based on two proposed points of operation]{Comparison table of the measured devices based on the two proposed operation points for CHEC-S. First point represents minimal achievable OCT, second point represents maximum achievable PDE. PDE values taken from results of other groups and datasheet values. Note that the LCT5 6mm device can achieve even lower OCT values ($\sim$ 3 $\%$ at $V_{ov}=2.5$)}
+\label{fig:DC_Table}
+\end{centering}
+\end{figure}
+
+
+
+
+
 \subsection{Photon Detection Efficiency}
 \begin{figure}[h!]
 \begin{centering}
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsCTver9}}
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_vs_OCT_Compare}}
-\caption{PDE results from the University of Nagoya parametrized with OCT results from this paper, where available. PDE measurements at $\lambda$ = 400nm. An optimum device for IACT application would be in the upper left region.}
+\caption[PDE versus OCT comparison]{PDE results from the University of Nagoya parametrized with OCT results from this paper, where available. PDE measurements at $\lambda$ = 400nm. An optimum device for IACT application would be in the upper left region.}
 \label{fig:Nagoya_PDE_me_OCT}
 \end{centering}
 \end{figure}
-The measurement technique in this paper utilizes only dark counts and aims at giving an understanding of the Optical Cross Talk and temperature dependencies of the different SiPMs proposed, therefore no PDE measurements are possible. The point of operation with the highest PDE as well as the PDE versus OCT behaviour is determined by a different group in Japan, at the University of Nagoya. See Figure (\ref{fig:Nagoya_PDE}) for the current results of their endavors. A figure showing the behavior of PDE versus OCT is the usual procedure of comparing SiPMs, it gives a correlated overview of the two most significant characteristics. This gives the most insight of the capabilities of the different devices compared to the two proposed operating points {chapter(\ref{sec:comparison}). For consistency and to make comparison between group results easier, the PDE ascertained by the groups, of devices in common, compared to the resulting Optical Cross Talk from this paper produces Figure (\ref{fig:Nagoya_PDE_me_OCT}).\\
+The measurement technique in this paper utilizes only dark counts and aims at giving an understanding of the Optical Cross Talk and temperature dependencies of the different SiPMs proposed, therefore no PDE measurements are possible. The point of operation with the highest PDE as well as the PDE versus OCT behaviour is determined by a different group in Japan, at the University of Nagoya. See Figure (\ref{fig:Nagoya_PDE}) for the current results of their endavors. A figure showing the behavior of PDE versus OCT is the usual procedure of comparing SiPMs, it gives a correlated overview of the two most significant characteristics. This gives insight of the capabilities of the different devices compared to the two proposed points of operation in section (\ref{subsec:OP_comp}). For consistency and to make comparison between group results easier, the PDE ascertained by the groups, of devices in common, compared to the resulting Optical Cross Talk from this paper produces Figure (\ref{fig:Nagoya_PDE_me_OCT}).\\
 
 \begin{figure}[b!]
 \begin{centering}
@@ -1045,54 +1054,43 @@ The measurement technique in this paper utilizes only dark counts and aims at gi
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsCTver9}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9}}
-\caption{PDE Comparison Plots from the University of Nagoya at $\lambda$ = 400nm}
+\caption[PDE results from the University of Nagoya]{PDE Comparison Plots from the University of Nagoya at $\lambda$ = 400nm}
 \label{fig:Nagoya_PDE}
 \end{centering}
 \end{figure}
 
 Comparing all devices at the two proposed points of operation produces the table in Figure(\ref{fig:DC_Table}). This table together with Figure (\ref{fig:Nagoya_PDE_me_OCT}) of the 5 measured devices in this thesis, where PDE data is accesible, is used to confirm results between groups and assist in the decision on the most viable SiPM for CHEC-S. The final decision will be taken by the group at the University of Nagoya, by Hiro Tajima, the Photosensor work group lead scientist? of GCT based on measurements on substantially more devices (see appendix \ref{appsec:Nagoya_list}, for the complete list).\\
 The PDE of SiPMs, when plotted versus the corresponding OCT at a common over-voltage point show the behaviour in Figure (\ref{fig:Nagoya_PDE_me_OCT}). A clearly visible saturation  after a certain OCT marks the point, from where an increase in power no longer increases photon-detection capabilities. An increase in OCT without rising PDE would have a adverse effect on the detectors resolution.\\\\
-The prototype LCT5 7mm fig(\ref{fig:Nagoya_PDE_me_OCT})(red) device reaches the highest PDE. While the preliminary external measurements show only 3 datapoints, a trend above 50~$\%$ is visible. This is expected for devices with larger cell- and pixel-size possesing a higher fill-factor. The increase in size and therefore PDE comes with a trade-off, increasing size comes with a rise of DCR and OCT, which are very high at this point (at $\sim$~25$\%$). 
+The prototype LCT5 7mm fig(\ref{fig:Nagoya_PDE_me_OCT})(red) device reaches the highest PDE. While the preliminary external measurements show only 3 datapoints, a trend above 50~$\%$ is visible. This is expected for devices with larger cell- and pixel-size possesing a higher fill-factor. The increase in size and therefore PDE comes with a trade-off, increasing size comes with a rise of DCR and OCT, which are very high at this point (at $\sim$~25$\%$).\\
+The commercially available LCT5 6mm (HPK S13360) SiPM shows the most promising results. It reaches a high PDE very quickly compared to its OCT, with $\sim$47$\%$ before the OCT reaches 20$\%$. Compared to this, the OCT of the LVR 6mm at a point where the PDE saturates and reaches the same PDE is very high.\\
+Due to the low fill-factor, the PDE of the SensL FJ60035 device is not competetive.
 
-\newpage
-\subsection{Point of Operation Comparison}
-\begin{figure}[h]
-\begin{centering}
-%L, B, R, T
-\resizebox{0.9\textwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 4cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table}}
-\caption{Comparison table of the measured devices in the style of the 2 proposed operation points for CHEC-S. First point represents minimal achievable OCT, second point represents maximum achievable PDE. PDE values taken from results of other groups. Note that the LCT5 6mm device can achieve even lower OCT value ($\sim$ 3 $\%$ at $V_{ov}=2.5$)}
-\label{fig:DC_Table}
-\end{centering}
-\end{figure}
+'------------------------------------------------------------>'
+CHEC-S measurements of the PDE, add to figure
 
 
-%______________________________________________________________________________________________________________________________________________________________________________________________________________
-\clearpage
-\section{\Large further analysis}
-\subsection{multi incident probability and optical Cross Talk}
-
-With increasing Dark Count Rate the probability of two dark events happening at the same time rises with increasing bias-voltage. Taking for example the Dark Coutn Rate of S13360 and taking the FWHM of the characteristic pulse we can calculate the probability for every dark rate at every bias-voltage and can extract a probability curve. 
-Wouldnt that just make the DCR rise even higher since 1 2p.e. are now 2 1p.e.s' ??
-nonononono
 
 
-multi incident has influence on optical cross talk, 2 ones are interpreted as 1 2 and are therefore put into the 2p.e. peak of the histogram, leading to calculation errors.
 
 
-%______________________________________________________________________________________________________________________________________________________________________________________________________________
 
-\subsection{Prompt and delayed cross talk ratio}
-What happens if we take the OCT of S13360 and scale it with an expected prompt to delayed crosstalk ratio. evidence only from confidential HPK talk, need citations. Could just make new plots in HD, evaluate.
+
+
+
+
+
 
 %______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 \section{\Large Conclusion and Outlook}
 
+Over the course of this thesis five new-generation Silicon Photomultipliers have been examined in dark conditions, for their possible use in single photon detection for the high energy instrument of the Cherenkov Telescope Array. A lasting experimental teststand has been developed, that is capable to be upgraded for future illumination tests. The teststand involves a climate chamber for temperature regulation, that functions as a light tight box. For each SiPM pre-existent shaping electronics has been modified in order to achieve a prefered signal. Data acquisition code was developed to control the experimental parameters of the teststand remotely, and storing all experimental data from the internal memory of the oscilloscope on a Lab-PC. A data analysis procedure has been designed and developed to analyze the data offline, both were developed in python. 
 
 
------------------------->
-Hmhmhm
+'------------------------------------------------------------>'
+
+
 
 For that purpose 5 different SiPM from two manufacturers have been examined.
 
@@ -1197,7 +1195,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 %L, B, R, T
 \resizebox{0.5\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{CTA_array}.png}}
 \resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{02_stereoscopic_technique}.jpg}}
-\caption{A render of the finished CTA Array at the site in Chile (left) with visible LSTs and MSTs, and the Shower Path Reconstruction technique of the stereoscopic view employed by current IACT experiments like HESS, MAGIC, VERITAS (right).}
+\caption[CTA in Chile and the stereoscopic technique]{A render of the finished CTA Array at the site in Chile (left) with visible LSTs and MSTs, and the Shower Path Reconstruction technique of the stereoscopic view employed by current IACT experiments like HESS, MAGIC, VERITAS (right).}
 \label{app:CTAPATH}
 
 \end{figure}
@@ -1211,7 +1209,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{hess2}.jpg}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{magic_6_june}.jpg}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/{veritas_New_Array}.jpg}}
-\caption{IACT Projects: HESS in the Khomas Highland, Namibia. MAGIC at the Roque de los Muchachos Observatory on La Palma , one of the Canary Islands. VERITAS at Mount Hopkins, Arizona, USA}
+\caption[Current IACT experiments]{IACT Projects: HESS in the Khomas Highland, Namibia. MAGIC at the Roque de los Muchachos Observatory on La Palma , one of the Canary Islands. VERITAS at Mount Hopkins, Arizona, USA}
 \label{app:IACTProjects}
 \end{centering}
 \end{figure}
@@ -1223,7 +1221,7 @@ For that purpose 5 different SiPM from two manufacturers have been examined.
 \begin{centering}
 %L, B, R, T
 \resizebox{0.7\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV}}
-\caption{Results of the Optical Cross Talk of 2 sets of 2 similar HPK S13360 devices, that only differ in their respective cell-size. HPK S13360 is the first device incorporating physical trenches in the upper layer, optically isolating each cell. Consequence to this is a drastic reduction in prompt cross-talk. Delayed cross-talk and afterpulsing are basically unafected. Upscaling the 25$\mu$m results shows an overlap between the 2, see text.}
+\caption[OCT dependency on the cell-size]{Results of the Optical Cross Talk of two sets of two similar HPK S13360 devices, that only differ in their respective cell-size. HPK S13360 is the first device incorporating physical trenches in the upper layer, optically isolating each cell. Consequence to this is a drastic reduction in prompt cross-talk. Delayed cross-talk and afterpulsing are basically unafected. Upscaling the 25$\mu$m results shows an overlap between the 2, see text.}
 \label{fig:cell-size}
 \end{centering}
 \end{figure}
@@ -1247,7 +1245,7 @@ Since the measurements conducted by me do not differ between the range of second
 \ContinuedFloat
 \begin{centering}
 \resizebox{\columnwidth}{!}{\includegraphics[trim=2cm 2cm 2cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_1010.png}}
-\caption{Pulse Area Spectra with window widths of 5 left 5 right (top), 5 left 20 right (middle), 10 left 10 right (bottom) bins respectively. Left of the 1p.e. peak of the top picture a part of the 0p.e. peak is visible. The middle figure shows the distortion an asymmetrical integration window causes. The bottom figure is the employed integration window to derive the pulse area histogram.}
+\caption[Pulse area spectra of three different integration windows]{Pulse Area Spectra with window widths of 5 left 5 right (top), 5 left 20 right (middle), 10 left 10 right (bottom) bins respectively. Left of the 1p.e. peak of the top picture a part of the 0p.e. peak is visible. The middle figure shows the distortion an asymmetrical integration window causes. The bottom figure is the employed integration window to derive the pulse area histogram.}
 \label{app:PAS_window}
 \end{centering}
 \end{figure}
@@ -1267,7 +1265,7 @@ Since the measurements conducted by me do not differ between the range of second
 \resizebox{0.32\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined}}
 \resizebox{0.32\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined}}
 \resizebox{0.32\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp}}
-\caption{Dependency of the breakdown-voltage of temperature for the 5 measured devices. For LCT5 7mm , the extended range measurement adds an extra datapoint at 25$^\circ$C HPK S12642 (CHEC-S) (top left) ; HPK LCT5 6mm (top middle) ; HPK LCT5 7mm (top right) ; HPK LCT5 LVR 6mm (bottom left) ; SensL FJ60035 (bottom right).}
+\caption[Breakdown-voltage versus temperature]{Dependency of the breakdown-voltage of temperature for the 5 measured devices. For LCT5 7mm , the extended range measurement adds an extra datapoint at 25$^\circ$C HPK S12642 (CHEC-S) (top left) ; HPK LCT5 6mm (top middle) ; HPK LCT5 7mm (top right) ; HPK LCT5 LVR 6mm (bottom left) ; SensL FJ60035 (bottom right).}
 \label{app:Device_Vbr}
 \end{centering}
 \end{figure}
@@ -1276,7 +1274,7 @@ Since the measurements conducted by me do not differ between the range of second
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\textwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 5.7cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependence}}
-\caption{The extracted breakdown-voltage dependence of all measured devices, derived from two regression lines and their mean. For some devices the breakdown-voltage dependency is known through datasheet values. S12642 = 60mV/$^\circ$C, S13360 = 54mV/$^\circ$C, SensL FJ60035 =<21.5mV/$^\circ$C }
+\caption[Breakdown-voltage dependency]{The extracted breakdown-voltage dependence of all measured devices, derived from two regression lines and their mean. For some devices the breakdown-voltage dependency is known through datasheet values. S12642 = 60mV/$^\circ$C, S13360 = 54mV/$^\circ$C, SensL FJ60035 =<21.5mV/$^\circ$C }
 \label{app:Device_Vbr_Table}
 \end{centering}
 \end{figure}
@@ -1289,7 +1287,7 @@ Since the measurements conducted by me do not differ between the range of second
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{test1_ch}.jpg}}
-\caption{Experimental setup scheme, Annotations see text}
+\caption[Shaped versus unshaped signal]{The shaped and unshaped pulse from a pulse generator emulating the output of the front-end buffer of the CHEC-S SiPM. The unshaped pulse in yellow and negative, due to the buffer-output. The shaped pulse now flipped through the electronics in green. Zoomed, Image credit \cite{Initial_testing_at_MPIK_wb_July_18_2016}}
 \label{fig:Setup_Scheme}
 \end{centering}
 \end{figure}
@@ -1298,7 +1296,7 @@ Since the measurements conducted by me do not differ between the range of second
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{schematic}.JPG}}
-\caption{Experimental setup scheme, Annotations see text}
+\caption{Full schematic of the shaper developed at the University of Leicester.}
 \label{fig:Setup_Scheme}
 \end{centering}
 \end{figure}
@@ -1307,7 +1305,7 @@ Since the measurements conducted by me do not differ between the range of second
 
 \clearpage
 \section{Pulse Area and Height Spectra}
-\label{app:PAS_Clean}
+\label{appsec:PAS_PHS}
 Example pulse area spectra
 
 
@@ -1319,7 +1317,7 @@ Example pulse area spectra
 \begin{centering}
 %L, B, R, T
 \resizebox{1.\columnwidth}{!}{\includegraphics[page=3,trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurement-2017-0215(1)}}
-\caption{List of devices in testing at the University of Nagoya, Japan. Taken from \cite{Hiro_Amsterdam}}
+\caption[List of devices in testing at the University of Nagoya, Japan.]{List of devices in testing at the University of Nagoya, Japan. Taken from \cite{Hiro_Amsterdam}}
 \label{app:Nagoya_list}
 \end{centering}
 \end{figure}
@@ -1330,6 +1328,7 @@ Example pulse area spectra
 
 \clearpage
 \section{CHEC-S pixel comparison}
+\label{appsec:CHEC_S_multipixel}
 Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-50) array. Every pixel is analyzed with the same technique and analysis parameters.
 
 \begin{figure}[h]
@@ -1337,7 +1336,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0.75cm, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_Gain_vs_OV_Combined}}
-\caption{Gain comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
+\caption[CHEC-S pixel comparison of the gain]{Gain comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
 \label{app:CHEC_S_multipixel_Gain}
 \end{centering}
 \end{figure}
@@ -1347,7 +1346,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0.75cm, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_OV_Combined}}
-\caption{DCR comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
+\caption[CHEC-S pixel comparison of the DCR]{DCR comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
 \label{app:CHEC_S_multipixel_DCR}
 \end{centering}
 \end{figure}
@@ -1357,7 +1356,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 %L, B, R, T
 %\resizebox{0.4\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_vs_Vb_Combined}}
 \resizebox{0.8\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0.75cm, clip=true]{D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_vs_OV_Combined}}
-\caption{OCT comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
+\caption[CHEC-S pixel comparison of the OCT]{OCT comparison of 10 different pixels of the CHEC-S (HPK S12642-1616PA-50) array}
 \label{app:CHEC_S_multipixel_OCT}
 \end{centering}
 \end{figure}
@@ -1405,7 +1404,25 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \end{figure}
 
 
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+\clearpage
+\section{Multi incident probability and Optical Cross Talk}
+\label{appsec:multi_hit}
+'------------------------------------------------------------>'
 
+With increasing Dark Count Rate the probability of two dark events happening at the same time rises with increasing bias-voltage. This has an effect on the calculated Optical Cross Talk. In the event of 2 1p.e. pulses coinciding with each other, they could be misinterpreted as 1 2p.e. pulse. Taking, for example, the Dark Count Rate of S13360, 4~MHz at $V_{ov}=8V$ and $T=25^\circ C$, with the FWHM of the characteristic pulse as 5.6~ns we can calculate the probability of two coinciding pulses as $\sim$2.2$\%$. This probability has a direct effect on the calculated optical Cross Talk (eq:\ref{eq:OCT}), in reducing it compared to the calculation. The Optical Cross Talk at this point is only $\sim$17$\%$, but a $\sim$2.2$\%$ shift of the number events $N_{events(\geq 1.5p.e.)}$ to $N_{events(\geq 0.5p.e.)}$ lowers the OCT by $\sim$0.75$\%$. Even though the multi hit coincidence is low, this shows that there are analysis related problems with high Dark Count Rates.\\\\
+
+For devices with high DCR and OCT like S12642 this effect grows in magnitude. At only $V_{ov}=4.5V$ at 25$^\circ$C the DCR is 6~MHz. With the pulse FWHM of 9~ns this leads to a coincidence of 5.4$\%$. The OCT at that point is 55$\%$, so a reduction of 5.4$\%$ of the $N_{events(\geq 1.5p.e.)}$ towards the $N_{events(\geq 0.5p.e.)}$ leads to a reduction of the OCT by 5.6$\%$.
+
+Maybe a half FWHM overlap is more real, since now overlap is marked as true, even when the 2 pulses blur into a very blurry one by only \textcolor{red}{"touching"} with their FWHM. Dont know, maybe half fwhm would be more real.
+
+
+%______________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\section{Prompt and delayed cross talk ratio}
+'------------------------------------------------------------>'
+
+What happens if we take the OCT of S13360 and scale it with an expected prompt to delayed crosstalk ratio. evidence only from confidential HPK talk, need citations. Could just make new plots in HD, evaluate.
 
 
 
