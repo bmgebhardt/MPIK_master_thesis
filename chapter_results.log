@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  23 APR 2017 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  25 APR 2017 20:58
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -1068,6 +1068,14 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \@arcrad=\dimen262
 \@tempdimd=\dimen263
 )
+(D:\MikTEX\tex\latex\tools\array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen264
+\extrarowheight=\dimen265
+\NC@list=\toks42
+\extratabsurround=\skip114
+\backup@length=\skip115
+)
 
 LaTeX Warning: Unused global option(s):
     [12pt,article,colorback,accentcolor=tud9c].
@@ -1080,10 +1088,10 @@ LaTeX Warning: Label `fig:Setup_Pic' multiply defined.
 LaTeX Warning: Label `app:PAS_window' multiply defined.
 
 
-LaTeX Warning: Label `fig:Setup_Scheme' multiply defined.
+LaTeX Warning: Label `app:PAS_window' multiply defined.
 
 
-LaTeX Warning: Label `fig:Setup_Scheme' multiply defined.
+LaTeX Warning: Label `app:PAS_window' multiply defined.
 
 
 LaTeX Warning: Label `fig:' multiply defined.
@@ -1097,34 +1105,34 @@ LaTeX Warning: Label `fig:' multiply defined.
 )
 \openout1 = `chapter_results.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 59.
  (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 59.
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+5ch on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+5ch on input line 59.
 
 (C:\ProgramData\TUDDESIGN\texmf\tex\latex\tex-tudfonts\softmake\charter\t15ch.f
 d
@@ -1132,16 +1140,16 @@ File: t15ch.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5ch.
 ) (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count157
-\scratchdimen=\dimen264
+\scratchdimen=\dimen266
 \scratchbox=\box77
 \nofMPsegments=\count158
 \nofMParguments=\count159
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count160
-\MPscratchDim=\dimen265
+\MPscratchDim=\dimen267
 \MPnumerator=\count161
 \makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks44
 ) (D:\MikTEX\tex\generic\oberdiek\pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1219,153 +1227,153 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\TUD@part@topskip=\skip114
+\TUD@part@topskip=\skip116
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros
 
 Package  Warning: Command `\dateofexam ' ignored!
-()                See documentation for details. on input line 67.
+()                See documentation for details. on input line 68.
 
-\@TUD@tmp@baselineskip=\skip115
-\@TUD@tmp@parwidth=\skip116
-\TUD@titleboxheight=\skip117
-\TUD@titleboxdepth=\skip118
-\TUD@subtitleboxheight=\skip119
-\TUD@subtitleboxdepth=\skip120
-\TUD@logoboxheight=\skip121
-\TUD@logoboxwidth=\skip122
-\TUD@colorbackheight=\skip123
-\TUD@colorbacktitleheight=\skip124
-\TUD@instboxheight=\skip125
-\TUD@instboxdepth=\skip126
-\TUD@instboxwidth=\skip127
-\TUD@instlogoheight=\skip128
-\TUD@instlogowidth=\skip129
-\TUD@sponsorheight=\skip130
+\@TUD@tmp@baselineskip=\skip117
+\@TUD@tmp@parwidth=\skip118
+\TUD@titleboxheight=\skip119
+\TUD@titleboxdepth=\skip120
+\TUD@subtitleboxheight=\skip121
+\TUD@subtitleboxdepth=\skip122
+\TUD@logoboxheight=\skip123
+\TUD@logoboxwidth=\skip124
+\TUD@colorbackheight=\skip125
+\TUD@colorbacktitleheight=\skip126
+\TUD@instboxheight=\skip127
+\TUD@instboxdepth=\skip128
+\TUD@instboxwidth=\skip129
+\TUD@instlogoheight=\skip130
+\TUD@instlogowidth=\skip131
+\TUD@sponsorheight=\skip132
 \TUD@titlebox=\box79
 \TUD@subtitlebox=\box80
 \TUD@logobox=\box81
 \TUD@instbox=\box82
 \TUD@sponsorbox=\box83
-\TUD@tmp@height=\skip131
-\TUD@tmp@depth=\skip132
-LaTeX Font Info:    Try loading font information for T1+5fp on input line 69.
+\TUD@tmp@height=\skip133
+\TUD@tmp@depth=\skip134
+LaTeX Font Info:    Try loading font information for T1+5fp on input line 70.
 
 (C:\ProgramData\TUDDESIGN\texmf\tex\latex\tex-tudfonts\softmake\frontpage\t15fp
 .fd
 File: t15fp.fd 2009/08/06 Fontinst v1.927 font definitions for T1/5fp.
 )
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 69
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.fd
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
+(Font)              scaled to size 7.20004pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 12.00008pt on input line 69.
+(Font)              scaled to size 12.00008pt on input line 70.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 8.44806pt on input line 69.
+(Font)              scaled to size 8.44806pt on input line 70.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.20004pt on input line 69.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 69
+(Font)              scaled to size 7.20004pt on input line 70.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 70
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdput\omlmdput.fd
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 11.75003pt on input line 69.
+(Font)              scaled to size 11.75003pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.27202pt on input line 69.
+(Font)              scaled to size 8.27202pt on input line 70.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.05002pt on input line 69.
+(Font)              scaled to size 7.05002pt on input line 70.
 \@TUD@titlelines=\count163
 
 
-Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 6
-9.
+Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 7
+0.
 
 <tud_logo.pdf, id=4, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
  <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf used on input line 69.
+Package pdftex.def Info: tud_logo.pdf used on input line 70.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
 File: tud_logo.pdf Graphic file (type pdf)
 
 <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf used on input line 69.
+Package pdftex.def Info: tud_logo.pdf used on input line 70.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
 
-Underfull \hbox (badness 3965) in paragraph at lines 69--69
-\T1/5fp/m/n/7 Max Planck In-sti-tut f"ur Kern-physik
+Underfull \hbox (badness 4279) in paragraph at lines 70--70
+\T1/5fp/m/n/7 Max Planck In-sti-tut f'ur Kern-physik
  []
 
 \@TUD@logolines=\count164
@@ -1375,7 +1383,7 @@ Non-PDF special ignored!
 
 Non-PDF special ignored!{C:/Users/Ben/AppData/Local/MiKTeX/2.9/pdftex/config/pd
 ftex.map} <./tud_logo.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
@@ -1409,7 +1417,7 @@ eld.jpg Graphic file (type jpg)
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/01_astroparticle_fie
 ld.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-01_astroparticle_field.jpg used on input line 102.
+01_astroparticle_field.jpg used on input line 105.
 (pdftex.def)             Requested size: 160.1981pt x 91.54178pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/Fermi_image01.jpg, id=50
@@ -1419,10 +1427,10 @@ raphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/Fermi_image01.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-Fermi_image01.jpg used on input line 113.
+Fermi_image01.jpg used on input line 116.
 (pdftex.def)             Requested size: 248.96162pt x 158.23886pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--116
+Underfull \hbox (badness 10000) in paragraph at lines 110--119
 
  []
 
@@ -1430,7 +1438,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--116
 
  <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/01_astroparticle_field.
 jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
 
  []
 
@@ -1438,7 +1451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/Fermi_image01.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
@@ -1450,81 +1463,88 @@ ile (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/gamma.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-gamma.jpg used on input line 147.
+gamma.jpg used on input line 150.
 (pdftex.def)             Requested size: 199.16626pt x 264.90277pt.
-
-Underfull \vbox (badness 6284) has occurred while \output is active []
-
  [9]
-Underfull \hbox (badness 2302) in paragraph at lines 160--161
-\T1/5ch/m/n/12 of flashes of Cherenkov light from ex-ten-sive air
+Underfull \hbox (badness 3601) in paragraph at lines 163--165
+\T1/5ch/m/n/12 aims at mea-sur-ing the time, di-rec-tion and en-
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 160--161
+Underfull \hbox (badness 3849) in paragraph at lines 163--165
+\T1/5ch/m/n/12 ergy of flashes of Cherenkov light from ex-ten-
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 163--165
+\T1/5ch/m/n/12 sive air show-ers caused by VHE gamma ra-di-a-
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 163--165
 \T1/5ch/m/n/12 stru-ment, which have a typ-i-cal de-tec-tion size of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.98405pt on input line 162.
+(Font)              scaled to size 9.98405pt on input line 166.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.00804pt on input line 162.
+(Font)              scaled to size 7.00804pt on input line 166.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.04803pt on input line 162.
+(Font)              scaled to size 6.04803pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.77602pt on input line 162.
+(Font)              scaled to size 9.77602pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.86201pt on input line 162.
+(Font)              scaled to size 6.86201pt on input line 166.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.92201pt on input line 162.
+(Font)              scaled to size 5.92201pt on input line 166.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
@@ -1536,20 +1556,20 @@ c file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/GCTprotopicture.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/GCTprot
-opicture.jpg used on input line 178.
+opicture.jpg used on input line 182.
 (pdftex.def)             Requested size: 298.75697pt x 243.95769pt.
 
-Underfull \hbox (badness 3884) in paragraph at lines 182--185
+Underfull \hbox (badness 3884) in paragraph at lines 186--189
 []\T1/5ch/m/n/12 The Cherenkov Tele-scope Ar-ray,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
@@ -1563,7 +1583,7 @@ ile (type pdf)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOffAxis.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOf
-fAxis.pdf used on input line 197.
+fAxis.pdf used on input line 201.
 (pdftex.def)             Requested size: 366.11212pt x 368.41283pt.
  [13 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOffAxis.pdf>]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf, id=103, 722.7pt x 54
@@ -1572,7 +1592,7 @@ File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf Graphic file (ty
 pe pdf)
  <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.p
-df used on input line 211.
+df used on input line 215.
 (pdftex.def)             Requested size: 455.24316pt x 442.43929pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf, id=105, 553.706
@@ -1582,153 +1602,131 @@ e (type pdf)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPl
-ane.pdf used on input line 212.
+ane.pdf used on input line 216.
 (pdftex.def)             Requested size: 553.7056pt x 550.18364pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 [14 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf> <D:/OwnCloudData
 /00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 [15]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_PMT.JPG, id=152, 97
-1.88094pt x 623.32875pt>
-File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_PMT.JPG Graphi
-c file (type jpg)
-
-<use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_PMT.JPG>
-Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/
-SiPM_PMT.JPG used on input line 238.
-(pdftex.def)             Requested size: 971.87857pt x 623.32722pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG, id=
-154, 796.47563pt x 531.48563pt>
+151, 796.47563pt x 531.48563pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG
  Graphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/
-SiPM_scheme_HPK.JPG used on input line 253.
+SiPM_scheme_HPK.JPG used on input line 247.
 (pdftex.def)             Requested size: 796.4737pt x 531.48433pt.
 
-LaTeX Warning: Reference `app:PAS_Clean' on page 16 undefined on input line 258
-.
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
+
+ []
 
 [16
 
- <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_PMT.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+ <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
 
-LaTeX Warning: Reference `SiPM_scheme' on page 17 undefined on input line 282.
+LaTeX Warning: Reference `SiPM_scheme' on page 17 undefined on input line 276.
 
-
-LaTeX Warning: Reference `Cherenkov_NSB' on page 17 undefined on input line 283
-.
-
-[17 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG>
-]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG, id=165,
+[17]
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG, id=161,
  897.3525pt x 550.30594pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG Gra
 phic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenk
-ov_Spectrum.JPG used on input line 289.
+ov_Spectrum.JPG used on input line 283.
 (pdftex.def)             Requested size: 897.3503pt x 550.3046pt.
 
-[18 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 316--322
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
 [19]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG, id=175, 923.7009
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG, id=172, 923.7009
 4pt x 429.85594pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG Graphic file
  (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/
-CT.JPG used on input line 333.
+CT.JPG used on input line 327.
 (pdftex.def)             Requested size: 923.6987pt x 429.85489pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--343
+Underfull \hbox (badness 10000) in paragraph at lines 333--337
 
  []
 
 [20]
-Underfull \vbox (badness 5817) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG>] [22]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf, id=188, 722.
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf, id=185, 722.
 7pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf Graphic 
 file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_o
-utside.pdf used on input line 372.
+utside.pdf used on input line 366.
 (pdftex.def)             Requested size: 722.69823pt x 542.02367pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf, id=190, 722.7
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf, id=187, 722.7
 pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf Graphic f
 ile (type pdf)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_i
-nside.pdf used on input line 381.
+nside.pdf used on input line 375.
 (pdftex.def)             Requested size: 381.26604pt x 542.02367pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf, id=192, 722.7pt x 54
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf, id=189, 722.7pt x 54
 2.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf Graphic file (ty
 pe pdf)
  <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.p
-df used on input line 392.
+df used on input line 386.
 (pdftex.def)             Requested size: 722.69823pt x 328.62852pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
 
  []
 
@@ -1741,344 +1739,374 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--404
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf>] [26]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg, id=253, 1279.781
+[25 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf>]
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg, id=247, 1279.781
 25pt x 534.99875pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg Graphic file
  (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_
-ch.jpg used on input line 411.
-(pdftex.def)             Requested size: 483.10292pt x 250.47061pt.
+ch.jpg used on input line 405.
+(pdftex.def)             Requested size: 1279.77814pt x 534.99744pt.
 
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG, id=255, 
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG, id=249, 
 322.20375pt x 209.28188pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG Grap
 hic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schema
-tic_simple.JPG used on input line 419.
+tic_simple.JPG used on input line 413.
 (pdftex.def)             Requested size: 199.16626pt x 129.3702pt.
 
-[27 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg> <D:/OwnCloud
-Data/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O1-sin
-gle-pe.jpg, id=261, 963.6pt x 402.00188pt>
+gle-pe.jpg, id=250, 963.6pt x 402.00188pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O
 1-single-pe.jpg Graphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O1
 -single-pe.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_no
-firststage_R28-480O1-single-pe.jpg used on input line 434.
+firststage_R28-480O1-single-pe.jpg used on input line 428.
 (pdftex.def)             Requested size: 963.59766pt x 402.00089pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg, id=26
-3, 963.6pt x 402.00188pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg, id=25
+2, 963.6pt x 402.00188pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg G
 raphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mo
-d_70.1_phspec.jpg used on input line 443.
+d_70.1_phspec.jpg used on input line 437.
 (pdftex.def)             Requested size: 963.59766pt x 402.00089pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
  []
 
-[28 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O1
--single-pe.jpg> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_p
-hspec.jpg>] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+[26 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg> <D:/OwnCloud
+Data/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG>] [27 <D:/OwnCloudDat
+a/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O1-single-pe.jpg> <D:
+/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg>]
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
-[30
+[29
 
 ]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltered
-1Zoom.pdf, id=276, 533.5825pt x 410.80037pt>
+1Zoom.pdf, id=270, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFil
 tered1Zoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFilt
 ered1Zoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcFiltered1Zoom.pdf used on input line 481.
+T22.0_Vb68.5.trcFiltered1Zoom.pdf used on input line 475.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
- [31
+ [30
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltere
 d1Zoom.pdf>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltered
-2Zoom.pdf, id=323, 533.5825pt x 410.80037pt>
+2Zoom.pdf, id=317, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFil
 tered2Zoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFilt
 ered2Zoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcFiltered2Zoom.pdf used on input line 493.
+T22.0_Vb68.5.trcFiltered2Zoom.pdf used on input line 487.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
 
-Underfull \hbox (badness 1783) in paragraph at lines 494--494
+Underfull \hbox (badness 1783) in paragraph at lines 488--488
 [][][]|[]\T1/5fp/m/n/12 ''Fil-tered Sig-nal 1'' in grey be-fore
  []
 
-[32
+[31
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltere
 d2Zoom.pdf>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png, id=367, 
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png, id=361, 
 857.45343pt x 642.90187pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png Grap
 hic file (type png)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit
-_Annotated.png used on input line 503.
+_Annotated.png used on input line 497.
 (pdftex.def)             Requested size: 348.54475pt x 261.33519pt.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 14.4001pt on input line 511.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.08006pt on input line 511.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 14.10004pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 9.87003pt on input line 511.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 8.46002pt on input line 511.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 17.28012pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 12.09608pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 10.36807pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 16.92004pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 11.84402pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 10.15202pt on input line 515.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 515.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 0.96pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 0.672pt on input line 515.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 0.576pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 0.94pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 0.65799pt on input line 515.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 0.564pt on input line 515.
 
-
-LaTeX Warning: Reference `appsec:appsec:PAS_PHS' on page 33 undefined on input 
-line 517.
-
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 14.4001pt on input line 517.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.08006pt on input line 517.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 14.10004pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.87003pt on input line 517.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.46002pt on input line 517.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 17.28012pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 12.09608pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.36807pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 16.92004pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 11.84402pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 10.15202pt on input line 521.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 521.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 0.96pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 0.672pt on input line 521.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 0.576pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 0.94pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 0.65799pt on input line 521.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 0.564pt on input line 521.
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
 
  []
 
-[33
+[32
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png, id=377,
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png, id=370,
  578.16pt x 433.62pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png Gra
 phic file (type png)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainF
-it_delta_pe.png used on input line 527.
+it_delta_pe.png used on input line 521.
 (pdftex.def)             Requested size: 248.96162pt x 186.71762pt.
 
-Underfull \hbox (badness 2393) in paragraph at lines 531--532
+Underfull \hbox (badness 2393) in paragraph at lines 525--526
 [][]\T1/5ch/m/n/12 A sec-ond pa-ram-e-ter is ex-tracted from
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 531--532
-\T1/5ch/m/n/12 beled $\OML/mdbch/m/n/12.5 $\T1/5ch/m/n/12 p.e. . This dis-tanc
-e de-fines
+Underfull \hbox (badness 5036) in paragraph at lines 525--526
+\T1/5ch/m/n/12 the peak area his-togram to deal with
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 531--532
-\T1/5ch/m/n/12 the gain, as it gives a mea-sure of the
+Underfull \hbox (badness 2285) in paragraph at lines 525--526
+\T1/5ch/m/n/12 this prob-lem, which is the dis-tance be-
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 531--532
-\T1/5ch/m/n/12 dif-fer-ence of the gen-er-ated sig-nal of a
+Underfull \hbox (badness 4608) in paragraph at lines 525--526
+\T1/5ch/m/n/12 togram, la-beled $\OML/mdbch/m/n/12.5 $\T1/5ch/m/n/12 p.e. . Th
+is dis-
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 531--532
-\T1/5ch/m/n/12 ap-par-ent pedestal of the pulse area his-
+Underfull \hbox (badness 5504) in paragraph at lines 525--526
+\T1/5ch/m/n/12 tance de-fines the gain, as it gives a
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 531--532
-\T1/5ch/m/n/12 Dark Count Rate and the Op-ti-cal Cross
+Underfull \hbox (badness 2111) in paragraph at lines 525--526
+\T1/5ch/m/n/12 mea-sure of the dif-fer-ence of the gen-er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 3792) in paragraph at lines 525--526
+\T1/5ch/m/n/12 ated sig-nal of a 1p.e. sig-nal and a
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 525--526
+\T1/5ch/m/n/12 2p.e. sig-nal. The ap-par-ent pedestal
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 525--526
+\T1/5ch/m/n/12 of the pulse area his-togram makes ex-
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 525--526
+\T1/5ch/m/n/12 in or-der to cal-cu-late the DCR and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png>] [
-35]
+ [33 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png>] [
+34]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_IntWin+M
 PD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pdf, id
-=386, 1322.40141pt x 700.66829pt>
+=380, 1322.40141pt x 700.66829pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_Int
 Win+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pd
 f Graphic file (type pdf)
@@ -2088,19 +2116,14 @@ in+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pdf
 >
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
 /1.8_A_S_C_REGR_IntWin+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63
--25-13_DCR_vs_Vb.pdf used on input line 560.
+-25-13_DCR_vs_Vb.pdf used on input line 554.
 (pdftex.def)             Requested size: 1180.13477pt x 672.21391pt.
- [36 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_Int
+ [35 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_Int
 Win+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pd
 f>]
-
-LaTeX Warning: Reference `subsec:PAS_window' on page 37 undefined on input line
- 568.
-
-
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thresh3-
 1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs_Vb.p
-df, id=479, 1326.74577pt x 700.66829pt>
+df, id=473, 1326.74577pt x 700.66829pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thr
 esh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs
 _Vb.pdf Graphic file (type pdf)
@@ -2110,547 +2133,628 @@ sh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs_
 Vb.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
 /1.9_A_S_C_REGR_Thresh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD
-100-63-25-13_DCR_vs_Vb.pdf used on input line 572.
+100-63-25-13_DCR_vs_Vb.pdf used on input line 566.
 (pdftex.def)             Requested size: 1184.47913pt x 672.21391pt.
- [37 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thr
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thr
 esh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs
-_Vb.pdf>] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 600--600
-[]\T1/5ch/m/n/12 pre-
+_Vb.pdf>]
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 594--594
+[]|\T1/5ch/m/n/12 pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
-[]\T1/5ch/m/n/12 no
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\T1/5ch/m/n/12 no
  []
 
 
-Overfull \hbox (1.43283pt too wide) in paragraph at lines 601--601
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 595--595
 \T1/5ch/m/n/12 trenches| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
-[]\T1/5ch/m/n/12 CHEC-S
+Underfull \hbox (badness 10000) in paragraph at lines 595--595
+[]|\T1/5ch/m/n/12 CHEC-S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
-[]\T1/5ch/m/n/12 HPK LCT5 S13360-
+Underfull \hbox (badness 10000) in paragraph at lines 596--596
+[]|\T1/5ch/m/n/12 HPK LCT5 S13360-
  []
 
 
-Overfull \hbox (1.43283pt too wide) in paragraph at lines 602--602
-[]\T1/5ch/m/n/12 trenches| 
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 596--596
+[]|\T1/5ch/m/n/12 trenches| 
  []
 
 
-Overfull \hbox (1.43283pt too wide) in paragraph at lines 603--603
-[]\T1/5ch/m/n/12 trenches| 
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 597--597
+[]|\T1/5ch/m/n/12 trenches| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
-[]\T1/5ch/m/n/12 HPK 6050HWB-LVR-
+Underfull \hbox (badness 10000) in paragraph at lines 598--598
+[]|\T1/5ch/m/n/12 HPK 6050HWB-LVR-
  []
 
 
-Overfull \hbox (1.43283pt too wide) in paragraph at lines 604--604
-[]\T1/5ch/m/n/12 trenches| 
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 598--598
+[]|\T1/5ch/m/n/12 trenches| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
-[]\T1/5ch/m/n/12 no
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
+[]|\T1/5ch/m/n/12 no
  []
 
 
-Overfull \hbox (1.43283pt too wide) in paragraph at lines 605--605
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 599--599
 \T1/5ch/m/n/12 trenches| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
+Overfull \hbox (0.56708pt too wide) in paragraph at lines 592--602
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
+Underfull \hbox (badness 10000) in paragraph at lines 605--610
 
  []
 
+[38
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--616
-
- []
-
-[39
-
-] [40]
+] [39]
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 12.57608pt on input line 623.
+(Font)              scaled to size 12.57608pt on input line 617.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 8.83205pt on input line 623.
+(Font)              scaled to size 8.83205pt on input line 617.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.58405pt on input line 623.
+(Font)              scaled to size 7.58405pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 12.31403pt on input line 623.
+(Font)              scaled to size 12.31403pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.64801pt on input line 623.
+(Font)              scaled to size 8.64801pt on input line 617.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 7.42601pt on input line 623.
+(Font)              scaled to size 7.42601pt on input line 617.
 
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG, id=582, 558.5
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG, id=576, 558.5
 8687pt x 395.97937pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG Graphic f
 ile (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHE
-CSPIC.JPG used on input line 626.
+CSPIC.JPG used on input line 620.
 (pdftex.def)             Requested size: 149.37848pt x 105.89473pt.
 
-<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=583
+<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=577
 , 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf Gr
 aphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.
-8_PulseShape.pdf used on input line 635.
+8_PulseShape.pdf used on input line 629.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41
+[40
 
  <D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf> <D:/O
 wnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG>]
-
-LaTeX Warning: Reference `fig:S1264_Gain' on page 42 undefined on input line 64
-5.
-
-
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png, id=
-631, 406.1574pt x 403.9893pt>
+625, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png
  Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
-_vs_Vb_Combined.png used on input line 650.
+_vs_Vb_Combined.png used on input line 644.
 (pdftex.def)             Requested size: 199.16626pt x 198.09827pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png, id=
-633, 402.5439pt x 403.9893pt>
+627, 402.5439pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png
  Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain
-_vs_OV_Combined.png used on input line 653.
+_vs_OV_Combined.png used on input line 647.
 (pdftex.def)             Requested size: 402.54291pt x 403.98831pt.
-
-Underfull \vbox (badness 2529) has occurred while \output is active []
-
- [42 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png
-> <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>]
+[41 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>
+ <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png, id=6
-42, 454.5783pt x 411.939pt>
+36, 454.5783pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png 
 Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_
-vs_Vb_Combined.png used on input line 678.
+vs_Vb_Combined.png used on input line 672.
 (pdftex.def)             Requested size: 454.57718pt x 411.93797pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png, id=6
-44, 456.0237pt x 411.939pt>
+38, 456.0237pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png 
 Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_
-vs_OV_Combined.png used on input line 680.
+vs_OV_Combined.png used on input line 674.
 (pdftex.def)             Requested size: 224.06393pt x 202.405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--691
+Underfull \hbox (badness 10000) in paragraph at lines 668--685
 
  []
 
-[43 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png> 
+[42 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png> 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png, id=6
-53, 406.1574pt x 411.939pt>
+47, 406.1574pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png 
 Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_
-vs_Vb_Combined.png used on input line 701.
+vs_Vb_Combined.png used on input line 695.
 (pdftex.def)             Requested size: 406.1564pt x 411.93797pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png, id=6
-55, 406.1574pt x 403.9893pt>
+49, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png 
 Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_
-vs_OV_Combined.png used on input line 702.
+vs_OV_Combined.png used on input line 696.
 (pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
 
-[44 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png> 
+[43 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png> 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png>]
-[45]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG, id=668, 310
+[44]
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG, id=661, 310
 .91156pt x 286.06876pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG Graphic
  file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT
-56mmPIC.JPG used on input line 721.
+56mmPIC.JPG used on input line 716.
 (pdftex.def)             Requested size: 199.16626pt x 146.80035pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf, id=
-670, 1286.2272pt x 690.80331pt>
+663, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf
  Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_
-55.0_PulseShape.pdf used on input line 732.
+55.0_PulseShape.pdf used on input line 727.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
-[46
+[45
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG> <D:/OwnClo
 udData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf>]
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined.png
-, id=719, 406.1574pt x 403.9893pt>
+, id=713, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combine
 d.png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mGain_vs_Vb_Combined.png used on input line 751.
+mGain_vs_Vb_Combined.png used on input line 746.
 (pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined.png
-, id=721, 398.2077pt x 403.9893pt>
+, id=715, 398.2077pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combine
 d.png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined
 .png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mGain_vs_OV_Combined.png used on input line 752.
+mGain_vs_OV_Combined.png used on input line 747.
 (pdftex.def)             Requested size: 398.20673pt x 403.98831pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 758--761
+
+ []
+
+[46 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined
+.png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combin
+ed.png>]
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined.png,
- id=723, 450.2421pt x 411.2163pt>
+ id=724, 450.2421pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mDCR_vs_Vb_Combined.png used on input line 767.
+mDCR_vs_Vb_Combined.png used on input line 766.
 (pdftex.def)             Requested size: 450.24098pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined.png,
- id=725, 444.4605pt x 411.2163pt>
+ id=726, 444.4605pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mDCR_vs_OV_Combined.png used on input line 769.
+mDCR_vs_OV_Combined.png used on input line 768.
 (pdftex.def)             Requested size: 224.06393pt x 207.30179pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--781
+Underfull \hbox (badness 10000) in paragraph at lines 779--780
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combine
-d.png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combi
-ned.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined
-.png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combine
-d.png>]
+[47 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined.
+png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined
+.png>]
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined.png,
- id=741, 406.1574pt x 411.2163pt>
+ id=735, 406.1574pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mOCT_vs_Vb_Combined.png used on input line 788.
+mOCT_vs_Vb_Combined.png used on input line 787.
 (pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined.png,
- id=743, 400.3758pt x 403.2666pt>
+ id=737, 400.3758pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mOCT_vs_OV_Combined.png used on input line 789.
+mOCT_vs_OV_Combined.png used on input line 788.
 (pdftex.def)             Requested size: 400.3748pt x 403.26561pt.
- [49 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
+ [48 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
 .png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combine
 d.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG, id=752, 154
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG, id=746, 154
 .32657pt x 121.95563pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG Graphic
  file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT
-57mmPIC.JPG used on input line 803.
+57mmPIC.JPG used on input line 802.
 (pdftex.def)             Requested size: 199.16626pt x 153.73093pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf, id=
-754, 1286.2272pt x 690.80331pt>
+748, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf
  Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_
-55.0_PulseShape.pdf used on input line 813.
+55.0_PulseShape.pdf used on input line 812.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
-[50
+[49
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG> <D:/OwnClo
 udData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf>]
-<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined.png
-, id=802, 401.0985pt x 403.9893pt>
-File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combine
-d.png Graphic file (type png)
+<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Combined
+.png, id=796, 408.3255pt x 403.9893pt>
+File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Com
+bined.png Graphic file (type png)
 
-<use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined
-.png>
+<use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Comb
+ined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT
+5_7mmGain_vs_Vb_Combined.png used on input line 825.
+(pdftex.def)             Requested size: 408.3245pt x 403.98831pt.
+
+<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_Combined
+.png, id=798, 401.0985pt x 403.9893pt>
+File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_Com
+bined.png Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_Comb
+ined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT
+5_7mmGain_vs_OV_Combined.png used on input line 826.
+(pdftex.def)             Requested size: 401.0975pt x 403.98831pt.
+ [50
+
+ <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Combine
+d.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_C
+ombined.png>]
+<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined.png,
+ id=807, 450.2421pt x 411.2163pt>
+File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined
+.png Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined.
+png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mGain_vs_OV_Combined.png used on input line 825.
-(pdftex.def)             Requested size: 224.06393pt x 225.67767pt.
- [51
+mDCR_vs_Vb_Combined.png used on input line 842.
+(pdftex.def)             Requested size: 450.24098pt x 411.21529pt.
 
- <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmGain_vs_OV_Combined.pn
-g>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.png,
- id=810, 464.6961pt x 411.2163pt>
+ id=809, 446.6286pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mDCR_vs_OV_Combined.png used on input line 837.
-(pdftex.def)             Requested size: 199.16626pt x 176.24228pt.
+mDCR_vs_OV_Combined.png used on input line 843.
+(pdftex.def)             Requested size: 446.6275pt x 411.21529pt.
+
+<D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combined.png,
+ id=811, 406.1574pt x 411.2163pt>
+File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combined
+.png Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combined.
+png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
+mOCT_vs_Vb_Combined.png used on input line 856.
+(pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.png,
- id=812, 416.2752pt x 403.2666pt>
+ id=813, 398.2077pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined
 .png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.
 png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mOCT_vs_OV_Combined.png used on input line 846.
-(pdftex.def)             Requested size: 199.16626pt x 192.94427pt.
- [52 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined
-.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combine
-d.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG, id=821, 3019
+mOCT_vs_OV_Combined.png used on input line 857.
+(pdftex.def)             Requested size: 398.20673pt x 403.26561pt.
+ [51 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined
+.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combine
+d.png>] [52 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_C
+ombined.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_
+Combined.png>]
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG, id=830, 3019
 .28pt x 2007.5pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG Graphic 
 file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR
-6mmPIC.JPG used on input line 859.
+6mmPIC.JPG used on input line 871.
 (pdftex.def)             Requested size: 199.16626pt x 131.57047pt.
 
 
 LaTeX Warning: Reference `subsubsec:LCT56' on page 53 undefined on input line 8
-63.
+75.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 863--865
+Underfull \hbox (badness 10000) in paragraph at lines 875--877
 
  []
 
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf, id=8
-23, 1286.2272pt x 690.80331pt>
+32, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf 
 Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_4
-0.2_PulseShape.pdf used on input line 870.
+0.2_PulseShape.pdf used on input line 882.
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.png, 
-id=825, 403.9893pt x 403.9893pt>
+id=834, 403.9893pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.
 png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.p
 ng>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmG
-ain_vs_Vb_Combined.png used on input line 884.
+ain_vs_Vb_Combined.png used on input line 896.
 (pdftex.def)             Requested size: 403.98831pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.png, 
-id=827, 390.9807pt x 403.9893pt>
+id=836, 390.9807pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.
 png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.p
 ng>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmG
-ain_vs_OV_Combined.png used on input line 885.
+ain_vs_OV_Combined.png used on input line 897.
 (pdftex.def)             Requested size: 390.97974pt x 403.98831pt.
  [53
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG> <D:/OwnClou
 dData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf>]
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.png, i
-d=876, 460.3599pt x 411.2163pt>
+d=885, 460.3599pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.p
 ng Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.pn
 g>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmD
-CR_vs_Vb_Combined.png used on input line 897.
+CR_vs_Vb_Combined.png used on input line 909.
 (pdftex.def)             Requested size: 460.35876pt x 411.21529pt.
 
+<D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.png, i
+d=887, 460.3599pt x 411.2163pt>
+File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.p
+ng Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.pn
+g>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmD
+CR_vs_OV_Combined.png used on input line 910.
+(pdftex.def)             Requested size: 460.35876pt x 411.21529pt.
+
+
+LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
+15.
+
+
+LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
+15.
+
+
+<D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.png, i
+d=889, 406.1574pt x 411.2163pt>
+File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.p
+ng Graphic file (type png)
+
+<use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.pn
+g>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmO
+CT_vs_Vb_Combined.png used on input line 919.
+(pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
+
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.png, i
-d=878, 411.939pt x 403.2666pt>
+d=891, 411.939pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.p
 ng Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.pn
 g>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmO
-CT_vs_OV_Combined.png used on input line 898.
+CT_vs_OV_Combined.png used on input line 920.
 (pdftex.def)             Requested size: 411.93797pt x 403.26561pt.
  [54 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.
 png> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.
 png> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.p
-ng> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.pn
-g>] [55]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG, id=894, 264.2
+ng> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.pn
+g>] [55 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combine
+d.png> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined
+.png>]
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG, id=911, 264.2
 3718pt x 255.20343pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG Graphic f
 ile (type jpg)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/Sen
-sLPIC.JPG used on input line 914.
+sLPIC.JPG used on input line 934.
 (pdftex.def)             Requested size: 264.23653pt x 255.2028pt.
 
 <D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseShape.pd
-f, id=896, 499.29349pt x 468.61638pt>
+f, id=913, 499.29349pt x 468.61638pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseSha
 pe.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseShap
 e.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0
-_Vb29.0.trcPulseShape.pdf used on input line 915.
+_Vb29.0.trcPulseShape.pdf used on input line 935.
 (pdftex.def)             Requested size: 499.29227pt x 468.61522pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf, id=898, 491.89
+<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf, id=915, 491.89
 082pt x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf Graphic fi
 le (type pdf)
 
 <use D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_C
-lean.pdf used on input line 931.
+lean.pdf used on input line 951.
 (pdftex.def)             Requested size: 491.88962pt x 467.23508pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf, id=900, 495.72546pt 
+<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf, id=917, 495.72546pt 
 x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf Graphic file (ty
 pe pdf)
  <use D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.p
-df used on input line 932.
+df used on input line 952.
 (pdftex.def)             Requested size: 495.72426pt x 467.23508pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf, id=919, 514.898
+64pt x 467.23622pt>
+File: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf Graphic fil
+e (type pdf)
+
+<use D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVolt
+age.pdf used on input line 964.
+(pdftex.def)             Requested size: 224.06393pt x 203.32454pt.
+
+<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf, id=921, 511.06403pt x 46
+7.23622pt>
+File: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf Graphic file (type p
+df)
+ <use D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf u
+sed on input line 966.
+(pdftex.def)             Requested size: 224.06393pt x 204.84311pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2658,445 +2762,511 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG> <D:/OwnCloud
 Data/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseShape.pdf>]
-<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf, id=946, 511.06403pt x 46
-7.23622pt>
-File: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf Graphic file (type p
-df)
- <use D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf>
-Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf u
-sed on input line 946.
-(pdftex.def)             Requested size: 239.00102pt x 218.50311pt.
+<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf, id=967, 466.702
+97pt x 467.23622pt>
+File: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf Graphic fil
+e (type pdf)
 
-<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf, id=948, 462.86835pt x 46
+<use D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVolt
+age.pdf used on input line 978.
+(pdftex.def)             Requested size: 224.06393pt x 224.32074pt.
+
+<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf, id=969, 462.86835pt x 46
 7.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf Graphic file (type p
 df)
  <use D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf u
-sed on input line 949.
-(pdftex.def)             Requested size: 219.08743pt x 221.15527pt.
+sed on input line 980.
+(pdftex.def)             Requested size: 224.06393pt x 226.18152pt.
  [57 <D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf> <D:/OwnCl
 oudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf> <D:/OwnCloudData/02_Results/S
-ensL/SensL/DCR_vs_OV.pdf> <D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf
->]
-Underfull \hbox (badness 10000) in paragraph at lines 971--975
+ensL/SensL/DCR_vs_BiasVoltage.pdf> <D:/OwnCloudData/02_Results/SensL/SensL/DCR_
+vs_OV.pdf>] [58 <D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf>
+ <D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 998--1001
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--975
+Underfull \hbox (badness 10000) in paragraph at lines 998--1001
 
  []
 
-[58
 
-]
-<D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_Compa
-reDCR_vs_OV_Combined.png, id=1163, 793.5246pt x 527.571pt>
-File: D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_
-CompareDCR_vs_OV_Combined.png Graphic file (type png)
-
-<use D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_C
-ompareDCR_vs_OV_Combined.png>
-Package pdftex.def Info: D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/P
-resentation/Device_CompareDCR_vs_OV_Combined.png used on input line 985.
-(pdftex.def)             Requested size: 793.52266pt x 527.56972pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 994--996
-
- []
-
-[59 <D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_C
-ompareDCR_vs_OV_Combined.png>]
-<D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_Compa
-reOCT_vs_OV_Combined.png, id=1170, 766.062pt x 519.6213pt>
-File: D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_
-CompareOCT_vs_OV_Combined.png Graphic file (type png)
-
-<use D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_C
-ompareOCT_vs_OV_Combined.png>
-Package pdftex.def Info: D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/P
-resentation/Device_CompareOCT_vs_OV_Combined.png used on input line 1001.
-(pdftex.def)             Requested size: 766.06012pt x 519.62003pt.
- [60 <D:/OwnCloudData/02_Results/DeviceCompare_d2017-02-09/Presentation/Device_
-CompareOCT_vs_OV_Combined.png>]
-
-LaTeX Warning: Reference `DC:Table' on page 61 undefined on input line 1019.
-
-
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf, id=1177
-, 722.7pt x 542.025pt>
-File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf Gra
-phic file (type pdf)
-
-<use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf>
-Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Compa
-rison_Table.pdf used on input line 1029.
-(pdftex.def)             Requested size: 722.69823pt x 428.21292pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_vs_OCT_Compare.pdf, id=11
-79, 744.28688pt x 525.05223pt>
-File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_vs_OCT_Compare.pdf G
-raphic file (type pdf)
-
-<use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_vs_OCT_Compare.pdf>
-Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_v
-s_OCT_Compare.pdf used on input line 1044.
-(pdftex.def)             Requested size: 744.28506pt x 525.05095pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
+Underfull \hbox (badness 10000) in paragraph at lines 998--1001
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-<D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9.pdf, id=1184, 569.12
-625pt x 386.44376pt>
-File: D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9.pdf Graphic fil
-e (type pdf)
+ [59
 
-<use D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9.pdf>
-Package pdftex.def Info: D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEv
-er9.pdf used on input line 1055.
-(pdftex.def)             Requested size: 569.12486pt x 386.44281pt.
+]
+<D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device_Com
+pare_RawDCR_vs_OV_Combined.png, id=1291, 793.5246pt x 527.571pt>
+File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
+e_Compare_RawDCR_vs_OV_Combined.png Graphic file (type png)
 
-<D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9.pdf, id=1186, 569.12
-625pt x 386.44376pt>
-File: D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9.pdf Graphic fil
-e (type pdf)
+<use D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device
+_Compare_RawDCR_vs_OV_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompar
+e_d2017_04_24/Device_Compare_RawDCR_vs_OV_Combined.png used on input line 1012.
 
-<use D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTver9.pdf>
-Package pdftex.def Info: D:/OwnCloudData/02_Results/OtherGroups/Nagoya/PDEvsCTv
-er9.pdf used on input line 1056.
-(pdftex.def)             Requested size: 569.12486pt x 386.44281pt.
+(pdftex.def)             Requested size: 793.52266pt x 527.56972pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1023
 
  []
 
+[60 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device
+_Compare_RawDCR_vs_OV_Combined.png>]
+<D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device_Com
+pare_RawOCT_vs_OV_Combined.png, id=1298, 766.062pt x 519.6213pt>
+File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
+e_Compare_RawOCT_vs_OV_Combined.png Graphic file (type png)
 
-Underfull \vbox (badness 2941) has occurred while \output is active []
+<use D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device
+_Compare_RawOCT_vs_OV_Combined.png>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompar
+e_d2017_04_24/Device_Compare_RawOCT_vs_OV_Combined.png used on input line 1028.
 
- [62 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf>]
-Underfull \vbox (badness 1968) has occurred while \output is active []
+(pdftex.def)             Requested size: 766.06012pt x 519.62003pt.
+ [61 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
+e_Compare_RawOCT_vs_OV_Combined.png>]
 
- [63 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/PDE_vs_OCT_Compare.pdf> 
-<D:/OwnCloudData/02_Results/OtherGroups/Nagoya/OVvsPDEver9.pdf> <D:/OwnCloudDat
-a/02_Results/OtherGroups/Nagoya/PDEvsCTver9.pdf>] [64] [65] [66]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 1172
+LaTeX Warning: Reference `DC:Table' on page 62 undefined on input line 1046.
+
+
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf, id=1305
+, 722.7pt x 542.025pt>
+File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf Gra
+phic file (type pdf)
+
+<use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf>
+Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Compa
+rison_Table.pdf used on input line 1056.
+(pdftex.def)             Requested size: 722.69823pt x 428.21292pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_vs_OCT
+_Compare.pdf, id=1307, 744.28688pt x 525.05223pt>
+File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_v
+s_OCT_Compare.pdf Graphic file (type pdf)
+
+<use D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_vs
+_OCT_Compare.pdf>
+Package pdftex.def Info: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompar
+e_d2017_04_24/PDE_vs_OCT_Compare.pdf used on input line 1071.
+(pdftex.def)             Requested size: 744.28506pt x 525.05095pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+
+ []
+
+[62]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [63 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_v
+s_OCT_Compare.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1109
+
+ []
+
+[65] [66] [67]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 1195
 .
 
 (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 []$\T1/txtt/m/n/12 http : / / www . ung . si / en / research / laboratory-[]for
 -[]astroparticle-[]physics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
 []$\T1/txtt/m/n/12 http : / / www . ung . si / en / research / laboratory-[]for
 -[]astroparticle-[]physics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 []$\T1/txtt/m/n/12 http : / / 212 . 71 . 251 . 65 / aspera / /index . php ? opt
 ion = com _ content & task =
  []
 
-[67]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png, id=1322, 
+[68]
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png, id=1421, 
 1927.2pt x 1084.05pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png Graph
 ic file (type png)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-CTA_array.png used on input line 1196.
+CTA_array.png used on input line 1219.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_techniqu
-e.jpg, id=1324, 764.10469pt x 490.08093pt>
+e.jpg, id=1423, 764.10469pt x 490.08093pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_tec
 hnique.jpg Graphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_tech
 nique.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-02_stereoscopic_technique.jpg used on input line 1197.
+02_stereoscopic_technique.jpg used on input line 1220.
 (pdftex.def)             Requested size: 764.10283pt x 490.07974pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg, id=1326, 903.
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg, id=1425, 903.
 375pt x 602.25pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg Graphic f
 ile (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-hess2.jpg used on input line 1209.
+hess2.jpg used on input line 1232.
 (pdftex.def)             Requested size: 903.3728pt x 602.24852pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg, id=132
-8, 1405.25pt x 884.30376pt>
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg, id=142
+7, 1405.25pt x 884.30376pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg Gr
 aphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-magic_6_june.jpg used on input line 1210.
+magic_6_june.jpg used on input line 1233.
 (pdftex.def)             Requested size: 1405.24658pt x 884.3016pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.jpg, i
-d=1330, 2688.0425pt x 958.58125pt>
+d=1429, 2688.0425pt x 958.58125pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.j
 pg Graphic file (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.jp
 g>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
-veritas_New_Array.jpg used on input line 1211.
+veritas_New_Array.jpg used on input line 1234.
 (pdftex.def)             Requested size: 2688.03596pt x 958.57892pt.
- [68 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png> <D:/
+ [69 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png> <D:/
 OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_technique.jp
 g> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg> <D:/OwnClo
 udData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg> <D:/OwnCloudData
 /00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.jpg>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.pdf, 
-id=1340, 466.70297pt x 467.23622pt>
+id=1440, 466.70297pt x 467.23622pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.
 pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.p
 df>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/
-CellSize/OCT_vs_OV.pdf used on input line 1223.
+CellSize/OCT_vs_OV.pdf used on input line 1246.
 (pdftex.def)             Requested size: 466.70183pt x 467.23508pt.
- [69
+ [70
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.pdf>
-] [70]
+] [71]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_55.
-png, id=1388, 1517.67pt x 797.1381pt>
+png, id=1487, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_55.png Graphic file (type png)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs
 _55.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
-/IntWinCompare/checs_55.png used on input line 1238.
+/IntWinCompare/checs_55.png used on input line 1261.
 (pdftex.def)             Requested size: 1403.85559pt x 740.23082pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_520
-.png, id=1390, 1517.67pt x 797.1381pt>
+.png, id=1489, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_520.png Graphic file (type png)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs
 _520.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
-/IntWinCompare/checs_520.png used on input line 1239.
+/IntWinCompare/checs_520.png used on input line 1262.
 (pdftex.def)             Requested size: 1403.85559pt x 740.23082pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_101
-0.png, id=1392, 1517.67pt x 797.1381pt>
+0.png, id=1491, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_1010.png Graphic file (type png)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs
 _1010.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
-/IntWinCompare/checs_1010.png used on input line 1247.
+/IntWinCompare/checs_1010.png used on input line 1270.
 (pdftex.def)             Requested size: 1403.85559pt x 740.23082pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[71
+[72
 
  <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_55
 .png> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/che
-cs_520.png>] [72 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWin
+cs_520.png>] [73 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWin
 Compare/checs_1010.png>]
-<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png, id=14
-06, 417.7206pt x 406.8801pt>
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.trcFix
+edGuessPulseHeight.pdf, id=1505, 517.50058pt x 392.73286pt>
+File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.t
+rcFixedGuessPulseHeight.pdf Graphic file (type pdf)
+
+<use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.tr
+cFixedGuessPulseHeight.pdf>
+Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S1
+2642_T25.0_Vb58.0.trcFixedGuessPulseHeight.pdf used on input line 1284.
+(pdftex.def)             Requested size: 517.49931pt x 392.7319pt.
+
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.trcFix
+edGuessPulseArea.pdf, id=1507, 513.66594pt x 392.73286pt>
+File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.t
+rcFixedGuessPulseArea.pdf Graphic file (type pdf)
+
+<use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.tr
+cFixedGuessPulseArea.pdf>
+Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S1
+2642_T25.0_Vb58.0.trcFixedGuessPulseArea.pdf used on input line 1285.
+(pdftex.def)             Requested size: 513.66467pt x 392.7319pt.
+ [74
+
+ <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.trcFi
+xedGuessPulseHeight.pdf> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S
+12642_T25.0_Vb58.0.trcFixedGuessPulseArea.pdf>]
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFit.pdf
+, id=1566, 522.15076pt x 393.72093pt>
+File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFi
+t.pdf Graphic file (type pdf)
+
+<use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFit
+.pdf>
+Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56m
+m_56.2V_PulseAreaFit.pdf used on input line 1297.
+(pdftex.def)             Requested size: 522.14949pt x 393.71997pt.
+ [75 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFi
+t.pdf>]
+<D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png, id=16
+19, 417.7206pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png G
 raphic file (type png)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_
-vs_T_Combined.png used on input line 1263.
+vs_T_Combined.png used on input line 1310.
 (pdftex.def)             Requested size: 417.71957pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.png, 
-id=1408, 409.7709pt x 406.8801pt>
+id=1621, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.
 png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.p
 ng>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6m
-mVbr_vs_T_Combined.png used on input line 1264.
+mVbr_vs_T_Combined.png used on input line 1311.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.png, 
-id=1410, 409.7709pt x 406.8801pt>
+id=1623, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.
 png Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.p
 ng>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7m
-mVbr_vs_T_Combined.png used on input line 1265.
+mVbr_vs_T_Combined.png used on input line 1312.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.png, id
-=1412, 409.7709pt x 406.8801pt>
+=1625, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.pn
 g Graphic file (type png)
 
 <use D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.png
 >
 Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmV
-br_vs_T_Combined.png used on input line 1266.
+br_vs_T_Combined.png used on input line 1313.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf, id=1414, 
+<D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf, id=1627, 
 474.37225pt x 458.7514pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf Graph
 ic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltag
-e_vs_Temp.pdf used on input line 1267.
+e_vs_Temp.pdf used on input line 1314.
 (pdftex.def)             Requested size: 474.37108pt x 458.75027pt.
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependence.p
-df, id=1416, 722.7pt x 542.025pt>
+df, id=1629, 722.7pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Depende
 nce.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependen
 ce.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Break
-downVoltage_Dependence.pdf used on input line 1276.
+downVoltage_Dependence.pdf used on input line 1323.
 (pdftex.def)             Requested size: 722.69823pt x 379.84344pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[73
+[76
 
  <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png> <D:/
 OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.png> <D:/
 OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.png> <D:/
 OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.png> <D:/Ow
-nCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf>] [74 <D:/OwnClo
+nCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf>] [77 <D:/OwnClo
 udData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependence.pdf>]
-File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg Graphic file
- (type jpg)
-
-<use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg>
-Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_
-ch.jpg used on input line 1289.
-(pdftex.def)             Requested size: 1279.77814pt x 534.99744pt.
-
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG, id=1503, 841.64
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG, id=1715, 841.64
 438pt x 434.37282pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG Graphic fil
 e (type jpg)
 
 <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schema
-tic.JPG used on input line 1298.
+tic.JPG used on input line 1337.
 (pdftex.def)             Requested size: 841.64233pt x 434.37175pt.
- [75
+ [78
 
- <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG>] [76
+ <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1353
+[]|\T1/5ch/m/n/12 pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+[]|\T1/5ch/m/n/12 no
+ []
+
+
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 1354--1354
+\T1/5ch/m/n/12 trenches| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1354
+[]|\T1/5ch/m/n/12 CHEC-S
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
+[]|\T1/5ch/m/n/12 HPK LCT5 S13360-
+ []
+
+
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 1355--1355
+[]|\T1/5ch/m/n/12 trenches| 
+ []
+
+
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 1356--1356
+[]|\T1/5ch/m/n/12 trenches| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1357
+[]|\T1/5ch/m/n/12 HPK 6050HWB-LVR-
+ []
+
+
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 1357--1357
+[]|\T1/5ch/m/n/12 trenches| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+[]|\T1/5ch/m/n/12 no
+ []
+
+
+Overfull \hbox (1.43283pt too wide) in paragraph at lines 1358--1358
+\T1/5ch/m/n/12 trenches| 
+ []
+
+
+Overfull \hbox (0.56708pt too wide) in paragraph at lines 1351--1361
+[][] 
+ []
+
+[79
 
 ]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurement-2017-0215(1).pdf, id
-=1514, page=3, 1027.84pt x 770.88pt>
-File: D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurement-2017-0215(1).pd
-f Graphic file (type pdf)
-
-<use D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurement-2017-0215(1).pdf
-, page 3>
-Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurem
-ent-2017-0215(1).pdf, page3 used on input line 1319.
-(pdftex.def)             Requested size: 1027.8375pt x 770.87813pt.
- [77
-
- <D:/OwnCloudData/00_WriteUP/04_Thesis/GCT-SiPM-Procurement-2017-0215(1).pdf>]
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_Gain_
-vs_OV_Combined.pdf, id=1682, 1285.70966pt x 692.63829pt>
+vs_OV_Combined.pdf, id=1724, 1285.70966pt x 692.63829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 Gain_vs_OV_Combined.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_G
 ain_vs_OV_Combined.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHE
-CS-tile_pixel_comp_Gain_vs_OV_Combined.pdf used on input line 1338.
+CS-tile_pixel_comp_Gain_vs_OV_Combined.pdf used on input line 1378.
 (pdftex.def)             Requested size: 1285.70653pt x 671.2971pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_v
-s_OV_Combined.pdf, id=1684, 1318.56677pt x 700.66829pt>
+s_OV_Combined.pdf, id=1726, 1318.56677pt x 700.66829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 DCR_vs_OV_Combined.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_D
 CR_vs_OV_Combined.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHE
-CS-tile_pixel_comp_DCR_vs_OV_Combined.pdf used on input line 1348.
+CS-tile_pixel_comp_DCR_vs_OV_Combined.pdf used on input line 1388.
 (pdftex.def)             Requested size: 1318.56357pt x 679.32709pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_v
-s_OV_Combined.pdf, id=1686, 1281.88286pt x 692.63829pt>
+s_OV_Combined.pdf, id=1728, 1281.88286pt x 692.63829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 OCT_vs_OV_Combined.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_O
 CT_vs_OV_Combined.pdf>
 Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHE
-CS-tile_pixel_comp_OCT_vs_OV_Combined.pdf used on input line 1358.
+CS-tile_pixel_comp_OCT_vs_OV_Combined.pdf used on input line 1398.
 (pdftex.def)             Requested size: 1281.87973pt x 671.2971pt.
- [78
+ [80
 
  <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_Gain
 _vs_OV_Combined.pdf> <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-
-tile_pixel_comp_DCR_vs_OV_Combined.pdf>] [79 <D:/OwnCloudData/02_Results/HPK_S1
+tile_pixel_comp_DCR_vs_OV_Combined.pdf>] [81 <D:/OwnCloudData/02_Results/HPK_S1
 2642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_vs_OV_Combined.pdf>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRawDataZ
-oom.pdf, id=1858, 533.5825pt x 410.80037pt>
+oom.pdf, id=1901, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRaw
 DataZoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRawD
 ataZoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcRawDataZoom.pdf used on input line 1373.
+T22.0_Vb68.5.trcRawDataZoom.pdf used on input line 1413.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPeakDete
-ctLevelZoom.pdf, id=1859, 533.5825pt x 410.80037pt>
+ctLevelZoom.pdf, id=1902, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPea
 kDetectLevelZoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPeak
 DetectLevelZoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcPeakDetectLevelZoom.pdf used on input line 1382.
+T22.0_Vb68.5.trcPeakDetectLevelZoom.pdf used on input line 1422.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
 
 
@@ -3104,14 +3274,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPulsePos
-CompZoom.pdf, id=1860, 533.5825pt x 410.80037pt>
+CompZoom.pdf, id=1903, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPul
 sePosCompZoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPuls
 ePosCompZoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcPulsePosCompZoom.pdf used on input line 1391.
+T22.0_Vb68.5.trcPulsePosCompZoom.pdf used on input line 1431.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
 
 
@@ -3119,45 +3289,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcIntegrat
-ionWindowZoom.pdf, id=1861, 537.41714pt x 410.80037pt>
+ionWindowZoom.pdf, id=1904, 537.41714pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcInt
 egrationWindowZoom.pdf Graphic file (type pdf)
 
 <use D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcInte
 grationWindowZoom.pdf>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_
-T22.0_Vb68.5.trcIntegrationWindowZoom.pdf used on input line 1400.
+T22.0_Vb68.5.trcIntegrationWindowZoom.pdf used on input line 1440.
 (pdftex.def)             Requested size: 248.96162pt x 190.3056pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[80
+[82
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRawData
-Zoom.pdf>] [81 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb6
-8.5.trcPeakDetectLevelZoom.pdf>] [82 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/
-Analysis/HAM_T22.0_Vb68.5.trcPulsePosCompZoom.pdf>] [83 <D:/OwnCloudData/00_Wri
+Zoom.pdf>] [83 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb6
+8.5.trcPeakDetectLevelZoom.pdf>] [84 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/
+Analysis/HAM_T22.0_Vb68.5.trcPulsePosCompZoom.pdf>] [85 <D:/OwnCloudData/00_Wri
 teUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcIntegrationWindowZoom.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
 
  []
 
-[84
+[86
 
 ]
-LaTeX Font Info:    Try loading font information for T1+5sf on input line 1436.
+LaTeX Font Info:    Try loading font information for T1+5sf on input line 1467.
 
 
 (C:\ProgramData\TUDDESIGN\texmf\tex\latex\tex-tudfonts\softmake\stafford\t15sf.
 fd
 File: t15sf.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5sf.
-) [85
+) [87
 
 
 
@@ -3170,11 +3340,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21113 strings out of 493334
- 418059 string characters out of 3147023
- 514955 words of memory out of 3000000
- 24011 multiletter control sequences out of 15000+200000
- 251389 words of font info for 247 fonts, out of 3000000 for 9000
+ 21189 strings out of 493334
+ 421142 string characters out of 3147023
+ 514680 words of memory out of 3000000
+ 24076 multiletter control sequences out of 15000+200000
+ 252116 words of font info for 250 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,15n,100p,8882b,844s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTEX/fonts/enc/dvips/fontname/8r.enc}{D:/MikTEX/fonts/enc/dvips/fontnam
@@ -3193,9 +3363,9 @@ Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb>
 <C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m
 .pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppData/Roam
 ing/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (89 pages, 19962594 bytes).
+Output written on chapter_results.pdf (91 pages, 20017374 bytes).
 PDF statistics:
- 2110 PDF objects out of 2487 (max. 8388607)
+ 2153 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 921 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 981 words of extra memory for PDF output out of 10000 (max. 10000000)
 
