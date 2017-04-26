@@ -34,8 +34,8 @@
 \contentsline {subsubsection}{\numberline {6.3.2}Dark Count Rate}{46}
 \contentsline {subsubsection}{\numberline {6.3.3}Optical Cross Talk}{47}
 \contentsline {subsection}{\numberline {6.4}Hamamatsu LCT5 75$\mu $m 7mm}{49}
-\contentsline {subsubsection}{\numberline {6.4.1}Gain}{50}
-\contentsline {subsubsection}{\numberline {6.4.2}Dark Count Rate}{51}
+\contentsline {subsubsection}{\numberline {6.4.1}Gain}{49}
+\contentsline {subsubsection}{\numberline {6.4.2}Dark Count Rate}{50}
 \contentsline {subsubsection}{\numberline {6.4.3}Optical Cross Talk}{51}
 \contentsline {subsection}{\numberline {6.5}Hamamatsu LVR 50$\mu $m 6mm}{53}
 \contentsline {subsubsection}{\numberline {6.5.1}Gain}{53}

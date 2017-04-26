@@ -35,7 +35,7 @@
 \contentsline {figure}{\numberline {35}{\ignorespaces LCT5 7mm average pulse shape}}{49}
 \contentsline {figure}{\numberline {36}{\ignorespaces LCT5 7mm gain}}{50}
 \contentsline {figure}{\numberline {37}{\ignorespaces LCT5 7mm DCR}}{51}
-\contentsline {figure}{\numberline {38}{\ignorespaces LCT5 7mm OCT}}{52}
+\contentsline {figure}{\numberline {38}{\ignorespaces LCT5 7mm OCT}}{51}
 \contentsline {figure}{\numberline {39}{\ignorespaces LCT5 LVR 6mm SiPM}}{53}
 \contentsline {figure}{\numberline {40}{\ignorespaces LCT5 LVR 6mm average pulse shape}}{53}
 \contentsline {figure}{\numberline {41}{\ignorespaces LCT5 LVR 6mm gain}}{54}
@@ -58,11 +58,11 @@
 \contentsline {figure}{\numberline {58}{\ignorespaces Breakdown-voltage versus temperature}}{76}
 \contentsline {figure}{\numberline {59}{\ignorespaces Breakdown-voltage dependency}}{77}
 \contentsline {figure}{\numberline {60}{\ignorespaces Full schematic of the shaper developed at the University of Leicester.\relax }}{78}
-\contentsline {figure}{\numberline {61}{\ignorespaces List of examined SiPM devices}}{79}
+\contentsline {figure}{\numberline {61}{\ignorespaces List of candidate SiPM devices}}{79}
 \contentsline {figure}{\numberline {62}{\ignorespaces CHEC-S pixel comparison of the gain}}{80}
 \contentsline {figure}{\numberline {63}{\ignorespaces CHEC-S pixel comparison of the DCR}}{80}
 \contentsline {figure}{\numberline {64}{\ignorespaces CHEC-S pixel comparison of the OCT}}{81}
-\contentsline {figure}{\numberline {65}{\ignorespaces Description\relax }}{82}
-\contentsline {figure}{\numberline {66}{\ignorespaces Description\relax }}{83}
-\contentsline {figure}{\numberline {67}{\ignorespaces Description\relax }}{84}
-\contentsline {figure}{\numberline {68}{\ignorespaces Description\relax }}{85}
+\contentsline {figure}{\numberline {65}{\ignorespaces Raw data}}{82}
+\contentsline {figure}{\numberline {66}{\ignorespaces Peak detection level}}{83}
+\contentsline {figure}{\numberline {67}{\ignorespaces Number of peaks detected}}{84}
+\contentsline {figure}{\numberline {68}{\ignorespaces Integration window}}{85}
