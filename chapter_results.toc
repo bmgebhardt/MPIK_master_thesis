@@ -41,13 +41,13 @@
 \contentsline {subsubsection}{\numberline {6.5.1}Gain}{53}
 \contentsline {subsubsection}{\numberline {6.5.2}Dark Count Rate and Optical Cross Talk}{54}
 \contentsline {subsection}{\numberline {6.6}SensL FJ60035 6mm 35$\mu $m}{56}
-\contentsline {subsubsection}{\numberline {6.6.1}Gain}{56}
+\contentsline {subsubsection}{\numberline {6.6.1}Gain}{57}
 \contentsline {subsubsection}{\numberline {6.6.2}Dark Count Rate and Optical Cross Talk}{57}
 \contentsline {section}{\numberline {7}\fontsize {17.3}{21.9}\selectfont Comparison}{59}
 \contentsline {subsection}{\numberline {7.1}Dark Count Rate}{59}
 \contentsline {subsection}{\numberline {7.2}Optical Cross Talk}{60}
 \contentsline {subsection}{\numberline {7.3}Point of Operation Comparison}{62}
-\contentsline {subsection}{\numberline {7.4}Photon Detection Efficiency}{62}
+\contentsline {subsection}{\numberline {7.4}Photon Detection Efficiency}{63}
 \contentsline {section}{\numberline {8}\fontsize {17.3}{21.9}\selectfont Conclusion and Outlook}{65}
 \contentsline {section}{\numberline {9}\fontsize {17.3}{21.9}\selectfont Glossary}{66}
 \contentsline {section}{\numberline {10}\fontsize {17.3}{21.9}\selectfont Bibliography}{67}

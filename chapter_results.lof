@@ -43,11 +43,11 @@
 \contentsline {figure}{\numberline {43}{\ignorespaces LCT5 LVR 6mm OCT}}{55}
 \contentsline {figure}{\numberline {44}{\ignorespaces SensL FJ60035 SiPM and average pulse shape}}{56}
 \contentsline {figure}{\numberline {45}{\ignorespaces SensL FJ60035 gain}}{57}
-\contentsline {figure}{\numberline {46}{\ignorespaces SensL FJ60035 DCR}}{57}
+\contentsline {figure}{\numberline {46}{\ignorespaces SensL FJ60035 DCR}}{58}
 \contentsline {figure}{\numberline {47}{\ignorespaces SensL FJ60035 OCT}}{58}
 \contentsline {figure}{\numberline {48}{\ignorespaces DCR device comparison}}{60}
 \contentsline {figure}{\numberline {49}{\ignorespaces OCT device comparison}}{61}
-\contentsline {figure}{\numberline {50}{\ignorespaces Comparison based on two proposed points of operation}}{63}
+\contentsline {figure}{\numberline {50}{\ignorespaces Comparison based on two proposed points of operation}}{62}
 \contentsline {figure}{\numberline {51}{\ignorespaces PDE versus OCT comparison}}{64}
 \contentsline {figure}{\numberline {52}{\ignorespaces CTA in Chile and the stereoscopic technique}}{69}
 \contentsline {figure}{\numberline {53}{\ignorespaces Current IACT experiments}}{69}
@@ -57,12 +57,12 @@
 \contentsline {figure}{\numberline {57}{\ignorespaces LCT5 6mm pulse area spectrum}}{75}
 \contentsline {figure}{\numberline {58}{\ignorespaces Breakdown-voltage versus temperature}}{76}
 \contentsline {figure}{\numberline {59}{\ignorespaces Breakdown-voltage dependency}}{77}
-\contentsline {figure}{\numberline {60}{\ignorespaces Full schematic of the shaper developed at the University of Leicester.\relax }}{78}
+\contentsline {figure}{\numberline {60}{\ignorespaces Full schematic of the shaper developed at the University of Leicester. With tuneable components C9 and R20 highlighted.\relax }}{78}
 \contentsline {figure}{\numberline {61}{\ignorespaces List of candidate SiPM devices}}{79}
 \contentsline {figure}{\numberline {62}{\ignorespaces CHEC-S pixel comparison of the gain}}{80}
 \contentsline {figure}{\numberline {63}{\ignorespaces CHEC-S pixel comparison of the DCR}}{80}
 \contentsline {figure}{\numberline {64}{\ignorespaces CHEC-S pixel comparison of the OCT}}{81}
-\contentsline {figure}{\numberline {65}{\ignorespaces Raw data}}{82}
-\contentsline {figure}{\numberline {66}{\ignorespaces Peak detection level}}{83}
-\contentsline {figure}{\numberline {67}{\ignorespaces Number of peaks detected}}{84}
-\contentsline {figure}{\numberline {68}{\ignorespaces Integration window}}{85}
+\contentsline {figure}{\numberline {65}{\ignorespaces Raw data pre analysis}}{82}
+\contentsline {figure}{\numberline {66}{\ignorespaces Peak detection level during analysis}}{83}
+\contentsline {figure}{\numberline {67}{\ignorespaces Number of peaks detected during analysis}}{84}
+\contentsline {figure}{\numberline {68}{\ignorespaces Integration window illustration}}{85}

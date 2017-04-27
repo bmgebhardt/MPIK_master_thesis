@@ -25,7 +25,7 @@
 
 
 
-\linenumbers
+%\linenumbers
 
 \newcommand{\ca}[1]{%
 \begin{tikzpicture}[inner sep=.2mm]
@@ -64,7 +64,7 @@
 \birthplace{Heidelberg}
 \referee{Dr. Richard White (MPIK)}{Prof. Jim Hinton (MPIK)}[Prof. Tetyana Galatyuk (TU DA)]
 \department{Fachbereich Physik}
-\group{Max Planck Institut f'ur Kernphysik Heidelberg}
+\group{Max Planck Institut f\"ur Kernphysik Heidelberg}
 \dateofexam{\today}{\today}
 %\tuprints{12345}{1234}
 \makethesistitle
@@ -72,22 +72,23 @@
 
 \clearpage
 \begin{abstract}
-Earth is continuously hit by high energy gamma radiation that carries with it vast amounts of information about the most energetic phenomenon in our galaxy and beyond. Part of this information is delivered to Earth in the form of a gamma ray induced particle shower in our atmosphere. While it is also possible to detect those particles directly on the ground, traveling through Earth's atmosphere those particles emit Cherenkov light. Particles in the shower produce a light cone that can be detected by telescopes on the ground. From the Cherenkov light, it is possible to reconstruct the direction and energy of the gamma ray.\\
-One such experiment capable of observing gamma rays is the proposed Cherenkov Telescope Array. It consists of over 100 telescopes grouped in three energy ranges, deployed on two array sites, achieving whole-sky coverage. Different designs of the telescopes are able to use Silicon Photomultipliers for photon detection. Silicon Photomultipliers are semiconductors that attracted increased attention for their possible use in astroparticle physics. Each detected photon entering the detector is converted to a measurable signal through avalanche creation. Being a fairly new technology, they are continuously being developed, and finding the most promising candidate is a task spread across many groups.\\
-In this work dark measurements of five proposed candidates are conducted. An initial teststand for dark measurements is build, that can later be upgraded to support light measurements. Data acquisition and analysis code is developed and utilized to evaluate important characteristics of the candidates. Among them are the gain of a SiPM, being a measure for the signal strength through conversion of a photoelectron. The temperature dependence of the gain is evaluated, this is important during observation, where the gain fluctuation is required to be low in order to avoid errors. Important noise characteristics are evaluated, among them thermally induced dark rates and optical cross talk. Those have a direct impact on the single photon detection resolution. The dark rates originate from thermal effects, and together with the optical cross talk, the temperature dependence of the noise is investigated. To conclude, the measured devices are compared among themselves and against results from involved groups, to find the most promising initial candidate.
+Earth is continuously hit by high energy gamma radiation that carries with it vast amounts of information about the most energetic phenomena in our galaxy and beyond. Part of this information is delivered to Earth in the form of a gamma ray induced particle shower in our atmosphere. While it is also possible to detect those particles directly on the ground, traveling through Earth's atmosphere those particles emit Cherenkov light. Particles in the shower produce a light cone that can be detected by telescopes on the ground. From the Cherenkov light, it is possible to reconstruct the direction and energy of the gamma ray.\\
+One such experiment capable of observing gamma rays is the proposed Cherenkov Telescope Array. It consists of over 100 telescopes grouped in three energy ranges, deployed on two array sites, achieving whole-sky coverage. Different designs of the telescopes are able to use Silicon Photomultipliers (SiPMs) for photon detection. SiPMs are semiconductors that attracted increased attention for their possible use in astroparticle physics. Each detected photon entering the detector is converted to a measurable signal through avalanche creation. Being a fairly new technology, they are continuously being developed, and finding the most promising candidate is a task spread across many groups.\\
 
-
-
-
-
+The aim of this thesis is to investigate important characteristics and their temperature dependence of five proposed candidate SiPMs for CTA. This thesis deals with developing an initial teststand for dark measurements, that can later be upgraded to support light measurements. This includes the development of data acquisition and analysis code, that are utilized to evaluate important characteristics of the candidates. Among them are the gain of a SiPM, being a measure for the signal strength through conversion of a photoelectron. The temperature dependence of the gain is important during observation, where the gain fluctuation is required to be low in order to avoid measurement errors. Other important characteristics this thesis examines are thermal and correlated noise and their potential temperature dependence. Thermal noise describes the event of a thermally induced incident in the photosensor without the presence of light. Correlated noise describes cross-talk between the photosensors mediated by avalanche photons diffusing to other photosensors. Both sources of noise have a direct impact on the single photon detection resolution of the detector, a vital parameter in gamma ray astronomy. In conclusion, the thesis compares the results of the measured devices via two methods among themselves and against results from involved groups, in order to find the most promising initial candidate.
 \end{abstract}
 \afterpage{\blankpage}
 
-
-
 \clearpage
 \begin{abstract}
-worum es geht
+Die Erde wird kontinuierlich von hoch energetischer Gammastrahlung getroffen, welche eine enorme Menge an Informationen \"uber die energiereichsten Ph\"anomena in unserer Galaxie und dar\"uber hinaus enth\"alt. Ein Teil dieser Information gelangt zur Erde durch Gammastrahlung induzierte Teilchenschauer in unserer Atmosph\"are. W\"ahrend es m\"oglich ist diese Teilchen direkt am Erdboden zu messen, emittieren diese Teilchen solange sie durch die Atmosph\"are fliegen Cherenkov Strahlung. Teilchen in einem Teilchenschauer produzieren einen Lichtkegel, welcher von Teleskopen am Erdboden detektiert werden kann. Mit Hilfe dieses Cherenkov Lichtes ist es m\"oglich die Quelle und Energie der Gammastrahlung zu rekonstruieren.\\
+Eines der Experimente, dass dazu im Stande ist Gammastrahlung zu observieren ist der vorgeschlagene Cherenkov Telescope Array. Dieser besteht aus \"uber 100 Teleskopen, die nach ihrem Energiebereich eingeteilt sind, diese werden an zwei Standorten aufgebaut und sind dadurch in der Lage den ganzen Himmel zu observieren. Verschiedene Designs f\"ur die Teleskope sind in der Lage Silicon Photomultiplier (SiPM) als Photosensor zu nutzen. SiPM sind Halbleiter, die in der Astropartikelphysik erh\"ohte Beachtung finden. Jedes detektierte Photon, dass in den Detektor eintritt wird durch einen Lawinen-Effekt in ein messbares Signal umgewandelt. Es ist eine relativ neue Technologie, deshalb wird sie kontinuierlich weiterentwickelt, und den vielversprechendsten Kandidaten auszuw\"ahlen ist eine Aufgabe die auf viele Gruppen unterteilt ist.\\
+Das Ziel dieser Thesis ist es wichtige Charakteristiken und ihre Temperaturabh\"angigkeit von f\"unf vorgeschlagenen SiPMs f\"ur CTA zu untersuchen. Diese Thesis befasst sich mit der Entwicklung eines anf\"anglichen Teststandes f\"ur Dunkel-Messungen, welcher in der Zukunft f\"ur Licht-Messungen erweitert werden kann. Damit verbunden ist die Entwicklung von Datenerfassungs- und Datenanalysesoftware, die verwendet werden um wichtige Charakteristiken der Kandidaten zu ermitteln. Darunter ist der Gain eines SiPM, welcher ein Ma\ss  ~f\"ur die Signalst\"arke beim konvertieren eines Photoelektrons darstellt. Die Temperaturabh\"angigkeit des Gain f\"ur ist wichtig w\"ahrend das Teleskop observiert, da die Fluktuation des Gain klein sein muss um Messfehler zu vermeiden. Weitere wichtige Charakteristiken, die diese Thesis untersucht, sind thermale und korrelierte St\"orger\"ausche und ihre Temperaturabh\"angigkeit. Thermales Rauschen beschreibt den Vorgang wenn ein Photosensor ohne Anwesenheit von Licht und durch thermale Anregung ein Signal generiert. Korreliertes Rauschen beschreibt cross-talk zwischen Photosensoren ausgel\"ost durch ein Photon, dass in einen benachbarten Photosensor diffundiert. Die St\"orger\"ausche haben einen direkten Einfluss auf die Einzelphotonenaufl\"osung des Detektors, ein wichtiger Parameter in der Gammastrahlen-Astronomie. Zum Schluss vergleicht diese Thesis die Ergebnisse der gemessenen SiPM untereinander und mit Ergebnissen von externen Gruppen via zweier Methoden, um den erfolgversprechendsten Anfangskandidaten zu finden.
+
+
+
+
+
 \end{abstract}
 \afterpage{\blankpage}
 
@@ -395,10 +396,10 @@ The PDE is commonly measured by illumination of the pixel and a calibrated refer
 
 
 The experimental setup in general is designed to house a variety of SiPM devices. Over the course of this work, 5 different types of SiPMs were mounted on the setup and evaluated. It involves a thermal chamber fig(\ref{fig:Setup_Scheme})(A) for temperature regulation which proved light tight and thus also serves as a dark box, to prevent any stray light to reach the SiPMs surface. The thermal chamber in question is a LU-114 constant climate cabinet from ESPEC with a programmable interface for remote control. The chamber is able to raise and lower the inside temperature with a $\pm0.5^\circ$C accuracy, direct measurements of the SiPMs surface with a temperature probe confirmed this. In the absence of light tests, heating of the SiPM surface through the dark current proved no concern.\\ Depending if the SiPM fig(\ref{fig:Setup_Scheme})(A1) in testing is pre-manufactured on a test-array or supplied as a standalone chip, it is either mounted directly on a mechanical arm inside the chamber in the former case, or in the latter the mechanical arm supports a specifically designed PCB connecting to the device. Via the mount, bias-voltage is supplied and signal is transferred to the shaper fig(\ref{fig:Setup_Scheme})(A2). In some cases the output signals amplitude is to low to trigger the oscilloscope, therefore amplification is needed. I used a ZFL-1000-LN+ amplifier from MiniCircuits fig(\ref{fig:Setup_Scheme})(A3) supplied with different voltages depending on the tested device to amplify the shaped signal.\\\\
-Data acquisition in the Laboratory is realized by a Lab-PC fig(\ref{fig:Setup_Scheme})(B), that forms the central control station for multiple pieces of equipment. It is connected to the oscilloscope fig(\ref{fig:Setup_Scheme})(C), which records the waveforms of the device in testing, and then sends the data back to the PC via Ethernet. The oscilloscope is a Lecroy HDO6104 1GHz HS Oscilloscope capable of 2.5 GS/s.\\\\ The power supplies fig(\ref{fig:Setup_Scheme})(D) control the bias-voltage of the SiPMs, ramping of the bias-voltage is controlled by the PC. Lastly the thermal chamber is connected to the Lab-PC, where the data acquisition script controls the temperature, and continuously rechecks it during temperature ramps. Signal transfer from the shaper to the oscilloscope is via a throughput on the side. All equipment is connected via ethernet, plugged into a common hub, to form a local network. While the temperature of the thermal chamber is ramping from the previous to the next set-point, the data is send to the Lab-PC.\\\\
+Data acquisition in the Laboratory is realized by a Lab-PC fig(\ref{fig:Setup_Scheme})(B), that forms the central control station for multiple pieces of equipment. It is connected to the oscilloscope fig(\ref{fig:Setup_Scheme})(C), which records the waveforms of the device in testing, and then sends the data back to the PC via Ethernet. The oscilloscope is a Lecroy HDO6104 1GHz HD Oscilloscope capable of 2.5 GS/s.\\\\ The TTi power supplies fig(\ref{fig:Setup_Scheme})(D) control the bias-voltage of the SiPMs, ramping of the bias-voltage is controlled by the PC. Lastly the thermal chamber is connected to the Lab-PC, where the data acquisition script controls the temperature, and continuously rechecks it during temperature ramps. Signal transfer from the shaper to the oscilloscope is via a throughput on the side. All equipment is connected via ethernet, plugged into a common hub, to form a local network. While the temperature of the thermal chamber is ramping from the previous to the next set-point, the data is send to the Lab-PC.\\\\
 
 Temperature regulation is an issue in the teststand, as there is no way of controlling the SiPMs surface temperature. In dark conditions however, without conducting illumination tests, the shift in temperature on the SiPMs surface is only minimal. See section(\ref{appsec:Device_Vbr}) for the breakdown-voltage dependence on temperature. Checking the surface temperature of all devices with a temperature probe during testing showed minimal rising temperatures. So the influence of the temperature on the breakdown-voltage is only of minor concern. However, once illumination tests begin, the rising temperature on the SiPMs surface will no longer be negligible and the temperature must be regulated, either by cooling of the surface or including the temperature parameter.\\\\
-There is also the issue of the saturation of the input of the oscilloscope making the higher over-voltage range difficult to reach, due to potential multi p.e. pulses being amplified and reaching the input. This is possible because of the difference in amplitude between a 1~p.e. and a multi~p.e. event and the electronic noise, forcing a high resolution of the amplitude in the oscilloscope. Different couplings were tried to circumvent the problem, to no avail.\\
+There is also the issue of the saturation of the input of the oscilloscope making the higher over-voltage range difficult to reach, due to potential multi p.e. pulses being amplified and reaching the input. This is possible because of the difference in amplitude between a 1~p.e. and a multi~p.e. event and the electronic noise, forcing a high resolution of the amplitude in the oscilloscope. Different couplings were tried to circumvent the problem, which showed no improvement.\\
 
 
 
@@ -424,7 +425,7 @@ The shaper consists of two stages, the main components are an Op-Amp amplifier s
 R_0\times C_Z = 1/ (2\pi \times f_C)
 \end{equation}
 
-In Figure(\ref{fig:shaped_unshaped})\cite{Initial_testing_at_MPIK_wb_July_18_2016}, the shaped and unshaped pulse is shown, the negative amplitude (yellow) corresponds to the unshaped signal mimicked by a function generator to emulate the output of the front-end buffer of the CHEC-S SiPM. These tests correspond to an initial design of the shaper and do not correspond to the final setup. \\\\\\
+In Figure(\ref{fig:shaped_unshaped}), the shaped and unshaped pulse is shown, the negative amplitude (yellow) corresponds to the unshaped signal mimicked by a function generator to emulate the output of the front-end buffer of the CHEC-S SiPM. These tests correspond to an initial design of the shaper and do not correspond to the final setup. \\\\\\
 
 \begin{figure}[h!]
 \begin{centering}
@@ -528,7 +529,7 @@ Two parameters are extracted from the fit to the peak area histogram. The first 
 \caption[Regression line plots of 1p.e. and $\Delta$p.e.]{\label{fig:Gain_P}1p.e. position and $\Delta$p.e. extracted from the Pulse Area histogram at every bias-voltage for HPK S12642 with their respective regression lines.}
 \end{wrapfigure}
 
-A second parameter is extracted from the peak area histogram to deal with this problem, which is the distance between N p.e. peak maxima of the histogram, labeled $\Delta$p.e. . This distance defines the gain, as it gives a measure of the difference of the generated signal of a 1p.e. signal and a 2p.e. signal. The apparent pedestal of the pulse area histogram makes extraction of the two parameters necessary in order to calculate the DCR and the OCT.\\\\ The gain of a SiPM has a linear dependence of the supplied bias-voltage. Given that the bias-voltage range is deliberately chosen such that the over-voltage ranges from about 1V growing upwards, the range of linearity only starts at around the point of operation given by the manufacturer of the device. At the higher end of the bias-voltage range the behaviour usually starts to divert from the linearity. In order to get an estimation of the gain over a large range, both previously extracted parameters, the 1p.e. peak and the distance $\Delta$p.e. are fitted with a linear regression line. The fit assumes linearity utilizing weighted least squares inherited from pythons statsmodels package. For the fit, the data, where more than two gaussians are fitted to the peak area histogram has a stronger weight.\\\\ Plotting both extracted parameters, as well as their respective regression lines versus bias-voltage, as in fig(\ref{fig:Gain_P}), shows the difference between the two parameters. Comparing the manufacturer supplied breakdown-voltage from the datasheet for all devices showed, that the zero-crossing of the 1~p.e. regression line is more consistent with datasheet values, in contrast to the zero-crossing of $\Delta$p.e. , which lies slightly higher. The over-voltage, corresponding to the set bias-voltage at any given temperature is calculated from this breakdown-voltage. 
+A second parameter is extracted from the peak area histogram to deal with this problem, which is the distance between N p.e. peak maxima of the histogram, labeled $\Delta$p.e. This distance defines the gain, as it gives a measure of the difference of the generated signal of a 1p.e. signal and a 2p.e. signal. The apparent pedestal of the pulse area histogram makes extraction of the two parameters necessary in order to calculate the DCR and the OCT.\\\\ The gain of a SiPM has a linear dependence of the supplied bias-voltage. Given that the bias-voltage range is deliberately chosen such that the over-voltage ranges from about 1V growing upwards, the range of linearity only starts at around the point of operation given by the manufacturer of the device. At the higher end of the bias-voltage range the behaviour usually starts to divert from the linearity. In order to get an estimation of the gain over a large range, both previously extracted parameters, the 1p.e. peak and the distance $\Delta$p.e. are fitted with a linear regression line. The fit assumes linearity utilizing weighted least squares inherited from pythons statsmodels package. For the fit, the data, where more than two gaussians are fitted to the peak area histogram has a stronger weight.\\\\ Plotting both extracted parameters, as well as their respective regression lines versus bias-voltage, as in fig(\ref{fig:Gain_P}), shows the difference between the two parameters. Comparing the manufacturer supplied breakdown-voltage from the datasheet for all devices showed, that the zero-crossing of the 1~p.e. regression line is more consistent with datasheet values, in contrast to the zero-crossing of $\Delta$p.e. , which lies slightly higher. The over-voltage, corresponding to the set bias-voltage at any given temperature is calculated from this breakdown-voltage. 
 
 
 %\newpage
@@ -539,7 +540,7 @@ DCR = \frac{N_{events(\geq 0.5p.e.)}}{t_{experiment}}
 \end{equation}
 
 
-The OCT of a SiPM is defined as all events exceeding 1.5 p.e. in amplitude$[N_{events(\geq 1.5p.e.)]}$ devided by all events exceeding 0.5 p.e. in amplitude$[N_{events(\geq 0.5p.e.)]}$ eq \ref{eq:OCT}. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell
+The OCT of a SiPM is defined as all events exceeding 1.5 p.e. in amplitude $N_{events(\geq 1.5p.e.)}$ devided by all events exceeding 0.5 p.e. in amplitude $N_{events(\geq 0.5p.e.)}$ eq \ref{eq:OCT}. It scales with the number of photons produced inside an avalanche, as well as the probability of these photons to trigger a neighboring cell
 
 \begin{equation}\label{eq:OCT}
 OCT = \frac{N_{events(\geq 1.5p.e.)}}{N_{events(\geq 0.5p.e.)}}.
@@ -939,13 +940,13 @@ The SiPM by SensL with the designation FJ-60035 is another candidate device for 
 %L, B, R, T
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG}}
 \resizebox{0.45\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0, clip=true]{D:/OwnCloudData/02_Results/SensL/SensL/Fig/{SensL_T25.0_Vb29.0.trcPulseShape}.pdf}}
-\caption[SensL FJ60035 SiPM and average pulse shape]{SensL Test Array and the average pulse shape at $V_{bias-voltage} = 29V$}
+\caption[SensL FJ60035 SiPM and average pulse shape]{SensL Test Array and the average pulse shape at a bias-voltage of 29V}
 \label{fig:SensL_Array_PS}
 \end{centering}
 \end{figure}
 
 
-%\newpage
+\newpage
 \subsubsection{Gain}
 \label{subsubsec:SensLGain}
 
@@ -1049,14 +1050,7 @@ Even though results from three different groups mostly correlate for four device
 %\newpage
 \subsection{Point of Operation Comparison}
 \label{subsec:OP_comp}
-A different method of comparison involves the two proposed points of operation, illustrated at the beginning of section(\ref{sec:comparison}). By adding the PDE measured by external groups, all three characteristics can be illustrated together. Figure(\ref{DC:Table}) shows the comparison result of the SiPMs examined in this work. A minimal OCT point of 15$\%$ in the left column, and the maximum PDE points in the right column, both include external PDE measurements.\\
-At the first, minimal OCT, operation point the LCT5 6mm (S13360) device is favorable, since it possesses a high PDE of 49$\%$ with a fairly low DCR below the expected NSB. The currently used SiPM in CHEC-S only reaches 25$\%$ according to datasheet values.\\
-The four HPK devices (the first four in the list), all have a maximum achievable PDE around the same level, $\sim$50$\%$. The difference in DCR and OCT at this level is the deciding factor. While the current CHEC-S SiPM reaches a very high OCT level of $\sim$50$\%$, the newer generation HPK SiPMs, with physical trenches, are well below at $\sim$25$\%$. The DCR on the other hand seems to be similar for each device. The LCT5 7mm SiPM at this point of operation seems to have the lowest DCR among them, but the measurements of this device have not yet reached the maximum PDE value and will be extended, higher PDE is possible.\\
-In both cases, the low PDE of the SensL SiPM makes it not competitive.  
-
-
-
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\textwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 4cm, clip=true]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table}}
@@ -1064,6 +1058,14 @@ In both cases, the low PDE of the SensL SiPM makes it not competitive.
 \label{fig:DC_Table}
 \end{centering}
 \end{figure}
+A different method of comparison involves the two proposed points of operation, illustrated at the beginning of section(\ref{sec:comparison}). By adding the PDE measured by external groups, all three characteristics can be illustrated together. Figure(\ref{DC:Table}) shows the comparison result of the SiPMs examined in this work. A minimal OCT point of 15$\%$ in the left column, and the maximum PDE points in the right column, both include external PDE measurements.\\
+At the first, minimal OCT, operation point the LCT5 6mm (S13360) device is favorable, since it possesses a high PDE of 49$\%$ with a fairly low DCR below the expected NSB. The currently used SiPM in CHEC-S only reaches 25$\%$ according to datasheet values.\\
+The four HPK devices (the first four in the list), all have a maximum achievable PDE around the same level, $\sim$50$\%$. The difference in DCR and OCT at this level is the deciding factor. While the current CHEC-S SiPM reaches a very high OCT level of $\sim$50$\%$, the newer generation HPK SiPMs, with physical trenches, are well below at $\sim$25$\%$. The DCR on the other hand seems to be similar for each device. The LCT5 7mm SiPM at this point of operation seems to have the lowest DCR among them, but the measurements of this device have not yet reached the maximum PDE value and will be extended, higher PDE is possible.\\
+In both cases, the low PDE of the SensL SiPM makes it not competitive.  
+
+
+
+
 
 
 
@@ -1104,7 +1106,8 @@ In conclusion, the HPK S12642 device is clearly sub-optimal for CHEC-S, but will
 \section{\Large Conclusion and Outlook}
 
 Over the course of this work five new-generation SiPMs have been examined in dark conditions, for their possible use in single photon detection for the high energy instrument of the Cherenkov Telescope Array.\\
-A lasting experimental teststand has been developed, that is capable to be upgraded for future illumination tests. It is a reference to the involved groups, who will build similar setups to test the every SiPM for the mass-production of the CHEC camera. The teststand involves a climate chamber for temperature regulation, that functions as a light tight box. For each SiPM pre-existent shaping electronics has been modified in order to achieve a preferred signal. Data acquisition code was developed to control the experimental parameters of the teststand remotely, and storing all experimental data from the internal memory of the oscilloscope on a Lab-PC. A data analysis procedure has been designed and developed to analyze the data offline, both were developed in python. The analysis method showed performance issues with measurements of devices at higher OCT levels. Illumination tests will make it easier to reach lower over-voltage ranges, due to the lower dependency of dark counts with low gain, that is characteristic in that region.\\
+A lasting experimental teststand has been developed, that is capable to be upgraded for future illumination tests. It is a reference to the involved groups, who will build similar setups to test the SiPMs for mass-production of the CHEC camera. The teststand involves a climate chamber for temperature regulation, that functions as a light tight box. For each SiPM pre-existent shaping electronics has been modified in order to achieve a preferred signal. Data acquisition code was developed to control the experimental parameters of the teststand remotely, and storing all experimental data from the internal memory of the oscilloscope on a Lab-PC. A data analysis procedure has been designed and developed to analyze the data offline, both were developed in python. The analysis method showed performance issues with measurements of devices at higher OCT levels. Illumination tests will make it easier to reach lower over-voltage ranges, due to the lower dependency of dark counts with low gain, that is characteristic in that region.\\
+
 Experimental studies of the SiPMs showed better performance at lower temperatures. In observation conditions, temperatures lower than 25~$^\circ$C are unfortunately not expected. Even at those temperatures SiPMs are a strongly considered candidate. For the examined devices, the temperature dependence of the dark noise and the gain has been studied.\\
 By now, only dark measurements can be conducted, but once a tunable lightsource and monochromator is installed, light measurements are possible. Before that, a solution for the potential warm-up of the SiPM surface must be found.\\
 The work on both, the teststand and the analysis method, will be expanded in the future. Following this work the involved groups start to exchange the physical devices for better coverage of the measured characteristics.\\
@@ -1332,7 +1335,7 @@ Since the measurements conducted in this work do not differ between the range of
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[trim=0cm 0cm 0cm 0cm, clip=true]{D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/{schematic}.JPG}}
-\caption{Full schematic of the shaper developed at the University of Leicester.}
+\caption{Full schematic of the shaper developed at the University of Leicester. With tuneable components C9 and R20 highlighted.}
 \label{appfig:Setup_Scheme}
 \end{centering}
 \end{figure}
@@ -1423,7 +1426,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcRawDataZoom}.pdf}}
-\caption[Raw data]{Raw data from the oscilloscope, converted, but no analysis steps taken.}
+\caption[Raw data pre analysis]{Raw data from the oscilloscope, converted, but no analysis steps taken.}
 \label{fig:}
 \end{centering}
 \end{figure}
@@ -1432,7 +1435,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcPeakDetectLevelZoom}.pdf}}
-\caption[Peak detection level]{Peak detection level visible on filtered signal 2.}
+\caption[Peak detection level during analysis]{Peak detection level visible on filtered signal 2.}
 \label{fig:}
 \end{centering}
 \end{figure}
@@ -1441,7 +1444,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcPulsePosCompZoom}.pdf}}
-\caption[Number of peaks detected]{Number of peaks detected, clean keyword is to check for peak proximity.}
+\caption[Number of peaks detected during analysis]{Number of peaks detected, clean keyword is to check for peak proximity.}
 \label{fig:}
 \end{centering}
 \end{figure}
@@ -1450,7 +1453,7 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \begin{centering}
 %L, B, R, T
 \resizebox{0.9\columnwidth}{!}{\includegraphics[width=0.5\textwidth]{D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/{HAM_T22.0_Vb68.5.trcIntegrationWindowZoom}.pdf}}
-\caption[Integration window]{Illustration of an integration window applied to the pulse.}
+\caption[Integration window illustration]{Illustration of an integration window applied to the pulse.}
 \label{fig:}
 \end{centering}
 \end{figure}
@@ -1460,13 +1463,13 @@ Comparison of results from 10 different pixels on the CHEC-S (HPK S12642-1616PA-
 \clearpage
 \section{Multi incident probability and Optical Cross Talk}
 \label{appsec:multi_hit}
-'------------------------------------------------------------>'
 
-With increasing DCR the probability of two dark events happening at the same time rises with increasing bias-voltage. This has an effect on the calculated OCT. In the event of 2 1p.e. pulses coinciding with each other, they could be misinterpreted as 1 2p.e. pulse. Taking, for example, the DCR of S13360, 4~MHz at $V_{ov}=8V$ and $T=25^\circ C$, with the FWHM of the characteristic pulse as 5.6~ns we can calculate the probability of two coinciding pulses as $\sim$2.2$\%$. This probability has a direct effect on the calculated OCT (eq:\ref{eq:OCT}), in reducing it compared to the calculation. The OCT at this point is only $\sim$17$\%$, but a $\sim$2.2$\%$ shift of the number events $N_{events(\geq 1.5p.e.)}$ to $N_{events(\geq 0.5p.e.)}$ lowers the OCT by $\sim$0.75$\%$. Even though the multi hit coincidence is low, this shows that there are analysis related problems with high DCRs.\\\\
 
-For devices with high DCR and OCT like S12642 this effect grows in magnitude. At only $V_{ov}=4.5V$ at 25$^\circ$C the DCR is 6~MHz. With the pulse FWHM of 9~ns this leads to a coincidence of 5.4$\%$. The OCT at that point is 55$\%$, so a reduction of 5.4$\%$ of the $N_{events(\geq 1.5p.e.)}$ towards the $N_{events(\geq 0.5p.e.)}$ leads to a reduction of the OCT by 5.6$\%$.
+With increasing DCR the probability of two dark events happening at the same time rises with increasing bias-voltage. This has an effect on the calculated OCT. In the event of two 1p.e. pulses coinciding with each other, they could be misinterpreted as one dark incident and it's cross-talk. Taking, for example, the DCR of S13360, 4~MHz at $V_{ov}=8V$ and $T=25^\circ C$, with the FWHM of the characteristic pulse as 5.6~ns we can calculate the probability of two coinciding pulses as $\sim$2.2$\%$. This probability has a direct effect on the calculated OCT (eq:\ref{eq:OCT}), in reducing it compared to the calculation. It was stated as to high, due to the labeling of the second incident actual dark event as cross-talk. The OCT at this point is only $\sim$17$\%$, but a $\sim$2.2$\%$ shift of the number of events $N_{events(\geq 1.5p.e.)}$ to $N_{events(\geq 0.5p.e.)}$ lowers the OCT by $\sim$0.75$\%$. Even though the multi hit coincidence is low, this shows that there are analysis related problems with high DCRs.\\
 
-Maybe a half FWHM overlap is more real, since now overlap is marked as true, even when the 2 pulses blur into a very blurry one by only \textcolor{red}{"touching"} with their FWHM. Dont know, maybe half fwhm would be more real.
+For devices with high DCR and OCT like S12642 this effect grows in magnitude. At only $V_{ov}=4.5V$ at 25$^\circ$C the DCR is 6~MHz. With the pulse FWHM of 9~ns this leads to a coincidence of 5.4$\%$. The OCT at that point is 55$\%$, so a reduction of 5.4$\%$ of the $N_{events(\geq 1.5p.e.)}$ towards the $N_{events(\geq 0.5p.e.)}$ leads to a reduction of the OCT by 5.6$\%$.\\
+
+This is an extreme case, where the peak positions of the two dark events are separated by their FWHM length, in reality every overlap window is possible.
 
 
 
