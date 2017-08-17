@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 APR 2017 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 APR 2017 13:58
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -2627,15 +2627,6 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmD
 CR_vs_OV_Combined.png used on input line 917.
 (pdftex.def)             Requested size: 460.35876pt x 411.21529pt.
 
-
-LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
-22.
-
-
-LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
-22.
-
-
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.png, i
 d=889, 406.1574pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.p
@@ -3232,10 +3223,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21182 strings out of 493334
- 421045 string characters out of 3147023
+ 21181 strings out of 493334
+ 421028 string characters out of 3147023
  513673 words of memory out of 3000000
- 24070 multiletter control sequences out of 15000+200000
+ 24069 multiletter control sequences out of 15000+200000
  231403 words of font info for 245 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,15n,100p,8882b,838s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3255,7 +3246,7 @@ Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb>
 <C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m
 .pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppData/Roam
 ing/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (91 pages, 20006061 bytes).
+Output written on chapter_results.pdf (91 pages, 20006008 bytes).
 PDF statistics:
  2153 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
