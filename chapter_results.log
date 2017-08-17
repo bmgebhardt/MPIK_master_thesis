@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 APR 2017 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  17 AUG 2017 12:47
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -1591,16 +1591,16 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOf
 fAxis.pdf used on input line 206.
 (pdftex.def)             Requested size: 366.11212pt x 368.41283pt.
  [13 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/OnAndOffAxis.pdf>]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf, id=103, 722.7pt x 54
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.png, id=103, 722.7pt x 54
 2.025pt>
-File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf Graphic file (ty
-pe pdf)
- <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf>
+File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.png Graphic file (ty
+pe png)
+ <use D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.png>
 Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.p
-df used on input line 220.
+ng used on input line 220.
 (pdftex.def)             Requested size: 455.24316pt x 442.43929pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf, id=105, 553.706
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf, id=106, 553.706
 95pt x 550.185pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf Graphic fil
 e (type pdf)
@@ -1614,7 +1614,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
-[14 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.pdf> <D:/OwnCloudData
+[14 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/checm.png> <D:/OwnCloudData
 /00_WriteUP/04_Thesis/Pic/Intro/FocalPlane.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
@@ -1627,7 +1627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG, id=
-151, 796.47563pt x 531.48563pt>
+142, 796.47563pt x 531.48563pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/SiPM_scheme_HPK.JPG
  Graphic file (type jpg)
 
@@ -1647,11 +1647,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
-
-LaTeX Warning: Reference `SiPM_scheme' on page 17 undefined on input line 281.
-
 [17]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG, id=161,
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG, id=151,
  897.3525pt x 550.30594pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Intro/Cherenkov_Spectrum.JPG Gra
 phic file (type jpg)
@@ -1669,7 +1666,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--321
  []
 
 [19]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG, id=172, 923.7009
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG, id=162, 923.7009
 4pt x 429.85594pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG Graphic file
  (type jpg)
@@ -1687,7 +1684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--342
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CT.JPG>] [22]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf, id=185, 722.
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf, id=175, 722.
 7pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_outside.pdf Graphic 
 file (type pdf)
@@ -1697,7 +1694,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_o
 utside.pdf used on input line 371.
 (pdftex.def)             Requested size: 722.69823pt x 542.02367pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf, id=187, 722.7
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf, id=177, 722.7
 pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_inside.pdf Graphic f
 ile (type pdf)
@@ -1707,7 +1704,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/Setup_i
 nside.pdf used on input line 380.
 (pdftex.def)             Requested size: 381.26604pt x 542.02367pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf, id=189, 722.7pt x 54
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf, id=179, 722.7pt x 54
 2.025pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf Graphic file (ty
 pe pdf)
@@ -1754,7 +1751,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--403
  []
 
 [25 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Setup/setup.pdf>]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg, id=247, 1279.781
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg, id=237, 1279.781
 25pt x 534.99875pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_ch.jpg Graphic file
  (type jpg)
@@ -1764,7 +1761,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/test1_
 ch.jpg used on input line 410.
 (pdftex.def)             Requested size: 1279.77814pt x 534.99744pt.
 
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG, id=249, 
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG, id=239, 
 322.20375pt x 209.28188pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Shaper/schematic_simple.JPG Grap
 hic file (type jpg)
@@ -1790,7 +1787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O1-sin
-gle-pe.jpg, id=250, 963.6pt x 402.00188pt>
+gle-pe.jpg, id=240, 963.6pt x 402.00188pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_nofirststage_R28-480O
 1-single-pe.jpg Graphic file (type jpg)
 
@@ -1804,7 +1801,7 @@ firststage_R28-480O1-single-pe.jpg used on input line 433.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg, id=25
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg, id=24
 2, 963.6pt x 402.00188pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/ch2_mod_70.1_phspec.jpg G
 raphic file (type jpg)
@@ -1840,7 +1837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
 ]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltered
-1Zoom.pdf, id=270, 533.5825pt x 410.80037pt>
+1Zoom.pdf, id=260, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFil
 tered1Zoom.pdf Graphic file (type pdf)
 
@@ -1854,7 +1851,7 @@ T22.0_Vb68.5.trcFiltered1Zoom.pdf used on input line 480.
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltere
 d1Zoom.pdf>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltered
-2Zoom.pdf, id=317, 533.5825pt x 410.80037pt>
+2Zoom.pdf, id=307, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFil
 tered2Zoom.pdf Graphic file (type pdf)
 
@@ -1877,7 +1874,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--498
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcFiltere
 d2Zoom.pdf>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png, id=361, 
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png, id=351, 
 857.45343pt x 642.90187pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png Grap
 hic file (type png)
@@ -2039,7 +2036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 524--525
 [32
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/PAFit_Annotated.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png, id=370,
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png, id=359,
  578.16pt x 433.62pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/GainFit/GainFit_delta_pe.png Gra
 phic file (type png)
@@ -2081,7 +2078,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 34]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_IntWin+M
 PD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pdf, id
-=380, 1322.40141pt x 700.66829pt>
+=369, 1322.40141pt x 700.66829pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.8_A_S_C_REGR_Int
 Win+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pd
 f Graphic file (type pdf)
@@ -2101,7 +2098,7 @@ Win+MPD/Regr/Compare_Regr_FixedGuess3mV520-55IntWinMPD100-63-25-13_DCR_vs_Vb.pd
 f>]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thresh3-
 1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs_Vb.p
-df, id=473, 1326.74577pt x 700.66829pt>
+df, id=462, 1326.74577pt x 700.66829pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/1.9_A_S_C_REGR_Thr
 esh3-1p5mV/Regr/Compare_Regr_FixedGuess1p5mV-3mV520IntWinMPD100-63-25-13_DCR_vs
 _Vb.pdf Graphic file (type pdf)
@@ -2256,7 +2253,7 @@ LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
 (Font)              scaled to size 7.42601pt on input line 624.
 
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG, id=576, 558.5
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG, id=565, 558.5
 8687pt x 395.97937pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG Graphic f
 ile (type jpg)
@@ -2266,7 +2263,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHE
 CSPIC.JPG used on input line 627.
 (pdftex.def)             Requested size: 149.37848pt x 105.89473pt.
 
-<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=577
+<D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf, id=566
 , 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf Gr
 aphic file (type pdf)
@@ -2281,7 +2278,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.
  <D:/OwnCloudData/02_Results/HPK_S12642/Average_25.0_67.8_PulseShape.pdf> <D:/O
 wnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/CHECSPIC.JPG>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png, id=
-625, 406.1574pt x 403.9893pt>
+614, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png
  Graphic file (type png)
 
@@ -2291,7 +2288,7 @@ _vs_Vb_Combined.png used on input line 651.
 (pdftex.def)             Requested size: 199.16626pt x 198.09827pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png, id=
-627, 402.5439pt x 403.9893pt>
+616, 402.5439pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png
  Graphic file (type png)
 
@@ -2302,7 +2299,7 @@ _vs_OV_Combined.png used on input line 654.
 [41 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_Vb_Combined.png>
  <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Gain_vs_OV_Combined.png>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png, id=6
-36, 454.5783pt x 411.939pt>
+25, 454.5783pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png 
 Graphic file (type png)
 
@@ -2312,7 +2309,7 @@ vs_Vb_Combined.png used on input line 679.
 (pdftex.def)             Requested size: 454.57718pt x 411.93797pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png, id=6
-38, 456.0237pt x 411.939pt>
+27, 456.0237pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png 
 Graphic file (type png)
 
@@ -2328,7 +2325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 675--692
 [42 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_Vb_Combined.png> 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642DCR_vs_OV_Combined.png>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png, id=6
-47, 406.1574pt x 411.939pt>
+36, 406.1574pt x 411.939pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png 
 Graphic file (type png)
 
@@ -2338,7 +2335,7 @@ vs_Vb_Combined.png used on input line 702.
 (pdftex.def)             Requested size: 406.1564pt x 411.93797pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png, id=6
-49, 406.1574pt x 403.9893pt>
+38, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png 
 Graphic file (type png)
 
@@ -2350,7 +2347,7 @@ vs_OV_Combined.png used on input line 703.
 [43 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_Vb_Combined.png> 
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642OCT_vs_OV_Combined.png>]
 [44]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG, id=661, 310
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG, id=650, 310
 .91156pt x 286.06876pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT56mmPIC.JPG Graphic
  file (type jpg)
@@ -2361,7 +2358,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT
 (pdftex.def)             Requested size: 199.16626pt x 146.80035pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf, id=
-663, 1286.2272pt x 690.80331pt>
+652, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_55.0_PulseShape.pdf
  Graphic file (type pdf)
 
@@ -2371,7 +2368,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Average_25.0_
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combined.png
-, id=665, 406.1574pt x 403.9893pt>
+, id=654, 406.1574pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_Vb_Combine
 d.png Graphic file (type png)
 
@@ -2382,7 +2379,7 @@ mGain_vs_Vb_Combined.png used on input line 753.
 (pdftex.def)             Requested size: 406.1564pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combined.png
-, id=667, 398.2077pt x 403.9893pt>
+, id=656, 398.2077pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combine
 d.png Graphic file (type png)
 
@@ -2403,7 +2400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 765--768
 .png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmGain_vs_OV_Combin
 ed.png>]
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined.png,
- id=724, 450.2421pt x 411.2163pt>
+ id=713, 450.2421pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_Vb_Combined
 .png Graphic file (type png)
 
@@ -2414,7 +2411,7 @@ mDCR_vs_Vb_Combined.png used on input line 773.
 (pdftex.def)             Requested size: 450.24098pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined.png,
- id=726, 444.4605pt x 411.2163pt>
+ id=715, 444.4605pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined
 .png Graphic file (type png)
 
@@ -2437,7 +2434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 786--787
 png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmDCR_vs_OV_Combined
 .png>]
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined.png,
- id=735, 406.1574pt x 411.2163pt>
+ id=724, 406.1574pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
 .png Graphic file (type png)
 
@@ -2448,7 +2445,7 @@ mOCT_vs_Vb_Combined.png used on input line 794.
 (pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined.png,
- id=737, 400.3758pt x 403.2666pt>
+ id=726, 400.3758pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combined
 .png Graphic file (type png)
 
@@ -2460,7 +2457,7 @@ mOCT_vs_OV_Combined.png used on input line 795.
  [48 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_Vb_Combined
 .png> <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmOCT_vs_OV_Combine
 d.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG, id=746, 154
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG, id=735, 154
 .32657pt x 121.95563pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG Graphic
  file (type jpg)
@@ -2471,7 +2468,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT
 (pdftex.def)             Requested size: 199.16626pt x 153.73093pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf, id=
-748, 1286.2272pt x 690.80331pt>
+737, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf
  Graphic file (type pdf)
 
@@ -2481,7 +2478,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Average_25.0_
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Combined
-.png, id=750, 408.3255pt x 403.9893pt>
+.png, id=739, 408.3255pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_Vb_Com
 bined.png Graphic file (type png)
 
@@ -2492,7 +2489,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT
 (pdftex.def)             Requested size: 408.3245pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_Combined
-.png, id=752, 401.0985pt x 403.9893pt>
+.png, id=741, 401.0985pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_OV_Com
 bined.png Graphic file (type png)
 
@@ -2506,7 +2503,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LCT57mmPIC.JPG> <D:/OwnClo
 udData/02_Results/LCT5_75um_7mm/Average_25.0_55.0_PulseShape.pdf>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined.png,
- id=800, 450.2421pt x 411.2163pt>
+ id=789, 450.2421pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_Vb_Combined
 .png Graphic file (type png)
 
@@ -2517,7 +2514,7 @@ mDCR_vs_Vb_Combined.png used on input line 849.
 (pdftex.def)             Requested size: 450.24098pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined.png,
- id=802, 446.6286pt x 411.2163pt>
+ id=791, 446.6286pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmDCR_vs_OV_Combined
 .png Graphic file (type png)
 
@@ -2530,7 +2527,7 @@ mDCR_vs_OV_Combined.png used on input line 850.
 bined.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper_old/LCT5_7mmGain_vs_
 OV_Combined.png>]
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combined.png,
- id=811, 406.1574pt x 411.2163pt>
+ id=800, 406.1574pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combined
 .png Graphic file (type png)
 
@@ -2541,7 +2538,7 @@ mOCT_vs_Vb_Combined.png used on input line 863.
 (pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined.png,
- id=813, 398.2077pt x 403.2666pt>
+ id=802, 398.2077pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combined
 .png Graphic file (type png)
 
@@ -2555,7 +2552,7 @@ mOCT_vs_OV_Combined.png used on input line 864.
 d.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_Vb_Combin
 ed.png> <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmOCT_vs_OV_Combi
 ned.png>] [52]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG, id=830, 3019
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG, id=819, 3019
 .28pt x 2007.5pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG Graphic 
 file (type jpg)
@@ -2571,7 +2568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 882--884
 
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf, id=8
-32, 1286.2272pt x 690.80331pt>
+21, 1286.2272pt x 690.80331pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf 
 Graphic file (type pdf)
 
@@ -2581,7 +2578,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Average_25.0_4
 (pdftex.def)             Requested size: 1286.22408pt x 690.80164pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.png, 
-id=834, 403.9893pt x 403.9893pt>
+id=823, 403.9893pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_Vb_Combined.
 png Graphic file (type png)
 
@@ -2592,7 +2589,7 @@ ain_vs_Vb_Combined.png used on input line 903.
 (pdftex.def)             Requested size: 403.98831pt x 403.98831pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.png, 
-id=836, 390.9807pt x 403.9893pt>
+id=825, 390.9807pt x 403.9893pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmGain_vs_OV_Combined.
 png Graphic file (type png)
 
@@ -2606,7 +2603,7 @@ ain_vs_OV_Combined.png used on input line 904.
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/LVR6mmPIC.JPG> <D:/OwnClou
 dData/02_Results/LVR_50um_6mm/Average_25.0_40.2_PulseShape.pdf>]
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.png, i
-d=885, 460.3599pt x 411.2163pt>
+d=874, 460.3599pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_Vb_Combined.p
 ng Graphic file (type png)
 
@@ -2617,7 +2614,7 @@ CR_vs_Vb_Combined.png used on input line 916.
 (pdftex.def)             Requested size: 460.35876pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.png, i
-d=887, 460.3599pt x 411.2163pt>
+d=876, 460.3599pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.p
 ng Graphic file (type png)
 
@@ -2627,17 +2624,8 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmD
 CR_vs_OV_Combined.png used on input line 917.
 (pdftex.def)             Requested size: 460.35876pt x 411.21529pt.
 
-
-LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
-22.
-
-
-LaTeX Warning: Reference `fig:LVR6_DCROCT' on page 54 undefined on input line 9
-22.
-
-
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.png, i
-d=889, 406.1574pt x 411.2163pt>
+d=878, 406.1574pt x 411.2163pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combined.p
 ng Graphic file (type png)
 
@@ -2648,7 +2636,7 @@ CT_vs_Vb_Combined.png used on input line 926.
 (pdftex.def)             Requested size: 406.1564pt x 411.21529pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.png, i
-d=891, 411.939pt x 403.2666pt>
+d=880, 411.939pt x 403.2666pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined.p
 ng Graphic file (type png)
 
@@ -2664,7 +2652,7 @@ ng> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmDCR_vs_OV_Combined.pn
 g>] [55 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_Vb_Combine
 d.png> <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmOCT_vs_OV_Combined
 .png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG, id=911, 264.2
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG, id=900, 264.2
 3718pt x 255.20343pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG Graphic f
 ile (type jpg)
@@ -2675,7 +2663,7 @@ sLPIC.JPG used on input line 941.
 (pdftex.def)             Requested size: 264.23653pt x 255.2028pt.
 
 <D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseShape.pd
-f, id=913, 499.29349pt x 468.61638pt>
+f, id=902, 499.29349pt x 468.61638pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseSha
 pe.pdf Graphic file (type pdf)
 
@@ -2688,7 +2676,7 @@ _Vb29.0.trcPulseShape.pdf used on input line 942.
 
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Pics/SensLPIC.JPG> <D:/OwnCloud
 Data/02_Results/SensL/SensL/Fig/SensL_T25.0_Vb29.0.trcPulseShape.pdf>]
-<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf, id=959, 491.89
+<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf, id=948, 491.89
 082pt x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_Clean.pdf Graphic fi
 le (type pdf)
@@ -2698,7 +2686,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_Vb_C
 lean.pdf used on input line 958.
 (pdftex.def)             Requested size: 491.88962pt x 467.23508pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf, id=961, 495.72546pt 
+<D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf, id=950, 495.72546pt 
 x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.pdf Graphic file (ty
 pe pdf)
@@ -2707,7 +2695,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/RelGain_vs_OV.p
 df used on input line 959.
 (pdftex.def)             Requested size: 495.72426pt x 467.23508pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf, id=963, 514.898
+<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf, id=952, 514.898
 64pt x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVoltage.pdf Graphic fil
 e (type pdf)
@@ -2717,7 +2705,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_BiasVolt
 age.pdf used on input line 971.
 (pdftex.def)             Requested size: 224.06393pt x 203.32454pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf, id=965, 511.06403pt x 46
+<D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf, id=954, 511.06403pt x 46
 7.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf Graphic file (type p
 df)
@@ -2726,7 +2714,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/DCR_vs_OV.pdf u
 sed on input line 973.
 (pdftex.def)             Requested size: 224.06393pt x 204.84311pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf, id=967, 466.702
+<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf, id=956, 466.702
 97pt x 467.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVoltage.pdf Graphic fil
 e (type pdf)
@@ -2736,7 +2724,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_BiasVolt
 age.pdf used on input line 985.
 (pdftex.def)             Requested size: 224.06393pt x 224.32074pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf, id=969, 462.86835pt x 46
+<D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf, id=958, 462.86835pt x 46
 7.23622pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/OCT_vs_OV.pdf Graphic file (type p
 df)
@@ -2765,7 +2753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1005--1008
 
 
 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device_Com
-pare_RawDCR_vs_OV_Combined.png, id=1288, 793.5246pt x 527.571pt>
+pare_RawDCR_vs_OV_Combined.png, id=1277, 793.5246pt x 527.571pt>
 File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
 e_Compare_RawDCR_vs_OV_Combined.png Graphic file (type png)
 
@@ -2788,7 +2776,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1028--1030
 [60 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device
 _Compare_RawDCR_vs_OV_Combined.png>]
 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Device_Com
-pare_RawOCT_vs_OV_Combined.png, id=1298, 766.062pt x 519.6213pt>
+pare_RawOCT_vs_OV_Combined.png, id=1287, 766.062pt x 519.6213pt>
 File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
 e_Compare_RawOCT_vs_OV_Combined.png Graphic file (type png)
 
@@ -2800,7 +2788,7 @@ e_d2017_04_24/Device_Compare_RawOCT_vs_OV_Combined.png used on input line 1035.
 (pdftex.def)             Requested size: 766.06012pt x 519.62003pt.
  [61 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/Devic
 e_Compare_RawOCT_vs_OV_Combined.png>]
-<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf, id=1305
+<D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf, id=1294
 , 722.7pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf Gra
 phic file (type pdf)
@@ -2810,12 +2798,9 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Compa
 rison_Table.pdf used on input line 1056.
 (pdftex.def)             Requested size: 722.69823pt x 428.21292pt.
 
-
-LaTeX Warning: Reference `DC:Table' on page 62 undefined on input line 1061.
-
 [62 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/Comparison_Table.pdf>]
 <D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_vs_OCT
-_Compare.pdf, id=1342, 744.28688pt x 525.05223pt>
+_Compare.pdf, id=1331, 744.28688pt x 525.05223pt>
 File: D:/OwnCloudData/02_Results/Device_Compare/DeviceCompare_d2017_04_24/PDE_v
 s_OCT_Compare.pdf Graphic file (type pdf)
 
@@ -2862,7 +2847,7 @@ ion = com _ content & task =
  []
 
 [68]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png, id=1421, 
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png, id=1410, 
 1927.2pt x 1084.05pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/CTA_array.png Graph
 ic file (type png)
@@ -2873,7 +2858,7 @@ CTA_array.png used on input line 1219.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_techniqu
-e.jpg, id=1423, 764.10469pt x 490.08093pt>
+e.jpg, id=1412, 764.10469pt x 490.08093pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/02_stereoscopic_tec
 hnique.jpg Graphic file (type jpg)
 
@@ -2883,7 +2868,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
 02_stereoscopic_technique.jpg used on input line 1220.
 (pdftex.def)             Requested size: 764.10283pt x 490.07974pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg, id=1425, 903.
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg, id=1414, 903.
 375pt x 602.25pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg Graphic f
 ile (type jpg)
@@ -2893,8 +2878,8 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/
 hess2.jpg used on input line 1232.
 (pdftex.def)             Requested size: 903.3728pt x 602.24852pt.
 
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg, id=142
-7, 1405.25pt x 884.30376pt>
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg, id=141
+6, 1405.25pt x 884.30376pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg Gr
 aphic file (type jpg)
 
@@ -2904,7 +2889,7 @@ magic_6_june.jpg used on input line 1233.
 (pdftex.def)             Requested size: 1405.24658pt x 884.3016pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.jpg, i
-d=1429, 2688.0425pt x 958.58125pt>
+d=1418, 2688.0425pt x 958.58125pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.j
 pg Graphic file (type jpg)
 
@@ -2919,7 +2904,7 @@ g> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/hess2.jpg> <D:/OwnClo
 udData/00_WriteUP/04_Thesis/Pic/Proposal/Fig/magic_6_june.jpg> <D:/OwnCloudData
 /00_WriteUP/04_Thesis/Pic/Proposal/Fig/veritas_New_Array.jpg>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.pdf, 
-id=1440, 466.70297pt x 467.23622pt>
+id=1429, 466.70297pt x 467.23622pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.
 pdf Graphic file (type pdf)
 
@@ -2933,7 +2918,7 @@ CellSize/OCT_vs_OV.pdf used on input line 1246.
  <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/SiPM_Physics/CellSize/OCT_vs_OV.pdf>
 ] [71]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_55.
-png, id=1487, 1517.67pt x 797.1381pt>
+png, id=1476, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_55.png Graphic file (type png)
 
@@ -2944,7 +2929,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
 (pdftex.def)             Requested size: 1403.85559pt x 740.23082pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_520
-.png, id=1489, 1517.67pt x 797.1381pt>
+.png, id=1478, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_520.png Graphic file (type png)
 
@@ -2955,7 +2940,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps
 (pdftex.def)             Requested size: 1403.85559pt x 740.23082pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/checs_101
-0.png, id=1491, 1517.67pt x 797.1381pt>
+0.png, id=1480, 1517.67pt x 797.1381pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWinCompare/chec
 s_1010.png Graphic file (type png)
 
@@ -2975,7 +2960,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 cs_520.png>] [73 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/AnalysisSteps/IntWin
 Compare/checs_1010.png>]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.trcFix
-edGuessPulseHeight.pdf, id=1505, 517.50058pt x 392.73286pt>
+edGuessPulseHeight.pdf, id=1494, 517.50058pt x 392.73286pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.t
 rcFixedGuessPulseHeight.pdf Graphic file (type pdf)
 
@@ -2986,7 +2971,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S1
 (pdftex.def)             Requested size: 517.49931pt x 392.7319pt.
 
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.trcFix
-edGuessPulseArea.pdf, id=1507, 513.66594pt x 392.73286pt>
+edGuessPulseArea.pdf, id=1496, 513.66594pt x 392.73286pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S12642_T25.0_Vb58.0.t
 rcFixedGuessPulseArea.pdf Graphic file (type pdf)
 
@@ -3001,7 +2986,7 @@ Package pdftex.def Info: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S1
 xedGuessPulseHeight.pdf> <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/HAM_S
 12642_T25.0_Vb58.0.trcFixedGuessPulseArea.pdf>]
 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFit.pdf
-, id=1566, 522.15076pt x 393.72093pt>
+, id=1555, 522.15076pt x 393.72093pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFi
 t.pdf Graphic file (type pdf)
 
@@ -3013,7 +2998,7 @@ m_56.2V_PulseAreaFit.pdf used on input line 1297.
  [75 <D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/PASPHS/LCT56mm_56.2V_PulseAreaFi
 t.pdf>]
 <D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png, id=16
-19, 417.7206pt x 406.8801pt>
+08, 417.7206pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/Paper/S12642Vbr_vs_T_Combined.png G
 raphic file (type png)
 
@@ -3023,7 +3008,7 @@ vs_T_Combined.png used on input line 1310.
 (pdftex.def)             Requested size: 417.71957pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.png, 
-id=1621, 409.7709pt x 406.8801pt>
+id=1610, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LCT5_50um_6mm/Paper/LCT5_6mmVbr_vs_T_Combined.
 png Graphic file (type png)
 
@@ -3034,7 +3019,7 @@ mVbr_vs_T_Combined.png used on input line 1311.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.png, 
-id=1623, 409.7709pt x 406.8801pt>
+id=1612, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.
 png Graphic file (type png)
 
@@ -3045,7 +3030,7 @@ mVbr_vs_T_Combined.png used on input line 1312.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
 <D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.png, id
-=1625, 409.7709pt x 406.8801pt>
+=1614, 409.7709pt x 406.8801pt>
 File: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.pn
 g Graphic file (type png)
 
@@ -3055,7 +3040,7 @@ Package pdftex.def Info: D:/OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmV
 br_vs_T_Combined.png used on input line 1313.
 (pdftex.def)             Requested size: 409.7699pt x 406.8791pt.
 
-<D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf, id=1627, 
+<D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf, id=1616, 
 474.37225pt x 458.7514pt>
 File: D:/OwnCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf Graph
 ic file (type pdf)
@@ -3066,7 +3051,7 @@ e_vs_Temp.pdf used on input line 1314.
 (pdftex.def)             Requested size: 474.37108pt x 458.75027pt.
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependence.p
-df, id=1629, 722.7pt x 542.025pt>
+df, id=1618, 722.7pt x 542.025pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Depende
 nce.pdf Graphic file (type pdf)
 
@@ -3087,7 +3072,7 @@ OwnCloudData/02_Results/LCT5_75um_7mm/Paper/LCT5_7mmVbr_vs_T_Combined.png> <D:/
 OwnCloudData/02_Results/LVR_50um_6mm/Paper/LVR_6mmVbr_vs_T_Combined.png> <D:/Ow
 nCloudData/02_Results/SensL/SensL/BreakDownVoltage_vs_Temp.pdf>] [77 <D:/OwnClo
 udData/00_WriteUp/04_Thesis/Pic/Results/BreakdownVoltage_Dependence.pdf>]
-<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG, id=1715, 841.64
+<D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG, id=1704, 841.64
 438pt x 434.37282pt>
 File: D:/OwnCloudData/00_WriteUP/04_Thesis/Pic/Shaper/schematic.JPG Graphic fil
 e (type jpg)
@@ -3102,7 +3087,7 @@ tic.JPG used on input line 1337.
 
 ]
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_Gain_
-vs_OV_Combined.pdf, id=1724, 1285.70966pt x 692.63829pt>
+vs_OV_Combined.pdf, id=1713, 1285.70966pt x 692.63829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 Gain_vs_OV_Combined.pdf Graphic file (type pdf)
 
@@ -3113,7 +3098,7 @@ CS-tile_pixel_comp_Gain_vs_OV_Combined.pdf used on input line 1393.
 (pdftex.def)             Requested size: 1285.70653pt x 671.2971pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_DCR_v
-s_OV_Combined.pdf, id=1726, 1318.56677pt x 700.66829pt>
+s_OV_Combined.pdf, id=1715, 1318.56677pt x 700.66829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 DCR_vs_OV_Combined.pdf Graphic file (type pdf)
 
@@ -3124,7 +3109,7 @@ CS-tile_pixel_comp_DCR_vs_OV_Combined.pdf used on input line 1403.
 (pdftex.def)             Requested size: 1318.56357pt x 679.32709pt.
 
 <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_v
-s_OV_Combined.pdf, id=1728, 1281.88286pt x 692.63829pt>
+s_OV_Combined.pdf, id=1717, 1281.88286pt x 692.63829pt>
 File: D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-tile_pixel_comp_
 OCT_vs_OV_Combined.pdf Graphic file (type pdf)
 
@@ -3140,7 +3125,7 @@ _vs_OV_Combined.pdf> <D:/OwnCloudData/02_Results/HPK_S12642/PIXELCOMPARE/CHECS-
 tile_pixel_comp_DCR_vs_OV_Combined.pdf>] [81 <D:/OwnCloudData/02_Results/HPK_S1
 2642/PIXELCOMPARE/CHECS-tile_pixel_comp_OCT_vs_OV_Combined.pdf>]
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRawDataZ
-oom.pdf, id=1901, 533.5825pt x 410.80037pt>
+oom.pdf, id=1890, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcRaw
 DataZoom.pdf Graphic file (type pdf)
 
@@ -3151,7 +3136,7 @@ T22.0_Vb68.5.trcRawDataZoom.pdf used on input line 1428.
 (pdftex.def)             Requested size: 248.96162pt x 191.67209pt.
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPeakDete
-ctLevelZoom.pdf, id=1902, 533.5825pt x 410.80037pt>
+ctLevelZoom.pdf, id=1891, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPea
 kDetectLevelZoom.pdf Graphic file (type pdf)
 
@@ -3166,7 +3151,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPulsePos
-CompZoom.pdf, id=1903, 533.5825pt x 410.80037pt>
+CompZoom.pdf, id=1892, 533.5825pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcPul
 sePosCompZoom.pdf Graphic file (type pdf)
 
@@ -3181,7 +3166,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 <D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcIntegrat
-ionWindowZoom.pdf, id=1904, 537.41714pt x 410.80037pt>
+ionWindowZoom.pdf, id=1893, 537.41714pt x 410.80037pt>
 File: D:/OwnCloudData/00_WriteUp/04_Thesis/Pic/Analysis/HAM_T22.0_Vb68.5.trcInt
 egrationWindowZoom.pdf Graphic file (type pdf)
 
@@ -3225,39 +3210,35 @@ File: t15sf.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5sf.
 
 ] (chapter_results.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21182 strings out of 493334
- 421045 string characters out of 3147023
+ 21176 strings out of 493334
+ 420980 string characters out of 3147023
  513673 words of memory out of 3000000
- 24070 multiletter control sequences out of 15000+200000
- 231403 words of font info for 245 fonts, out of 3000000 for 9000
+ 24066 multiletter control sequences out of 15000+200000
+ 227795 words of font info for 243 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,15n,100p,8882b,838s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTEX/fonts/enc/dvips/fontname/8r.enc}{D:/MikTEX/fonts/enc/dvips/fontnam
 e/texnansi.enc}<C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5ch
-b8a.pfb><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chr8a.pfb
-><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chri8a.pfb><C:/P
-rogramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Progra
-mData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/ProgramData
-/TUDDESIGN/texmf/fonts/type1/softmake/stafford/5sfr8a.pfb><C:/Users/Ben/AppData
-/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ben/AppDa
-ta/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Ben/Ap
-pData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Users/Be
-n/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/User
-s/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/
-Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb>
-<C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m
-.pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on chapter_results.pdf (91 pages, 20006061 bytes).
+r8a.pfb><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chri8a.pf
+b><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:
+/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Prog
+ramData/TUDDESIGN/texmf/fonts/type1/softmake/stafford/5sfr8a.pfb><C:/Users/Ben/
+AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Be
+n/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users
+/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/U
+sers/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><
+C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.p
+fb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr
+7y.pfb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md
+-chri7m.pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppDa
+ta/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on chapter_results.pdf (91 pages, 20146948 bytes).
 PDF statistics:
- 2153 PDF objects out of 2487 (max. 8388607)
+ 2139 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  981 words of extra memory for PDF output out of 10000 (max. 10000000)
 
