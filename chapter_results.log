@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  17 AUG 2017 12:47
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 APR 2017 13:58
+>>>>>>> origin/chapter-results
 entering extended mode
 **./chapter_results.tex
 (chapter_results.tex
@@ -3214,15 +3218,24 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  21176 strings out of 493334
  420980 string characters out of 3147023
  513673 words of memory out of 3000000
  24066 multiletter control sequences out of 15000+200000
  227795 words of font info for 243 fonts, out of 3000000 for 9000
+=======
+ 21181 strings out of 493334
+ 421028 string characters out of 3147023
+ 513673 words of memory out of 3000000
+ 24069 multiletter control sequences out of 15000+200000
+ 231403 words of font info for 245 fonts, out of 3000000 for 9000
+>>>>>>> origin/chapter-results
  1141 hyphenation exceptions out of 8191
  65i,15n,100p,8882b,838s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTEX/fonts/enc/dvips/fontname/8r.enc}{D:/MikTEX/fonts/enc/dvips/fontnam
 e/texnansi.enc}<C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5ch
+<<<<<<< HEAD
 r8a.pfb><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chri8a.pf
 b><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:
 /ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Prog
@@ -3237,6 +3250,23 @@ fb><C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr
 -chri7m.pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppDa
 ta/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
 Output written on chapter_results.pdf (91 pages, 20146948 bytes).
+=======
+b8a.pfb><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chr8a.pfb
+><C:/ProgramData/TUDDESIGN/texmf/fonts/type1/softmake/charter/5chri8a.pfb><C:/P
+rogramData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Progra
+mData/TUDDESIGN/texmf/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/ProgramData
+/TUDDESIGN/texmf/fonts/type1/softmake/stafford/5sfr8a.pfb><C:/Users/Ben/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Ben/AppDa
+ta/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Ben/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Users/Be
+n/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/User
+s/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/
+Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb>
+<C:/Users/Ben/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chri7m
+.pfb><D:/MikTEX/fonts/type1/adobe/utopia/putri8a.pfb><C:/Users/Ben/AppData/Roam
+ing/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on chapter_results.pdf (91 pages, 20006008 bytes).
+>>>>>>> origin/chapter-results
 PDF statistics:
  2139 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
